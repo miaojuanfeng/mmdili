@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑","SimSun","宋体";
+    color: #333;
+}
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('../../lib/fonts/glyphicons-halflings-regular.eot');
+	src: url('../../lib/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../lib/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../lib/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../lib/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+

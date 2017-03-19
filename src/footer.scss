@@ -1,0 +1,28 @@
+.footer{
+    background: rgba(0,0,0,0.7);
+
+    .main-container{
+	    padding: 10px 0;
+	    line-height: 25px;
+
+	    ul{
+
+	    	li{
+	    		float: left;
+	    		padding-right:30px;
+
+	    		a{
+			    	color: #ccc;
+
+			    	&:hover{
+			    		color: #eee;
+			    	}
+			    }
+	    	}
+	    }
+	    
+    }
+}
+.view-footer{
+	margin-bottom: 46px;
+}

@@ -1,0 +1,32 @@
+.header{
+    background-color: rgba(0,0,0,0.7);
+
+    .logo{
+    	color: #ccc;
+    	line-height: 50px;
+    	font-size: 20px;
+    	float: left;
+    	padding-right: 30px;
+    }
+
+    .login{
+    	float: right;
+
+    	ul{
+    		li{
+    			float: left;
+    			line-height: 50px;
+    			padding-left: 10px;
+    			color: #ccc;
+
+    			a{
+    				color: #ccc;
+
+    				&:hover{
+    					color:#eee;
+    				}
+    			}
+    		}
+    	}
+    }
+}

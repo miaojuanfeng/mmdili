@@ -1,0 +1,122 @@
+.view-container{
+	width: 970px;
+	float: left;
+	padding: 15px 0 0 0;
+
+	.page-title{
+		padding: 10px;
+		border:1px solid #eee;
+		border-bottom:none;
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+
+		h1{
+			line-height: 25px;
+			color: #666;
+			padding: 0;
+			margin:0;
+			font: 16px/20px "微软雅黑";
+		}
+	}
+	.page{
+		border: 1px solid #eee;
+		margin-bottom: 15px;
+		min-height:	1050px;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+	}
+	.more-page{
+		@extend .page;
+		min-height:auto;
+		text-align:center;
+
+		a{
+			display:block;
+			padding: 10px 0;
+
+			span{
+			    font-size: 16px;
+	    		color: #b6b6b6;
+	    		cursor: pointer;
+			}
+
+			&:hover{
+    			background-color: lighten(rgba(0,0,0,0.1), 40%);
+    		}
+		}
+	}
+}
+.recommend-container{
+	width: 200px;
+	float: right;
+	padding: 15px 0 0 0;
+
+	.relative-container{
+		margin-bottom: 20px;
+
+		.relative-title{
+			padding: 10px 0;
+
+			h1{
+				line-height: 25px;
+				color: #666;
+				padding: 0;
+				margin:0;
+				font: 16px/20px "微软雅黑";
+			}
+		}
+
+		ul{
+			li{
+				padding: 10px 0;
+				border-top: 1px solid #eee;
+			}
+		}
+	}
+}
+.reader-tools-bar-wrap{
+	width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #eee;
+    border-top:1px solid #ddd;
+
+    .main-container{
+		width: 1200px;
+	    height: 46px;
+	    margin: auto;
+	    line-height: 46px;
+
+	    .reader-tools-bar{
+	    	width: 970px;
+
+	    	.left{}
+	    	.center{}
+	    	.right{
+	    		float:right;
+	    		position:relative;
+
+		    	.download{
+		    		position: absolute;
+				    top:-1px;
+				    right:0;
+				    height: 47px;
+
+		    		a{
+					    color: rgb(255, 255, 255);
+					    text-shadow: rgb(24, 128, 98) 0px 1px 0px;
+					    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
+					    background: rgb(47, 173, 133);
+					    padding: 0 30px;
+					    font-size: 18px;
+					    display:block;
+					    height:100%;
+
+					    &:hover{
+					    	background: lighten(rgb(47, 173, 133), 5%);
+					    }
+				    }
+		    	}
+	    	}
+	    }
+	}
+}
