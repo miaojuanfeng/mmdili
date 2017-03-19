@@ -312,6 +312,8 @@ function onDocumentPrinted(){
 			}
 			
 			html += '>'; 
+
+			html += '<param name="wmode" value="transparent">';
 			
 			/******* nested PARAM tags *******/
 			if (opts.w3c || IE) {
