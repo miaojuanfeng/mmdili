@@ -26,7 +26,8 @@ $(document).ready(function(){
 			var page_new = document.createElement('div');
 			page_new.className = 'page';
 			page_new.id = 'page_'+page_curr;
-			page_new.style = 'width:'+page_width+'px;height:'+page_height+'px;';
+			page_new.style.width = page_width + 'px';
+			page_new.style.height = page_height + 'px';
 			$('.more-page').before(page_new);
 			$('.more-page .page-left').html(page_num-page_curr);
 			get_page_data($(page_new).attr('id'), page_curr);
