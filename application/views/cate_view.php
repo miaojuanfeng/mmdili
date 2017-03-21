@@ -15,10 +15,10 @@
 				<div class="cate">
 					<ul>
 						<?php
-						for($i=0;$i<15;$i++){
+						foreach($doc as $k => $v){
 						?>
 						<li>
-							<a href="<?=base_url('view')?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
+							<a href="<?=base_url('view/index/'.$v['doc_url'])?>"><h3><?=$v['doc_title']?></h3></a>
 						</li>
 						<?php
 						}

@@ -7,16 +7,16 @@
 					<a href="<?=base_url()?>">Home</a>
 				</li>
 				<li>
-					<a href="<?=base_url('category')?>">DiLi</a>
+					<a href="<?=base_url('cate')?>">DiLi</a>
 				</li>
 				<li>
-					<a href="<?=base_url('category')?>">LiShi</a>
+					<a href="<?=base_url('cate')?>">LiShi</a>
 				</li>
 				<li>
-					<a href="<?=base_url('category')?>">ZhengZhi</a>
+					<a href="<?=base_url('cate')?>">ZhengZhi</a>
 				</li>
 				<li>
-					<a href="<?=base_url('category')?>">WenZhong</a>
+					<a href="<?=base_url('cate')?>">WenZhong</a>
 					<!-- <a class="menu-icon" href="#">Documents</a> -->
 				</li>
 			</ul>

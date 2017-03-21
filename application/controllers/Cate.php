@@ -22,10 +22,12 @@ class Cate extends CI_Controller {
     {
     	parent::__construct();
     	$this->load->helper('url');
+	$this->load->model('cate_model');
     }
     
 	public function index()
 	{
-		$this->load->view('cate_view');
+		$data['doc'] = $this->cate_model->get_list();
+		$this->load->view('cate_view', $data);
 	}
 }

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class View extends CI_Controller {
@@ -26,30 +26,21 @@ class View extends CI_Controller {
     	//test
     	// $this->load->library('File');
     	$this->load->library('Mcrypt');
+	$this->load->model('view_model');
     }
     
 	public function index($view_id)
 	{
 		$data['class_footer'] = 'view-footer';
 		//
+		$detail = $this->view_model->get_detail($view_id);
 		$data['page']['swf'] = base_url('assets/lib/mmdili');
-		$data['page']['data'] = base_url('data/'.$view_id.'/');
-		switch ($view_id) {
-			case 1:
-				$data['page']['num'] = 33;
-				$data['page']['width'] = 968;
-				$data['page']['height'] = 1365;
-				$data['page']['title'] = '世界地理高考题选萃';
-				$file_name = 'sjdl.doc';
-				break;
-			case 2:
-				$data['page']['num'] = 41;
-				$data['page']['width'] = 968;
-				$data['page']['height'] = 1369;
-				$data['page']['title'] = 'Flexpaper二次开发入门教程';
-				$file_name = 'eckf.pdf';
-				break;
-		}
+		$data['page']['data'] = 'http://47.92.3.88/doc/view/'.$view_id.'/';
+		$data['page']['num'] = $detail['doc_page_num'];
+		$data['page']['width'] = 968;
+		$data['page']['height'] = intval((968/$detail['doc_width'])*$detail['doc_height']);
+		$data['page']['title'] = $detail['doc_title'];
+		$file_name = 'sjdl.doc';
 		$data['page']['init'] = ( $data['page']['num'] < 3 ) ? $data['page']['num'] : 3;
 		$data['page']['more'] = ( $data['page']['num'] - 3 ) > 0 ? ( $data['page']['num'] - 3 ) : 0;
 		//
