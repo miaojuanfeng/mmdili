@@ -1,8 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function(){ 
 	var config = {
-		FitPageOnLoad : true,
-		FitWidthOnLoad : true,
-		InitViewMode : 'Portrait'
+		// FitPageOnLoad : true,
+		// FitWidthOnLoad : true,
+		// InitViewMode : 'Portrait'
 	};
 	var page_elem = $('.more-page a');
 	var page_swf = page_elem.attr('page-swf');
