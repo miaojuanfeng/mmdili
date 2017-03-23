@@ -35,7 +35,7 @@ class View extends CI_Controller {
 		//
 		$detail = $this->view_model->get_detail($view_id);
 		$data['page']['swf'] = base_url('assets/lib/mmdili');
-		$data['page']['data'] = 'http://47.92.3.88/doc/view/'.$view_id.'/';
+		$data['page']['data'] = 'http://mmdili.oss-cn-shanghai.aliyuncs.com/view/'.$detail['user_url'].'/'.$view_id.'/';
 		$data['page']['num'] = $detail['doc_page_num'];
 		$data['page']['width'] = 968;
 		$data['page']['height'] = intval((968/$detail['doc_width'])*$detail['doc_height']);
