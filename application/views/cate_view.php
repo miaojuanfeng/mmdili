@@ -18,7 +18,7 @@
 						foreach($doc as $k => $v){
 						?>
 						<li>
-							<a href="<?=base_url('view/index/'.$v['doc_url'])?>"><h3><?=$v['doc_title']?></h3></a>
+							<a href="<?=base_url('view/index/'.$v['doc_url'])?>" target="_blank"><h3><?=$v['doc_title']?></h3></a>
 						</li>
 						<?php
 						}

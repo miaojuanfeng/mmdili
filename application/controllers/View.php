@@ -34,7 +34,7 @@ class View extends CI_Controller {
 		$data['class_footer'] = 'view-footer';
 		//
 		$detail = $this->view_model->get_detail($view_id);
-		$data['page']['swf'] = base_url('assets/lib/mmdili');
+		$data['page']['swf'] = 'http://mmpub.oss-cn-shanghai.aliyuncs.com/pv';
 		$data['page']['data'] = 'http://mmpub.oss-cn-shanghai.aliyuncs.com/view/'.$detail['user_url'].'/'.$view_id.'/';
 		$data['page']['num'] = $detail['doc_page_num'];
 		$data['page']['width'] = 968;
