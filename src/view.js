@@ -13,7 +13,7 @@ $(document).ready(function(){
 	var page_curr = 1;
 
 	function get_page_data(elem_id, page_no){
-		config.SwfFile = (page_data+page_no+'.swf');
+		config.SwfFile = (page_data+page_no);
 		new FlexPaperViewer(page_swf, elem_id, {config: config});
 	}
 
