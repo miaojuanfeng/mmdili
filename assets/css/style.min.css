@@ -110,7 +110,7 @@ a {
         position: relative; }
         .header .login .login-form .login-form-header .login-title {
           text-align: center;
-          line-height: 50px;
+          line-height: 40px;
           font-size: 18px;
           color: #fff; }
         .header .login .login-form .login-form-header .login-form-close {
@@ -120,10 +120,12 @@ a {
           position: absolute;
           right: 0;
           top: 0;
-          background-color: #ff0000;
+          background-color: #ffcccc;
           color: #fff;
           font-size: 28px;
           text-align: center; }
+          .header .login .login-form .login-form-header .login-form-close:hover {
+            background-color: #ff0000; }
       .header .login .login-form .login-form-body {
         padding: 10px;
         background-color: #fefefe; }
