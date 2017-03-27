@@ -33,6 +33,9 @@
 					<a href="#">Sign in</a>
 				</li>
 			</ul>
+			<div class="login-form">
+			asd
+			</div>
 		</div>
 		<div class="clearfix"></div>
 	</div>

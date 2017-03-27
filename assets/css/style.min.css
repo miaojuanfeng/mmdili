@@ -94,6 +94,15 @@ a {
         color: #ccc; }
         .header .login ul li a:hover {
           color: #eee; }
+    .header .login .login-form {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      border: 1px solid #eee;
+      width: 400px;
+      height: 300px;
+      margin-left: -200px;
+      margin-top: -150px; }
 
 .category-container-wrap {
   width: 1200px; }
