@@ -43,7 +43,9 @@ $(document).ready(function(){
 		var a = $("#page_1").offset().top;
 		console.log(a);
 		if (a >= $(window).scrollTop() && a < ($(window).scrollTop()+$(window).height())) {
-			alert("div在可视范围");
+			console.log("div在可视范围");
+		}else{
+			console.log("div-不在可视范围");
 		}
 	});
 });
