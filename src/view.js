@@ -39,11 +39,12 @@ $(document).ready(function(){
 		}
 	});
 
-	$(window).scroll(function (){console.log('a');
+	$(window).scroll(function (){
 		$('.page').each(function(){
 			var a = $(this).offset().top;
-			console.log(a);
-			console.log($(window).scrollTop());
+			console.log('a: '+a);
+			console.log('s: '+$(window).scrollTop());
+			console.log('h: '+$(window).height());
 			if ( ( a <= $(window).height() ) && $(window).scrollTop() <= a || $(window).scrollTop() < (a + $(this).height() + 2) ) {
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
