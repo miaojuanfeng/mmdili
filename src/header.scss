@@ -40,7 +40,7 @@
             box-shadow: 0 0 5px 0 #444;
 
             .login-form-header {
-                height: 40px;
+                height: 50px;
                 background: #00efff;
                 position: relative;
 
@@ -55,10 +55,33 @@
             .login-form-body {
                 padding: 10px;
                 background-color: #fefefe;
+
+                .form-signin {
+                    padding: 15px;
+                    margin: 0 auto;
+
+                    input[type="email"] {
+                        margin-bottom: -1px;
+                        border-bottom-right-radius: 0;
+                        border-bottom-left-radius: 0;
+                    }
+
+                    input[type="password"] {
+                        margin-bottom: 10px;
+                        border-top-left-radius: 0;
+                        border-top-right-radius: 0;
+                    }
+
+                    .btn-primary {
+                        color: #fff;
+                        background-color: #337ab7;
+                        border-color: #2e6da4;
+                    }
+                }
             }
 
             .login-form-footer {
-                height: 50px;
+                height: 30px;
                 background: #aaaa00;
                 position: relative;
             }

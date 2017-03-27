@@ -38,7 +38,11 @@
 					<div class="login-title">登录</div>
 				</div>
 				<div class="login-form-body">
-					asd
+					<div class="form-signin">
+						<input type="email" name="email" placeholder="Email" />
+						<input type="password" name="pwd" placeholder="Password" />
+						<button type="button" class="btn-primary" >
+					</div>
 				</div>
 				<div class="login-form-footer">
 					asd
