@@ -127,6 +127,7 @@ a {
             border-top-left-radius: 0;
             border-top-right-radius: 0; }
           .header .login .login-form .login-form-body .form-signin .form-control {
+            position: relative;
             width: 100%;
             height: auto;
             padding: 12px;
