@@ -48,10 +48,14 @@ $(document).ready(function(){
 			console.log('s: '+$(window).scrollTop());
 			console.log('h: '+$(window).height());
 			if ( ( a <= $(window).height() || ( a - $(window).scrollTop() ) < $(window).height() ) && ( $(window).scrollTop() <= a || $(window).scrollTop() < (a + $(this).height() + 2) ) ){
-				get_page_data($(this).attr('id'), $(this).attr('page'));
+				if( $(this).children().length == 0 ){
+					get_page_data($(this).attr('id'), $(this).attr('page'));
+				}
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
-				$(this).children().remove();
+				if( $(this).children().length > 0 ){
+					$(this).children().remove();
+				}
 				console.log($(this).attr('id')+"不在可视范围");
 			}
 		});
