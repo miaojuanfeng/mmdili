@@ -22,7 +22,6 @@ $(document).ready(function(){
 	});
 
 	$('.more-page a').click(function(){
-		$(window).scroll();
 		for(i=0;i<3;i++){
 			var page_new = document.createElement('div');
 			page_new.className = 'page';
@@ -38,6 +37,7 @@ $(document).ready(function(){
 				break;
 			}
 		}
+		$(window).scroll();
 	});
 
 	$(window).scroll(function (){
