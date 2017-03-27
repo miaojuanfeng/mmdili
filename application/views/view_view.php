@@ -15,7 +15,7 @@
 					<h1><?=$page['title']?></h1>
 				</div>
 				<div class="page-notice">
-					<?=$page['title']?>
+					提示：当前文档包含较多图形，已对图形及部分文字进行压缩以加快载入，下载文档可浏览高清版本。
 				</div>
 				<?php
 				for($i=1;$i<=$page['init'];$i++){
