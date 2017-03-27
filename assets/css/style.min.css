@@ -167,7 +167,10 @@ a {
       font: 16px/20px "微软雅黑"; }
   .view-container .page-notice {
     padding: 5px 10px;
-    color: #747474; }
+    color: #747474;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    background-color: #ddd; }
   .view-container .page, .view-container .more-page {
     border: 1px solid #eee;
     margin-bottom: 15px;

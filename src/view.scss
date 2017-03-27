@@ -20,6 +20,11 @@
 	.page-notice{
 		padding: 5px 10px;
 		color: #747474;
+		border:{
+			left: 1px solid #eee;
+			right: 1px solid #eee;
+		}
+		background-color: #ddd;
 	}
 	.page{
 		border: 1px solid #eee;
