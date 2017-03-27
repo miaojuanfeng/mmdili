@@ -109,10 +109,8 @@ a {
         background: #00efff;
         position: relative; }
         .header .login .login-form .login-form-header .login-title {
-          width: 100%;
-          text-align: right;
+          text-align: center;
           padding-top: 12px;
-          padding-right: 10px;
           font-size: 18px;
           color: #fff; }
 
