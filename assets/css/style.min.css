@@ -184,9 +184,9 @@ a {
             .header .login .login-form .login-form-body .form-signin .login-link a {
               color: #444; }
               .header .login .login-form .login-form-body .form-signin .login-link a.register {
-                margin-right: 10px; }
+                margin-right: 20px; }
               .header .login .login-form .login-form-body .form-signin .login-link a:hover {
-                color: #ccc; }
+                color: linghten(#ccc, 40%); }
 
 .category-container-wrap {
   width: 1200px; }

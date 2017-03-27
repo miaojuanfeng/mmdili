@@ -149,7 +149,7 @@
                             color: #444;
 
                             &.register{
-                                margin-right: 10px;
+                                margin-right: 20px;
                             }
 
                             &.forget{
@@ -157,7 +157,7 @@
                             }
 
                             &:hover{
-                                color: #ccc;
+                                color: linghten(#ccc, 40%);
                             } 
                         }
                     }
