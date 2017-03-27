@@ -41,7 +41,11 @@
 					<div class="form-signin">
 						<input type="email" class="form-control" name="email" placeholder="邮箱" />
 						<input type="password" class="form-control" name="pwd" placeholder="密码" />
-						<button type="button" class="btn-primary" >登录</button>
+						<div>
+							<button type="button" class="btn-primary" >登录</button>
+							<span><a href="javascrip:;">注册一个</a></span>
+							<span><a href="javascrip:;">忘记密码</a></span>
+						</div>
 					</div>
 				</div>
 			</div>
