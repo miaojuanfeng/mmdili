@@ -72,6 +72,6 @@ $(document).ready(function(){
 		$('.login-form').show();
 	});
 	$('.login-form-close').click(function(){
-		$('.login-form').hidden();
+		$('.login-form').hide();
 	});
 });
