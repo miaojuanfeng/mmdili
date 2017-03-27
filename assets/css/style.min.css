@@ -99,7 +99,7 @@ a {
       left: 50%;
       top: 50%;
       width: 400px;
-      height: 300px;
+      height: auto;
       margin-left: -200px;
       margin-top: -150px;
       box-shadow: 0 0 5px 0 #444; }
@@ -123,7 +123,7 @@ a {
             border-bottom-right-radius: 0;
             border-bottom-left-radius: 0; }
           .header .login .login-form .login-form-body .form-signin input[type="password"] {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             border-top-left-radius: 0;
             border-top-right-radius: 0; }
           .header .login .login-form .login-form-body .form-signin .form-control {
