@@ -44,7 +44,7 @@ $(document).ready(function(){
 			var a = $(this).offset().top;
 			console.log(a);
 			console.log($(window).scrollTop());
-			if ( $(window).scrollTop() <= a || $(window).scrollTop() < (a + $(this).height() + 2) ) {
+			if ( ( a <= $(window).height() ) && $(window).scrollTop() <= a || $(window).scrollTop() < (a + $(this).height() + 2) ) {
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
 				console.log($(this).attr('id')+"不在可视范围");
