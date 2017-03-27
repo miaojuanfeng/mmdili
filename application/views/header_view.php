@@ -44,7 +44,7 @@
 						<div>
 							<button type="button" class="btn-primary" >登录</button>
 							<div class="login-link">
-								<span class="register"><a href="javascrip:;">注册一个</a></span>
+								<span class="register"><a href="javascrip:;">还没有账号？注册一个</a></span>
 								<span class="forget"><a href="javascrip:;">忘记密码</a></span>
 							</div>
 							<div class="clearfix"></div>
