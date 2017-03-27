@@ -43,8 +43,11 @@
 						<input type="password" class="form-control" name="pwd" placeholder="密码" />
 						<div>
 							<button type="button" class="btn-primary" >登录</button>
-							<span class="register"><a href="javascrip:;">注册一个</a></span>
-							<span class="forget"><a href="javascrip:;">忘记密码</a></span>
+							<div class="login-link">
+								<span class="register"><a href="javascrip:;">注册一个</a></span>
+								<span class="forget"><a href="javascrip:;">忘记密码</a></span>
+							</div>
+							<div class="clearfix"></div>
 						</div>
 					</div>
 				</div>

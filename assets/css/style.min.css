@@ -178,6 +178,9 @@ a {
             display: block;
             width: 30%;
             float: left; }
+          .header .login .login-form .login-form-body .form-signin .login-link {
+            float: right;
+            line-height: 46px; }
 
 .category-container-wrap {
   width: 1200px; }
