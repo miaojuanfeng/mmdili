@@ -41,7 +41,7 @@
 					<div class="form-signin">
 						<input type="email" class="form-control" name="email" placeholder="Email" />
 						<input type="password" class="form-control" name="pwd" placeholder="Password" />
-						<button type="button" class="btn-primary" >
+						<button type="button" class="btn-primary" >登录</button>
 					</div>
 				</div>
 				<div class="login-form-footer">
