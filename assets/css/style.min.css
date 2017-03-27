@@ -102,7 +102,19 @@ a {
       width: 400px;
       height: 300px;
       margin-left: -200px;
-      margin-top: -150px; }
+      margin-top: -150px;
+      box-shadow: 0 0 5px 0 #444; }
+      .header .login .login-form .login-form-header {
+        height: 70px;
+        background: #00efff;
+        position: relative; }
+        .header .login .login-form .login-form-header .login-title {
+          width: 100%;
+          text-align: right;
+          padding-top: 12px;
+          padding-right: 10px;
+          font-size: 18px;
+          color: #fff; }
 
 .category-container-wrap {
   width: 1200px; }
