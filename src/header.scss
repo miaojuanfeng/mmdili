@@ -47,9 +47,19 @@
 
                 .login-title {
                     text-align: center;
-                    padding-top: 12px;
+                    line-height: 50px;
                     font-size: 18px;
                     color: #fff;
+                }
+
+                .close{
+                    width:50px;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    background-color: #ff0000;
+                    color: #fff;
+                    
                 }
             }
 
