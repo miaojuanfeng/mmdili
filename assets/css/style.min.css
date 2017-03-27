@@ -181,10 +181,10 @@ a {
           .header .login .login-form .login-form-body .form-signin .login-link {
             float: right;
             line-height: 46px; }
-            .header .login .login-form .login-form-body .form-signin .login-link .register {
-              margin-right: 10px; }
             .header .login .login-form .login-form-body .form-signin .login-link a {
               color: #444; }
+              .header .login .login-form .login-form-body .form-signin .login-link a.register {
+                margin-right: 10px; }
               .header .login .login-form .login-form-body .form-signin .login-link a:hover {
                 color: #ccc; }
 

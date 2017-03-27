@@ -145,16 +145,16 @@
                         float: right;
                         line-height: 46px;
 
-                        .register{
-                            margin-right: 10px;
-                        }
-
-                        .forget{
-                            
-                        }
-
                         a{
                             color: #444;
+
+                            &.register{
+                                margin-right: 10px;
+                            }
+
+                            &.forget{
+                                
+                            }
 
                             &:hover{
                                 color: #ccc;
