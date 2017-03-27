@@ -39,8 +39,8 @@
 				</div>
 				<div class="login-form-body">
 					<div class="form-signin">
-						<input type="email" name="email" placeholder="Email" />
-						<input type="password" name="pwd" placeholder="Password" />
+						<input type="email" class="form-control" name="email" placeholder="Email" />
+						<input type="password" class="form-control" name="pwd" placeholder="Password" />
 						<button type="button" class="btn-primary" >
 					</div>
 				</div>
