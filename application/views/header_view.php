@@ -44,9 +44,6 @@
 						<button type="button" class="btn-primary" >登录</button>
 					</div>
 				</div>
-				<div class="login-form-footer">
-					asd
-				</div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
