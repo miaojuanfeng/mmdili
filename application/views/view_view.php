@@ -15,7 +15,7 @@
 					<h1><?=$page['title']?></h1>
 				</div>
 				<div class="page-notice">
-					<p><?=$page['title']?></p>
+					<?=$page['title']?>
 				</div>
 				<?php
 				for($i=1;$i<=$page['init'];$i++){
