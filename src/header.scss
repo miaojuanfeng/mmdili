@@ -73,21 +73,22 @@
                     }
 
                     .form-control {
-                        position: relative;
+                        width: 100%;
                         height: auto;
                         -webkit-box-sizing: border-box;
                         -moz-box-sizing: border-box;
                         box-sizing: border-box;
                         padding: 10px;
                         font-size: 18px;
+                        line-height: 18px;
 
                         margin: 0;
                         font: inherit;
                         font-family: inherit;
 
                         display: block;
-                        width: 100%;
-                        line-height: 1.42857143;
+                        
+                        
                         color: #555;
                         background-color: #fff;
                         background-image: none;
