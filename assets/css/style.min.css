@@ -95,6 +95,7 @@ a {
         .header .login ul li a:hover {
           color: #eee; }
     .header .login .login-form {
+      display: none;
       position: fixed;
       left: 50%;
       top: 50%;

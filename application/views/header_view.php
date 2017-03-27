@@ -24,7 +24,7 @@
 		<div class="login">
 			<ul>
 				<li>
-					<a href="#">Login</a>
+					<a id="login-act" href="#">Login</a>
 				</li>
 				<li>
 					or
@@ -36,6 +36,7 @@
 			<div class="login-form">
 				<div class="login-form-header">
 					<div class="login-title">登录</div>
+					<div class="close">×</div>
 				</div>
 				<div class="login-form-body">
 					<div class="form-signin">
