@@ -42,6 +42,7 @@ $(document).ready(function(){
 	$(window).scroll(function (){console.log('a');
 		var a = $("#page_1").offset().top;
 		console.log(a);
+		console.log($(window).scrollTop());
 		if (a >= $(window).scrollTop() && a < ($(window).scrollTop()+$(window).height())) {
 			console.log("div在可视范围");
 		}else{
