@@ -40,7 +40,8 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function (){console.log('a');
-		var a = $("#page_1").offsetTop;
+		var a = $("#page_1").offset().top;
+		console.log(a);
 		if (a >= $(window).scrollTop() && a < ($(window).scrollTop()+$(window).height())) {
 			alert("div在可视范围");
 		}
