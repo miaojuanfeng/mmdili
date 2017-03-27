@@ -157,7 +157,7 @@ a {
             color: #fff;
             background-color: #337ab7;
             border: 1px solid #2e6da4;
-            padding: 10px 16px;
+            padding: 13px 16px;
             font-size: 16px;
             line-height: 16px;
             border-radius: 6px;
@@ -173,7 +173,7 @@ a {
             .header .login .login-form .login-form-body .form-signin .login-link a {
               color: #444; }
               .header .login .login-form .login-form-body .form-signin .login-link a.register {
-                margin-right: 30px; }
+                margin-right: 25px; }
               .header .login .login-form .login-form-body .form-signin .login-link a:hover {
                 color: #aaaaaa; }
 
