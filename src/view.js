@@ -26,6 +26,7 @@ $(document).ready(function(){
 			var page_new = document.createElement('div');
 			page_new.className = 'page';
 			page_new.id = 'page_'+page_curr;
+			page_new.page = page_curr;
 			page_new.style.width = page_width + 'px';
 			page_new.style.height = page_height + 'px';
 			$('.more-page').before(page_new);
@@ -47,7 +48,7 @@ $(document).ready(function(){
 			console.log('s: '+$(window).scrollTop());
 			console.log('h: '+$(window).height());
 			if ( ( a <= $(window).height() || ( a - $(window).scrollTop() ) < $(window).height() ) && ( $(window).scrollTop() <= a || $(window).scrollTop() < (a + $(this).height() + 2) ) ){
-				get_page_data($(this).attr('id'), page_curr);
+				get_page_data($(this).attr('id'), $(this).attr('page'));
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
 				$(this).children().remove();

@@ -20,7 +20,7 @@
 				<?php
 				for($i=1;$i<=$page['init'];$i++){
 				?>
-					<div class="page" id="page_<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px;"></div>
+					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px;"></div>
 				<?php
 				}
 				?>
