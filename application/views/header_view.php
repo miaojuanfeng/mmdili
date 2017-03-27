@@ -37,6 +37,12 @@
 				<div class="login-form-header">
 					<div class="login-title">登录</div>
 				</div>
+				<div class="login-form-body">
+					asd
+				</div>
+				<div class="login-form-footer">
+					asd
+				</div>
 			</div>
 		</div>
 		<div class="clearfix"></div>

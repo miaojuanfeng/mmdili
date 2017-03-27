@@ -33,7 +33,6 @@
             position: fixed;
             left: 50%;
             top: 50%;
-            //border: 1px solid #eee;
             width:400px;
             height: 300px;
             margin-left: -200px;
@@ -41,7 +40,7 @@
             box-shadow: 0 0 5px 0 #444;
 
             .login-form-header {
-                height: 70px;
+                height: 40px;
                 background: #00efff;
                 position: relative;
 
@@ -51,6 +50,17 @@
                     font-size: 18px;
                     color: #fff;
                 }
+            }
+
+            .login-form-body {
+                padding: 10px;
+                background-color: #fefefe;
+            }
+
+            .login-form-footer {
+                height: 50px;
+                background: #aaaa00;
+                position: relative;
             }
         }
     }

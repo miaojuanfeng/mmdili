@@ -104,7 +104,7 @@ a {
       margin-top: -150px;
       box-shadow: 0 0 5px 0 #444; }
       .header .login .login-form .login-form-header {
-        height: 70px;
+        height: 40px;
         background: #00efff;
         position: relative; }
         .header .login .login-form .login-form-header .login-title {
@@ -112,6 +112,13 @@ a {
           padding-top: 12px;
           font-size: 18px;
           color: #fff; }
+      .header .login .login-form .login-form-body {
+        padding: 10px;
+        background-color: #fefefe; }
+      .header .login .login-form .login-form-footer {
+        height: 50px;
+        background: #aaaa00;
+        position: relative; }
 
 .category-container-wrap {
   width: 1200px; }
