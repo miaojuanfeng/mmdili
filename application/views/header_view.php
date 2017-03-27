@@ -39,8 +39,8 @@
 				</div>
 				<div class="login-form-body">
 					<div class="form-signin">
-						<input type="email" class="form-control" name="email" placeholder="Email" />
-						<input type="password" class="form-control" name="pwd" placeholder="Password" />
+						<input type="email" class="form-control" name="email" placeholder="邮箱" />
+						<input type="password" class="form-control" name="pwd" placeholder="密码" />
 						<button type="button" class="btn-primary" >登录</button>
 					</div>
 				</div>
