@@ -30,7 +30,7 @@ $(document).ready(function(){
 			page_new.style.height = page_height + 'px';
 			$('.more-page').before(page_new);
 			$('.more-page .page-left').html(page_num-page_curr);
-			get_page_data($(page_new).attr('id'), page_curr);
+			// get_page_data($(page_new).attr('id'), page_curr);
 			page_curr++;
 			if(page_curr>page_num){
 				$('.more-page').remove();
@@ -47,8 +47,10 @@ $(document).ready(function(){
 			console.log('s: '+$(window).scrollTop());
 			console.log('h: '+$(window).height());
 			if ( ( a <= $(window).height() || ( a - $(window).scrollTop() ) < $(window).height() ) && ( $(window).scrollTop() <= a || $(window).scrollTop() < (a + $(this).height() + 2) ) ){
+				get_page_data($(page_new).attr('id'), page_curr);
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
+				$(this).children().remove();
 				console.log($(this).attr('id')+"不在可视范围");
 			}
 		});
