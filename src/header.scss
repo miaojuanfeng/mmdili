@@ -41,7 +41,7 @@
             box-shadow: 0 0 5px 0 #444;
 
             .login-form-header {
-                height: 50px;
+                height: 40px;
                 background: #00efff;
                 position: relative;
 
@@ -52,10 +52,10 @@
                     color: #fff;
                 }
 
-                .close{
-                    width:50px;
+                .login-form-close{
+                    width:40px;
                     height:100%;
-                    line-height:50px;
+                    line-height:40px;
                     position: absolute;
                     right: 0;
                     top: 0;

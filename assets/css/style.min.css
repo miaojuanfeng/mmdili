@@ -105,7 +105,7 @@ a {
       margin-top: -150px;
       box-shadow: 0 0 5px 0 #444; }
       .header .login .login-form .login-form-header {
-        height: 50px;
+        height: 40px;
         background: #00efff;
         position: relative; }
         .header .login .login-form .login-form-header .login-title {
@@ -113,10 +113,10 @@ a {
           line-height: 50px;
           font-size: 18px;
           color: #fff; }
-        .header .login .login-form .login-form-header .close {
-          width: 50px;
+        .header .login .login-form .login-form-header .login-form-close {
+          width: 40px;
           height: 100%;
-          line-height: 50px;
+          line-height: 40px;
           position: absolute;
           right: 0;
           top: 0;
