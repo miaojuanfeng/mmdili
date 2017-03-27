@@ -169,8 +169,7 @@ a {
     padding: 5px 10px;
     color: #747474;
     border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
-    background-color: #ddd; }
+    border-right: 1px solid #eee; }
   .view-container .page, .view-container .more-page {
     border: 1px solid #eee;
     margin-bottom: 15px;
