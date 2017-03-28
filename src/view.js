@@ -104,7 +104,7 @@ $(document).ready(function(){
 		// 	}, 500); 
 		// 	tur = false;
 		// }
-	}, 800));
+	}, 500));
 	
 	$('#login-act').click(function(){
 		$('.login-form').show();
