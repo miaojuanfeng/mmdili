@@ -98,6 +98,8 @@ $(document).ready(function(){
 			}
 		});
 	}, 500));
+
+	$(window).scroll();
 	
 	$('#login-act').click(function(){
 		$('.login-form').show();
