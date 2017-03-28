@@ -97,7 +97,7 @@ $(document).ready(function(){
 				console.log($(this).attr('id')+"不在可视范围");
 			}
 		});
-	}, 300));
+	}, 500));
 
 	$(window).scroll();
 	
