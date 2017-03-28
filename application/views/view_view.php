@@ -18,15 +18,15 @@
 					提示：当前文档包含较多图形，已对图形及部分文字进行压缩以加快载入，下载文档可浏览高清版本。
 				</div>
 				<?php
-				for($i=1;$i<=$page['init'];$i++){
+				for($i=1;$i<=$page['num'];$i++){
 				?>
 					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px;"></div>
 				<?php
 				}
 				?>
-				<div class="more-page">
+				<!-- <div class="more-page">
 					<a href="javascript:;" page-swf="<?=$page['swf']?>" page-data="<?=$page['data']?>" page-init="<?=$page['init']?>" page-more="<?=$page['more']?>" page-num="<?=$page['num']?>" page-width="<?=$page['width']?>" page-height="<?=$page['height']?>"><span>There are <span class="page-left"><?=$page['more']?></span> pages left unread, Click to continue reading</span></a>
-				</div>
+				</div> -->
 			</div>
 			<div class="recommend-container">
 				<div class="relative-container">
