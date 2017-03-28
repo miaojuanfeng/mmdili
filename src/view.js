@@ -78,7 +78,7 @@ $(document).ready(function(){
 	    }
 	}
 
-	$(window).scroll(throttle(function(){
+	$(window).scroll(debounce(function(){
 		// var tur = true; 
 		// if(tur){ 
 		// 	setTimeout(function(){
