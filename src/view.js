@@ -84,10 +84,11 @@ $(document).ready(function(){
 		// 	setTimeout(function(){
 				$('.page').each(function(){
 					var pageTop = $(this).offset().top;
+					var pageHeight = $(this).height();
 					var scrollTop = $(window).scrollTop();
 					var winHeight = $(window).height();
 					console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
-					if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + winHeight + 2) ) ){
+					if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
 						if( $(this).children().length == 0 ){
 							get_page_data($(this).attr('id'), $(this).attr('page'));
 						}
