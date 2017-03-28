@@ -49,7 +49,7 @@ $(document).ready(function(){
 	  *                         如果想忽略结束边界上的调用则传入 {trailing:false},
 	  * @returns {Function}     返回调用函数
 	  */
-	_.throttle = function(func, wait, options) {
+	var throttle = function(func, wait, options) {
 	    var context, args, result;
 	    var timeout = null;
 	    var previous = 0;
@@ -86,7 +86,7 @@ $(document).ready(function(){
 	 *                         如果想忽略结束边界上的调用则传入 {trailing:false},
 	 * @returns {Function}     返回调用函数
 	 */
-	_.debounce = function(func, wait, immediate) {
+	var debounce = function(func, wait, immediate) {
 	    var timeout, args, context, timestamp, result;
 
 	    var later = function() {
@@ -116,7 +116,7 @@ $(document).ready(function(){
 	    };
 	};
 
-	$(window).scroll(_.throttle(function(){
+	$(window).scroll(throttle(function(){
 		// var tur = true; 
 		// if(tur){ 
 		// 	setTimeout(function(){
