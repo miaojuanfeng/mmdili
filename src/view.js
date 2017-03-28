@@ -42,9 +42,9 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(_.debounce(function(){
-		var tur = true; 
-		if(tur){ 
-			setTimeout(function(){
+		// var tur = true; 
+		// if(tur){ 
+		// 	setTimeout(function(){
 				$('.page').each(function(){
 					var a = $(this).offset().top;
 					console.log('a: '+a);
@@ -62,10 +62,10 @@ $(document).ready(function(){
 						console.log($(this).attr('id')+"不在可视范围");
 					}
 				});
-				tur = true;
-			}, 500);
-			tur = false;
-		}
+				// tur = true;
+		// 	}, 500);
+		// 	tur = false;
+		// }
 	}, 800));
 	
 	$('#login-act').click(function(){
