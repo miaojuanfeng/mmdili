@@ -41,7 +41,7 @@ $(document).ready(function(){
 		$(window).scroll();
 	});
 
-	$(window).scroll(function (){
+	$(window).scroll(_.throttle(function(){
 		var tur = true; 
 		if(tur){ 
 			setTimeout(function(){
@@ -66,8 +66,8 @@ $(document).ready(function(){
 			}, 500);
 			tur = false;
 		}
-	});
-
+	}, 300));
+	
 	$('#login-act').click(function(){
 		$('.login-form').show();
 	});
