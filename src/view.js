@@ -41,7 +41,7 @@ $(document).ready(function(){
 		$(window).scroll();
 	});
 
-	// 简单的节流函数
+	// 	简单的节流函数
 	function throttle(func, wait, mustRun) {
 	    var timeout,
 	        startTime = new Date();
@@ -62,7 +62,7 @@ $(document).ready(function(){
 	        }
 	    }
 	}
-	// 防抖动函数
+	// 	简单的防抖函数
 	function debounce(func, wait, immediate) {
 	    var timeout;
 	    return function() {
