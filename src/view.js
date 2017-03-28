@@ -41,80 +41,42 @@ $(document).ready(function(){
 		$(window).scroll();
 	});
 
-	/**
-	  * 频率控制函数， fn执行次数不超过 1 次/delay
-	  * @param fn{Function}     传入的函数
-	  * @param delay{Number}    时间间隔
-	  * @param options{Object}  如果想忽略开始边界上的调用则传入 {leading:false},
-	  *                         如果想忽略结束边界上的调用则传入 {trailing:false},
-	  * @returns {Function}     返回调用函数
-	  */
-	var throttle = function(func, wait, options) {
-	    var context, args, result;
-	    var timeout = null;
-	    var previous = 0;
-	    if (!options) options = {};
-	    var later = function() {
-	        previous = options.leading === false ? 0 : _.now();
-	        timeout = null;
-	        result = func.apply(context, args);
-	        if (!timeout) context = args = null;
-	    };
+	// 简单的节流函数
+	function throttle(func, wait, mustRun) {
+	    var timeout,
+	        startTime = new Date();
+	 
 	    return function() {
-	        var now = _.now();
-	        if (!previous && options.leading === false) previous = now;
-	        var remaining = wait - (now - previous);
-	        context = this;
-	        args = arguments;
-	        if (remaining <= 0 || remaining > wait) {
-	            clearTimeout(timeout);
-	            timeout = null;
-	            previous = now;
-	            result = func.apply(context, args);
-	            if (!timeout) context = args = null;
-	        } else if (!timeout && options.trailing !== false) {
-	            timeout = setTimeout(later, remaining);
+	        var context = this,
+	            args = arguments,
+	            curTime = new Date();
+	 
+	        clearTimeout(timeout);
+	        // 如果达到了规定的触发时间间隔，触发 handler
+	        if(curTime - startTime >= mustRun){
+	            func.apply(context,args);
+	            startTime = curTime;
+	        // 没达到触发间隔，重新设定定时器
+	        }else{
+	            timeout = setTimeout(func, wait);
 	        }
-	        return result;
-	    };
-	};
-	/**
-	 * 空闲控制函数， fn仅执行一次
-	 * @param fn{Function}     传入的函数
-	 * @param delay{Number}    时间间隔
-	 * @param options{Object}  如果想忽略开始边界上的调用则传入 {leading:false},
-	 *                         如果想忽略结束边界上的调用则传入 {trailing:false},
-	 * @returns {Function}     返回调用函数
-	 */
-	var debounce = function(func, wait, immediate) {
-	    var timeout, args, context, timestamp, result;
-
-	    var later = function() {
-	        var last = _.now() - timestamp;
-	        if (last < wait && last > 0) {
-	            timeout = setTimeout(later, wait - last);
-	        } else {
-	            timeout = null;
-	            if (!immediate) {
-	                result = func.apply(context, args);
-	                if (!timeout) context = args = null;
-	            }
-	        }
-	    };
-
+	    }
+	}
+	// 防抖动函数
+	function debounce(func, wait, immediate) {
+	    var timeout;
 	    return function() {
-	        context = this;
-	        args = arguments;
-	        timestamp = _.now();
+	        var context = this, args = arguments;
+	        var later = function() {
+	            timeout = null;
+	            if (!immediate) func.apply(context, args);
+	        };
 	        var callNow = immediate && !timeout;
-	        if (!timeout) timeout = setTimeout(later, wait);
-	        if (callNow) {
-	            result = func.apply(context, args);
-	            context = args = null;
-	        }
-	        return result;
-	    };
-	};
+	        clearTimeout(timeout);
+	        timeout = setTimeout(later, wait);
+	        if (callNow) func.apply(context, args);
+	    }
+	}
 
 	$(window).scroll(throttle(function(){
 		// var tur = true; 
