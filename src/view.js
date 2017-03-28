@@ -41,7 +41,7 @@ $(document).ready(function(){
 		$(window).scroll();
 	});
 
-	$(window).scroll(_.throttle(function(){
+	$(window).scroll(_.debounce(function(){
 		var tur = true; 
 		if(tur){ 
 			setTimeout(function(){
