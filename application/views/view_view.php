@@ -24,9 +24,9 @@
 				<?php
 				}
 				?>
-				<!-- <div class="more-page">
+				<div class="more-page" style="display:none;">
 					<a href="javascript:;" page-swf="<?=$page['swf']?>" page-data="<?=$page['data']?>" page-init="<?=$page['init']?>" page-more="<?=$page['more']?>" page-num="<?=$page['num']?>" page-width="<?=$page['width']?>" page-height="<?=$page['height']?>"><span>There are <span class="page-left"><?=$page['more']?></span> pages left unread, Click to continue reading</span></a>
-				</div> -->
+				</div>
 			</div>
 			<div class="recommend-container">
 				<div class="relative-container">
