@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>mmdili</title>
+	<title><?=$page['title']?> - mmdili</title>
 	<?php require_once 'meta_view.php' ?>
 	<script type="text/javascript" src="<?=base_url('assets/lib/js/flexpaper_flash_debug.js')?>"></script>
 	<script type="text/javascript" src="<?=base_url('assets/js/view.min.js')?>"></script>
@@ -31,7 +31,7 @@
 				}
 				?>
 				<div class="more-page" style="display:none;">
-					<a href="javascript:;" page-swf="<?=$page['swf']?>" page-data="<?=$page['data']?>" page-init="<?=$page['init']?>" page-more="<?=$page['more']?>" page-num="<?=$page['num']?>" page-width="<?=$page['width']?>" page-height="<?=$page['height']?>"><span>There are <span class="page-left"><?=$page['more']?></span> pages left unread, Click to continue reading</span></a>
+					<a href="javascript:;" page-swf="<?=$page['swf']?>" page-data="<?=$page['data']?>"><span>There are <span class="page-left"><?=$page['more']?></span> pages left unread, Click to continue reading</span></a>
 				</div>
 			</div>
 			<div class="recommend-container">

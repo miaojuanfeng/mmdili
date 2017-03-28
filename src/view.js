@@ -7,10 +7,10 @@ $(document).ready(function(){
 	var page_elem = $('.more-page a');
 	var page_swf = page_elem.attr('page-swf');
 	var page_data = page_elem.attr('page-data');
-	var page_num = page_elem.attr('page-num');
-	var page_width = page_elem.attr('page-width');
-	var page_height = page_elem.attr('page-height');
-	var page_curr = 1;
+	// var page_num = page_elem.attr('page-num');
+	// var page_width = page_elem.attr('page-width');
+	// var page_height = page_elem.attr('page-height');
+	// var page_curr = 1;
 
 	function get_page_data(elem_id, page_no){
 		config.SwfFile = (page_data+page_no);
