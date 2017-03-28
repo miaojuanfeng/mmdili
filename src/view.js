@@ -41,7 +41,7 @@ $(document).ready(function(){
 		$(window).scroll();
 	});
 
-	$(window).scroll(_.debounce(function(){
+	$(window).scroll($.debounce(function(){
 		// var tur = true; 
 		// if(tur){ 
 		// 	setTimeout(function(){
