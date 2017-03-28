@@ -41,8 +41,9 @@ class View extends CI_Controller {
 		$data['page']['height'] = intval((968/$detail['doc_width'])*$detail['doc_height']);
 		$data['page']['title'] = $detail['doc_title'];
 		$file_name = 'sjdl.doc';
-		$data['page']['init'] = ( $data['page']['num'] < 3 ) ? $data['page']['num'] : 3;
-		$data['page']['more'] = ( $data['page']['num'] - 3 ) > 0 ? ( $data['page']['num'] - 3 ) : 0;
+		// $data['page']['init'] = ( $data['page']['num'] < 3 ) ? $data['page']['num'] : 3;
+		// $data['page']['more'] = ( $data['page']['num'] - 3 ) > 0 ? ( $data['page']['num'] - 3 ) : 0;
+		$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];;
 		//
 		$data['dl']['view_id'] = $view_id;
 		$data['dl']['link'] = $this->mcrypt->encode($file_name);

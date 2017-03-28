@@ -14,7 +14,7 @@ class view_model extends CI_Model{
     }
 
     public function get_detail($doc_url){
-	$query = $this->db->query("SELECT user_url, doc_url, doc_title, doc_width, doc_height, doc_page_num FROM m_doc LEFT JOIN m_user ON doc_user_id = user_id WHERE doc_deleted = 0 AND user_deleted = 0 AND doc_url = ".$doc_url." LIMIT 1");
+	$query = $this->db->query("SELECT user_url, doc_url, doc_title, doc_width, doc_height, doc_page_num, doc_poly2bitmap FROM m_doc LEFT JOIN m_user ON doc_user_id = user_id WHERE doc_deleted = 0 AND user_deleted = 0 AND doc_url = ".$doc_url." LIMIT 1");
 	return $query->row_array();
     }
 }
