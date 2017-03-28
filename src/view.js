@@ -46,11 +46,11 @@ $(document).ready(function(){
 		// if(tur){ 
 		// 	setTimeout(function(){
 				$('.page').each(function(){
-					var a = $(this).offset().top;
-					console.log('a: '+a);
-					console.log('s: '+$(window).scrollTop());
-					console.log('h: '+$(window).height());
-					if ( ( a <= $(window).height() || ( a - $(window).scrollTop() ) < $(window).height() ) && ( $(window).scrollTop() <= a || $(window).scrollTop() < (a + $(this).height() + 2) ) ){
+					var pageTop = $(this).offset().top;
+					var scrollTop = $(window).scrollTop();
+					var winHeight = $(window).height();
+					console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
+					if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + winHeight + 2) ) ){
 						if( $(this).children().length == 0 ){
 							get_page_data($(this).attr('id'), $(this).attr('page'));
 						}
