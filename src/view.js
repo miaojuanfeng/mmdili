@@ -66,7 +66,7 @@ $(document).ready(function(){
 			}, 500);
 			tur = false;
 		}
-	}, 500));
+	}, 800));
 	
 	$('#login-act').click(function(){
 		$('.login-form').show();
