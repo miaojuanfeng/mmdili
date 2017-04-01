@@ -101,8 +101,12 @@
 
 	    		a{
 	    			padding: 0 10px;
+
+	    			&:hover{
+	    				background-color:#ccc;
+	    			}
 	    		}
-	    		
+
 	    		.page-prev{
 	    			float: left;
 	    		}

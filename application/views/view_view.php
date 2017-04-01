@@ -80,8 +80,8 @@
 		<div class="main-container">
 			<div class="reader-tools-bar">
 				<div class="left">
-					<a class="page-prev">< 上一页</a>
-					<a class="page-next">下一页 ></a>
+					<a class="page-prev" href="javascript:;">< 上一页</a>
+					<a class="page-next" href="javascript:;">下一页 ></a>
 				</div>
 				<div class="center"></div>
 				<div class="right">
