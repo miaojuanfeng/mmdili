@@ -101,13 +101,18 @@
 
 	    		a{
 	    			padding: 0 10px;
+	    			color:#747474;
 
 	    			&:hover{
-	    				background-color:#ccc;
+	    				background-color:#eee;
 	    			}
 	    		}
 
 	    		.page-prev{
+	    			float: left;
+	    		}
+
+	    		.page-position{
 	    			float: left;
 	    		}
 
