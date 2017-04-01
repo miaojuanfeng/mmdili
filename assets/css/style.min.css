@@ -15,7 +15,7 @@
       margin: 0;
       font-size: 12px; }
       .view-container .cate-title h1 b {
-        font-size: 16px;
+        font: 16px/20px;
         color: #747474; }
   .view-container .cate {
     border: 1px solid #eee;
