@@ -11,11 +11,11 @@
     .view-container .cate-title h1 {
       line-height: 25px;
       padding: 0;
-      color: #747474;
+      color: #ccc;
       margin: 0;
       font: 16px/20px "微软雅黑"; }
       .view-container .cate-title h1 b {
-        color: #666; }
+        color: #747474; }
   .view-container .cate {
     border: 1px solid #eee;
     margin-bottom: 15px;
