@@ -194,7 +194,8 @@ a {
                 color: #aaaaaa; }
 
 .category-container-wrap {
-  width: 1200px; }
+  width: 1200px;
+  padding-bottom: 15px; }
   .category-container-wrap .category-container {
     width: 970px;
     float: left;
