@@ -10,10 +10,12 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
     .view-container .cate-title h1 {
       line-height: 25px;
-      color: #666;
       padding: 0;
+      color: #747474;
       margin: 0;
       font: 16px/20px "微软雅黑"; }
+      .view-container .cate-title h1 b {
+        color: #666; }
   .view-container .cate {
     border: 1px solid #eee;
     margin-bottom: 15px;
