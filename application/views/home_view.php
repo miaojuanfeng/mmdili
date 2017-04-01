@@ -121,23 +121,27 @@
 					<div class="category">
 						<ul>
 							<?php
-							for($j=0;$j<8;$j++){
+							foreach($doc['new'][1] as $key => $value){
+								if( !($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
+								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
+								}
 							}
 							?>
 						</ul>
 						<ul>
 							<?php
-							for($j=0;$j<8;$j++){
+							foreach($doc['new'][1] as $key => $value){
+								if( ($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
+								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
+								}
 							}
 							?>
 						</ul>
