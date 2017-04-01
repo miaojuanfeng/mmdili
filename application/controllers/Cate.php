@@ -29,22 +29,27 @@ class Cate extends CI_Controller {
 	{
 		switch( $cate_url ){
 			case 'dili':
-				$cate_url = 1;
+				$cate_id = 1;
+				$cate_title = '地理';
 				break;
 			case 'lishi':
-				$cate_url = 2;
+				$cate_id = 2;
+				$cate_title = '历史';
 				break;
 			case 'zhengzhi':
-				$cate_url = 3;
+				$cate_id = 3;
+				$cate_title = '政治';
 				break;
 			case 'wenzong':
-				$cate_url = 4;
+				$cate_id = 4;
+				$cate_title = '文综';
 				break;
 			default:
 				header('Location:'.base_url());
 				return;
 		}
-		$data['doc'] = $this->cate_model->get_list($cate_url);
+		$data['cate']['title'] = $cate_title;
+		$data['cate']['doc'] = $this->cate_model->get_list($cate_id);
 		$this->load->view('cate_view', $data);
 	}
 }

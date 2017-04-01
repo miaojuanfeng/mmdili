@@ -10,12 +10,12 @@
 		<div class="main-container">
 			<div class="view-container">
 				<div class="cate-title">
-					<h1>Title</h1>
+					<h1><?=$cate['title']?></h1>
 				</div>
 				<div class="cate">
 					<ul>
 						<?php
-						foreach($doc as $k => $v){
+						foreach($cate['doc'] as $k => $v){
 						?>
 						<li>
 							<a href="<?=base_url('view/index/'.$v['doc_url'])?>" target="_blank"><h3><?=$v['doc_title']?></h3></a>
