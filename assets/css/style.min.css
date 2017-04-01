@@ -291,7 +291,7 @@ a {
 .recommend-container {
   width: 200px;
   float: right;
-  padding: 15px 0 0 0; }
+  padding: 16px 0 0 15px; }
   .recommend-container .relative-container {
     margin-bottom: 20px; }
     .recommend-container .relative-container .relative-title {
