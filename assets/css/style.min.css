@@ -193,9 +193,11 @@ a {
               .header .login .login-form .login-form-body .form-signin .login-link a:hover {
                 color: #aaaaaa; }
 
-.category-container-wrap {
-  width: 1200px;
+.main-container {
   padding-bottom: 15px; }
+
+.category-container-wrap {
+  width: 1200px; }
   .category-container-wrap .category-container {
     width: 970px;
     float: left;
