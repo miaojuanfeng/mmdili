@@ -25,10 +25,24 @@ class Cate extends CI_Controller {
 	$this->load->model('cate_model');
     }
     
-	public function index($cate_url = 0)
+	public function index($cate_url = '')
 	{
-		if( !$cate_url || !is_numeric($cate_url) ){
-			header('Location:'.base_url());
+		switch( $cate_url ){
+			case 'dili':
+				$cate_url = 1;
+				break;
+			case 'lishi':
+				$cate_url = 2;
+				break;
+			case 'zhengzhi':
+				$cate_url = 3;
+				break;
+			case 'wenzong':
+				$cate_url = 4;
+				break;
+			default:
+				header('Location:'.base_url());
+				return;
 		}
 		$data['doc'] = $this->cate_model->get_list($cate_url);
 		$this->load->view('cate_view', $data);
