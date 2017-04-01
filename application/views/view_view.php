@@ -82,9 +82,9 @@
 				<div class="left">
 					<a class="page-prev" href="javascript:;">< 上一页</a>
 					<div class="page-position">
-						<div class="page-curr">1</div>
+						<span class="page-curr">1</span>
 						/
-						<div class="page-num">7</div>
+						<span class="page-num">7</span>
 					</div>
 					<a class="page-next" href="javascript:;">下一页 ></a>
 				</div>
