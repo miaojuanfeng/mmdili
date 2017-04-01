@@ -292,19 +292,17 @@ a {
   width: 200px;
   float: right;
   padding: 16px 0 0 15px; }
-  .recommend-container .relative-container {
-    margin-bottom: 20px; }
-    .recommend-container .relative-container .relative-title {
-      padding: 10px 0; }
-      .recommend-container .relative-container .relative-title h1 {
-        line-height: 25px;
-        color: #666;
-        padding: 0;
-        margin: 0;
-        font: 16px/20px "微软雅黑"; }
-    .recommend-container .relative-container ul li {
-      padding: 11px 0 12px 0;
-      border-top: 1px solid #eee; }
+  .recommend-container .relative-container .relative-title {
+    padding: 10px 0; }
+    .recommend-container .relative-container .relative-title h1 {
+      line-height: 25px;
+      color: #666;
+      padding: 0;
+      margin: 0;
+      font: 16px/20px "微软雅黑"; }
+  .recommend-container .relative-container ul li {
+    padding: 11px 0 12px 0;
+    border-top: 1px solid #eee; }
 
 .reader-tools-bar-wrap {
   width: 100%;
