@@ -324,6 +324,10 @@ a {
       width: 970px; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .left {
         float: left; }
+        .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-prev {
+          float: left; }
+        .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-next {
+          float: left; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .right {
         float: right;
         position: relative; }
