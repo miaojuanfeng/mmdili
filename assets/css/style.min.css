@@ -23,9 +23,9 @@
     .view-container .cate ul li {
       border-bottom: 1px dashed #eee; }
       .view-container .cate ul li a {
-        color: #444;
+        color: #747474;
         display: block;
-        padding: 20px 10px; }
+        padding: 10px 10px; }
         .view-container .cate ul li a h3 {
           margin: 0; }
         .view-container .cate ul li a:hover {
