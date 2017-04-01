@@ -218,7 +218,8 @@ a {
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
       .category-container-wrap .category-container .category ul {
         width: 50%;
-        float: left; }
+        float: left;
+        min-height: 335px; }
         .category-container-wrap .category-container .category ul li {
           border-bottom: 1px dashed #eee; }
           .category-container-wrap .category-container .category ul li a {
