@@ -22,10 +22,12 @@ class Home extends CI_Controller {
     {
     	parent::__construct();
     	$this->load->helper('url');
+    	$this->load->model('home_model');
     }
 
 	public function index()
 	{
-		$this->load->view('home_view');
+		$data['doc']['new'] = $this->home_model->get_new_doc();
+		$this->load->view('home_view', $data);
 	}
 }

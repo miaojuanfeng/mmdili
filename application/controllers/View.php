@@ -26,7 +26,7 @@ class View extends CI_Controller {
     	//test
     	// $this->load->library('File');
     	$this->load->library('Mcrypt');
-	$this->load->model('view_model');
+		$this->load->model('view_model');
     }
     
 	public function index($view_id)

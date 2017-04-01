@@ -7,6 +7,7 @@
 <body>
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
+		<?php var_dump($doc['new']); ?>
 		<div class="main-container">
 			<div class="category-container-wrap">
 				<div class="category-container">
