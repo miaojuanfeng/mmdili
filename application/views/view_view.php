@@ -79,7 +79,10 @@
 	<div class="reader-tools-bar-wrap">
 		<div class="main-container">
 			<div class="reader-tools-bar">
-				<div class="left"></div>
+				<div class="left">
+					<div class="page-prev">上一页</div>
+					<div class="page-next">下一页</div>
+				</div>
 				<div class="center"></div>
 				<div class="right">
 					<div class="download"><a href="<?=base_url('dl/index/'.$dl['view_id'].'/'.$dl['link'])?>" target="_blank">Download</a></div>

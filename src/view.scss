@@ -96,7 +96,10 @@
 	    .reader-tools-bar{
 	    	width: 970px;
 
-	    	.left{}
+	    	.left{
+	    		float: left;
+	    		
+	    	}
 	    	.center{}
 	    	.right{
 	    		float:right;

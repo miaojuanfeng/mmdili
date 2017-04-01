@@ -322,6 +322,8 @@ a {
     line-height: 46px; }
     .reader-tools-bar-wrap .main-container .reader-tools-bar {
       width: 970px; }
+      .reader-tools-bar-wrap .main-container .reader-tools-bar .left {
+        float: left; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .right {
         float: right;
         position: relative; }
