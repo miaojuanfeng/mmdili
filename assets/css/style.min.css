@@ -194,11 +194,12 @@ a {
                 color: #aaaaaa; }
 
 .category-container-wrap {
-  width: 1200px; }
+  width: 1200px;
+  padding-top: 10px; }
   .category-container-wrap .category-container {
     width: 970px;
     float: left;
-    padding: 10px 0 0 0; }
+    padding-bottom: 10px; }
     .category-container-wrap .category-container .category-title {
       padding: 10px;
       border: 1px solid #eee;
