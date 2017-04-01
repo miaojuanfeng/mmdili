@@ -10,7 +10,7 @@
 		<div class="main-container">
 			<div class="view-container">
 				<div class="cate-title">
-					<h1><?=$cate['title']?></h1>
+					<h1><b><?=$cate['title']?></b> 分类下的所有文档</h1>
 				</div>
 				<div class="cate">
 					<ul>
