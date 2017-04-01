@@ -16,7 +16,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							for($j=0;$j<5;$j++){
+							for($j=0;$j<10;$j++){
 							?>
 							<li>
 								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
@@ -27,7 +27,7 @@
 						</ul>
 						<ul>
 							<?php
-							for($j=0;$j<5;$j++){
+							for($j=0;$j<10;$j++){
 							?>
 							<li>
 								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
@@ -66,7 +66,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							for($j=0;$j<5;$j++){
+							for($j=0;$j<10;$j++){
 							?>
 							<li>
 								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
@@ -77,7 +77,7 @@
 						</ul>
 						<ul>
 							<?php
-							for($j=0;$j<5;$j++){
+							for($j=0;$j<10;$j++){
 							?>
 							<li>
 								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
@@ -116,7 +116,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							for($j=0;$j<5;$j++){
+							for($j=0;$j<10;$j++){
 							?>
 							<li>
 								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
@@ -127,7 +127,7 @@
 						</ul>
 						<ul>
 							<?php
-							for($j=0;$j<5;$j++){
+							for($j=0;$j<10;$j++){
 							?>
 							<li>
 								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
@@ -166,7 +166,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							for($j=0;$j<5;$j++){
+							for($j=0;$j<10;$j++){
 							?>
 							<li>
 								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
@@ -177,7 +177,7 @@
 						</ul>
 						<ul>
 							<?php
-							for($j=0;$j<5;$j++){
+							for($j=0;$j<10;$j++){
 							?>
 							<li>
 								<a href="<?=base_url('view/index/'.($j%2+1))?>"><h3>Can we get the Size of each page of Pdf using Php?</h3></a>
