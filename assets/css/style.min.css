@@ -328,11 +328,12 @@ a {
           padding: 0 10px;
           color: #747474; }
           .reader-tools-bar-wrap .main-container .reader-tools-bar .left a:hover {
-            background-color: #eee; }
+            background-color: #bbbbbb; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-prev {
           float: left; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-position {
-          float: left; }
+          float: left;
+          padding: 0 10px; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-next {
           float: left; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .right {
