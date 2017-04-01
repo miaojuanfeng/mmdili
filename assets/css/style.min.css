@@ -206,10 +206,12 @@ a {
       box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
       .category-container-wrap .category-container .category-title h1 {
         line-height: 25px;
-        color: #666;
         padding: 0;
+        color: #ccc;
         margin: 0;
         font: 16px/20px "微软雅黑"; }
+        .category-container-wrap .category-container .category-title h1 b {
+          color: #747474; }
     .category-container-wrap .category-container .category {
       border: 1px solid #eee;
       margin-bottom: 15px;
@@ -220,9 +222,9 @@ a {
         .category-container-wrap .category-container .category ul li {
           border-bottom: 1px dashed #eee; }
           .category-container-wrap .category-container .category ul li a {
-            color: #444;
+            color: #747474;
             display: block;
-            padding: 20px 10px; }
+            padding: 10px 10px; }
             .category-container-wrap .category-container .category ul li a h3 {
               margin: 0; }
             .category-container-wrap .category-container .category ul li a:hover {
