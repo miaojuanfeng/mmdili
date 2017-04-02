@@ -4,7 +4,7 @@
 	<title><?=$page['title']?> - mmdili</title>
 	<?php require_once 'meta_view.php' ?>
 	<script type="text/javascript" src="<?=base_url('assets/lib/js/flexpaper_flash_debug.js')?>"></script>
-	<script type="text/javascript" src="<?=base_url('assets/js/view.min.js')?>"></script>
+	<script type="text/javascript" src="<?=base_url('assets/js/view.js')?>"></script>
 </head>
 <body>
 	<?php require_once 'header_view.php' ?>
