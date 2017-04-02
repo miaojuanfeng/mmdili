@@ -29,7 +29,7 @@
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
 				?>
-					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px;">
+					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;'; ?>">
 						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>"></div>
 					</div>
 				<?php
