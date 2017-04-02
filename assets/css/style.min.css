@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .view-container {
-  width: 970px;
+  width: 960px;
   float: left;
   padding: 15px 0 0 0; }
   .view-container .cate-title {
@@ -197,7 +197,7 @@ a {
 .category-container-wrap {
   width: 1200px; }
   .category-container-wrap .category-container {
-    width: 970px;
+    width: 960px;
     float: left;
     padding-top: 15px; }
     .category-container-wrap .category-container .category-title {
@@ -255,7 +255,7 @@ a {
       color: #eee; }
 
 .view-container {
-  width: 970px;
+  width: 960px;
   float: left;
   padding: 15px 0 0 0; }
   .view-container .page-title {
@@ -321,7 +321,7 @@ a {
     margin: auto;
     line-height: 46px; }
     .reader-tools-bar-wrap .main-container .reader-tools-bar {
-      width: 970px; }
+      width: 960px; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .left {
         float: left; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .left a {
