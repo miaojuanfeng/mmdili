@@ -104,9 +104,8 @@ $(document).ready(function(){
 			var scrollTop = $(window).scrollTop();
 			var winHeight = $(window).height();
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
-			if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
+			if ( ( pageTop <= ( winHeight + pageHeight ) || ( pageTop - scrollTop ) < ( winHeight + pageHeight ) ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight * 2 + 2) ) ){
 				if( $(this).children('.pv').length == 1 ){
-					console.log('show');
 					get_page_data($(this).children('.pv').attr('id'), $(this).attr('page'));
 				}
 				console.log($(this).attr('id')+"在可视范围");
