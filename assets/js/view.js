@@ -31,7 +31,7 @@ $(document).ready(function(){
 		// new FlexPaperViewer(page_swf, elem_id, {config: config});
 		swfobject.embedSWF(
 			page_swf, 
-			elem_id, page_width - 20, page_height - 20, "10.0.0", 
+			elem_id, page_width, page_height, "10.0.0", 
 			"expressInstall.swf", 
 			flashvars, params, attributes);
 	}
@@ -106,7 +106,7 @@ $(document).ready(function(){
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
 			if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
 				if( $(this).children().length == 0 ){
-					get_page_data($(this).attr('id'), $(this).attr('page'));
+					get_page_data($(this).children('pv').attr('id'), $(this).attr('page'));
 				}
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
