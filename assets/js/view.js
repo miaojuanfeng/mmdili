@@ -22,8 +22,8 @@ $(document).ready(function(){
 	var page_swf = page_elem.attr('page-swf');
 	var page_data = page_elem.attr('page-data');
 	// var page_num = page_elem.attr('page-num');
-	// var page_width = page_elem.attr('page-width');
-	// var page_height = page_elem.attr('page-height');
+	var page_width = page_elem.attr('page-width');
+	var page_height = page_elem.attr('page-height');
 	// var page_curr = 1;
 
 	function get_page_data(elem_id, page_no){
@@ -31,7 +31,7 @@ $(document).ready(function(){
 		// new FlexPaperViewer(page_swf, elem_id, {config: config});
 		swfobject.embedSWF(
 			page_swf, 
-			elem_id, "100%", "100%", "10.0.0", 
+			elem_id, page_width, page_height, "10.0.0", 
 			"expressInstall.swf", 
 			flashvars, params, attributes);
 	}
