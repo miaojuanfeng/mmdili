@@ -115,10 +115,11 @@ $(document).ready(function(){
 			}else{
 				if( $(this).children().length > 0 ){
 					$(this).children().remove();
+					var page_id = $(this).attr('page');
 					var pv_new = document.createElement('div');
 					pv_new.className = 'pv';
-					pv_new.id = 'pv_'+page_curr;
-					pv_new.setAttribute('page', page_curr);
+					pv_new.id = 'pv_' + page_id;
+					pv_new.setAttribute('page', page_id);
 					$(this).append(pv_new);
 				}
 				console.log($(this).attr('id')+"不在可视范围");
