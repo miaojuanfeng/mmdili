@@ -37,8 +37,8 @@ class View extends CI_Controller {
 		$data['page']['swf'] = 'http://mmview.oss-cn-shanghai.aliyuncs.com/pv';
 		$data['page']['data'] = 'http://mmview.oss-cn-shanghai.aliyuncs.com/'.$detail['user_url'].'/'.$view_id.'/';
 		$data['page']['num'] = $detail['doc_page_num'];
-		$data['page']['width'] = 958;
-		$data['page']['height'] = intval((958/$detail['doc_width'])*$detail['doc_height']);
+		$data['page']['width'] = 960;
+		$data['page']['height'] = intval((960/$detail['doc_width'])*$detail['doc_height']);
 		$data['page']['title'] = $detail['doc_title'];
 		$file_name = 'sjdl.doc';
 		// $data['page']['init'] = ( $data['page']['num'] < 3 ) ? $data['page']['num'] : 3;
