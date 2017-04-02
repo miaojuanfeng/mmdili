@@ -27,7 +27,7 @@
 				for($i=1;$i<=$page['num'];$i++){
 				?>
 					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px;">
-						<div class="pv" id="pv_<?=$i?>">
+						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>">
 							<h1>pv</h1>
 							<p><a href="http://www.adobe.com/go/getflashplayer">Get Adobe Flash player</a></p>
 						</div>
