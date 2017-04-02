@@ -97,7 +97,7 @@ $(document).ready(function(){
 	    }
 	}
 
-	$(window).scroll(debounce(function(){
+	$(window).scroll(throttle(function(){
 		$('.page').each(function(){
 			var pageTop = $(this).offset().top;
 			var pageHeight = $(this).height();
