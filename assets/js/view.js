@@ -31,7 +31,7 @@ $(document).ready(function(){
 		// new FlexPaperViewer(page_swf, elem_id, {config: config});
 		swfobject.embedSWF(
 			page_swf, 
-			elem_id, page_width, page_height, "10.0.0", 
+			elem_id, page_width - 20, page_height - 20, "10.0.0", 
 			"expressInstall.swf", 
 			flashvars, params, attributes);
 	}
