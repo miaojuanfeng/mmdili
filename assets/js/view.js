@@ -1,8 +1,22 @@
 $(document).ready(function(){
-	var config = {
-		 FitPageOnLoad : true,
-		 FitWidthOnLoad : true,
-		 InitViewMode : 'Portrait'
+	// var config = {
+	// 	 FitPageOnLoad : true,
+	// 	 FitWidthOnLoad : true,
+	// 	 InitViewMode : 'Portrait'
+	// };
+	var flashvars = {
+		data: "http://mmview.oss-cn-shanghai.aliyuncs.com/1490168888/1490716936/1"
+	};
+	var params = {
+		menu: "false",
+		scale: "noScale",
+		allowFullscreen: "true",
+		allowScriptAccess: "always",
+		bgcolor: "",
+		wmode: "direct" // can cause issues with FP settings & webcam
+	};
+	var attributes = {
+		id:"pv"
 	};
 	var page_elem = $('.more-page a');
 	var page_swf = page_elem.attr('page-swf');
@@ -13,8 +27,13 @@ $(document).ready(function(){
 	// var page_curr = 1;
 
 	function get_page_data(elem_id, page_no){
-		config.SwfFile = (page_data+page_no);
-		new FlexPaperViewer(page_swf, elem_id, {config: config});
+		// config.SwfFile = (page_data+page_no);
+		// new FlexPaperViewer(page_swf, elem_id, {config: config});
+		swfobject.embedSWF(
+			page_swf, 
+			elem_id, "100%", "100%", "10.0.0", 
+			"expressInstall.swf", 
+			flashvars, params, attributes);
 	}
 
 	// $('.page').each(function(){
