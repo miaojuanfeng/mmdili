@@ -109,7 +109,7 @@ $(document).ready(function(){
 			if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
 				//if( $(this).children().length == 0 ){
 					console.log('show');
-					get_page_data($(this).children('pv').attr('id'), $(this).attr('page'));
+					get_page_data($(this).children('.pv').attr('id'), $(this).attr('page'));
 				//}
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
