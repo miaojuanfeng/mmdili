@@ -59,7 +59,7 @@
 						<li>list</li>
 					</ul>
 				</div>
-				<div style="display: flex;">
+				<div style="display: flex; margin-bottom: 15px;">
 					<img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" />
 				</div>
 				<div class="relative-container">
