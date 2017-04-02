@@ -34,6 +34,7 @@ $(document).ready(function(){
 			elem_id, page_width, page_height, "10.0.0", 
 			"expressInstall.swf", 
 			flashvars, params, attributes);
+		console.log('get');
 	}
 
 	// $('.page').each(function(){
@@ -106,6 +107,7 @@ $(document).ready(function(){
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
 			if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
 				//if( $(this).children().length == 0 ){
+					console.log('show');
 					get_page_data($(this).children('pv').attr('id'), $(this).attr('page'));
 				//}
 				console.log($(this).attr('id')+"在可视范围");
