@@ -29,17 +29,8 @@
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
 				?>
-					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;'; if( $i == 2 ) echo 'min-height:'.(90+$page['height']).'px'; ?>">
+					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;'; ?>">
 						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>"></div>
-						<?php
-							if( $i == 2 ){
-						?>
-							<div style="display: flex;">
-								<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
-							</div>
-						<?php
-							}
-						?>
 					</div>
 				<?php
 					if( $i == 1 ){
