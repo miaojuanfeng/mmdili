@@ -293,9 +293,9 @@ a {
         background-color: rgba(102, 102, 102, 0.1); }
 
 .recommend-container {
-  width: 200px;
+  width: 230px;
   float: right;
-  padding: 16px 0 0 15px; }
+  padding: 16px 0 0 0; }
   .recommend-container .relative-container .relative-title {
     padding: 10px 0; }
     .recommend-container .relative-container .relative-title h1 {
