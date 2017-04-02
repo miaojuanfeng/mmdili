@@ -107,15 +107,20 @@ $(document).ready(function(){
 			var winHeight = $(window).height();
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
 			if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
-				//if( $(this).children().length == 0 ){
+				if( $(this).children('.pv').length == 0 ){
 					console.log('show');
 					get_page_data($(this).children('.pv').attr('id'), $(this).attr('page'));
-				//}
+				}
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
-				//if( $(this).children().length > 0 ){
-				//	$(this).children().remove();
-				//}
+				if( $(this).children().length > 0 ){
+					$(this).children().remove();
+					var pv_new = document.createElement('div');
+					pv_new.className = 'pv';
+					pv_new.id = 'pv_'+page_curr;
+					pv_new.setAttribute('page', page_curr);
+					$(this).append(pv_new);
+				}
 				console.log($(this).attr('id')+"不在可视范围");
 			}
 		});
