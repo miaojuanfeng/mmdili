@@ -24,7 +24,7 @@
 				}
 				?>
 				<div>
-					<img src="<?=base_url('assets/img/view_add_1.jpg')?>" width="960" />
+					<img src="<?=base_url('assets/img/view_ad_1.jpg')?>" width="960" />
 				</div>
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
@@ -36,7 +36,7 @@
 					if( $i == 1 ){
 				?>
 					<div>
-						<img src="<?=base_url('assets/img/view_add_2.jpg')?>" width="960" />
+						<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 					</div>
 				<?php
 					}
@@ -60,7 +60,7 @@
 					</ul>
 				</div>
 				<div>
-					<img src="<?=base_url('assets/img/right_add_1.jpg')?>" width="225" />
+					<img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="225" />
 				</div>
 				<div class="relative-container">
 					<div class="relative-title">
