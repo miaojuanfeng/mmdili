@@ -107,7 +107,7 @@ $(document).ready(function(){
 			var winHeight = $(window).height();
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
 			if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
-				if( $(this).children('.pv').length == 0 ){
+				if( $(this).children('.pv').length == 1 ){
 					console.log('show');
 					get_page_data($(this).children('.pv').attr('id'), $(this).attr('page'));
 				}
