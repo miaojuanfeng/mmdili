@@ -23,6 +23,9 @@
 				<?php
 				}
 				?>
+				<div>
+					<img src="<?=base_url('assets/img/view_add_1.jpg')?>" width="960" />
+				</div>
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
 				?>
@@ -30,6 +33,13 @@
 						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>"></div>
 					</div>
 				<?php
+					if( $i == 1 ){
+				?>
+					<div>
+						<img src="<?=base_url('assets/img/view_add_2.jpg')?>" width="960" />
+					</div>
+				<?php
+					}
 				}
 				?>
 				<div class="more-page" style="display:none;">
@@ -48,6 +58,9 @@
 						<li>list</li>
 						<li>list</li>
 					</ul>
+				</div>
+				<div>
+					<img src="<?=base_url('assets/img/right_add_1.jpg')?>" width="225" />
 				</div>
 				<div class="relative-container">
 					<div class="relative-title">
