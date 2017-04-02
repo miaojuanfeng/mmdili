@@ -34,7 +34,8 @@ $(document).ready(function(){
 			elem_id, page_width, page_height, "10.0.0", 
 			"expressInstall.swf", 
 			flashvars, params, attributes);
-		console.log('get');
+		console.log(elem_id);
+		console.log(page_no);
 	}
 
 	// $('.page').each(function(){
