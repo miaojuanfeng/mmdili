@@ -105,14 +105,14 @@ $(document).ready(function(){
 			var winHeight = $(window).height();
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
 			if ( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
-				if( $(this).children().length == 0 ){
+				//if( $(this).children().length == 0 ){
 					get_page_data($(this).children('pv').attr('id'), $(this).attr('page'));
-				}
+				//}
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
-				if( $(this).children().length > 0 ){
-					$(this).children().remove();
-				}
+				//if( $(this).children().length > 0 ){
+				//	$(this).children().remove();
+				//}
 				console.log($(this).attr('id')+"不在可视范围");
 			}
 		});
