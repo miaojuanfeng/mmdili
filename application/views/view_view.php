@@ -29,13 +29,13 @@
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
 				?>
-					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;'; ?>">
+					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;margin-bottom:10px;'; ?>">
 						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>"></div>
 					</div>
 				<?php
 					if( $i == 1 ){
 				?>
-					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 15px;">
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
 						<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 					</div>
 				<?php
