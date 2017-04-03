@@ -110,8 +110,8 @@ $(document).ready(function(){
 				}
 				console.log($(this).attr('id')+"在可视范围");
 			}else{
-				if( $(this).children('.pv').length > 0 ){
-					$(this).children('.pv').remove();
+				if( $(this).children().length > 0 ){
+					$(this).children().remove();
 					var page_id = $(this).attr('page');
 					var pv_new = document.createElement('div');
 					pv_new.className = 'pv';
