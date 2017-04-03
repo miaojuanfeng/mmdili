@@ -42,7 +42,9 @@
 						</ul>
 						<div class="clearfix"></div>
 					</div>
-					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+						<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+					</div>
 				</div>
 				<div class="recommend-container">
 					<div class="relative-container">
@@ -97,7 +99,9 @@
 						</ul>
 						<div class="clearfix"></div>
 					</div>
-					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+						<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+					</div>
 				</div>
 				<div class="recommend-container">
 					<div class="relative-container">
@@ -154,7 +158,9 @@
 						</ul>
 						<div class="clearfix"></div>
 					</div>
-					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+						<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+					</div>
 				</div>
 				<div class="recommend-container">
 					<div class="relative-container">
@@ -211,7 +217,9 @@
 						</ul>
 						<div class="clearfix"></div>
 					</div>
-					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+						<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+					</div>
 				</div>
 				<div class="recommend-container">
 					<div class="relative-container">
