@@ -12,6 +12,7 @@
 				<div class="cate-title">
 					<h1><b><?=$cate['title']?></b> 分类下的所有文档</h1>
 				</div>
+				<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 				<div class="cate">
 					<ul>
 						<?php
@@ -39,6 +40,9 @@
 						<li>list</li>
 					</ul>
 				</div>
+				<div style="display: flex;">
+					<img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" />
+				</div>
 				<div class="relative-container">
 					<div class="relative-title">
 						<h1>Title</h1>
@@ -50,6 +54,9 @@
 						<li>list</li>
 						<li>list</li>
 					</ul>
+				</div>
+				<div style="display: flex;">
+					<img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" />
 				</div>
 				<div class="relative-container">
 					<div class="relative-title">
