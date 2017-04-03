@@ -62,6 +62,9 @@
 				</div>
 				<div class="clearfix"></div>
 			</div>
+			<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+				<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+			</div>
 			<div class="category-container-wrap">
 				<div class="category-container">
 					<div class="category-title">
@@ -116,6 +119,9 @@
 				</div>
 				<div class="clearfix"></div>
 			</div>
+			<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+				<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+			</div>
 			<div class="category-container-wrap">
 				<div class="category-container">
 					<div class="category-title">
@@ -169,6 +175,9 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
+			</div>
+			<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+				<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 			</div>
 			<div class="category-container-wrap">
 				<div class="category-container">
