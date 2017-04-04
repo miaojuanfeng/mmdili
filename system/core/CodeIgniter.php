@@ -402,6 +402,9 @@ if ( ! is_php('5.4'))
 	$class = ucfirst($RTR->class);
 	$method = $RTR->method;
 
+/*
+ *	MJF Done at 20170405
+ */
 	var_dump($class);
 	var_dump($method);
 
@@ -415,6 +418,9 @@ if ( ! is_php('5.4'))
 
 	var_dump($class);
 	var_dump($method);
+/*
+ *	MJF Done at 20170405
+ */
 
 	if (empty($class) OR ! file_exists(APPPATH.'controllers/'.$RTR->directory.$class.'.php'))
 	{
@@ -511,7 +517,21 @@ if ( ! is_php('5.4'))
 
 	if ($method !== '_remap')
 	{
-		$params = array_slice($URI->rsegments, 2);
+/*
+ *	MJF Done at 20170405
+ */
+		// $params = array_slice($URI->rsegments, 2);
+		switch ($class) {
+			case 'View':
+				$params = array_slice($URI->rsegments, 1);
+				break;
+			default:
+				$params = array_slice($URI->rsegments, 2);
+				break;
+		}
+/*
+ *	MJF Done at 20170405
+ */
 	}
 
 /*
