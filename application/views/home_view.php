@@ -20,7 +20,7 @@
 								if( !($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
+								<a href="<?=base_url('view/'.($value['doc_url']))?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
 								}
@@ -33,7 +33,7 @@
 								if( ($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
+								<a href="<?=base_url('view/'.($value['doc_url']))?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
 								}
@@ -77,7 +77,7 @@
 								if( !($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
+								<a href="<?=base_url('view/'.($value['doc_url']))?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
 								}
@@ -90,7 +90,7 @@
 								if( ($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
+								<a href="<?=base_url('view/'.($value['doc_url']))?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
 								}
@@ -136,7 +136,7 @@
 								if( !($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
+								<a href="<?=base_url('view/'.($value['doc_url']))?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
 								}
@@ -149,7 +149,7 @@
 								if( ($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
+								<a href="<?=base_url('view/'.($value['doc_url']))?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
 								}
@@ -195,7 +195,7 @@
 								if( !($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
+								<a href="<?=base_url('view/'.($value['doc_url']))?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
 								}
@@ -208,7 +208,7 @@
 								if( ($key % 2) ){
 							?>
 							<li>
-								<a href="<?=base_url('view/index/'.($value['doc_url']))?>"><h3><?=$value['doc_title']?></h3></a>
+								<a href="<?=base_url('view/'.($value['doc_url']))?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
 							</li>
 							<?php
 								}

@@ -405,19 +405,20 @@ if ( ! is_php('5.4'))
 /*
  *	MJF Done at 20170405
  */
-	var_dump($class);
-	var_dump($method);
+	// var_dump($class);
+	// var_dump($method);
 
 	switch ($class) {
 		case 'View':
+		case 'Cate':
 			$method = 'index';
 			break;
 		default:
 			break;
 	}
 
-	var_dump($class);
-	var_dump($method);
+	// var_dump($class);
+	// var_dump($method);
 /*
  *	MJF Done at 20170405
  */
@@ -523,6 +524,7 @@ if ( ! is_php('5.4'))
 		// $params = array_slice($URI->rsegments, 2);
 		switch ($class) {
 			case 'View':
+			case 'Cate':
 				$params = array_slice($URI->rsegments, 1);
 				break;
 			default:
