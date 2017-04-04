@@ -74,6 +74,9 @@
 						<li>list</li>
 					</ul>
 				</div>
+				<div style="display: flex;">
+					<img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" />
+				</div>
 				<div class="relative-container">
 					<div class="relative-title">
 						<h1>Title</h1>
@@ -99,7 +102,7 @@
 					<div class="page-position">
 						<span class="page-curr">1</span>
 						/
-						<span class="page-num">7</span>
+						<span class="page-num"><?=$page['num']?></span>
 					</div>
 					<a class="page-next" href="javascript:;">下一页 ></a>
 				</div>
