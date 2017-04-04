@@ -405,6 +405,17 @@ if ( ! is_php('5.4'))
 	var_dump($class);
 	var_dump($method);
 
+	switch ($class) {
+		case 'View':
+			$method = 'index';
+			break;
+		default:
+			break;
+	}
+
+	var_dump($class);
+	var_dump($method);
+
 	if (empty($class) OR ! file_exists(APPPATH.'controllers/'.$RTR->directory.$class.'.php'))
 	{
 		$e404 = TRUE;
