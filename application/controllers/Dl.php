@@ -35,6 +35,7 @@ class Dl extends CI_Controller {
 		if( !($file_url = $this->dl_model->get_url($doc_url)) ){
 			header('Location:'.base_url());
 		}
+		header("Content-Type:application/octet-stream");
 		header('Location:'.$file_url);
 	}
 }
