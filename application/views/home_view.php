@@ -16,7 +16,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							foreach($doc['new'][1] as $key => $value){
+							foreach($doc['cate'][1] as $key => $value){
 								if( !($key % 2) ){
 							?>
 							<li>
@@ -29,7 +29,7 @@
 						</ul>
 						<ul>
 							<?php
-							foreach($doc['new'][1] as $key => $value){
+							foreach($doc['cate'][1] as $key => $value){
 								if( ($key % 2) ){
 							?>
 							<li>
@@ -53,7 +53,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							foreach($doc['new'][2] as $key => $value){
+							foreach($doc['cate'][2] as $key => $value){
 								if( !($key % 2) ){
 							?>
 							<li>
@@ -66,7 +66,7 @@
 						</ul>
 						<ul>
 							<?php
-							foreach($doc['new'][2] as $key => $value){
+							foreach($doc['cate'][2] as $key => $value){
 								if( ($key % 2) ){
 							?>
 							<li>
@@ -90,7 +90,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							foreach($doc['new'][3] as $key => $value){
+							foreach($doc['cate'][3] as $key => $value){
 								if( !($key % 2) ){
 							?>
 							<li>
@@ -103,7 +103,7 @@
 						</ul>
 						<ul>
 							<?php
-							foreach($doc['new'][3] as $key => $value){
+							foreach($doc['cate'][3] as $key => $value){
 								if( ($key % 2) ){
 							?>
 							<li>
@@ -127,7 +127,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							foreach($doc['new'][4] as $key => $value){
+							foreach($doc['cate'][4] as $key => $value){
 								if( !($key % 2) ){
 							?>
 							<li>
@@ -140,7 +140,7 @@
 						</ul>
 						<ul>
 							<?php
-							foreach($doc['new'][4] as $key => $value){
+							foreach($doc['cate'][4] as $key => $value){
 								if( ($key % 2) ){
 							?>
 							<li>

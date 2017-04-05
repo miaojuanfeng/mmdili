@@ -27,7 +27,7 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$data['doc']['new'] = $this->home_model->get_new_doc();
+		$data['doc']['cate'] = $this->home_model->get_new_doc();
 		//
 		$data['doc']['new'] = $this->home_model->get_new();
 		$data['doc']['hot'] = $this->home_model->get_hot();
