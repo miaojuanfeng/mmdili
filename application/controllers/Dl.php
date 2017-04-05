@@ -37,6 +37,10 @@ class Dl extends CI_Controller {
 			header('Location:'.base_url());
 			return;
 		}
+		$doc_url = $file['doc_url'];
+        $user_url = $file['user_url'];
+        $doc_title = $file['doc_title'];
+        $doc_ext_name = $file['doc_ext_name'];
 		Header("Content-type: application/octet-stream"); 
         Header("Accept-Ranges: bytes"); 
         // Header("Accept-Length:".$file_size);
