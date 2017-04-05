@@ -31,7 +31,7 @@
         .view-container .cate ul li a .page_num {
           float: right;
           font-weight: normal;
-          color: #eee; }
+          color: #ccc; }
         .view-container .cate ul li a:hover {
           background-color: rgba(102, 102, 102, 0.1); }
       .view-container .cate ul li:last-child {
