@@ -307,6 +307,10 @@ a {
   .recommend-container .relative-container ul li {
     padding: 11px 0 12px 0;
     border-top: 1px solid #eee; }
+    .recommend-container .relative-container ul li a {
+      color: #747474; }
+      .recommend-container .relative-container ul li a:hover {
+        text-decoration: underline; }
 
 .reader-tools-bar-wrap {
   width: 100%;
