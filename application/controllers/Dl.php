@@ -31,9 +31,11 @@ class Dl extends CI_Controller {
 	{
 		if( empty($doc_url) || !($doc_url = $this->mcrypt->decode($doc_url)) ){
 			header('Location:'.base_url());
+			return;
 		}
 		if( !($file = $this->dl_model->get_url($doc_url)) ){
 			header('Location:'.base_url());
+			return;
 		}
 		Header("Content-type: application/octet-stream"); 
         Header("Accept-Ranges: bytes"); 
