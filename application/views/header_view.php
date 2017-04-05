@@ -4,19 +4,19 @@
 		<div class="menu">
 			<ul>
 				<li>
-					<a href="<?=base_url()?>">Home</a>
+					<a href="<?=base_url()?>">首页</a>
 				</li>
 				<li>
-					<a href="<?=base_url('cate/dili')?>">DiLi</a>
+					<a href="<?=base_url('cate/dili')?>">地理</a>
 				</li>
 				<li>
-					<a href="<?=base_url('cate/lishi')?>">LiShi</a>
+					<a href="<?=base_url('cate/lishi')?>">历史</a>
 				</li>
 				<li>
-					<a href="<?=base_url('cate/zhengzhi')?>">ZhengZhi</a>
+					<a href="<?=base_url('cate/zhengzhi')?>">政治</a>
 				</li>
 				<li>
-					<a href="<?=base_url('cate/wenzong')?>">WenZong</a>
+					<a href="<?=base_url('cate/wenzong')?>">文综</a>
 					<!-- <a class="menu-icon" href="#">Documents</a> -->
 				</li>
 			</ul>
@@ -24,13 +24,13 @@
 		<div class="login">
 			<ul>
 				<li>
-					<a id="login-act" href="#">Login</a>
+					<a id="login-act" href="#">登录</a>
 				</li>
 				<li>
-					or
+					或
 				</li>
 				<li>
-					<a href="#">Sign in</a>
+					<a href="#">注册/a>
 				</li>
 			</ul>
 			<div class="login-form">

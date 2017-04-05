@@ -2,10 +2,10 @@
 	<div class="main-container">
 		<ul>
 			<li>
-				<a href="javasctip:;">About</a>
+				<a href="javasctip:;">关于缪缪</a>
 			</li>
 			<li>
-				<a href="javasctip:;">Contact</a>
+				<a href="javasctip:;">联络缪缪</a>
 			</li>
 		</ul>	
 		<div class="clearfix"></div>
