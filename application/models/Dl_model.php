@@ -31,7 +31,7 @@ class dl_model extends CI_Model{
             $user_url = $rs['user_url'];
             $doc_title = $rs['doc_title'];
             $doc_ext_name = $rs['doc_ext_name'];
-            return 'http://mmview.oss-cn-shanghai.aliyuncs.com/'.$user_url.'/'.date('Y', $doc_url).'/'.$doc_title.'.'.$doc_ext_name;
+            return 'http://mmview.oss-cn-shanghai.aliyuncs.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
         }
     	return false;
     }
