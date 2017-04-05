@@ -105,7 +105,7 @@ $(document).ready(function(){
 			var winHeight = $(window).height();
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
 			if( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
-				$('.page-curr').html($(this).attr('page'));
+				$('#jump_page').val($(this).attr('page'));
 			}
 			if ( ( pageTop <= ( winHeight + pageHeight ) || ( pageTop - scrollTop ) < ( winHeight + pageHeight ) ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight * 2 + 2) ) ){
 				if( $(this).children('.pv').length == 1 ){
