@@ -35,7 +35,7 @@ class view_model extends CI_Model{
     public function get_new(){
         $query = $this->db->query("SELECT 
             doc_url, 
-            doc_title, 
+            doc_title 
             FROM m_doc 
             WHERE doc_deleted = 0 
             ORDER BY doc_id DESC LIMIT 5");
@@ -45,7 +45,7 @@ class view_model extends CI_Model{
     public function get_hot(){
         $query = $this->db->query("SELECT 
             doc_url, 
-            doc_title, 
+            doc_title 
             FROM m_doc 
             WHERE doc_deleted = 0 
             ORDER BY RAND() LIMIT 5");
@@ -55,7 +55,7 @@ class view_model extends CI_Model{
     public function get_rand(){
         $query = $this->db->query("SELECT 
             doc_url, 
-            doc_title, 
+            doc_title 
             FROM m_doc 
             WHERE doc_deleted = 0 
             ORDER BY RAND() LIMIT 5");
