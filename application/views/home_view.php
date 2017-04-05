@@ -161,17 +161,20 @@
 			<div class="recommend-container">
 				<div class="relative-container">
 					<div class="relative-title">
-						<h1>推荐的文档</h1>
+						<h1>最新发布的</h1>
 					</div>
 					<ul>
 						<?php
-						foreach ($doc['hot'][1] as $key => $value) {
+						foreach ($doc['new'][1] as $key => $value) {
 						?>
 						<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
 						<?php
 						}
 						?>
 					</ul>
+				</div>
+				<div style="display: flex;">
+					<img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" />
 				</div>
 				<div class="relative-container">
 					<div class="relative-title">
@@ -187,13 +190,16 @@
 						?>
 					</ul>
 				</div>
+				<div style="display: flex;">
+					<img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" />
+				</div>
 				<div class="relative-container">
 					<div class="relative-title">
-						<h1>推荐的文档</h1>
+						<h1>大家都在看</h1>
 					</div>
 					<ul>
 						<?php
-						foreach ($doc['hot'][4] as $key => $value) {
+						foreach ($doc['rand'][4] as $key => $value) {
 						?>
 						<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
 						<?php

@@ -28,7 +28,11 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$data['doc']['new'] = $this->home_model->get_new_doc();
-		$data['doc']['hot'] = $this->home_model->get_hot();
+		//
+		$data['doc']['new'] = $this->view_model->get_new();
+		$data['doc']['hot'] = $this->view_model->get_hot();
+		$data['doc']['rand'] = $this->view_model->get_rand();
+		//
 		$this->load->view('home_view', $data);
 	}
 }
