@@ -46,7 +46,11 @@ class View extends CI_Controller {
 		// $data['page']['more'] = ( $data['page']['num'] - 3 ) > 0 ? ( $data['page']['num'] - 3 ) : 0;
 		$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];;
 		//
-		$data['dl']['download'] = $this->mcrypt->encode($view_id);
+		$data['page']['dl'] = $this->mcrypt->encode($view_id);
+		//
+		$data['page']['new'] = $this->view_model->get_new();
+		$data['page']['hot'] = $this->view_model->get_hot();
+		$data['page']['rand'] = $this->view_model->get_rand();
 		//
 		$this->load->view('view_view', $data);
 	}

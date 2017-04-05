@@ -54,11 +54,13 @@
 						<h1>最新发布的</h1>
 					</div>
 					<ul>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
+						<?php
+						foreach ($page['new'] as $key => $value) {
+						?>
+						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<?php
+						}
+						?>
 					</ul>
 				</div>
 				<div style="display: flex;">
@@ -69,11 +71,13 @@
 						<h1>推荐的文档</h1>
 					</div>
 					<ul>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
+						<?php
+						foreach ($page['hot'] as $key => $value) {
+						?>
+						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<?php
+						}
+						?>
 					</ul>
 				</div>
 				<div style="display: flex;">
@@ -84,11 +88,13 @@
 						<h1>大家都在看</h1>
 					</div>
 					<ul>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
+						<?php
+						foreach ($page['rand'] as $key => $value) {
+						?>
+						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<?php
+						}
+						?>
 					</ul>
 				</div>
 			</div>
@@ -110,7 +116,7 @@
 				</div>
 				<div class="center"></div>
 				<div class="right">
-					<div class="download"><a href="<?=base_url('dl/'.$dl['download'])?>" target="_blank">下载此文档</a></div>
+					<div class="download"><a href="<?=base_url('dl/'.$page['dl'])?>" target="_blank">下载此文档</a></div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
