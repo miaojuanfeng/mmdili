@@ -194,46 +194,48 @@ a {
               .header .login .login-form .login-form-body .form-signin .login-link a:hover {
                 color: #aaaaaa; }
 
-.home-container .category-container {
-  width: 962px;
-  padding-top: 15px; }
-  .home-container .category-container .category-title {
-    padding: 10px;
-    border: 1px solid #eee;
-    border-bottom: none;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
-    .home-container .category-container .category-title h1 {
-      line-height: 25px;
-      padding: 0;
-      color: #ccc;
-      margin: 0;
-      font: 16px/20px "微软雅黑"; }
-      .home-container .category-container .category-title h1 b {
-        color: #747474; }
-  .home-container .category-container .category {
-    border: 1px solid #eee;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
-    .home-container .category-container .category ul {
-      width: 50%;
-      float: left;
-      min-height: 335px; }
-      .home-container .category-container .category ul li {
-        border-bottom: 1px dashed #eee; }
-        .home-container .category-container .category ul li a {
-          color: #747474;
-          display: block;
-          padding: 10px 10px; }
-          .home-container .category-container .category ul li a h3 {
-            margin: 0;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            font-weight: normal;
-            font-size: 14px; }
-          .home-container .category-container .category ul li a:hover {
-            background-color: rgba(102, 102, 102, 0.1); }
-        .home-container .category-container .category ul li:last-child {
-          border-bottom: none; }
+.home-container {
+  float: left; }
+  .home-container .category-container {
+    width: 962px;
+    padding-top: 15px; }
+    .home-container .category-container .category-title {
+      padding: 10px;
+      border: 1px solid #eee;
+      border-bottom: none;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
+      .home-container .category-container .category-title h1 {
+        line-height: 25px;
+        padding: 0;
+        color: #ccc;
+        margin: 0;
+        font: 16px/20px "微软雅黑"; }
+        .home-container .category-container .category-title h1 b {
+          color: #747474; }
+    .home-container .category-container .category {
+      border: 1px solid #eee;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
+      .home-container .category-container .category ul {
+        width: 50%;
+        float: left;
+        min-height: 335px; }
+        .home-container .category-container .category ul li {
+          border-bottom: 1px dashed #eee; }
+          .home-container .category-container .category ul li a {
+            color: #747474;
+            display: block;
+            padding: 10px 10px; }
+            .home-container .category-container .category ul li a h3 {
+              margin: 0;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              font-weight: normal;
+              font-size: 14px; }
+            .home-container .category-container .category ul li a:hover {
+              background-color: rgba(102, 102, 102, 0.1); }
+          .home-container .category-container .category ul li:last-child {
+            border-bottom: none; }
 
 .menu ul li {
   float: left;
