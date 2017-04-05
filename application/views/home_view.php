@@ -49,17 +49,16 @@
 				<div class="recommend-container">
 					<div class="relative-container">
 						<div class="relative-title">
-							<h1>Title</h1>
+							<h1>推荐的文档</h1>
 						</div>
 						<ul>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
+							<?php
+							foreach ($doc['hot'][1] as $key => $value) {
+							?>
+							<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
+							<?php
+							}
+							?>
 						</ul>
 					</div>
 				</div>
@@ -106,19 +105,16 @@
 				<div class="recommend-container">
 					<div class="relative-container">
 						<div class="relative-title">
-							<h1>Title</h1>
+							<h1>推荐的文档</h1>
 						</div>
 						<ul>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
+							<?php
+							foreach ($doc['hot'][2] as $key => $value) {
+							?>
+							<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
+							<?php
+							}
+							?>
 						</ul>
 					</div>
 				</div>
@@ -165,19 +161,16 @@
 				<div class="recommend-container">
 					<div class="relative-container">
 						<div class="relative-title">
-							<h1>Title</h1>
+							<h1>推荐的文档</h1>
 						</div>
 						<ul>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
+							<?php
+							foreach ($doc['hot'][3] as $key => $value) {
+							?>
+							<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
+							<?php
+							}
+							?>
 						</ul>
 					</div>
 				</div>
@@ -224,19 +217,16 @@
 				<div class="recommend-container">
 					<div class="relative-container">
 						<div class="relative-title">
-							<h1>Title</h1>
+							<h1>推荐的文档</h1>
 						</div>
 						<ul>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
-							<li>list</li>
+							<?php
+							foreach ($doc['hot'][4] as $key => $value) {
+							?>
+							<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
+							<?php
+							}
+							?>
 						</ul>
 					</div>
 				</div>

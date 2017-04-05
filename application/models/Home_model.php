@@ -25,4 +25,41 @@ class home_model extends CI_Model{
         $retval[4] = $query->result_array();
         return $retval;
     }
+
+    public function get_hot($cate_id){
+        $retval = array();
+        $query = $this->db->query("SELECT 
+            doc_url, 
+            doc_title 
+            FROM m_doc 
+            WHERE doc_deleted = 0 
+            AND doc_cate_id = 1 
+            ORDER BY RAND() LIMIT 10");
+        $retval[1] = $query->result_array();
+        $query = $this->db->query("SELECT 
+            doc_url, 
+            doc_title 
+            FROM m_doc 
+            WHERE doc_deleted = 0 
+            AND doc_cate_id = 2 
+            ORDER BY RAND() LIMIT 10");
+        $retval[2] = $query->result_array();
+        $query = $this->db->query("SELECT 
+            doc_url, 
+            doc_title 
+            FROM m_doc 
+            WHERE doc_deleted = 0 
+            AND doc_cate_id = 3 
+            ORDER BY RAND() LIMIT 10");
+        $retval[3] = $query->result_array();
+        $query = $this->db->query("SELECT 
+            doc_url, 
+            doc_title 
+            FROM m_doc 
+            WHERE doc_deleted = 0 
+            AND doc_cate_id = 4 
+            ORDER BY RAND() LIMIT 10");
+        $retval[4] = $query->result_array();
+        return $retval;
+    }
 }

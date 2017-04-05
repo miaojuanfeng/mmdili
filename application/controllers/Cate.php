@@ -51,7 +51,6 @@ class Cate extends CI_Controller {
 		$data['cate']['title'] = $cate_title;
 		$data['cate']['doc'] = $this->cate_model->get_list($cate_id);
 		//
-		$data['cate']['new'] = $this->cate_model->get_new($cate_id);
 		$data['cate']['hot'] = $this->cate_model->get_hot($cate_id);
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);
 		//

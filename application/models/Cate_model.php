@@ -18,17 +18,6 @@ class cate_model extends CI_Model{
     	return $query->result_array();
     }
 
-    public function get_new($cate_id){
-        $query = $this->db->query("SELECT 
-            doc_url, 
-            doc_title 
-            FROM m_doc 
-            WHERE doc_deleted = 0 
-            AND doc_cate_id = ".$cate_id." 
-            ORDER BY doc_id DESC LIMIT 5");
-        return $query->result_array();
-    }
-
     public function get_hot($cate_id){
         $query = $this->db->query("SELECT 
             doc_url, 
