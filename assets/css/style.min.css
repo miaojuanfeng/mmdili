@@ -230,11 +230,17 @@ a {
               margin: 0;
               white-space: nowrap;
               overflow: hidden;
-              text-overflow: ellipsis; }
+              text-overflow: ellipsis;
+              font-weight: normal; }
             .category-container-wrap .category-container .category ul li a:hover {
               background-color: rgba(102, 102, 102, 0.1); }
           .category-container-wrap .category-container .category ul li:last-child {
             border-bottom: none; }
+
+.home-container .recommend-container li a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 .menu ul li {
   float: left;

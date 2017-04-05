@@ -46,6 +46,7 @@
 							white-space:nowrap;
 							overflow:hidden;
 							text-overflow:ellipsis;
+							font-weight: normal;
 						}
 
 						&:hover{
@@ -58,6 +59,17 @@
 					}
 				}
 				
+			}
+		}
+	}
+}
+.home-container{
+	.recommend-container{
+		li{
+			a{
+				white-space:nowrap;
+				overflow:hidden;
+				text-overflow:ellipsis;
 			}
 		}
 	}

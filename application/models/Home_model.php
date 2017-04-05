@@ -26,7 +26,7 @@ class home_model extends CI_Model{
         return $retval;
     }
 
-    public function get_hot($cate_id){
+    public function get_hot(){
         $retval = array();
         $query = $this->db->query("SELECT 
             doc_url, 

@@ -7,7 +7,7 @@
 <body>
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
-		<div class="main-container">
+		<div class="main-container home-container">
 			<div class="category-container-wrap">
 				<div class="category-container">
 					<div class="category-title">
