@@ -43,7 +43,7 @@
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+				<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-top: 15px;">
 					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 				</div>
 				<div class="category-container">
@@ -80,7 +80,7 @@
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+				<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-top: 15px;">
 					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 				</div>
 				<div class="category-container">
@@ -117,7 +117,7 @@
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+				<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-top: 15px;">
 					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 				</div>
 				<div class="category-container">
@@ -153,9 +153,6 @@
 						</ul>
 						<div class="clearfix"></div>
 					</div>
-					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
-						<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
-					</div>
 				</div>
 			</div>
 			<div class="recommend-container">
@@ -165,7 +162,7 @@
 					</div>
 					<ul>
 						<?php
-						foreach ($doc['new'][1] as $key => $value) {
+						foreach ($doc['new'] as $key => $value) {
 						?>
 						<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
 						<?php
@@ -182,7 +179,7 @@
 					</div>
 					<ul>
 						<?php
-						foreach ($doc['hot'][2] as $key => $value) {
+						foreach ($doc['hot'] as $key => $value) {
 						?>
 						<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
 						<?php
@@ -199,7 +196,7 @@
 					</div>
 					<ul>
 						<?php
-						foreach ($doc['rand'][4] as $key => $value) {
+						foreach ($doc['rand'] as $key => $value) {
 						?>
 						<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
 						<?php
