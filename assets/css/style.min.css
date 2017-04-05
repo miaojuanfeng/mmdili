@@ -194,54 +194,47 @@ a {
               .header .login .login-form .login-form-body .form-signin .login-link a:hover {
                 color: #aaaaaa; }
 
-.category-container-wrap {
-  width: 1200px; }
-  .category-container-wrap .category-container {
-    width: 962px;
-    float: left;
-    padding-top: 15px; }
-    .category-container-wrap .category-container .category-title {
-      padding: 10px;
-      border: 1px solid #eee;
-      border-bottom: none;
-      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
-      .category-container-wrap .category-container .category-title h1 {
-        line-height: 25px;
-        padding: 0;
-        color: #ccc;
-        margin: 0;
-        font: 16px/20px "微软雅黑"; }
-        .category-container-wrap .category-container .category-title h1 b {
-          color: #747474; }
-    .category-container-wrap .category-container .category {
-      border: 1px solid #eee;
-      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
-      .category-container-wrap .category-container .category ul {
-        width: 50%;
-        float: left;
-        min-height: 335px; }
-        .category-container-wrap .category-container .category ul li {
-          border-bottom: 1px dashed #eee; }
-          .category-container-wrap .category-container .category ul li a {
-            color: #747474;
-            display: block;
-            padding: 10px 10px; }
-            .category-container-wrap .category-container .category ul li a h3 {
-              margin: 0;
-              white-space: nowrap;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              font-weight: normal;
-              font-size: 14px; }
-            .category-container-wrap .category-container .category ul li a:hover {
-              background-color: rgba(102, 102, 102, 0.1); }
-          .category-container-wrap .category-container .category ul li:last-child {
-            border-bottom: none; }
-
-.home-container .recommend-container li a {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
+.category-container {
+  width: 962px;
+  float: left;
+  padding-top: 15px; }
+  .category-container .category-title {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-bottom: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
+    .category-container .category-title h1 {
+      line-height: 25px;
+      padding: 0;
+      color: #ccc;
+      margin: 0;
+      font: 16px/20px "微软雅黑"; }
+      .category-container .category-title h1 b {
+        color: #747474; }
+  .category-container .category {
+    border: 1px solid #eee;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
+    .category-container .category ul {
+      width: 50%;
+      float: left;
+      min-height: 335px; }
+      .category-container .category ul li {
+        border-bottom: 1px dashed #eee; }
+        .category-container .category ul li a {
+          color: #747474;
+          display: block;
+          padding: 10px 10px; }
+          .category-container .category ul li a h3 {
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: normal;
+            font-size: 14px; }
+          .category-container .category ul li a:hover {
+            background-color: rgba(102, 102, 102, 0.1); }
+        .category-container .category ul li:last-child {
+          border-bottom: none; }
 
 .menu ul li {
   float: left;
