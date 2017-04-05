@@ -29,7 +29,9 @@
         .view-container .cate ul li a h3 {
           margin: 0; }
         .view-container .cate ul li a .page_num {
-          float: right; }
+          float: right;
+          font-weight: normal;
+          color: #eee; }
         .view-container .cate ul li a:hover {
           background-color: rgba(102, 102, 102, 0.1); }
       .view-container .cate ul li:last-child {
