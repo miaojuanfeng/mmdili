@@ -45,7 +45,6 @@
 					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 				</div>
 			</div>
-		</div>
 			<div class="category-container">
 				<div class="category-title">
 					<h1><b>历史</b> 分类下的最新文档</h1>
@@ -83,8 +82,6 @@
 					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 				</div>
 			</div>
-		</div>
-		<div class="category-container-wrap">
 			<div class="category-container">
 				<div class="category-title">
 					<h1><b>政治</b> 分类下的最新文档</h1>
@@ -122,7 +119,6 @@
 					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
 				</div>
 			</div>
-		</div>
 			<div class="category-container">
 				<div class="category-title">
 					<h1><b>文综</b> 分类下的最新文档</h1>
