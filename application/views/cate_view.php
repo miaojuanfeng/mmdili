@@ -35,11 +35,13 @@
 						<h1>Title</h1>
 					</div>
 					<ul>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
+						<?php
+						foreach ($cate['new'] as $key => $value) {
+						?>
+						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<?php
+						}
+						?>
 					</ul>
 				</div>
 				<div style="display: flex;">
@@ -50,11 +52,13 @@
 						<h1>Title</h1>
 					</div>
 					<ul>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
+						<?php
+						foreach ($cate['hot'] as $key => $value) {
+						?>
+						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<?php
+						}
+						?>
 					</ul>
 				</div>
 				<div style="display: flex;">
@@ -65,11 +69,13 @@
 						<h1>Title</h1>
 					</div>
 					<ul>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
-						<li>list</li>
+						<?php
+						foreach ($cate['rand'] as $key => $value) {
+						?>
+						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<?php
+						}
+						?>
 					</ul>
 				</div>
 			</div>
