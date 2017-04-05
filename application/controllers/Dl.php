@@ -37,14 +37,14 @@ class Dl extends CI_Controller {
 			header('Location:'.base_url());
 			return;
 		}
+		$user_url = $file['user_url'];
 		$doc_url = $file['doc_url'];
-        $user_url = $file['user_url'];
         $doc_title = $file['doc_title'];
         $doc_ext_name = $file['doc_ext_name'];
-		Header("Content-type: application/octet-stream"); 
-        Header("Accept-Ranges: bytes"); 
-        // Header("Accept-Length:".$file_size);
-        Header("Content-Disposition: attachment; filename=".$file['doc_title'].'.'.$file['doc_ext_name']);
+		// Header("Content-type: application/octet-stream"); 
+		// Header("Accept-Ranges: bytes"); 
+		// Header("Accept-Length:".$file_size);
+		// Header("Content-Disposition: attachment; filename=".$file['doc_title'].'.'.$file['doc_ext_name']);
 		header('Location:'.'http://mmdoc.oss-cn-shanghai.aliyuncs.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
 	}
 }

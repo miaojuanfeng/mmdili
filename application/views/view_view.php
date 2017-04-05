@@ -23,8 +23,10 @@
 				<?php
 				}
 				?>
-				<div style="display: flex; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+				<div style="height:90px; position:relative;">
+				<div style="display: flex; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); position:absolute;z-index:9;">
 					<img src="<?=base_url('assets/img/view_ad_1.jpg')?>" width="960" />
+				</div>
 				</div>
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
@@ -49,7 +51,7 @@
 			<div class="recommend-container">
 				<div class="relative-container">
 					<div class="relative-title">
-						<h1>Title</h1>
+						<h1>最新发布的</h1>
 					</div>
 					<ul>
 						<li>list</li>
@@ -64,7 +66,7 @@
 				</div>
 				<div class="relative-container">
 					<div class="relative-title">
-						<h1>Title</h1>
+						<h1>推荐的文档</h1>
 					</div>
 					<ul>
 						<li>list</li>
@@ -79,7 +81,7 @@
 				</div>
 				<div class="relative-container">
 					<div class="relative-title">
-						<h1>Title</h1>
+						<h1>大家都在看</h1>
 					</div>
 					<ul>
 						<li>list</li>
