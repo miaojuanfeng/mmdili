@@ -26,12 +26,13 @@ class dl_model extends CI_Model{
             AND user_deleted = 0 
             AND doc_url = ".$doc_url." LIMIT 1");
         if( $query->num_rows() ){
-            $rs = $query->row_array();
-            $doc_url = $rs['doc_url'];
-            $user_url = $rs['user_url'];
-            $doc_title = $rs['doc_title'];
-            $doc_ext_name = $rs['doc_ext_name'];
-            return 'http://mmdoc.oss-cn-shanghai.aliyuncs.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
+            // $rs = ;
+            // $doc_url = $rs['doc_url'];
+            // $user_url = $rs['user_url'];
+            // $doc_title = $rs['doc_title'];
+            // $doc_ext_name = $rs['doc_ext_name'];
+            // return 'http://mmdoc.oss-cn-shanghai.aliyuncs.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
+            return $query->row_array();
         }
     	return false;
     }

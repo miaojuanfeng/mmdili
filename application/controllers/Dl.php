@@ -32,10 +32,13 @@ class Dl extends CI_Controller {
 		if( empty($doc_url) || !($doc_url = $this->mcrypt->decode($doc_url)) ){
 			header('Location:'.base_url());
 		}
-		if( !($file_url = $this->dl_model->get_url($doc_url)) ){
+		if( !($file = $this->dl_model->get_url($doc_url)) ){
 			header('Location:'.base_url());
 		}
-		header("Content-Type:application/octet-stream");
-		header('Location:'.$file_url);
+		Header("Content-type: application/octet-stream"); 
+        Header("Accept-Ranges: bytes"); 
+        // Header("Accept-Length:".$file_size);
+        Header("Content-Disposition: attachment; filename=".$file['doc_title'].'.'.$file['doc_ext_name']);
+		header('Location:'.'http://mmdoc.oss-cn-shanghai.aliyuncs.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
 	}
 }
