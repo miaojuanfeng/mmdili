@@ -411,6 +411,7 @@ if ( ! is_php('5.4'))
 	switch ($class) {
 		case 'View':
 		case 'Cate':
+		case 'Dl':
 			$method = 'index';
 			break;
 		default:
@@ -525,6 +526,7 @@ if ( ! is_php('5.4'))
 		switch ($class) {
 			case 'View':
 			case 'Cate':
+			case 'Dl':
 				$params = array_slice($URI->rsegments, 1);
 				break;
 			default:

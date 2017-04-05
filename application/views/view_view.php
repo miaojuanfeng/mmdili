@@ -108,7 +108,7 @@
 				</div>
 				<div class="center"></div>
 				<div class="right">
-					<div class="download"><a href="<?=base_url('dl/index/'.$dl['view_id'].'/'.$dl['link'])?>" target="_blank">Download</a></div>
+					<div class="download"><a href="<?=base_url('dl/'.$dl['download'])?>" target="_blank">下载此文档</a></div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
