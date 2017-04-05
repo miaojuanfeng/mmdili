@@ -30,7 +30,7 @@
 					或
 				</li>
 				<li>
-					<a href="#">注册/a>
+					<a href="#">注册</a>
 				</li>
 			</ul>
 			<div class="login-form">
