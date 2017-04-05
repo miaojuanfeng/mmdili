@@ -16,6 +16,8 @@
       font: 16px/20px "微软雅黑"; }
       .view-container .cate-title h1 b {
         color: #747474; }
+    .view-container .cate-title .cate-title-note {
+      font-size: 14px; }
   .view-container .cate {
     border: 1px solid #eee;
     margin-bottom: 15px;

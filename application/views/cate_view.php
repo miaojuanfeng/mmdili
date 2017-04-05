@@ -10,7 +10,7 @@
 		<div class="main-container">
 			<div class="view-container">
 				<div class="cate-title">
-					<h1><b><?=$cate['title']?></b> 分类下的所有文档</h1>
+					<h1><b><?=$cate['title']?></b> <span class="cate-title-note">分类下的所有文档</span></h1>
 				</div>
 				<div style="display: flex; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
 					<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
