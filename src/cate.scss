@@ -39,6 +39,10 @@
 						margin: 0;
 					}
 
+					.page_num{
+						float: right;
+					}
+
 					&:hover{
 						background-color: lighten(rgba(0, 0, 0, 0.1), 40%);
 					}

@@ -14,7 +14,7 @@ class cate_model extends CI_Model{
     }
 
     public function get_list($cate_id){
-    	$query = $this->db->query("SELECT doc_url, doc_title FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = ".$cate_id." ORDER BY doc_id DESC");
+    	$query = $this->db->query("SELECT doc_url, doc_title, doc_page_num FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = ".$cate_id." ORDER BY doc_id DESC");
     	return $query->result_array();
     }
 
