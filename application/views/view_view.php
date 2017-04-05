@@ -98,13 +98,13 @@
 		<div class="main-container">
 			<div class="reader-tools-bar">
 				<div class="left">
-					<a class="page-prev" href="javascript:;">< 上一页</a>
+					<!-- <a class="page-prev" href="javascript:;">< 上一页</a> -->
 					<div class="page-position">
 						<span class="page-curr">1</span>
 						/
 						<span class="page-num"><?=$page['num']?></span>
 					</div>
-					<a class="page-next" href="javascript:;">下一页 ></a>
+					<!-- <a class="page-next" href="javascript:;">下一页 ></a> -->
 				</div>
 				<div class="center"></div>
 				<div class="right">

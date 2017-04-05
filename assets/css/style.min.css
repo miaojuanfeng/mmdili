@@ -323,21 +323,24 @@ a {
     .reader-tools-bar-wrap .main-container .reader-tools-bar {
       width: 962px; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .left {
-        float: left; }
+        float: left;
+        /*.page-prev{
+	    			float: left;
+	    		}*/
+        /*.page-next{
+	    			float: left;
+	    			
+	    		}*/ }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .left a {
           padding: 0 10px;
           color: #747474; }
           .reader-tools-bar-wrap .main-container .reader-tools-bar .left a:hover {
             background-color: #e1e1e1; }
-        .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-prev {
-          float: left; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-position {
           float: left;
           padding: 0 10px;
           color: #747474;
           letter-spacing: 2px; }
-        .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-next {
-          float: left; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .right {
         float: right;
         position: relative; }
