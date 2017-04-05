@@ -198,7 +198,9 @@ a {
   float: left; }
   .home-container .category-container {
     width: 962px;
-    padding-top: 15px; }
+    padding-top: 10px; }
+    .home-container .category-container:first-child {
+      padding-top: 15px; }
     .home-container .category-container .category-title {
       padding: 10px;
       border: 1px solid #eee;

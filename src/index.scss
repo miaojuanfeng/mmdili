@@ -1,9 +1,13 @@
 .home-container{
 	float:left;
-	
+
 	.category-container{
 		width: 962px;
-		padding-top: 15px;
+		padding-top: 10px;
+
+		&:first-child{
+			padding-top: 15px;
+		}
 
 		.category-title{
 			padding: 10px;
