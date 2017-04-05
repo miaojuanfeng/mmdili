@@ -158,6 +158,7 @@
 					    font-size: 18px;
 					    display:block;
 					    height:100%;
+					    white-space: nowrap;
 
 					    &:hover{
 					    	background: lighten(rgb(47, 173, 133), 5%);
