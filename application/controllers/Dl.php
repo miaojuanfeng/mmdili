@@ -22,15 +22,19 @@ class Dl extends CI_Controller {
     {
     	parent::__construct();
     	// $this->load->helper('url');
-    	$this->load->library('File');
+    	// $this->load->library('File');
     	$this->load->library('Mcrypt');
+    	$this->load->model('dl_model');
     }
     
-	public function index($file_dir, $file_name)
+	public function index($doc_url)
 	{
-		$file_name = $this->mcrypt->decode($file_name);
-		if( !empty($file_name) ){
-			$this->file->readFile($file_dir, $file_name);
+		if( empty($doc_url) || !($doc_url = $this->mcrypt->decode($doc_url)) ){
+			header('Location:'.base_url());
 		}
+		if( !($file_url = $this->dl_model->get_url($doc_url)) ){
+			header('Location:'.base_url());
+		}
+		header('Location:'.$file_url);
 	}
 }
