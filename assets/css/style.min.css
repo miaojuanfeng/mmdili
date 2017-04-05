@@ -231,7 +231,8 @@ a {
               white-space: nowrap;
               overflow: hidden;
               text-overflow: ellipsis;
-              font-weight: normal; }
+              font-weight: normal;
+              font-size: 14px; }
             .category-container-wrap .category-container .category ul li a:hover {
               background-color: rgba(102, 102, 102, 0.1); }
           .category-container-wrap .category-container .category ul li:last-child {
