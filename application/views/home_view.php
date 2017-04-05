@@ -201,6 +201,7 @@
 				</ul>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
 	<?php require_once 'footer_view.php' ?>
 </body>
