@@ -218,12 +218,16 @@ a {
         font: 16px/20px "微软雅黑"; }
         .home-container .category-container .category-title h1 b {
           color: #747474; }
+      .home-container .category-container .category-title .category-title-note {
+        font-size: 14px; }
       .home-container .category-container .category-title .cate_all {
         float: right;
         font-weight: normal;
         font-size: 14px; }
         .home-container .category-container .category-title .cate_all a {
-          color: #ccc; }
+          color: #747474; }
+          .home-container .category-container .category-title .cate_all a:hover {
+            text-decoration: underline; }
     .home-container .category-container .category {
       border: 1px solid #eee;
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }

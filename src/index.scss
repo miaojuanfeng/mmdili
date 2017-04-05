@@ -27,13 +27,21 @@
 				}
 			}
 
+			.category-title-note{
+				font-size: 14px;
+			}
+
 			.cate_all{
 				float: right;
 				font-weight: normal;
 				font-size: 14px;
 
 				a{
-					color: #ccc;
+					color: #747474;
+
+					&:hover{
+						text-decoration: underline;
+					}
 				}
 			}
 		}

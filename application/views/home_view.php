@@ -11,7 +11,7 @@
 			<div class="home-container">
 				<div class="category-container">
 					<div class="category-title">
-						<h1><b>地理</b> 分类下的最新文档<span class="cate_all"><a href="<?=base_url('cate/dili')?>">查看所有</a></span></h1>
+						<h1><b>地理</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/dili')?>">查看所有</a></span></h1>
 					</div>
 					<div class="category">
 						<ul>
@@ -48,7 +48,7 @@
 				</div>
 				<div class="category-container">
 					<div class="category-title">
-						<h1><b>历史</b> 分类下的最新文档<span class="cate_all"><a href="<?=base_url('cate/lishi')?>">查看所有</a></span></h1>
+						<h1><b>历史</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/lishi')?>">查看所有</a></span></h1>
 					</div>
 					<div class="category">
 						<ul>
@@ -85,7 +85,7 @@
 				</div>
 				<div class="category-container">
 					<div class="category-title">
-						<h1><b>政治</b> 分类下的最新文档<span class="cate_all"><a href="<?=base_url('cate/zhengzhi')?>">查看所有</a></span></h1>
+						<h1><b>政治</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/zhengzhi')?>">查看所有</a></span></h1>
 					</div>
 					<div class="category">
 						<ul>
@@ -122,7 +122,7 @@
 				</div>
 				<div class="category-container">
 					<div class="category-title">
-						<h1><b>文综</b> 分类下的最新文档<span class="cate_all"><a href="<?=base_url('cate/wenzong')?>">查看所有</a></span></h1>
+						<h1><b>文综</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/wenzong')?>">查看所有</a></span></h1>
 					</div>
 					<div class="category">
 						<ul>
