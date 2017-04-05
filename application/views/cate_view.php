@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>mmdili</title>
+	<title><?=$cate['title']?>_分类下的所有文档 - 缪缪<?=$cate['title']?>文档</title>
 	<?php require_once 'meta_view.php' ?>
 </head>
 <body>

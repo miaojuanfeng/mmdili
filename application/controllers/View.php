@@ -40,6 +40,7 @@ class View extends CI_Controller {
 		$data['page']['width'] = 960;
 		$data['page']['height'] = intval((960/$detail['doc_width'])*$detail['doc_height']);
 		$data['page']['title'] = $detail['doc_title'];
+		$data['page']['cate_name'] = $detail['doc_cate_name'];
 		$file_name = 'sjdl.doc';
 		// $data['page']['init'] = ( $data['page']['num'] < 3 ) ? $data['page']['num'] : 3;
 		// $data['page']['more'] = ( $data['page']['num'] - 3 ) > 0 ? ( $data['page']['num'] - 3 ) : 0;
