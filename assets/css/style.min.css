@@ -340,7 +340,7 @@ a {
           float: left;
           color: #747474;
           letter-spacing: 2px;
-          font-size: 18px; }
+          font-size: 16px; }
           .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-pos input {
             width: 50px;
             height: 25px;
@@ -350,7 +350,8 @@ a {
             margin: 10px 10px 0 0;
             text-align: center;
             float: left;
-            overflow: hidden; }
+            overflow: hidden;
+            font-size: 100%; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .right {
         float: right;
         position: relative; }
