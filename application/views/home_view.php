@@ -8,7 +8,7 @@
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
 		<div class="main-container">
-			<div>
+			<div class="home-container">
 				<div class="category-container">
 					<div class="category-title">
 						<h1><b>地理</b> 分类下的最新文档</h1>
