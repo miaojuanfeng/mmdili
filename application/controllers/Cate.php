@@ -26,7 +26,7 @@ class Cate extends CI_Controller {
 		$this->load->model('cate_model');
     }
     
-	public function index($cate_url = '')
+	public function index($cate_url = '', $pn = 1)
 	{
 		switch( $cate_url ){
 			case 'dili':
@@ -49,15 +49,22 @@ class Cate extends CI_Controller {
 				header('Location:'.base_url());
 				return;
 		}
+		$limit = 10;
+		$total = $this->cate_model->get_count($cate_id);
+		$page = ceil($total/$limit);
+		$pn = $pn < 1 ? 1 : $pn;
+		$pn = $pn > $page ? $page : $pn;
+		$offset = ($pn - 1) * $limit;
+		//
 		$data['cate']['title'] = $cate_title;
-		$data['cate']['doc'] = $this->cate_model->get_list($cate_id);
+		$data['cate']['doc'] = $this->cate_model->get_list($cate_id, $limit, $offset);
 		//
 		$data['cate']['hot'] = $this->cate_model->get_hot($cate_id);
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);
 		//
 		$config['pagination']['base_url'] = base_url('cate/'.$cate_url.'/');
 		$config['pagination']['full_tag_open'] = '<div class="pn"><div class="pn-container">';
-		$config['pagination']['full_tag_close'] = '</div><dic class="clearfix"></div></div>';
+		$config['pagination']['full_tag_close'] = '<dic class="clearfix"></div></div><dic class="clearfix"></div></div>';
 		$config['pagination']['first_tag_open'] = '<span>';
 		$config['pagination']['first_tag_close'] = '</span>';
 		$config['pagination']['last_tag_open'] = '<span>';
@@ -76,8 +83,8 @@ class Cate extends CI_Controller {
 		$config['pagination']['next_link'] = '下一页';
 		$config['pagination']['last_link'] = '尾页';
 		$config['pagination']['uri_segment'] = 3;
-		$config['pagination']['total_rows'] = $this->cate_model->get_count($cate_id);
-		$config['pagination']['per_page'] = 10;
+		$config['pagination']['total_rows'] = $total;
+		$config['pagination']['per_page'] = $limit;
 		$this->pagination->initialize($config['pagination']);
 		//
 		$this->load->view('cate_view', $data);

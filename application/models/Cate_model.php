@@ -18,8 +18,8 @@ class cate_model extends CI_Model{
         return $query->row_array()['rows_total'];
     }
 
-    public function get_list($cate_id){
-    	$query = $this->db->query("SELECT doc_url, doc_title, doc_page_num FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = ".$cate_id." ORDER BY doc_id DESC");
+    public function get_list($cate_id, $limit, $offset){
+    	$query = $this->db->query("SELECT doc_url, doc_title, doc_page_num FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = ".$cate_id." ORDER BY doc_id DESC LIMIT ".$LIMIT." OFFSET ".$offset);
     	return $query->result_array();
     }
 
