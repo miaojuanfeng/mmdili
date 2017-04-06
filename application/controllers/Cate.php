@@ -22,7 +22,8 @@ class Cate extends CI_Controller {
     {
     	parent::__construct();
     	$this->load->helper('url');
-	$this->load->model('cate_model');
+    	$this->load->library('pagination');
+		$this->load->model('cate_model');
     }
     
 	public function index($cate_url = '')
@@ -53,6 +54,14 @@ class Cate extends CI_Controller {
 		//
 		$data['cate']['hot'] = $this->cate_model->get_hot($cate_id);
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);
+		//
+		$config['base_url'] = 'http://example.com/index.php/test/page/';
+		$config['total_rows'] = 200;
+		$config['per_page'] = 20;
+
+		$this->pagination->initialize($config);
+
+		echo $this->pagination->create_links();
 		//
 		$this->load->view('cate_view', $data);
 	}
