@@ -32,7 +32,7 @@ class home_model extends CI_Model{
             doc_title 
             FROM m_doc 
             WHERE doc_deleted = 0 
-            ORDER BY RAND() LIMIT 8");
+            ORDER BY doc_id DESC LIMIT 8");
         return $query->result_array();
     }
 
