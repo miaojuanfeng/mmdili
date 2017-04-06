@@ -28,9 +28,7 @@
 						?>
 					</ul>
 				</div>
-				<div>
-					<?=$this->pagination->create_links()?>
-				</div>
+				<?=$this->pagination->create_links()?>
 			</div>
 			<div class="recommend-container">
 				<div class="relative-container">

@@ -38,6 +38,9 @@
           background-color: rgba(102, 102, 102, 0.1); }
       .view-container .cate ul li:last-child {
         border-bottom: none; }
+  .view-container .pn a {
+    display: block;
+    padding: 5px; }
 
 body {
   padding: 0;
