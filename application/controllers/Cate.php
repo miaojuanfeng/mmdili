@@ -56,8 +56,8 @@ class Cate extends CI_Controller {
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);
 		//
 		$config['pagination']['base_url'] = base_url('cate/'.$cate_url.'/');
-		$config['pagination']['full_tag_open'] = '<div class="pn">';
-		$config['pagination']['full_tag_close'] = '</div>';
+		$config['pagination']['full_tag_open'] = '<div class="pn"><div class="pn-container">';
+		$config['pagination']['full_tag_close'] = '</div></div>';
 		$config['pagination']['first_tag_open'] = '<div>';
 		$config['pagination']['first_tag_close'] = '</div>';
 		$config['pagination']['last_tag_open'] = '<div>';
@@ -66,10 +66,10 @@ class Cate extends CI_Controller {
 		$config['pagination']['next_tag_close'] = '</div>';
 		$config['pagination']['prev_tag_open'] = '<div>';
 		$config['pagination']['prev_tag_close'] = '</div>';
-		$config['pagination']['cur_tag_open'] = '<div class="current">';
-		$config['pagination']['cur_tag_close'] = '</div>';
-		$config['pagination']['num_tag_open'] = '<div>';
-		$config['pagination']['num_tag_close'] = '</div>';
+		$config['pagination']['cur_tag_open'] = '<span class="current">';
+		$config['pagination']['cur_tag_close'] = '</span>';
+		$config['pagination']['num_tag_open'] = '<span>';
+		$config['pagination']['num_tag_close'] = '</span>';
 		$config['pagination']['use_page_numbers'] = true;
 		$config['pagination']['first_link'] = '<<';
 		$config['pagination']['prev_link'] = '&lt;';
