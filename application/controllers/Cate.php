@@ -55,13 +55,15 @@ class Cate extends CI_Controller {
 		$data['cate']['hot'] = $this->cate_model->get_hot($cate_id);
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);
 		//
-		$data['cate']['pagination']['base_url'] = base_url('cate/'.$cate_url.'/');
-		$data['cate']['pagination']['first_link'] = '<<';
-		$data['cate']['pagination']['last_link'] = '>>';
-		$data['cate']['pagination']['uri_segment'] = 3;
-		$data['cate']['pagination']['total_rows'] = 200;
-		$data['cate']['pagination']['per_page'] = 20;
-		$this->pagination->initialize($data['cate']['pagination']);
+		// $config['pagination']['base_url'] = base_url('cate/'.$cate_url.'/');
+		$config['pagination']['first_link'] = '<<';
+		$config['pagination']['prev_link'] = '&lt;';
+		$config['pagination']['next_link'] = '&gt;';
+		$config['pagination']['last_link'] = '>>';
+		$config['pagination']['uri_segment'] = 3;
+		$config['pagination']['total_rows'] = 200;
+		$config['pagination']['per_page'] = 20;
+		$this->pagination->initialize($config['pagination']);
 		//
 		$this->load->view('cate_view', $data);
 	}
