@@ -96,13 +96,15 @@ a {
   .footer .main-container {
     padding: 10px 0;
     line-height: 25px; }
-    .footer .main-container ul li {
+    .footer .main-container .left li {
       float: left;
       padding-right: 30px; }
-      .footer .main-container ul li a {
+      .footer .main-container .left li a {
         color: #ccc; }
-        .footer .main-container ul li a:hover {
+        .footer .main-container .left li a:hover {
           color: #eee; }
+    .footer .main-container .right {
+      float: right; }
 
 .view-footer {
   margin-bottom: 46px; }
