@@ -62,9 +62,18 @@
 		}
 	}
 	.pn{
+
 		a{
 			display: block;
 			padding: 5px;
+			float: left;
+			border: 1px solid #eee;
+		}
+
+		span{
+			display: block;
+			padding: 5px;
+			border: 1px solid #eee;
 		}
 	}
 }

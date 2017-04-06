@@ -40,7 +40,13 @@
         border-bottom: none; }
   .view-container .pn a {
     display: block;
-    padding: 5px; }
+    padding: 5px;
+    float: left;
+    border: 1px solid #eee; }
+  .view-container .pn span {
+    display: block;
+    padding: 5px;
+    border: 1px solid #eee; }
 
 body {
   padding: 0;
