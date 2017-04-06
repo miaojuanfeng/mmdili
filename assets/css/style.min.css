@@ -52,9 +52,13 @@
       font-size: 14px; }
       .view-container .pn .pn-container span a {
         display: block;
-        padding: 2px 10px; }
+        padding: 0 10px;
+        color: #747474; }
+        .view-container .pn .pn-container span a:hover {
+          background-color: #ff6666;
+          color: #FFF; }
       .view-container .pn .pn-container span.current {
-        padding: 5px 10px;
+        padding: 0 10px;
         background-color: #FF0000;
         color: #FFF; }
 
