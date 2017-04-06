@@ -66,8 +66,10 @@ class Cate extends CI_Controller {
 		$config['pagination']['next_tag_close'] = '</div>';
 		$config['pagination']['prev_tag_open'] = '<div>';
 		$config['pagination']['prev_tag_close'] = '</div>';
-		$config['pagination']['cur_tag_open'] = '<span class="current">';
-		$config['pagination']['cur_tag_close'] = '</span>';
+		$config['pagination']['cur_tag_open'] = '<div class="current">';
+		$config['pagination']['cur_tag_close'] = '</div>';
+		$config['pagination']['num_tag_open'] = '<div>';
+		$config['pagination']['num_tag_close'] = '</div>';
 		$config['pagination']['use_page_numbers'] = true;
 		$config['pagination']['first_link'] = '<<';
 		$config['pagination']['prev_link'] = '&lt;';
