@@ -52,10 +52,11 @@ class Cate extends CI_Controller {
 		$limit = 20;
 		$total = $this->cate_model->get_count($cate_id);
 		$page = ceil($total/$limit);
-		if( !is_int($pn) || $pn < 1 || $pn > $page ){
+		if( !is_numeric($pn) || $pn < 1 || $pn > $page ){
 			header('Location:'.base_url());
 			return;
 		}
+		$pn = intval($pn);
 		$offset = ($pn - 1) * $limit;
 		//
 		$data['cate']['title'] = $cate_title;
