@@ -108,9 +108,11 @@ a {
     .footer .main-container .right {
       float: right; }
       .footer .main-container .right span {
-        color: #ccc; }
+        color: #ccc;
+        margin-left: 10px; }
         .footer .main-container .right span a {
-          color: #ccc; }
+          color: #ccc;
+          margin: 0 5px; }
           .footer .main-container .right span a:hover {
             color: #eee; }
 
