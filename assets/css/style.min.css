@@ -292,23 +292,25 @@ a {
           .home-container .category-container .category ul li:last-child {
             border-bottom: none; }
 
-.menu ul li {
-  float: left;
-  line-height: 50px;
-  position: relative; }
-  .menu ul li a {
-    display: block;
-    color: #ccc;
-    font-size: 16px;
-    padding: 0 15px; }
-    .menu ul li a.menu-icon {
-      background-image: url("../../assets/images/menu-arr-down.png");
-      background-repeat: no-repeat;
-      background-position: right center;
-      padding: 0 25px 0 15px; }
-    .menu ul li a:hover {
-      background-color: black;
-      color: #eee; }
+.menu {
+  float: left; }
+  .menu ul li {
+    float: left;
+    line-height: 50px;
+    position: relative; }
+    .menu ul li a {
+      display: block;
+      color: #ccc;
+      font-size: 16px;
+      padding: 0 15px; }
+      .menu ul li a.menu-icon {
+        background-image: url("../../assets/images/menu-arr-down.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding: 0 25px 0 15px; }
+      .menu ul li a:hover {
+        background-color: black;
+        color: #eee; }
 
 .view-container {
   width: 962px;
