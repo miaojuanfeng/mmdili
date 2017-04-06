@@ -11,7 +11,7 @@
 		</ul>
 		<div class="right">
 			<span>本站基于 <a href="#" target="_blank">阿里云</a> + <a href="#" target="_blank">Godaddy</a> 构建</span>
-			<span>MJF 提供编码支持</span>
+			<span>M.J.F 提供编码支持</span>
 		</div>
 		<div class="clearfix"></div>
 	</div>
