@@ -38,15 +38,18 @@
           background-color: rgba(102, 102, 102, 0.1); }
       .view-container .cate ul li:last-child {
         border-bottom: none; }
-  .view-container .pn a {
-    display: block;
-    padding: 5px;
-    float: left;
-    border: 1px solid #eee; }
-  .view-container .pn span {
-    display: block;
-    padding: 5px;
-    border: 1px solid #eee; }
+  .view-container .pn {
+    text-align: right; }
+    .view-container .pn a {
+      display: block;
+      padding: 5px 10px;
+      float: left;
+      border: 1px solid #eee; }
+    .view-container .pn span {
+      display: block;
+      padding: 5px 10px;
+      float: left;
+      border: 1px solid #eee; }
 
 body {
   padding: 0;
