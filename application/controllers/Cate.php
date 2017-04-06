@@ -71,13 +71,13 @@ class Cate extends CI_Controller {
 		$config['pagination']['num_tag_open'] = '<span>';
 		$config['pagination']['num_tag_close'] = '</span>';
 		$config['pagination']['use_page_numbers'] = true;
-		$config['pagination']['first_link'] = '<<';
-		$config['pagination']['prev_link'] = '&lt;';
-		$config['pagination']['next_link'] = '&gt;';
-		$config['pagination']['last_link'] = '>>';
+		$config['pagination']['first_link'] = '首页';
+		$config['pagination']['prev_link'] = '上一页';
+		$config['pagination']['next_link'] = '下一页';
+		$config['pagination']['last_link'] = '尾页';
 		$config['pagination']['uri_segment'] = 3;
-		$config['pagination']['total_rows'] = 200;
-		$config['pagination']['per_page'] = 20;
+		$config['pagination']['total_rows'] = $this->cate_model->get_count($cate_id);;
+		$config['pagination']['per_page'] = 10;
 		$this->pagination->initialize($config['pagination']);
 		//
 		$this->load->view('cate_view', $data);
