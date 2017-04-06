@@ -27,6 +27,7 @@
 						}
 						?>
 					</ul>
+					<?php echo $this->pagination->create_links(); ?>
 				</div>
 			</div>
 			<div class="recommend-container">

@@ -58,9 +58,7 @@ class Cate extends CI_Controller {
 		$data['cate']['pagination']['base_url'] = base_url('cate/'.$cate_url.'/p/');
 		$data['cate']['pagination']['total_rows'] = 200;
 		$data['cate']['pagination']['per_page'] = 20;
-
 		$this->pagination->initialize($data['cate']['pagination']);
-		echo $this->pagination->create_links();
 		//
 		$this->load->view('cate_view', $data);
 	}
