@@ -56,6 +56,7 @@ class Cate extends CI_Controller {
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);
 		//
 		$config['pagination']['base_url'] = base_url('cate/'.$cate_url.'/');
+		$config['pagination']['use_page_numbers'] = true;
 		$config['pagination']['first_link'] = '<<';
 		$config['pagination']['prev_link'] = '&lt;';
 		$config['pagination']['next_link'] = '&gt;';
