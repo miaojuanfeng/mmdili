@@ -10,7 +10,9 @@
 			<div class="clearfix"></div>
 		</ul>
 		<div class="right">
-			<span>本站基于 <a href="#" target="_blank">阿里云</a> + <a href="#" target="_blank">Godaddy</a> 构建</span>
+			<span><a href="javascript:;">粤ICP备12345678号</a></span>
+			<span>|</span>
+			<span>本站基于 <a href="javascript:;">阿里云</a> + <a href="javascript:;">Godaddy</a> 构建</span>
 			<span>|</span>
 			<span>M.J.F 提供编码支持</span>
 		</div>
