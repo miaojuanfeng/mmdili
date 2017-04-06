@@ -25,6 +25,18 @@
 	    
 	    .right{
 	    	float: right;
+
+	    	span{
+	    		color: #ccc;
+
+	    		a{
+	    			color: #ccc;
+
+	    			&:hover{
+			    		color: #eee;
+			    	}
+	    		}
+	    	}
 	    }
     }
 }

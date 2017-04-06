@@ -107,6 +107,12 @@ a {
             color: #eee; }
     .footer .main-container .right {
       float: right; }
+      .footer .main-container .right span {
+        color: #ccc; }
+        .footer .main-container .right span a {
+          color: #ccc; }
+          .footer .main-container .right span a:hover {
+            color: #eee; }
 
 .view-footer {
   margin-bottom: 46px; }
