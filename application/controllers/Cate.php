@@ -56,10 +56,6 @@ class Cate extends CI_Controller {
 			header('Location:'.base_url('cate/'.$cate_url));
 			return;
 		}
-		if( !is_int($pn) ){
-			header('Location:'.base_url('cate/'.$cate_url.'/'.intval($pn)));
-			return;
-		}
 		if( $pn < 1 ){
 			header('Location:'.base_url('cate/'.$cate_url));
 			return;
@@ -68,7 +64,7 @@ class Cate extends CI_Controller {
 			header('Location:'.base_url('cate/'.$cate_url.'/'.$page));
 			return;
 		}
-		$offset = ($pn - 1) * $limit;
+		$offset = (intval($pn) - 1) * $limit;
 		//
 		$data['cate']['title'] = $cate_title;
 		$data['cate']['doc'] = $this->cate_model->get_list($cate_id, $limit, $offset);
