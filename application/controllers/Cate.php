@@ -56,6 +56,20 @@ class Cate extends CI_Controller {
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);
 		//
 		$config['pagination']['base_url'] = base_url('cate/'.$cate_url.'/');
+		$config['pagination']['full_tag_open'] = '<div class="page">';
+		$config['pagination']['full_tag_close'] = '</div>';
+		$config['pagination']['first_tag_open'] = '<div>';
+		$config['pagination']['first_tag_close'] = '</div>';
+		$config['pagination']['last_tag_open'] = '<div>';
+		$config['pagination']['last_tag_close'] = '</div>';
+		$config['pagination']['next_tag_open'] = '<div>';
+		$config['pagination']['next_tag_close'] = '</div>';
+		$config['pagination']['prev_tag_open'] = '<div>';
+		$config['pagination']['prev_tag_close'] = '</div>';
+		$config['pagination']['cur_tag_open'] = '<b>';
+		$config['pagination']['cur_tag_close'] = '</b>';
+		$config['pagination']['num_tag_open'] = '<div>';
+		$config['pagination']['num_tag_close'] = '</div>';
 		$config['pagination']['use_page_numbers'] = true;
 		$config['pagination']['first_link'] = '<<';
 		$config['pagination']['prev_link'] = '&lt;';
