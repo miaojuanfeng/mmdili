@@ -96,13 +96,15 @@ a {
   .footer .main-container {
     padding: 10px 0;
     line-height: 25px; }
-    .footer .main-container .left li {
-      float: left;
-      padding-right: 30px; }
-      .footer .main-container .left li a {
-        color: #ccc; }
-        .footer .main-container .left li a:hover {
-          color: #eee; }
+    .footer .main-container .left {
+      float: left; }
+      .footer .main-container .left li {
+        float: left;
+        padding-right: 30px; }
+        .footer .main-container .left li a {
+          color: #ccc; }
+          .footer .main-container .left li a:hover {
+            color: #eee; }
     .footer .main-container .right {
       float: right; }
 
