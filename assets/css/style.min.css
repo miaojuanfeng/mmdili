@@ -47,13 +47,14 @@
     text-align: right;
     font-size: 14px; }
     .view-container .pn div {
-      display: block;
       padding: 5px 10px;
       float: left;
       border: 1px solid #eee; }
-    .view-container .pn .current {
-      background-color: #FF0000;
-      color: #FFF; }
+      .view-container .pn div a {
+        display: block; }
+      .view-container .pn div.current {
+        background-color: #FF0000;
+        color: #FFF; }
 
 body {
   padding: 0;
