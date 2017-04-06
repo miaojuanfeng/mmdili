@@ -17,8 +17,8 @@
 				</li>
 				<li>
 					<a href="<?=base_url('cate/wenzong')?>">文综</a>
-					<!-- <a class="menu-icon" href="#">Documents</a> -->
 				</li>
+				<div class="clearfix"></div>
 			</ul>
 		</div>
 		<div class="login">
