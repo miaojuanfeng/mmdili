@@ -49,11 +49,18 @@ class Cate extends CI_Controller {
 				header('Location:'.base_url());
 				return;
 		}
-		$limit = 10;
+		$limit = 20;
 		$total = $this->cate_model->get_count($cate_id);
 		$page = ceil($total/$limit);
-		$pn = $pn < 1 ? 1 : $pn;
-		$pn = $pn > $page ? $page : $pn;
+		if( !is_int($pn) )
+		if( $pn < 1 ){
+			header('Location:'.base_url());
+			return;
+		}
+		if( $pn > $page ){
+			header('Location:'.base_url());
+			return;
+		}
 		$offset = ($pn - 1) * $limit;
 		//
 		$data['cate']['title'] = $cate_title;
