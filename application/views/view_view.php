@@ -57,7 +57,7 @@
 						<?php
 						foreach ($page['new'] as $key => $value) {
 						?>
-						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
 						<?php
 						}
 						?>
@@ -74,7 +74,7 @@
 						<?php
 						foreach ($page['hot'] as $key => $value) {
 						?>
-						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
 						<?php
 						}
 						?>
@@ -91,7 +91,7 @@
 						<?php
 						foreach ($page['rand'] as $key => $value) {
 						?>
-						<li><a href="<?=base_url('view/'.$value['doc_url']);?>"><?=$value['doc_title']?></a></li>
+						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
 						<?php
 						}
 						?>

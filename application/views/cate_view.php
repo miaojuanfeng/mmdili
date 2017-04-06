@@ -21,7 +21,7 @@
 						foreach($cate['doc'] as $k => $v){
 						?>
 						<li>
-							<a href="<?=base_url('view/'.$v['doc_url'])?>" target="_blank"><h3><?=$v['doc_title']?><span class="page_num">P<?=$v['doc_page_num']?></span></h3></a>
+							<a href="<?=base_url('view/'.$v['doc_url'].'.html')?>" target="_blank"><h3><?=$v['doc_title']?><span class="page_num">P<?=$v['doc_page_num']?></span></h3></a>
 						</li>
 						<?php
 						}
@@ -41,7 +41,7 @@
 						<?php
 						foreach ($cate['hot'] as $key => $value) {
 						?>
-						<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
+						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>" target="_blank"><?=$value['doc_title']?></a></li>
 						<?php
 						}
 						?>
@@ -58,7 +58,7 @@
 						<?php
 						foreach ($cate['rand'] as $key => $value) {
 						?>
-						<li><a href="<?=base_url('view/'.$value['doc_url']);?>" target="_blank"><?=$value['doc_title']?></a></li>
+						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>" target="_blank"><?=$value['doc_title']?></a></li>
 						<?php
 						}
 						?>
