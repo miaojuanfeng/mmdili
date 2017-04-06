@@ -64,7 +64,7 @@ class Cate extends CI_Controller {
 		//
 		$config['pagination']['base_url'] = base_url('cate/'.$cate_url.'/');
 		$config['pagination']['full_tag_open'] = '<div class="pn"><div class="pn-container">';
-		$config['pagination']['full_tag_close'] = '<dic class="clearfix"></div></div><dic class="clearfix"></div></div>';
+		$config['pagination']['full_tag_close'] = '<div class="clearfix"></div></div><dic class="clearfix"></div></div>';
 		$config['pagination']['first_tag_open'] = '<span>';
 		$config['pagination']['first_tag_close'] = '</span>';
 		$config['pagination']['last_tag_open'] = '<span>';
