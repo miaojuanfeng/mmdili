@@ -78,19 +78,21 @@
 
 				a{
 					display: block;
-					padding: 0 10px;
+					padding: 2px 10px;
 					color: #747474;
 
 					&:hover{
 						background-color: lighten(#FF0000, 20%);
 						color: #FFF;
+						border-color: lighten(#FF0000, 20%);
 					}
 				}
 
 				&.current{
-					padding: 0 10px;
-					background-color: #FF0000;
+					padding: 2px 10px;
+					background-color: lighten(#FF0000, 20%);
 					color: #FFF;
+					border-color: lighten(#FF0000, 20%);
 				}
 			}
 		}
