@@ -52,12 +52,7 @@ class Cate extends CI_Controller {
 		$limit = 20;
 		$total = $this->cate_model->get_count($cate_id);
 		$page = ceil($total/$limit);
-		if( !is_int($pn) )
-		if( $pn < 1 ){
-			header('Location:'.base_url());
-			return;
-		}
-		if( $pn > $page ){
+		if( !is_int($pn) || $pn < 1 || $pn > $page ){
 			header('Location:'.base_url());
 			return;
 		}
