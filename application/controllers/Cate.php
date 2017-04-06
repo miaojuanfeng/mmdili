@@ -83,7 +83,7 @@ class Cate extends CI_Controller {
 		 * 容错处理
 		 * 如果页数大于尾页，转到尾页
 		*/
-		if( $pn > $page ){
+		if( $page && $pn > $page ){
 			header('Location:'.base_url('cate/'.$cate_url.'/'.$page));
 			return;
 		}
