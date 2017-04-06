@@ -53,7 +53,7 @@ class Cate extends CI_Controller {
 		$total = $this->cate_model->get_count($cate_id);
 		$page = ceil($total/$limit);
 		if( !empty($pn) && !is_numeric($pn) ){
-			header('Location:'.base_url());
+			header('Location:'.base_url('cate/'.$cate_url));
 			return;
 		}
 		$pn = intval($pn);
