@@ -14,7 +14,7 @@ class home_model extends CI_Model{
     }
 
     public function get_new_doc(){
-        $limit = 18;
+        $limit = 20;
         $retval = array();
     	$query = $this->db->query("SELECT doc_url, doc_title FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = 1 ORDER BY doc_id DESC LIMIT ".$limit);
     	$retval[1] = $query->result_array();
