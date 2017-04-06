@@ -56,7 +56,10 @@ class Cate extends CI_Controller {
 			header('Location:'.base_url('cate/'.$cate_url));
 			return;
 		}
-		$pn = intval($pn);
+		if( !is_int($pn) ){
+			header('Location:'.base_url('cate/'.$cate_url.'/'.intval($pn)));
+			return;
+		}
 		if( $pn < 1 ){
 			header('Location:'.base_url('cate/'.$cate_url));
 			return;
