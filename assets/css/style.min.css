@@ -48,7 +48,9 @@
     .view-container .pn .pn-container span {
       float: left;
       margin-left: 10px;
-      font-size: 14px; }
+      font-size: 14px;
+      height: 24px;
+      line-height: 24px; }
       .view-container .pn .pn-container span a {
         display: block;
         padding: 2px 10px;
