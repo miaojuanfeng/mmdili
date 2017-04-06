@@ -76,7 +76,7 @@ class Cate extends CI_Controller {
 		$config['pagination']['next_link'] = '下一页';
 		$config['pagination']['last_link'] = '尾页';
 		$config['pagination']['uri_segment'] = 3;
-		$config['pagination']['total_rows'] = $this->cate_model->get_count($cate_id);;
+		$config['pagination']['total_rows'] = $this->cate_model->get_count($cate_id);
 		$config['pagination']['per_page'] = 10;
 		$this->pagination->initialize($config['pagination']);
 		//

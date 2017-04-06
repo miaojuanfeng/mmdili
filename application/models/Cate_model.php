@@ -15,7 +15,7 @@ class cate_model extends CI_Model{
 
     public function get_count($cate_id){
         $query = $this->db->query("SELECT COUNT(doc_id) as rows_total FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = ".$cate_id);
-        return $query->rows_array()['rows_total'];
+        return $query->row_array()['rows_total'];
     }
 
     public function get_list($cate_id){
