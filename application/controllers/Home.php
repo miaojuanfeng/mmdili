@@ -27,6 +27,15 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->library('email');
+		$this->email->from('miaojuanfeng@qq.com', 'Your Name');
+		$this->email->to('michael.miao@ec-solutions.com.hk');
+		// $this->email->cc('another@another-example.com');
+		// $this->email->bcc('them@their-example.com');
+		$this->email->subject('Email Test');
+		$this->email->message('Testing the email class.');
+		$this->email->send();
+
 		$data['doc']['cate'] = $this->home_model->get_new_doc();
 		//
 		$data['doc']['new'] = $this->home_model->get_new();
