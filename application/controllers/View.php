@@ -32,7 +32,6 @@ class View extends CI_Controller {
 	public function index($view_id)
 	{
 		var_dump($view_id);
-		return;
 		if( !is_numeric($view_id) ){
 			redirect(base_url('error'.'.html'));
 		}
