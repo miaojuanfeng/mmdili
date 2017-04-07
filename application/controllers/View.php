@@ -31,19 +31,25 @@ class View extends CI_Controller {
     
 	public function index($view_id)
 	{
-		var_dump($view_id);
-		if( !is_numeric($view_id) ){
+		/*
+		 * 容错处理
+		 * 如果view_id不是数字或整数，转到404
+		 */
+		if( !is_numeric($view_id) || ($view_id > intval($view_id)) ){
 			redirect(base_url('error'.'.html'));
 		}
-		$data['class_footer'] = 'view-footer';
-		//
+		// 整数化view_id，用于处理1491499779.0
 		$view_id = intval($view_id);
+		/*
+		 * 容错处理
+		 * 如果view_id不是数字或整数，转到404
+		 */
 		$detail = $this->view_model->get_detail($view_id);
-		var_dump($view_id);
-		var_dump($detail);
 		if( !$detail ){
 			redirect(base_url('error'.'.html'));
 		}
+		//
+		$data['class_footer'] = 'view-footer';
 		//
 		$data['page']['swf'] = 'http://mmview.oss-cn-shanghai.aliyuncs.com/pv';
 		$data['page']['data'] = 'http://mmview.oss-cn-shanghai.aliyuncs.com/'.$detail['user_url'].'/'.$view_id.'/';
