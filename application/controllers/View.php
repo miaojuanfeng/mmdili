@@ -28,7 +28,7 @@ class View extends CI_Controller {
     	$this->load->library('Mcrypt');
 		$this->load->model('view_model');
 
-		$this->output->cache(1);
+		$this->output->cache(60);
     }
     
 	public function index($view_id)
