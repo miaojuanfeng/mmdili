@@ -104,6 +104,8 @@ a {
     font-family: arial;
     font-size: 13px;
     color: #666; }
+  .error-container ul {
+    margin-left: 47px; }
 
 .footer {
   margin-top: 15px;

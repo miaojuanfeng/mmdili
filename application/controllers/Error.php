@@ -25,6 +25,6 @@ class Error extends CI_Controller {
     
 	public function index()
 	{
-		echo 'error';
+		$this->load->view('error_view');
 	}
 }
