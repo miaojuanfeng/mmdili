@@ -337,6 +337,26 @@ a {
         background-color: black;
         color: #eee; }
 
+.verify-container .verify-title {
+  font-size: 22px;
+  font-family: Microsoft Yahei;
+  font-weight: normal;
+  color: #333;
+  margin: 35px 0 25px 0; }
+
+.verify-container .verify-title2 {
+  font-family: arial;
+  font-size: 13px;
+  color: #666; }
+
+.verify-container ul {
+  margin-left: 47px; }
+  .verify-container ul li {
+    margin: 13px 0; }
+    .verify-container ul li a {
+      color: #FF0000;
+      text-decoration: underline; }
+
 .view-container {
   width: 962px;
   float: left;
