@@ -31,9 +31,13 @@ class View extends CI_Controller {
     
 	public function index($view_id)
 	{
+		if( !is_numeric($view_id) ){
+			redirect(base_url('error'.'.html'));
+		}
 		$data['class_footer'] = 'view-footer';
 		//
 		$detail = $this->view_model->get_detail($view_id);
+		var_dump($view_id);
 		var_dump($detail);
 		if( !$detail ){
 			redirect(base_url('error'.'.html'));

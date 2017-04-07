@@ -28,7 +28,7 @@ class view_model extends CI_Model{
             LEFT JOIN m_doc_cate ON m_doc.doc_cate_id = m_doc_cate.doc_cate_id 
             WHERE doc_deleted = 0 
             AND user_deleted = 0 
-            AND doc_url = '".$doc_url."' LIMIT 1");
+            AND doc_url = ".$doc_url." LIMIT 1");
     	return $query->row_array();
     }
 
