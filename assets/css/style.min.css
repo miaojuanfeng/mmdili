@@ -108,6 +108,9 @@ a {
     margin-left: 47px; }
     .error-container ul li {
       margin: 13px 0; }
+      .error-container ul li a {
+        color: #FF0000;
+        text-decoration: underline; }
 
 .error-footer {
   position: fixed;
