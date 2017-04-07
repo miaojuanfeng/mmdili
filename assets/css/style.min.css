@@ -92,6 +92,11 @@ a {
   width: 1200px;
   margin: 0 auto; }
 
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
 .error-container {
   float: left; }
   .error-container .nors-title {
@@ -111,11 +116,6 @@ a {
       .error-container ul li a {
         color: #FF0000;
         text-decoration: underline; }
-
-.error-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%; }
 
 .footer {
   margin-top: 15px;

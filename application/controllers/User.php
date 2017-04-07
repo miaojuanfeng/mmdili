@@ -31,7 +31,8 @@ class User extends CI_Controller {
 	}
 
 	public function verify(){
+		$data['class_footer'] = 'fixed-footer';
 		//
-		$this->load->view('user_verify_view');
+		$this->load->view('user_verify_view', $data);
 	}
 }

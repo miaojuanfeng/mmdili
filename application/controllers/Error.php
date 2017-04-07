@@ -28,7 +28,7 @@ class Error extends CI_Controller {
     
 	public function index()
 	{
-		$data['class_footer'] = 'error-footer';
+		$data['class_footer'] = 'fixed-footer';
 		$this->load->view('error_view', $data);
 	}
 }
