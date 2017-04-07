@@ -46,8 +46,7 @@ class Cate extends CI_Controller {
 				$cate_title = '文综';
 				break;
 			default:
-				header('Location:'.base_url());
-				return;
+				redirect(base_url('error'.'.html'));
 		}
 		// 每页显示数量
 		$limit = 20;
