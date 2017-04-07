@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class User extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,17 +22,16 @@ class Home extends CI_Controller {
     {
     	parent::__construct();
     	$this->load->helper('url');
-    	$this->load->model('home_model');
+    	// $this->load->model('home_model');
     }
 
 	public function index()
 	{
-		$data['doc']['cate'] = $this->home_model->get_new_doc();
+		
+	}
+
+	public function verify(){
 		//
-		$data['doc']['new'] = $this->home_model->get_new();
-		$data['doc']['hot'] = $this->home_model->get_hot();
-		$data['doc']['rand'] = $this->home_model->get_rand();
-		//
-		$this->load->view('home_view', $data);
+		$this->load->view('user_verify_view');
 	}
 }
