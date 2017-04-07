@@ -507,7 +507,7 @@ if ( ! is_php('5.4'))
 /*
  *	MJF Add at 20170407
  */
-			header('Location:'.$URI->config['base_url'].'/'$class.'.html');
+			header('Location:'.$URI->config['base_url'].'/'.$class.'.html');
 			return;
 /*
  *	MJF Add at 20170407
