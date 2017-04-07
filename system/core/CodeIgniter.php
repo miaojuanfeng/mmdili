@@ -510,6 +510,8 @@ if ( ! is_php('5.4'))
 				1 => $class,
 				2 => $method
 			);
+
+			var_dump($RTR);
 		}
 		else
 		{
