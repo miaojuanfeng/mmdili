@@ -34,6 +34,7 @@ class View extends CI_Controller {
 		$data['class_footer'] = 'view-footer';
 		//
 		$detail = $this->view_model->get_detail($view_id);
+		var_dump($detail);
 		if( !$detail ){
 			redirect(base_url('error'.'.html'));
 		}
