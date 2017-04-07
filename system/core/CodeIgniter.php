@@ -403,11 +403,8 @@ if ( ! is_php('5.4'))
 	$method = $RTR->method;
 
 /*
- *	MJF Done at 20170405
+ *	MJF Add at 20170405
  */
-	// var_dump($class);
-	// var_dump($method);
-
 	switch ($class) {
 		case 'View':
 		case 'Cate':
@@ -417,11 +414,8 @@ if ( ! is_php('5.4'))
 		default:
 			break;
 	}
-
-	// var_dump($class);
-	// var_dump($method);
 /*
- *	MJF Done at 20170405
+ *	MJF Add at 20170405
  */
 
 	if (empty($class) OR ! file_exists(APPPATH.'controllers/'.$RTR->directory.$class.'.php'))
@@ -510,8 +504,14 @@ if ( ! is_php('5.4'))
 				1 => $class,
 				2 => $method
 			);
-
-			var_dump($RTR);
+/*
+ *	MJF Add at 20170407
+ */
+			header('Location:'.$URI->config['base_url'].'/'$class.'.html');
+			return;
+/*
+ *	MJF Add at 20170407
+ */
 		}
 		else
 		{
@@ -522,7 +522,7 @@ if ( ! is_php('5.4'))
 	if ($method !== '_remap')
 	{
 /*
- *	MJF Done at 20170405
+ *	MJF Add at 20170405
  */
 		// $params = array_slice($URI->rsegments, 2);
 		switch ($class) {
@@ -536,7 +536,7 @@ if ( ! is_php('5.4'))
 				break;
 		}
 /*
- *	MJF Done at 20170405
+ *	MJF Add at 20170405
  */
 	}
 
