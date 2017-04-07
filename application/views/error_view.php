@@ -9,8 +9,8 @@
 	<div class="content">
 		<div class="main-container">
 			<div class="error-container">
-				<h3 class="norsTitle">很抱歉，您要访问的页面不存在！</h3>
-				<p class="norsTitle2">温馨提示：</p>
+				<h3 class="nors-title">很抱歉，您要访问的页面不存在！</h3>
+				<p class="nors-title2">温馨提示：</p>
 				<ul>
 					<li>请检查您访问的网址是否正确</li>
 					<li>如果您不能确认访问的网址，请浏览首页查看更多链接。</li>
