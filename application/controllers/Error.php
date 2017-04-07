@@ -23,7 +23,7 @@ class Error extends CI_Controller {
     	parent::__construct();
     }
     
-	public function index($doc_url)
+	public function index()
 	{
 		echo 'error';
 	}
