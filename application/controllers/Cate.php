@@ -57,35 +57,14 @@ class Cate extends CI_Controller {
 		$page = ceil($total/$limit);
 		/*
 		 * 容错处理
-		 * 如果页数不是数字，转到首页
+		 * 1.如果页数不是数字
+		 * 2.如果页数不是整数
+		 * 3.如果页数小于首页
+		 * 4.如果页数大于尾页
+		 * 转到404
 		*/
-		if( !empty($pn) && !is_numeric($pn) ){
-			header('Location:'.base_url('cate/'.$cate_url));
-			return;
-		}
-		/*
-		 * 容错处理
-		 * 如果页数不是整数，转到整数页
-		*/
-		if( $pn > intval($pn) ){
-			header('Location:'.base_url('cate/'.$cate_url.'/'.intval($pn)));
-			return;
-		}
-		/*
-		 * 容错处理
-		 * 如果页数小于首页，转到首页
-		*/
-		if( $pn < 1 ){
-			header('Location:'.base_url('cate/'.$cate_url));
-			return;
-		}
-		/*
-		 * 容错处理
-		 * 如果页数大于尾页，转到尾页
-		*/
-		if( $page && $pn > $page ){
-			header('Location:'.base_url('cate/'.$cate_url.'/'.$page));
-			return;
+		if( (!empty($pn) && !is_numeric($pn)) || ($pn > intval($pn)) || ($pn < 1) || ($page && $pn > $page) ){
+			redirect('error');
 		}
 		// 计算偏移量
 		$offset = ($pn - 1) * $limit;
