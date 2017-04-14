@@ -3,7 +3,6 @@
 <head>
 	<title>缪缪文科 - 专业的文科文档分享平台</title>
 	<?php require_once 'meta_view.php' ?>
-	<meta name="baidu_union_verify" content="ee2e0ab3b120378b42fc6a8868c904f0">
 </head>
 <body>
 	<?php require_once 'header_view.php' ?>
