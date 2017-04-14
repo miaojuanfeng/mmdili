@@ -14,7 +14,7 @@
 			<span>|</span>
 			<span>本站基于 <a href="javascript:;">阿里云</a> + <a href="javascript:;">Godaddy</a> 构建</span>
 			<span>|</span>
-			<span>自豪地采用 <a href="javascript:;">CII</a> 高性能扩展框架</span>
+			<span>自豪地采用<a href="javascript:;">CII</a>高性能扩展框架</span>
 			<span>|</span>
 			<span>M.J.F 提供编码支持</span>
 		</div>
