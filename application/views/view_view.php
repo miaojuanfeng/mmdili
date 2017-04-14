@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title><?=$page['title']?> - 缪缪<?=$page['cate_name']?>文档</title>
