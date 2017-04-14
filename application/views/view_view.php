@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title><?=$page['title']?> - 缪缪<?=$page['cate_name']?>文档</title>
@@ -19,6 +19,12 @@
 				?>
 				<div class="page-notice">
 					提示：当前文档包含较多图形，已对图形及部分文字进行压缩以加快载入，下载文档可浏览高清版本。
+				</div>
+				<?php
+				}else{
+				?>
+				<div class="page-notice">
+					提示：已对文档中包含的图片进行压缩以加快载入，下载文档可浏览高清版本。
 				</div>
 				<?php
 				}
