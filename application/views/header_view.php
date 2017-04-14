@@ -1,6 +1,6 @@
 <div class="header">
 	<div class="main-container">
-		<div class="logo">缪缪文科</div>
+		<div class="logo">缪缪地理</div>
 		<div class="menu">
 			<ul>
 				<li>
