@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Cate extends CI_Controller {
@@ -22,7 +22,8 @@ class Cate extends CI_Controller {
     {
     	parent::__construct();
     	$this->load->helper('url');
-    	$this->load->library('pagination');
+    	//$this->load->library('pagination');
+	$this->cii_pagination = new cii_pagination();
 		$this->load->model('cate_model');
     }
     
@@ -74,6 +75,7 @@ class Cate extends CI_Controller {
 		$data['cate']['hot'] = $this->cate_model->get_hot($cate_id);
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);
 		//
+/*
 		$config['pagination']['base_url'] = base_url('cate/'.$cate_url.'/');
 		$config['pagination']['full_tag_open'] = '<div class="pn"><div class="pn-container">';
 		$config['pagination']['full_tag_close'] = '<div class="clearfix"></div></div><div class="clearfix"></div></div>';
@@ -98,6 +100,11 @@ class Cate extends CI_Controller {
 		$config['pagination']['total_rows'] = $total;
 		$config['pagination']['per_page'] = $limit;
 		$this->pagination->initialize($config['pagination']);
+*/
+		$cii_pagination['base_url'] = base_url('cate/'.$cate_url.'/');
+		$cii_pagination['per_page'] = $limit;
+		$cii_pagination['total_rows'] = $total;
+		$this->cii_pagination->initialize($cii_pagination);
 		//
 		$this->load->view('cate_view', $data);
 	}

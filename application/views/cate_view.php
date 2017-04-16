@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title><?=$cate['title']?>_分类下的所有文档 - 缪缪<?=$cate['title']?>文档</title>
@@ -28,7 +28,11 @@
 						?>
 					</ul>
 				</div>
-				<?=$this->pagination->create_links()?>
+				<?php
+				//ci
+				//echo $this->pagination->create_links()
+				?>
+				<?=$this->cii_pagination->create_links($this->uri->segment(3))?>
 			</div>
 			<div class="recommend-container">
 				<div class="relative-container">
