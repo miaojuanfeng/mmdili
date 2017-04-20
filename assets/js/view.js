@@ -27,9 +27,17 @@ $(document).ready(function(){
 
 	function get_page_data(elem_id, page_no){
 
-		alert(swfobject.getFlashPlayerVersion());
-		// config.SwfFile = (page_data+page_no);
-		// new FlexPaperViewer(page_swf, elem_id, {config: config});
+		ver v = swfobject.getFlashPlayerVersion();
+		if( v["major"] > 0){
+            if(v['major']<10) {
+                alert("您的Flash播放器版本过低，请安装Flash Player最新版本");
+                return false;
+            }
+        }else{
+            alert("您的计算机尚未安装Flash Player");
+            return false;
+        }
+
 		flashvars.data = (page_data+page_no);
 		swfobject.embedSWF(
 			page_swf, 
@@ -125,7 +133,7 @@ $(document).ready(function(){
 					//
 					var pv_title = document.createElement('p');
 					pv_title.className = 'pv-title';
-					pv_title.innerHTML = '您的计算机尚未安装Flash';
+					pv_title.innerHTML = '您的计算机尚未安装Flash Player';
 					//
 					var pv_link = document.createElement('p');
 					pv_link.className = 'pv-link';
