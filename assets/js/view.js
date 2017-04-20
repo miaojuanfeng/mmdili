@@ -120,6 +120,22 @@ $(document).ready(function(){
 					pv_new.className = 'pv';
 					pv_new.id = 'pv_' + page_id;
 					pv_new.setAttribute('page', page_id);
+					//
+					var pv_title = document.createElement('p');
+					pv_title.className = 'pv-title';
+					pv_title.innerHTML = '您的计算机尚未安装Flash';
+					//
+					var pv_link = document.createElement('p');
+					pv_link.className = 'pv-link';
+					pv_link.innerHTML = '<a href="http://get.adobe.com/cn/flashplayer" target="_blank">点击安装 http://get.adobe.com/cn/flashplayer</a>';
+					//
+					var pv_pic = document.createElement('p');
+					pv_pic.className = 'pv-title';
+					pv_pic.innerHTML = '<a href="http://get.adobe.com/cn/flashplayer" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a>';
+					//
+					pv_new.append(pv_title);
+					pv_new.append(pv_link);
+					pv_new.append(pv_pic);
 					$(this).append(pv_new);
 				}
 				console.log($(this).attr('id')+"不在可视范围");
