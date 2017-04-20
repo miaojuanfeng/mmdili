@@ -140,7 +140,7 @@ $(document).ready(function(){
 					pv_link.innerHTML = '<a href="http://get.adobe.com/cn/flashplayer" target="_blank">点击安装 http://get.adobe.com/cn/flashplayer</a>';
 					//
 					var pv_pic = document.createElement('p');
-					pv_pic.className = 'pv-title';
+					pv_pic.className = 'pv-pic';
 					pv_pic.innerHTML = '<a href="http://get.adobe.com/cn/flashplayer" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a>';
 					//
 					pv_new.appendChild(pv_title);
