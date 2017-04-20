@@ -383,9 +383,12 @@ a {
     margin-bottom: 15px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
     .view-container .page .pv, .view-container .more-page .pv {
-      text-align: center; }
+      text-align: center;
+      padding-top: 50px; }
       .view-container .page .pv p, .view-container .more-page .pv p {
-        margin: 0; }
+        margin: 0;
+        padding: 5px 0;
+        font: 16px/20px "微软雅黑"; }
   .view-container .more-page {
     min-height: auto;
     text-align: center; }
