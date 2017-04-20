@@ -389,6 +389,11 @@ a {
         margin: 0;
         padding: 5px 0;
         font: 16px/20px "微软雅黑"; }
+      .view-container .page .pv .pv-link a:hover, .view-container .more-page .pv .pv-link a:hover {
+        text-decoration: underline;
+        color: #FF0000; }
+      .view-container .page .pv .pv-pic, .view-container .more-page .pv .pv-pic {
+        padding-top: 10px; }
   .view-container .more-page {
     min-height: auto;
     text-align: center; }
