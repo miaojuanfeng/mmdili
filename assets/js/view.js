@@ -28,8 +28,8 @@ $(document).ready(function(){
 	function get_page_data(elem_id, page_no){
 
 		var v = swfobject.getFlashPlayerVersion();
-		if( v["major"] > 0){
-            if(v["major"]<10) {
+		if( v["major"] > 0 ){
+            if( v["major"] < 10 ){
                 $(".pv-title").html("您的Flash播放器版本过低，请安装Flash Player最新版本");
                 $(".pv").show();
             }
