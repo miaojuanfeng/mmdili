@@ -7,6 +7,9 @@
 			<li>
 				<a href="javasctip:;">联络缪缪</a>
 			</li>
+			<li>
+				<a href="javascript:;">技术架构</a>
+			</li>
 			<div class="clearfix"></div>
 		</ul>
 		<div class="right">
