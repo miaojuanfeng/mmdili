@@ -27,7 +27,8 @@ $(document).ready(function(){
 
 	function get_page_data(elem_id, page_no){
 
-		ver v = swfobject.getFlashPlayerVersion();
+		var v = swfobject.getFlashPlayerVersion();
+		console.log(v);
 		if( v["major"] > 0){
             if(v['major']<10) {
                 alert("您的Flash播放器版本过低，请安装Flash Player最新版本");
