@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title>缪缪文科 - 专业的文科文档分享平台</title>
-	<?php require_once 'meta_view.php' ?>
+	<?php require_once '../meta_view.php' ?>
 </head>
 <body>
-	<?php require_once 'header_view.php' ?>
+	<?php require_once '../header_view.php' ?>
 	<div class="content">
 		<div class="main-container">
 			<div class="page-container">
@@ -24,6 +24,6 @@
 			<div class="clearfix"></div>
 		</div>
 	</div>
-	<?php require_once 'footer_view.php' ?>
+	<?php require_once '../footer_view.php' ?>
 </body>
 </html>
