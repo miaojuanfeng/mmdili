@@ -133,9 +133,9 @@ $(document).ready(function(){
 					pv_pic.className = 'pv-title';
 					pv_pic.innerHTML = '<a href="http://get.adobe.com/cn/flashplayer" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a>';
 					//
-					pv_new.append(pv_title);
-					pv_new.append(pv_link);
-					pv_new.append(pv_pic);
+					pv_new.innerHTML(pv_title);
+					pv_new.innerHTML(pv_link);
+					pv_new.innerHTML(pv_pic);
 					$(this).append(pv_new);
 				}
 				console.log($(this).attr('id')+"不在可视范围");
