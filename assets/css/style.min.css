@@ -382,6 +382,10 @@ a {
     border: 1px solid #eee;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
+    .view-container .page .pv, .view-container .more-page .pv {
+      text-align: center; }
+      .view-container .page .pv p, .view-container .more-page .pv p {
+        margin: 0; }
   .view-container .more-page {
     min-height: auto;
     text-align: center; }

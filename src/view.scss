@@ -30,6 +30,14 @@
 		border: 1px solid #eee;
 		margin-bottom: 15px;
 		box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+
+		.pv{
+			text-align:center;
+			
+			p{
+				margin:0;
+			}
+		}
 	}
 	.more-page{
 		@extend .page;
