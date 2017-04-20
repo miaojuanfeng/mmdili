@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title><?=$cate['title']?>_分类下的所有文档 - 缪缪<?=$cate['title']?>文档</title>

@@ -38,7 +38,10 @@
 				for($i=1;$i<=$page['num'];$i++){
 				?>
 					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;margin-bottom:10px;'; ?>">
-						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>"></div>
+						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>">
+							<h4>您的计算机尚未安装Flash</h4>
+							<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+						</div>
 					</div>
 				<?php
 					if( $i == 1 ){
