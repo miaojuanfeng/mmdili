@@ -8,14 +8,14 @@
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
 		<div class="main-container">
-			<div class="error-container">
-				<h3 class="nors-title">很抱歉，您要访问的页面不存在！</h3>
-				<p class="nors-title2">温馨提示：</p>
+			<div class="page-container">
+				<h3 class="page-title">技术架构</h3>
+				<p class="page-title2">核心技术：</p>
 				<ul>
-					<li>请检查您访问的网址是否正确</li>
-					<li>如果您不能确认访问的网址，请<a href="<?=base_url()?>">浏览首页</a>查看更多链接。</li>
-					<li>点击顶部菜单重新回到页面</li>
-					<li>如有任何意见或建议，请及时反馈给我们。</li>
+					<li>缪缪文科 采用 M.J.F 研发的 CII 高性能扩展框架，全称为 CodeIgniter Internal Framework 。
+					这是一个现时非常流行的开源框架 CodeIgniter 以PHP扩展的方式实现。
+					完全采用C语言编写，与ZEND API协作，编译成动态链接库在PHP启动时载入运行，采用CII框架开发网站的速度和便利不输于 CodeIgniter。
+					经测试，运行在CII框架上的网站的响应速度比采用CodeIgniter框架的网站快了近10倍。</li>
 				</ul>
 			</div>
 			<div class="recommend-container">

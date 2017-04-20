@@ -8,9 +8,9 @@
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
 		<div class="main-container">
-			<div class="error-container">
-				<h3 class="nors-title">很抱歉，您要访问的页面不存在！</h3>
-				<p class="nors-title2">温馨提示：</p>
+			<div class="page-container">
+				<h3 class="page-title">关于缪缪</h3>
+				<p class="page-title2">缪缪老师：</p>
 				<ul>
 					<li>请检查您访问的网址是否正确</li>
 					<li>如果您不能确认访问的网址，请<a href="<?=base_url()?>">浏览首页</a>查看更多链接。</li>

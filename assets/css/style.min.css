@@ -337,6 +337,26 @@ a {
         background-color: black;
         color: #eee; }
 
+.page-container {
+  float: left; }
+  .page-container .page-title {
+    font-size: 22px;
+    font-family: Microsoft Yahei;
+    font-weight: normal;
+    color: #333;
+    margin: 35px 0 25px 0; }
+  .page-container .page-title2 {
+    font-family: arial;
+    font-size: 13px;
+    color: #666; }
+  .page-container ul {
+    margin-left: 47px; }
+    .page-container ul li {
+      margin: 13px 0; }
+      .page-container ul li a {
+        color: #FF0000;
+        text-decoration: underline; }
+
 .verify-container .verify-title {
   font-size: 22px;
   font-family: Microsoft Yahei;
