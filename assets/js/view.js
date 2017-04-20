@@ -30,11 +30,11 @@ $(document).ready(function(){
 		var v = swfobject.getFlashPlayerVersion();
 		if( v["major"] > 0){
             if(v["major"]<10) {
-                $(".pv_title").html("您的Flash播放器版本过低，请安装Flash Player最新版本");
+                $(".pv-title").html("您的Flash播放器版本过低，请安装Flash Player最新版本");
                 $(".pv").show();
             }
         }else{
-            $(".pv_title").html("您的计算机尚未安装Flash Player");
+            $(".pv-title").html("您的计算机尚未安装Flash Player");
             $(".pv").show();
         }
 
