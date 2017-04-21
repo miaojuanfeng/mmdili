@@ -23,20 +23,25 @@ class Page extends CI_Controller {
     	parent::__construct();
     	$this->load->helper('url');
 		$this->output->cache(60);
+
+		$this->class_footer = 'fixed-footer';
     }
     
 	public function about()
 	{
-		$this->load->view('page/about_view');
+		$data['class_footer'] = $this->class_footer;
+		$this->load->view('page/about_view', $data);
 	}
 
 	public function contact()
 	{
-		$this->load->view('page/contact_view');
+		$data['class_footer'] = $this->class_footer;
+		$this->load->view('page/contact_view', $data);
 	}
 
 	public function code()
 	{
-		$this->load->view('page/code_view');
+		$data['class_footer'] = $this->class_footer;
+		$this->load->view('page/code_view', $data);
 	}
 }
