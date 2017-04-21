@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>缪缪文科 - 专业的文科文档分享平台</title>
-	<?php require_once '../meta_view.php' ?>
+	<?php $this->load->view('../meta_view.php'); ?>
 </head>
 <body>
 	<?php $this->load->view('../header_view.php'); ?>
