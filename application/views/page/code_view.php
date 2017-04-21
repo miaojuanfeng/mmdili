@@ -19,6 +19,18 @@
 					<li>采用 CII 框架开发网站的速度和便利不输于 CodeIgniter 。</li>
 					<li>运行在 CII 框架上的网站响应速度比采用 CodeIgniter 框架提高近10倍。</li>
 				</ul>
+				<p class="page-title2">Gulp - 前端自动化工具：</p>
+				<ul>
+					<li>gulp-sass，编译sass为css。</li>
+					<li>gulp-minify-css，压缩css。</li>
+					<li>gulp-notify，显示报错信息和报错后不终止当前 gulp 任务。</li>
+					<li>gulp-plumber，阻止 gulp 插件发生错误导致进程退出并输出错误日志。</li>
+					<li>gulp-uglify, 压缩 JavaScript。</li>
+					<li>gulp-concat, 合并 JavaScript。</li>
+					<li>gulp-autoprefixer, 增加 CSS 前缀，兼容各浏览器。</li>
+					<li>gulp-rename, 文件重命名。</li>
+					<li>browser-sync，浏览器自动刷新。</li>
+				</ul>
 			</div>
 			<div class="recommend-container">
 
