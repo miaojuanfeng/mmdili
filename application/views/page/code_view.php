@@ -5,7 +5,7 @@
 	<?php $this->load->view('meta_view.php'); ?>
 </head>
 <body>
-	<?php require_once '../header_view.php' ?>
+	<?php $this->load->view('header_view.php'); ?>
 	<div class="content">
 		<div class="main-container">
 			<div class="page-container">
@@ -24,6 +24,6 @@
 			<div class="clearfix"></div>
 		</div>
 	</div>
-	<?php require_once '../footer_view.php' ?>
+	<?php $this->load->view('footer_view.php'); ?>
 </body>
 </html>
