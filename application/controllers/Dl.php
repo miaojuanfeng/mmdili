@@ -28,12 +28,12 @@ class Dl extends CI_Controller {
     	$this->load->library('Oss');
     }
     
-	public function index($doc_url)
+	public function index($doc_id)
 	{
-		if( empty($doc_url) || !($doc_url = $this->mcrypt->decode($doc_url)) ){
+		if( empty($doc_id) || !($doc_id = $this->mcrypt->decode($doc_id)) ){
 			redirect(base_url('error'.'.html'));
 		}
-		if( !($file = $this->dl_model->get_url($doc_url)) ){
+		if( !($file = $this->dl_model->get_url($doc_id)) ){
 			redirect(base_url('error'.'.html'));
 		}
 		$user_url = $file['user_url'];

@@ -13,7 +13,7 @@ class dl_model extends CI_Model{
         $this->load->database('default');
     }
 
-    public function get_url($doc_url){
+    public function get_url($doc_id){
     	$query = $this->db->query("SELECT 
             user_url, 
             doc_url, 
@@ -24,14 +24,8 @@ class dl_model extends CI_Model{
             LEFT JOIN m_doc_ext ON m_doc.doc_ext_id = m_doc_ext.doc_ext_id 
             WHERE doc_deleted = 0 
             AND user_deleted = 0 
-            AND doc_url = ".$doc_url." LIMIT 1");
+            AND doc_id = ".$doc_id." LIMIT 1");
         if( $query->num_rows() ){
-            // $rs = ;
-            // $doc_url = $rs['doc_url'];
-            // $user_url = $rs['user_url'];
-            // $doc_title = $rs['doc_title'];
-            // $doc_ext_name = $rs['doc_ext_name'];
-            // return 'http://mmdoc.oss-cn-shanghai.aliyuncs.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
             return $query->row_array();
         }
     	return false;
