@@ -25,7 +25,7 @@ class Dl extends CI_Controller {
     	// $this->load->library('File');
     	$this->load->library('Mcrypt');
     	$this->load->model('dl_model');
-    	$this->load->model('oss');
+    	$this->load->library('Oss');
     }
     
 	public function index($doc_url)
