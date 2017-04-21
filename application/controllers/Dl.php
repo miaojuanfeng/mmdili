@@ -31,24 +31,21 @@ class Dl extends CI_Controller {
 	public function index($doc_url)
 	{
 		if( empty($doc_url) || !($doc_url = $this->mcrypt->decode($doc_url)) ){
-			header('Location:'.base_url());
-			return;
+			redirect(base_url('error'.'.html'));
 		}
-		// if( !($file = $this->dl_model->get_url($doc_url)) ){
-		// 	header('Location:'.base_url());
-		// 	return;
-		// }
-		$user_url = $file['user_url'];
+		if( !($file = $this->dl_model->get_url($doc_url)) ){
+			redirect(base_url('error'.'.html'));
+		}
+		$user_url = $file['user_url'].'1';
 		$doc_url = $file['doc_url'];
         $doc_title = $file['doc_title'];
         $doc_ext_name = $file['doc_ext_name'];
-		// Header("Content-type: application/octet-stream"); 
-		// Header("Accept-Ranges: bytes"); 
-		// Header("Accept-Length:".$file_size);
-		// Header("Content-Disposition: attachment; filename=".$file['doc_title'].'.'.$file['doc_ext_name']);
-	$object = $user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
-	$exist = $this->oss->checkDocExist($object);
-    var_dump($exist);
-		// header('Location:'.'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
+		$object = $user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
+		$exist = $this->oss->checkDocExist($object);
+    	if($exist){
+    		header('Location:'.'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
+    	}else{
+    		redirect(base_url('error'.'.html'));
+    	}
 	}
 }
