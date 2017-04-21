@@ -53,8 +53,8 @@ class View extends CI_Controller {
 		//
 		$data['class_footer'] = 'view-footer';
 		//
-		$data['page']['swf'] = 'http://mmview.oss-cn-shanghai.aliyuncs.com/pv';
-		$data['page']['data'] = 'http://mmview.oss-cn-shanghai.aliyuncs.com/'.$detail['user_url'].'/'.$view_id.'/';
+		$data['page']['swf'] = 'http://view.mmdili.com/pv';
+		$data['page']['data'] = 'http://view.mmdili.com/'.$detail['user_url'].'/'.$view_id.'/';
 		$data['page']['num'] = $detail['doc_page_num'];
 		$data['page']['width'] = 960;
 		$data['page']['height'] = intval((960/$detail['doc_width'])*$detail['doc_height']);
