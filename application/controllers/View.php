@@ -60,8 +60,9 @@ class View extends CI_Controller {
 		$data['page']['height'] = intval((960/$detail['doc_width'])*$detail['doc_height']);
 		$data['page']['title'] = $detail['doc_title'];
 		$data['page']['cate_name'] = $detail['doc_cate_name'];
-		$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];;
+		$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];
 		//
+		$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
 		$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
 		//
 		$data['page']['new'] = $this->view_model->get_new();

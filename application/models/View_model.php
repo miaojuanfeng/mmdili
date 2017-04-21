@@ -23,6 +23,7 @@ class view_model extends CI_Model{
             doc_height, 
             doc_page_num, 
             doc_poly2bitmap, 
+            doc_dl_forbidden,
             doc_cate_name 
             FROM m_doc 
             LEFT JOIN m_user ON doc_user_id = user_id 
