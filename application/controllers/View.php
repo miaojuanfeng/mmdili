@@ -60,12 +60,9 @@ class View extends CI_Controller {
 		$data['page']['height'] = intval((960/$detail['doc_width'])*$detail['doc_height']);
 		$data['page']['title'] = $detail['doc_title'];
 		$data['page']['cate_name'] = $detail['doc_cate_name'];
-		$file_name = 'sjdl.doc';
-		// $data['page']['init'] = ( $data['page']['num'] < 3 ) ? $data['page']['num'] : 3;
-		// $data['page']['more'] = ( $data['page']['num'] - 3 ) > 0 ? ( $data['page']['num'] - 3 ) : 0;
 		$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];;
 		//
-		$data['page']['dl'] = $this->mcrypt->encode($view_id);
+		$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
 		//
 		$data['page']['new'] = $this->view_model->get_new();
 		$data['page']['hot'] = $this->view_model->get_hot();

@@ -16,6 +16,7 @@ class view_model extends CI_Model{
     public function get_detail($doc_url){
     	$query = $this->db->query("SELECT 
             user_url, 
+            doc_id,
             doc_url, 
             doc_title, 
             doc_width, 
