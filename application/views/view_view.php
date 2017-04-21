@@ -126,6 +126,7 @@
 				</div>
 				<div class="center"></div>
 				<div class="right">
+					<div class="download-forbidden"><a href="<?=base_url('dl/'.$page['dl'])?>" target="_blank">版权所有，暂不提供下载</a></div>
 					<div class="download"><a href="<?=base_url('dl/'.$page['dl'])?>" target="_blank">下载此文档</a></div>
 				</div>
 				<div class="clearfix"></div>
