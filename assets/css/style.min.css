@@ -350,7 +350,8 @@ a {
     font-size: 13px;
     color: #666; }
   .page-container ul {
-    margin-left: 47px; }
+    margin-left: 47px;
+    list-style: disc; }
     .page-container ul li {
       margin: 13px 0; }
       .page-container ul li a {
