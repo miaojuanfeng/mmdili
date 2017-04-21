@@ -25,6 +25,7 @@ class Dl extends CI_Controller {
     	// $this->load->library('File');
     	$this->load->library('Mcrypt');
     	$this->load->model('dl_model');
+    	$this->load->model('oss');
     }
     
 	public function index($doc_url)
@@ -45,6 +46,9 @@ class Dl extends CI_Controller {
 		// Header("Accept-Ranges: bytes"); 
 		// Header("Accept-Length:".$file_size);
 		// Header("Content-Disposition: attachment; filename=".$file['doc_title'].'.'.$file['doc_ext_name']);
-		header('Location:'.'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
+	$object = $user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
+	$exist = $this->oss->checkDocExist($object);
+    var_dump($exist);
+		// header('Location:'.'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
 	}
 }
