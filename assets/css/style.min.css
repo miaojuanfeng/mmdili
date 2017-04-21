@@ -351,6 +351,7 @@ a {
     color: #666; }
   .page-container ul {
     margin-left: 47px;
+    margin-bottom: 30px;
     list-style: disc; }
     .page-container ul li {
       margin: 13px 0; }
