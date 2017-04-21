@@ -21,7 +21,7 @@ class Dl extends CI_Controller {
 	public function __construct()
     {
     	parent::__construct();
-    	// $this->load->helper('url');
+    	$this->load->helper('url');
     	// $this->load->library('File');
     	$this->load->library('Mcrypt');
     	$this->load->model('dl_model');
@@ -45,6 +45,6 @@ class Dl extends CI_Controller {
 		// Header("Accept-Ranges: bytes"); 
 		// Header("Accept-Length:".$file_size);
 		// Header("Content-Disposition: attachment; filename=".$file['doc_title'].'.'.$file['doc_ext_name']);
-		header('Location:'.'http://mmdoc.oss-cn-shanghai.aliyuncs.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
+		header('Location:'.'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
 	}
 }
