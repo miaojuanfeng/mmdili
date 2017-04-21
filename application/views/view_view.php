@@ -127,7 +127,7 @@
 				<div class="center"></div>
 				<div class="right">
 					<?php
-					if( $page['doc_dl_forbidden'] ){
+					if( $page['dl_forbidden'] ){
 					?>
 					<div class="download-forbidden"><a href="<?=base_url('dl/'.$page['dl'])?>" target="_blank">版权所有，暂不提供下载</a></div>
 					<?php
