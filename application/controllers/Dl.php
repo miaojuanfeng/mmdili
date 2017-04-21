@@ -34,10 +34,10 @@ class Dl extends CI_Controller {
 			header('Location:'.base_url());
 			return;
 		}
-		if( !($file = $this->dl_model->get_url($doc_url)) ){
-			header('Location:'.base_url());
-			return;
-		}
+		// if( !($file = $this->dl_model->get_url($doc_url)) ){
+		// 	header('Location:'.base_url());
+		// 	return;
+		// }
 		$user_url = $file['user_url'];
 		$doc_url = $file['doc_url'];
         $doc_title = $file['doc_title'];
