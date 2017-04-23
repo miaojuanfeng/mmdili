@@ -1,4 +1,4 @@
-﻿<div class="header">
+<div class="header">
 	<div class="main-container">
 		<div class="logo">缪缪地理</div>
 		<div class="menu">
