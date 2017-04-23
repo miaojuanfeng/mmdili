@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>缪缪文科 - 专业的文科文档分享平台</title>
+	<title>缪缪地理 - 专业的文科文档分享平台</title>
 	<?php require_once 'meta_view.php' ?>
 </head>
 <body>

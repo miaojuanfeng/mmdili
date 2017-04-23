@@ -1,4 +1,4 @@
-a:2:{s:6:"expire";i:1492362327;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
+a:2:{s:6:"expire";i:1492966230;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
 <html>
 <head>
 	<title>缪缪文科 - 专业的文科文档分享平台</title>
@@ -90,6 +90,9 @@ a:2:{s:6:"expire";i:1492362327;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
 			</li>
 			<li>
 				<a href="javasctip:;">联络缪缪</a>
+			</li>
+			<li>
+				<a href="javascript:;">技术架构</a>
 			</li>
 			<div class="clearfix"></div>
 		</ul>
