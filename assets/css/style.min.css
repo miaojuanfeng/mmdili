@@ -405,7 +405,7 @@ a {
     margin-bottom: 15px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     background-position: center center;
-    background-size: cover; }
+    background-repeat: no-repeat; }
     .view-container .page .pv, .view-container .more-page .pv {
       text-align: center;
       padding-top: 80px;
