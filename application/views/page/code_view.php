@@ -15,7 +15,7 @@
 				<h3 class="page-title">技术架构</h3>
 				<p class="page-title2">CII 扩展框架：</p>
 				<ul>
-					<li>本站运行在 M.J.F 研发的 CII 高性能扩展框架中，全称为 CodeIgniter Internal Framework 。</li>
+					<li>本站运行在 CII 高性能扩展框架中，全称为 CodeIgniter Internal Framework 。</li>
 					<li>这是根据目前非常流行的开源框架 CodeIgniter 的架构，以 PHP 扩展方式实现的框架。</li>
 					<li>完全采用 C 语言编写而成，编译为动态链接库，在 PHP 启动时装载运行。</li>
 					<li>经过线下单元测试与线上长期运行，CII 框架运行时不会产生 Segment Fault 与 Memory Leak 。</li>

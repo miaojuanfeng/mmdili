@@ -12,7 +12,7 @@ $(document).ready(function(){
 		allowFullscreen: "true",
 		allowScriptAccess: "always",
 		bgcolor: "",
-		wmode: "opaque" // can cause issues with FP settings & webcam
+		wmode: "transparent" // can cause issues with FP settings & webcam
 	};
 	var attributes = {
 		id:"pv"
