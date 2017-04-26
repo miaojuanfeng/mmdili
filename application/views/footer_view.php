@@ -8,7 +8,7 @@
 				<a href="javasctip:;">联络缪缪</a>
 			</li>
 			<li>
-				<a href="javascript:;">技术架构</a>
+				<a href="<?=base_url('page/code')?>">技术架构</a>
 			</li>
 			<div class="clearfix"></div>
 		</ul>
