@@ -37,7 +37,7 @@
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
 				?>
-					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;margin-bottom:10px;'; ?>">
+					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="background-image: url('<?=base_url('assets/img/page-loading.gif')?>'); width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;margin-bottom:10px;'; ?>">
 						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>">
 							<p class="pv-title"></p>
 							<p class="pv-link"><a href="http://get.adobe.com/cn/flashplayer" target="_blank">点击安装 http://get.adobe.com/cn/flashplayer</a></p>
