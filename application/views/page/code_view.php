@@ -36,8 +36,8 @@
 					<li>阿里云 ECS 提供高效云计算服务。</li>
 					<li>阿里云 OSS 提供海量数据存储服务。</li>
 					<li>GoDaddy 提供极速域名解析服务。</li>
-					<li>GitHub 提供源码托管服务。</li>
-					<li>Microsoft 提供文件转码服务。</li>
+					<li>GitHub 提供便捷源码同步服务。</li>
+					<li>Microsoft 提供可靠文件转码服务。</li>
 				</ul>
 			</div>
 			<div class="recommend-container">
