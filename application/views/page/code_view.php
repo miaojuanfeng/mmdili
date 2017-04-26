@@ -21,23 +21,23 @@
 				</ul>
 				<p class="page-title2">Gulp - 前端自动化工具：</p>
 				<ul>
-					<li>gulp-sass，编译 SASS 为 CSS。</li>
-					<li>gulp-minify-css，压缩 CSS。</li>
-					<li>gulp-notify，显示报错信息和报错后不终止当前 Gulp 任务。</li>
-					<li>gulp-plumber，阻止 gulp 插件发生错误导致进程退出并输出错误日志。</li>
-					<li>gulp-uglify, 压缩 JavaScript。</li>
-					<li>gulp-concat, 合并 JavaScript。</li>
-					<li>gulp-autoprefixer, 增加 CSS 前缀，兼容各浏览器。</li>
-					<li>gulp-rename, 文件重命名。</li>
-					<li>browser-sync，浏览器自动刷新。</li>
+					<li>采用 gulp-sass 编译 SASS 为 CSS 。</li>
+					<li>采用 gulp-minify-css 压缩 CSS 。</li>
+					<li>采用 gulp-notify 显示报错信息和报错后不终止当前 Gulp 任务。</li>
+					<li>采用 gulp-plumber 阻止 gulp 插件发生错误导致进程退出并输出错误日志。</li>
+					<li>采用 gulp-uglify 压缩 JavaScript 。</li>
+					<li>采用 gulp-concat 合并 JavaScript 。</li>
+					<li>采用 gulp-autoprefixer 增加 CSS 前缀，兼容各浏览器。</li>
+					<li>采用 gulp-rename 文件重命名。</li>
+					<li>采用 browser-sync 浏览器自动刷新。</li>
 				</ul>
-				<p class="page-title2">特别鸣谢：</p>
+				<p class="page-title2">其他服务：</p>
 				<ul>
-					<li>阿里云ECS提供高效云计算服务。</li>
-					<li>阿里云OSS提供海量数据存储服务。</li>
-					<li>GoDaddy提供极速域名解析服务。</li>
-					<li>GitHub提供源码托管服务。</li>
-					<li>Microsoft提供文件转码服务。</li>
+					<li>阿里云 ECS 提供高效云计算服务。</li>
+					<li>阿里云 OSS 提供海量数据存储服务。</li>
+					<li>GoDaddy 提供极速域名解析服务。</li>
+					<li>GitHub 提供源码托管服务。</li>
+					<li>Microsoft 提供文件转码服务。</li>
 				</ul>
 			</div>
 			<div class="recommend-container">
