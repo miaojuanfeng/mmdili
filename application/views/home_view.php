@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>缪缪地理 - 专业的文科文档分享平台</title>
+	<meta name="robots" content="index,follow" />
+	<meta name="keywords" content="高中地理,高中历史,高中政治,高考文综,地理文档,历史文档,政治文档,高考文档,文档下载" />
+	<meta name="description" content="缪缪地理，专业的文科文档分享平台。提供高中地理、历史、政治、文综、高考试题文档下载。" />
 	<?php require_once 'meta_view.php' ?>
 </head>
 <body>
