@@ -4,7 +4,7 @@
 	<title><?=$cate['title']?>_分类下的所有文档 - 缪缪<?=$cate['title']?>文档</title>
 	<meta name="robots" content="index,follow" />
 	<meta name="keywords" content="高中<?=$cate['title']?>,<?=$cate['title']?>文档,文档列表,文档搜索" />
-	<meta name="description" content="<?=$cate['title']?>分类下的所有文档。缪缪地理，专业的文科文档分享平台。" />
+	<meta name="description" content="<?=$cate['title']?>_分类下的所有文档。" />
 	<?php require_once 'meta_view.php' ?>
 </head>
 <body>

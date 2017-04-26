@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>缪缪文科 - 专业的文科文档分享平台</title>
+	<title>技术架构 - 缪缪地理</title>
+	<meta name="robots" content="index,follow" />
+	<meta name="keywords" content="技术架构" />
+	<meta name="description" content="缪缪地理技术架构。" />
 	<?php $this->load->view('meta_view.php'); ?>
 </head>
 <body>
