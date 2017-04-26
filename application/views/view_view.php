@@ -4,7 +4,7 @@
 	<title><?=$page['title']?> - 缪缪<?=$page['cate_name']?>文档</title>
 	<meta name="robots" content="index,follow" />
 	<meta name="keywords" content="" />
-	<meta name="description" content="<?=$page['title']?>" />
+	<meta name="description" content="<?=$page['title']?>。" />
 	<?php require_once 'meta_view.php' ?>
 	<script type="text/javascript" src="<?=base_url('assets/lib/js/swfobject.js')?>"></script>
 	<script type="text/javascript" src="<?=base_url('assets/js/view.js')?>"></script>
