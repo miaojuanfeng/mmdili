@@ -338,7 +338,8 @@ a {
         color: #eee; }
 
 .page-container {
-  float: left; }
+  float: left;
+  padding-bottom: 45px; }
   .page-container .page-title {
     font-size: 22px;
     font-family: Microsoft Yahei;
