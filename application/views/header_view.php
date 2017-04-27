@@ -23,7 +23,7 @@
 				</ul>
 			</div>
 			<form method="GET" action="/search" id="search-form" class="search-form">
-				<input type="text" id="search-input" class="search-input" name="k" value="<?=!empty($this->input->get('k', true))?str_replace(array('\'','"'), '', $this->input->get('k', true)):''?>" maxlength="100" placeholder="从海量文档中搜索...">
+				<input type="text" id="search-input" class="search-input" name="k" value="<?=!empty($this->input->get('k', true))?str_replace(array('\'','"',';',',','。'), '', $this->input->get('k', true)):''?>" maxlength="100" placeholder="从海量文档中搜索...">
 				<button type="button" id="search-button" class="search-button"><span class="search-button-text">搜索</span></button>
 			</form>
 			<div class="clearfix"></div>
