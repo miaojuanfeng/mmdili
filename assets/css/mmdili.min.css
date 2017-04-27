@@ -209,8 +209,9 @@ a {
         outline: 0;
         cursor: pointer;
         font-size: 14px;
-        color: #ccc;
         padding: 0 10px; }
+        .header .main-header .search-form .search-button .search-button-text {
+          color: #ccc; }
   .header .login {
     float: right;
     display: none; }
