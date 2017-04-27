@@ -1,25 +1,34 @@
 <div class="header">
 	<div class="main-container">
-		<div class="logo">缪缪地理</div>
-		<div class="menu">
-			<ul>
-				<li>
-					<a href="<?=base_url()?>">首页</a>
-				</li>
-				<li>
-					<a href="<?=base_url('cate/dili')?>">地理</a>
-				</li>
-				<li>
-					<a href="<?=base_url('cate/lishi')?>">历史</a>
-				</li>
-				<li>
-					<a href="<?=base_url('cate/zhengzhi')?>">政治</a>
-				</li>
-				<li>
-					<a href="<?=base_url('cate/wenzong')?>">文综</a>
-				</li>
-				<div class="clearfix"></div>
-			</ul>
+		<div style="width:960px;">
+			<div class="logo">缪缪地理</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="<?=base_url()?>">首页</a>
+					</li>
+					<li>
+						<a href="<?=base_url('cate/dili')?>">地理</a>
+					</li>
+					<li>
+						<a href="<?=base_url('cate/lishi')?>">历史</a>
+					</li>
+					<li>
+						<a href="<?=base_url('cate/zhengzhi')?>">政治</a>
+					</li>
+					<li>
+						<a href="<?=base_url('cate/wenzong')?>">文综</a>
+					</li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+			<div>
+				<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+					<input type="hidden" name="type" value="content">
+					<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容..." role="combobox" aria-autocomplete="list">
+					<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+				</form>
+			</div>
 		</div>
 		<div class="login">
 			<ul>
