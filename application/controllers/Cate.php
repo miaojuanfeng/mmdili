@@ -23,7 +23,7 @@ class Cate extends CI_Controller {
     	parent::__construct();
     	$this->load->helper('url');
     	//$this->load->library('pagination');
-	$this->cii_pagination = new cii_pagination();
+		$this->cii_pagination = new cii_pagination();
 		$this->load->model('cate_model');
     }
     
