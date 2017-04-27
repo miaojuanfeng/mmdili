@@ -11,7 +11,7 @@
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
 		<div class="main-container">
-			<div class="view-container">
+			<div class="search-container">
 				<div class="search-title">
 					<h1>包含 <b><?=$search['key']?></b> <span class="search-title-note">关键字的所有文档</span></h1>
 				</div>

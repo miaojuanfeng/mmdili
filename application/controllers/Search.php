@@ -58,10 +58,6 @@ class Search extends CI_Controller {
 		$cii_pagination['total_rows'] = $total;
 		$this->cii_pagination->initialize($cii_pagination);
 		//
-		if( count($data['search']['doc']) < 20 ){
-			$data['class_footer'] = 'fixed-footer';
-		}
-		//
 		$this->load->view('search_view', $data);
 	}
 }
