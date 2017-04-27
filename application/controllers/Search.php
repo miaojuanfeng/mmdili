@@ -51,6 +51,7 @@ class Search extends CI_Controller {
 		$offset = ($pn - 1) * $limit;
 		$data['search']['key'] = $k;
 		$data['search']['doc'] = $this->search_model->search_doc($k, $limit, $offset);
+		$data['search']['pn'] = $pn;
 
 		$cii_pagination['base_url'] = base_url('search?k='.$k.'&pn=');
 		$cii_pagination['per_page'] = $limit;

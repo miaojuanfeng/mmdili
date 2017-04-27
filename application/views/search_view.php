@@ -41,7 +41,7 @@
 				//ci
 				//echo $this->pagination->create_links()
 				?>
-				<?=$this->cii_pagination->create_links($this->uri->segment(3))?>
+				<?=$this->cii_pagination->create_links($search['pn'])?>
 			</div>
 			<div class="recommend-container">
 				<!-- <div class="relative-container">
