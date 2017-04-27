@@ -18,7 +18,7 @@ class search_model extends CI_Model{
             COUNT(doc_id) as rows_total 
             FROM m_doc 
             WHERE doc_deleted = 0 
-            AND doc_title like '%".$k."%'");
+            AND doc_title like '%".$this->db->escape_str($k, true)."%'");
         return $query->row_array()['rows_total'];
     }
 
@@ -29,7 +29,7 @@ class search_model extends CI_Model{
             doc_page_num 
             FROM m_doc 
             WHERE doc_deleted = 0 
-            AND doc_title like '%".$k."%' 
+            AND doc_title like '%".$this->db->escape_str($k, true)."%' 
             ORDER BY doc_id DESC LIMIT ".$limit." OFFSET ".$offset);
         return $query->result_array();
     }
