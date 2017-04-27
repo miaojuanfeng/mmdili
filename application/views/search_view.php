@@ -31,7 +31,7 @@
 							}
 						}else{
 						?>
-						<li>抱歉，没有找到相关文档</li>
+						<li class="no-result">抱歉，没有找到相关文档</li>
 						<?php
 						}
 						?>

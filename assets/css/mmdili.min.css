@@ -445,6 +445,9 @@ a {
           background-color: rgba(102, 102, 102, 0.1); }
       .view-container .search ul li:last-child {
         border-bottom: none; }
+    .view-container .search .no-result {
+      padding: 10px;
+      text-align: center; }
 
 .verify-container .verify-title {
   font-size: 22px;
