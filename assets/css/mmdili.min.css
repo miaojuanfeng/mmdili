@@ -400,50 +400,50 @@ a {
       background-color: #a4bddb;
       color: #FFF; }
 
-.search-container {
+.view-container {
   width: 962px;
   float: left;
   padding: 15px 0 0 0;
   padding-bottom: 45px; }
-  .search-container .search-title {
+  .view-container .search-title {
     padding: 10px;
     border: 1px solid #eee;
     border-bottom: none;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
-    .search-container .search-title h1 {
+    .view-container .search-title h1 {
       line-height: 25px;
       padding: 0;
       color: #ccc;
       margin: 0;
       font: 16px/20px "微软雅黑"; }
-      .search-container .search-title h1 b {
+      .view-container .search-title h1 b {
         color: #747474; }
-    .search-container .search-title .search-title-note {
+    .view-container .search-title .search-title-note {
       font-size: 14px; }
-  .search-container .search {
+  .view-container .search {
     border: 1px solid #eee;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
-    .search-container .search ul li {
+    .view-container .search ul li {
       border-bottom: 1px dashed #eee; }
-      .search-container .search ul li a {
+      .view-container .search ul li a {
         color: #747474;
         display: block;
         padding: 10px 10px; }
-        .search-container .search ul li a h3 {
+        .view-container .search ul li a h3 {
           margin: 0;
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
           font-weight: normal;
           font-size: 14px; }
-        .search-container .search ul li a .page_num {
+        .view-container .search ul li a .page_num {
           float: right;
           font-weight: normal;
           color: #ccc; }
-        .search-container .search ul li a:hover {
+        .view-container .search ul li a:hover {
           background-color: rgba(102, 102, 102, 0.1); }
-      .search-container .search ul li:last-child {
+      .view-container .search ul li:last-child {
         border-bottom: none; }
 
 .verify-container .verify-title {
