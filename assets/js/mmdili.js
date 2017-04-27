@@ -11,6 +11,8 @@ $(document).ready(function(){
 			var key = $.trim($('#search-input').val());
 			if( key ){
 				$('#search-form').submit();
+			}else{
+				return false;
 			}
 		}
 	});
