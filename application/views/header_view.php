@@ -23,8 +23,8 @@
 				</ul>
 			</div>
 			<form method="GET" action="/search" class="search-form">
-				<input type="text" class="search-input" name="key" value="" maxlength="100" placeholder="从海量文档中搜索...">
-				<button type="submit" class="search-button"><span class="search-button-text">搜索</span></button>
+				<input type="text" id="search-input" class="search-input" name="key" value="" maxlength="100" placeholder="从海量文档中搜索...">
+				<button type="submit" id="search-button" class="search-button"><span class="search-button-text">搜索</span></button>
 			</form>
 			<div class="clearfix"></div>
 		</div>

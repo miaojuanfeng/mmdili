@@ -161,4 +161,11 @@ $(document).ready(function(){
 	$('.login-form-close').click(function(){
 		$('.login-form').hide();
 	});
+
+	$('#search-button').click(function(){
+		var key = $('#search-input').val();
+		if( !key ){
+			return false;
+		}
+	});
 });

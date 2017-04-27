@@ -204,7 +204,7 @@ a {
         background: dimgray;
         background: -webkit-linear-gradient(top, dimgray, #505050);
         background: linear-gradient(to bottom, dimgray, #505050);
-        border: 1px solid dimgray;
+        border: none;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 1px 1px rgba(255, 255, 255, 0.15);
