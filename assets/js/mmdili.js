@@ -12,6 +12,7 @@ $(document).ready(function(){
 			if( key ){
 				$('#search-form').submit();
 			}else{
+				$('#search-input').val('');
 				return false;
 			}
 		}
@@ -22,6 +23,7 @@ $(document).ready(function(){
 		if( key ){
 			$('#search-form').submit();
 		}else{
+			$('#search-input').val('');
 			$('#search-input').focus();
 		}
 	});
