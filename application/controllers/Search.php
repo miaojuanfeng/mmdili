@@ -28,8 +28,8 @@ class Search extends CI_Controller {
     
 	public function index()
 	{
-		$k 	= $this->input->get('k')	? $this->input->get('k', true)	: '';
-		$pn = $this->input->get('pn') ? $this->input->get('pn', true) : 1;
+		$k 	= $this->input->get('k', true)	? $this->input->get('k', true)	: '';
+		$pn = $this->input->get('pn', true) ? $this->input->get('pn', true) : 1;
 		// 每页显示数量
 		$limit = 20;
 		// 总记录数量
