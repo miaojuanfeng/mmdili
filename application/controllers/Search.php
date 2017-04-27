@@ -27,6 +27,8 @@ class Search extends CI_Controller {
 	public function index()
 	{
 		$data['class_footer'] = 'fixed-footer';
+
+		$data['search']['key'] = $this->input->get('k');
 		$this->load->view('search_view', $data);
 	}
 }
