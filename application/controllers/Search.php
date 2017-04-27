@@ -28,8 +28,6 @@ class Search extends CI_Controller {
     
 	public function index()
 	{
-		// $data['class_footer'] = 'fixed-footer';
-
 		$k = $this->input->get('k')?$this->input->get('k'):'';
 		$pn = $this->input->get('pn')?$this->input->get('pn'):1;
 		// 每页显示数量
@@ -58,6 +56,10 @@ class Search extends CI_Controller {
 		$cii_pagination['per_page'] = $limit;
 		$cii_pagination['total_rows'] = $total;
 		$this->cii_pagination->initialize($cii_pagination);
+		//
+		if( !count($data['search']['doc']) ){
+			$data['class_footer'] = 'fixed-footer';
+		}
 		//
 		$this->load->view('search_view', $data);
 	}
