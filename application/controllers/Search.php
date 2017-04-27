@@ -28,7 +28,7 @@ class Search extends CI_Controller {
     
 	public function index()
 	{
-		$k = $this->input->get('k')?$this->input->get('k'):'';
+		$k = $this->input->get('k')?mysql_real_escape_string($this->input->get('k')):'';
 		$pn = $this->input->get('pn')?$this->input->get('pn'):1;
 		// 每页显示数量
 		$limit = 20;
