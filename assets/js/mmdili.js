@@ -10,6 +10,8 @@ $(document).ready(function(){
 		var key = $('#search-input').val();
 		if( key ){
 			$('#search-form').submit();
+		}else{
+			$('#search-input').focus();
 		}
 	});
 });
