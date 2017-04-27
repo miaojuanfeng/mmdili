@@ -1,6 +1,6 @@
 <div class="header">
 	<div class="main-container">
-		<div style="width:960px;">
+		<div class="main-header">
 			<div class="logo">缪缪地理</div>
 			<div class="menu">
 				<ul>
@@ -22,13 +22,11 @@
 					<div class="clearfix"></div>
 				</ul>
 			</div>
-			<div>
-				<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
-					<input type="hidden" name="type" value="content">
-					<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容..." role="combobox" aria-autocomplete="list">
-					<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
-				</form>
-			</div>
+			<form method="GET" action="/search" class="search-form">
+				<input type="text" class="search-input" name="key" value="" maxlength="100" placeholder="从海量文档中搜索...">
+				<button type="submit" class="search-button"><span class="sprite-global-icon-magnifier-dark"></span></button>
+			</form>
+			<div class="clearfix"></div>
 		</div>
 		<div class="login">
 			<ul>
