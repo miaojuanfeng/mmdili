@@ -17,7 +17,7 @@ var reload      = browserSync.reload;
 gulp.task('css', function(){
 	gulp.src('src/*.scss')
 	.pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
-	.pipe(concat('style.css'))
+	.pipe(concat('mmdili.css'))
 	.pipe(rename({ suffix: '.min' }))
 	.pipe(sass())
 	.pipe(autoprefixer({
