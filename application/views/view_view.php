@@ -60,7 +60,43 @@
 					if( $i == 1 ){
 				?>
 					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
-						<img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" />
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- view_page_2 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:960px;height:90px"
+						     data-ad-client="ca-pub-6393601311110091"
+						     data-ad-slot="9189826685"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				<?php
+					}else if( $i == 2 ){
+				?>
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- view_page_3 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:960px;height:90px"
+						     data-ad-client="ca-pub-6393601311110091"
+						     data-ad-slot="1666559883"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				<?php
+					}else if( $i == 3 ){
+				?>
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- view_page_4 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:960px;height:90px"
+						     data-ad-client="ca-pub-6393601311110091"
+						     data-ad-slot="3143293083"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 					</div>
 				<?php
 					}
