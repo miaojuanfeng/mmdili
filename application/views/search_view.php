@@ -21,11 +21,17 @@
 				<div class="search">
 					<ul>
 						<?php
-						foreach($search['doc'] as $k => $v){
+						if( count($search['doc']) ){
+							foreach($search['doc'] as $k => $v){
 						?>
 						<li>
 							<a href="<?=base_url('view/'.$v['doc_url'].'.html')?>" target="_blank"><h3><?=$v['doc_title']?><span class="page_num">P<?=$v['doc_page_num']?></span></h3></a>
 						</li>
+						<?php
+							}
+						}else{
+						?>
+						<li>抱歉，没有找到相关文档</li>
 						<?php
 						}
 						?>
