@@ -45,7 +45,7 @@ class Search extends CI_Controller {
 		 * 转到404
 		*/
 		if( (!empty($pn) && !is_numeric($pn)) || ($pn > intval($pn)) || ($pn < 1) || ($page && $pn > $page) ){
-			redirect(base_url('error'.'.html'));
+			// redirect(base_url('error'.'.html'));
 		}
 		// 计算偏移量
 		$offset = ($pn - 1) * $limit;
