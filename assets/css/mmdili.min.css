@@ -43,25 +43,6 @@
           background-color: rgba(102, 102, 102, 0.1); }
       .view-container .cate ul li:last-child {
         border-bottom: none; }
-  .view-container .pn .pn-container {
-    float: right; }
-    .view-container .pn .pn-container span {
-      float: left;
-      margin-left: 10px;
-      font-size: 14px;
-      line-height: 24px; }
-      .view-container .pn .pn-container span a {
-        display: block;
-        padding: 2px 10px;
-        color: #747474;
-        background-color: #EDF2F8; }
-        .view-container .pn .pn-container span a:hover {
-          background-color: #a4bddb;
-          color: #FFF; }
-      .view-container .pn .pn-container span.current {
-        padding: 2px 10px;
-        background-color: #a4bddb;
-        color: #FFF; }
 
 body {
   padding: 0;
@@ -399,69 +380,71 @@ a {
         color: #FF0000;
         text-decoration: underline; }
 
-.view-container {
+.pn .pn-container {
+  float: right; }
+  .pn .pn-container span {
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 24px; }
+    .pn .pn-container span a {
+      display: block;
+      padding: 2px 10px;
+      color: #747474;
+      background-color: #EDF2F8; }
+      .pn .pn-container span a:hover {
+        background-color: #a4bddb;
+        color: #FFF; }
+    .pn .pn-container span.current {
+      padding: 2px 10px;
+      background-color: #a4bddb;
+      color: #FFF; }
+
+.search-container {
   width: 962px;
   float: left;
-  padding: 15px 0 0 0; }
-  .view-container .search-title {
+  padding: 15px 0 0 0;
+  padding-bottom: 45px; }
+  .search-container .search-title {
     padding: 10px;
     border: 1px solid #eee;
     border-bottom: none;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
-    .view-container .search-title h1 {
+    .search-container .search-title h1 {
       line-height: 25px;
       padding: 0;
       color: #ccc;
       margin: 0;
       font: 16px/20px "微软雅黑"; }
-      .view-container .search-title h1 b {
+      .search-container .search-title h1 b {
         color: #747474; }
-    .view-container .search-title .search-title-note {
+    .search-container .search-title .search-title-note {
       font-size: 14px; }
-  .view-container .search {
+  .search-container .search {
     border: 1px solid #eee;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
-    .view-container .search ul li {
+    .search-container .search ul li {
       border-bottom: 1px dashed #eee; }
-      .view-container .search ul li a {
+      .search-container .search ul li a {
         color: #747474;
         display: block;
         padding: 10px 10px; }
-        .view-container .search ul li a h3 {
+        .search-container .search ul li a h3 {
           margin: 0;
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
           font-weight: normal;
           font-size: 14px; }
-        .view-container .search ul li a .page_num {
+        .search-container .search ul li a .page_num {
           float: right;
           font-weight: normal;
           color: #ccc; }
-        .view-container .search ul li a:hover {
+        .search-container .search ul li a:hover {
           background-color: rgba(102, 102, 102, 0.1); }
-      .view-container .search ul li:last-child {
+      .search-container .search ul li:last-child {
         border-bottom: none; }
-  .view-container .pn .pn-container {
-    float: right; }
-    .view-container .pn .pn-container span {
-      float: left;
-      margin-left: 10px;
-      font-size: 14px;
-      line-height: 24px; }
-      .view-container .pn .pn-container span a {
-        display: block;
-        padding: 2px 10px;
-        color: #747474;
-        background-color: #EDF2F8; }
-        .view-container .pn .pn-container span a:hover {
-          background-color: #a4bddb;
-          color: #FFF; }
-      .view-container .pn .pn-container span.current {
-        padding: 2px 10px;
-        background-color: #a4bddb;
-        color: #FFF; }
 
 .verify-container .verify-title {
   font-size: 22px;

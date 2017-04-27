@@ -1,7 +1,8 @@
-.view-container{
+.search-container{
 	width: 962px;
 	float: left;
 	padding: 15px 0 0 0;
+	padding-bottom:45px;
 
 	.search-title{
 		padding: 10px;
@@ -64,36 +65,6 @@
 				}
 			}
 			
-		}
-	}
-	.pn{
-		.pn-container{
-			float: right;
-
-			span{
-				float: left;
-				margin-left: 10px;
-				font-size: 14px;
-				line-height: 24px;
-
-				a{
-					display: block;
-					padding: 2px 10px;
-					color: #747474;
-					background-color: #EDF2F8;
-
-					&:hover{
-						background-color: darken(#EDF2F8, 20%);
-						color: #FFF;
-					}
-				}
-
-				&.current{
-					padding: 2px 10px;
-					background-color: darken(#EDF2F8, 20%);
-					color: #FFF;
-				}
-			}
 		}
 	}
 }
