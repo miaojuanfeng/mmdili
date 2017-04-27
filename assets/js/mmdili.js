@@ -6,8 +6,17 @@ $(document).ready(function(){
 		$('.login-form').hide();
 	});
 
+	$('#search-input').keydown(function(event){
+		if( event.which == 13 ){
+			var key = $.trim($('#search-input').val());
+			if( key ){
+				$('#search-form').submit();
+			}
+		}
+	});
+
 	$('#search-button').click(function(){
-		var key = $('#search-input').val();
+		var key = $.trim($('#search-input').val());
 		if( key ){
 			$('#search-form').submit();
 		}else{
