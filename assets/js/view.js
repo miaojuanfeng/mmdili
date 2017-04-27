@@ -164,8 +164,8 @@ $(document).ready(function(){
 
 	$('#search-button').click(function(){
 		var key = $('#search-input').val();
-		if( !key ){
-			return false;
+		if( key ){
+			$('#search-form').submit();
 		}
 	});
 });
