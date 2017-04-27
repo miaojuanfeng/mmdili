@@ -28,8 +28,8 @@ class Search extends CI_Controller {
     
 	public function index()
 	{
-		$k 	= $this->input->get('k')  ? $this->input->get('k') : '';
-		$pn = $this->input->get('pn') ? $this->input->get('k') : 1;
+		$k 	= $this->input->get('k', true)  ? str_replace(array('\'','"',';',',','。'), '', $this->input->get('k', true))  : '';
+		$pn = $this->input->get('pn', true) ? $this->input->get('pn', true) : 1;
 		// 每页显示数量
 		$limit = 20;
 		// 总记录数量
@@ -45,7 +45,7 @@ class Search extends CI_Controller {
 		 * 转到404
 		*/
 		if( (!empty($pn) && !is_numeric($pn)) || ($pn > intval($pn)) || ($pn < 1) || ($page && $pn > $page) ){
-			// redirect(base_url('error'.'.html'));
+			redirect(base_url('error'.'.html'));
 		}
 		// 计算偏移量
 		$offset = ($pn - 1) * $limit;
