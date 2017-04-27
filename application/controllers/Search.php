@@ -28,7 +28,7 @@ class Search extends CI_Controller {
     
 	public function index()
 	{
-		$data['class_footer'] = 'fixed-footer';
+		// $data['class_footer'] = 'fixed-footer';
 
 		$k = $this->input->get('k')?$this->input->get('k'):'';
 		$pn = $this->input->get('pn')?$this->input->get('pn'):1;
