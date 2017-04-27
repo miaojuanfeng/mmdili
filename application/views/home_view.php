@@ -200,7 +200,7 @@
 						?>
 					</ul>
 				</div>
-				<div style="display: flex;">
+				<div style="display: flex; border:1px solid #eee; padding: 9px;">
 					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_1 -->
@@ -226,7 +226,7 @@
 						?>
 					</ul>
 				</div>
-				<div style="display: flex;">
+				<div style="display: flex; border:1px solid #eee; padding: 9px;">
 					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_1 -->

@@ -33,18 +33,18 @@
 				}
 				?>
 				<div style="height:90px; position:relative;">
-				<div style="display: flex; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); position:absolute;z-index:9;">
-					<!-- <img src="<?=base_url('assets/img/view_ad_1.jpg')?>" width="960" /> -->
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- view_page_1 -->
-					<ins class="adsbygoogle"
-					     style="display:inline-block;width:960px;height:90px"
-					     data-ad-client="ca-pub-6393601311110091"
-					     data-ad-slot="3701696288"></ins>
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
+					<div style="display: flex; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); position:absolute;z-index:9;">
+						<!-- <img src="<?=base_url('assets/img/view_ad_1.jpg')?>" width="960" /> -->
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- view_page_1 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:960px;height:90px"
+						     data-ad-client="ca-pub-6393601311110091"
+						     data-ad-slot="3701696288"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
 				</div>
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
