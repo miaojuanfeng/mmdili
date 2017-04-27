@@ -73,10 +73,10 @@
                 top: 0;
                 right: 0;
                 height: 100%;
-                background: #4f4f4f;
-                background: -webkit-linear-gradient(top,#4f4f4f, lighten(#4f4f4f, 10%));
-                background: linear-gradient(to bottom,#4f4f4f, lighten(#4f4f4f, 10%));
-                border: 1px solid #4f4f4f;
+                background: dimgray;
+                background: -webkit-linear-gradient(top,dimgray, lighten(dimgray, 10%));
+                background: linear-gradient(to bottom,dimgray, lighten(dimgray, 10%));
+                border: 1px solid dimgray;
                 border-top-right-radius: 4px;
                 border-bottom-right-radius: 4px;
                 box-shadow: 0 1px 2px rgba(0,0,0,.05), inset 0 1px 1px rgba(255,255,255,.15);
