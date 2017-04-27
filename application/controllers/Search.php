@@ -28,7 +28,7 @@ class Search extends CI_Controller {
     
 	public function index()
 	{
-		$k 	= $this->input->get('k', true)  ? str_replace(array('\'','"',';',',','。'), '', $this->input->get('k', true))  : '';
+		$k 	= $this->input->get('k', true)  ? str_replace(array('\'','"'), '', $this->input->get('k', true))  : '';
 		$pn = $this->input->get('pn', true) ? $this->input->get('pn', true) : 1;
 		// 每页显示数量
 		$limit = 20;
