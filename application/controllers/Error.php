@@ -23,7 +23,7 @@ class Error extends CI_Controller {
     	parent::__construct();
     	$this->load->helper('url');
 
-    	$this->output->cache(60);
+    	// $this->output->cache(60);
     }
     
 	public function index()
