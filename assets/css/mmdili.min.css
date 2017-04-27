@@ -423,8 +423,7 @@ a {
   .view-container .search {
     border: 1px solid #eee;
     margin-bottom: 15px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-    min-height: 820px; }
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
     .view-container .search ul li {
       border-bottom: 1px dashed #eee; }
       .view-container .search ul li a {
