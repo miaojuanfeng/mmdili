@@ -401,7 +401,7 @@ a {
       color: #FFF; }
 
 .search-container {
-  padding-bottom: 45px; }
+  padding-bottom: 45px !important; }
   .search-container .search-title {
     padding: 10px;
     border: 1px solid #eee;
