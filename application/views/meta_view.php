@@ -6,6 +6,6 @@
 <?php
 	$browser = get_browser();
     if(strtolower($browser->browser) == 'safari') {
-        echo '<link href="safari.css" rel="stylesheet" type="text/css" />';
+        echo '<link href="'.base_url('assets/css/safari.css').'" rel="stylesheet" type="text/css" />';
     }
 ?>
