@@ -13,7 +13,7 @@
 		<div class="main-container">
 			<div class="page-container">
 				<h3 class="page-title">技术架构</h3>
-				<p class="page-title2">CII 扩展框架：</p>
+				<p class="page-title2">CII - PHP扩展框架：</p>
 				<ul>
 					<li>本站运行在 CII 高性能扩展框架中，全称为 CodeIgniter Internal Framework 。</li>
 					<li>这是根据目前非常流行的开源框架 CodeIgniter 的架构，以 PHP 扩展方式实现的框架。</li>
@@ -34,7 +34,7 @@
 					<li>采用 gulp-rename 文件重命名。</li>
 					<li>采用 browser-sync 浏览器自动刷新。</li>
 				</ul>
-				<p class="page-title2">其他服务：</p>
+				<p class="page-title2">技术合作 - 特别鸣谢：</p>
 				<ul>
 					<li>阿里云 ECS 提供高效云计算服务。</li>
 					<li>阿里云 OSS 提供海量数据存储服务。</li>
