@@ -512,7 +512,8 @@ a {
         padding-top: 10px; }
   .view-container .page-top .page-top-adsense, .search-container .page-top .page-top-adsense {
     width: 690px;
-    margin: auto; }
+    margin: auto;
+    padding-top: 18px; }
     .view-container .page-top .page-top-adsense .left, .search-container .page-top .page-top-adsense .left {
       float: left; }
     .view-container .page-top .page-top-adsense .right, .search-container .page-top .page-top-adsense .right {
