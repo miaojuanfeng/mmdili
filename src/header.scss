@@ -95,7 +95,7 @@
             }
         }
 
-        @media all and (-webkit-min-device-pixel-ratio:0){
+        _::-webkit-full-page-media, _:future, :root .safari_only {
             /* select{ [;这里单独设置Safari的样式] } */
             .search-form{
                 margin-top: 6px;
