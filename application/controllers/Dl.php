@@ -42,7 +42,7 @@ class Dl extends CI_Controller {
 		$data['dl']['url']		= $file['doc_url'];
 
 		$data['dl']['new'] = $this->dl_model->get_new();
-		$data['dl']['hot'] = $this->dl_model->get_hot();
+		// $data['dl']['hot'] = $this->dl_model->get_hot();
 
 		$this->load->view('dl_view', $data);
 
