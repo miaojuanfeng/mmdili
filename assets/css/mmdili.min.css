@@ -190,7 +190,12 @@ a {
         outline: 0;
         cursor: pointer;
         font-size: 14px;
-        padding: 0 10px; }
+        padding: 0 10px;
+        /* Safari 7.1+ (9.0 is the latest version of Safari at this time) */ }
+        .header .main-header .search-form .search-button _::-webkit-full-page-media .search-button, .header .main-header .search-form .search-button _:future .search-button, .header .main-header .search-form .search-button :root .safari_only .search-button {
+          height: 33px;
+          top: 2px;
+          right: -2px; }
         .header .main-header .search-form .search-button .search-button-text {
           color: #ccc; }
   .header .login {
