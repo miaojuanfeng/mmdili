@@ -31,23 +31,34 @@
 				</div>
 				<?php
 				}
-				?>
-				<div style="height:90px; position:relative; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
-					<!-- <div style="display: flex; position:absolute;z-index:9;"> -->
-						<!-- <img src="<?=base_url('assets/img/view_ad_1.jpg')?>" width="960" /> -->
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- view_page_1 -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:960px;height:90px"
-						     data-ad-client="ca-pub-6393601311110091"
-						     data-ad-slot="3701696288"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					<!-- </div> -->
-				</div>
-				<?php
 				for($i=1;$i<=$page['num'];$i++){
+					if( $i == 1 ){
+				?>
+					<div class="page-top">
+						<div style="height:90px;">
+							<!-- <div style="display: flex; position:absolute;z-index:9;"> -->
+								<!-- <img src="<?=base_url('assets/img/view_ad_1.jpg')?>" width="960" /> -->
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- view_page_1 -->
+								<ins class="adsbygoogle"
+								     style="display:inline-block;width:960px;height:90px"
+								     data-ad-client="ca-pub-6393601311110091"
+								     data-ad-slot="3701696288"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							<!-- </div> -->
+						</div>
+						<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="background-image: url('<?=base_url('assets/img/page-loading.gif')?>'); width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;margin-bottom:10px;'; ?>">
+							<div class="pv" id="pv_<?=$i?>" page="<?=$i?>">
+								<p class="pv-title"></p>
+								<p class="pv-link"><a href="http://get.adobe.com/cn/flashplayer" target="_blank">点击安装 http://get.adobe.com/cn/flashplayer</a></p>
+								<p class="pv-pic"><a href="http://get.adobe.com/cn/flashplayer" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+							</div>
+						</div>
+					</div>
+				<?php
+					}else{
 				?>
 					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="background-image: url('<?=base_url('assets/img/page-loading.gif')?>'); width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1) echo 'border-top:none;margin-bottom:10px;'; ?>">
 						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>">
@@ -57,6 +68,8 @@
 						</div>
 					</div>
 				<?php
+					}
+					// AddSense
 					if( $i == 1 ){
 				?>
 					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">

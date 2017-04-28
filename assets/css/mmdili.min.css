@@ -489,26 +489,26 @@ a {
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
-  .view-container .page, .search-container .page, .view-container .more-page, .search-container .more-page {
+  .view-container .page, .search-container .page, .view-container .page-top, .search-container .page-top, .view-container .more-page, .search-container .more-page {
     border: 1px solid #eee;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     background-position: center center;
     background-repeat: no-repeat; }
-    .view-container .page .pv, .search-container .page .pv, .view-container .more-page .pv, .search-container .more-page .pv {
+    .view-container .page .pv, .search-container .page .pv, .view-container .page-top .pv, .search-container .page-top .pv, .view-container .more-page .pv, .search-container .more-page .pv {
       text-align: center;
       padding-top: 80px;
       display: none; }
-      .view-container .page .pv p, .search-container .page .pv p, .view-container .more-page .pv p, .search-container .more-page .pv p {
+      .view-container .page .pv p, .search-container .page .pv p, .view-container .page-top .pv p, .search-container .page-top .pv p, .view-container .more-page .pv p, .search-container .more-page .pv p {
         margin: 0;
         padding: 5px 0;
         font: 16px/20px "微软雅黑"; }
-      .view-container .page .pv .pv-link a, .search-container .page .pv .pv-link a, .view-container .more-page .pv .pv-link a, .search-container .more-page .pv .pv-link a {
+      .view-container .page .pv .pv-link a, .search-container .page .pv .pv-link a, .view-container .page-top .pv .pv-link a, .search-container .page-top .pv .pv-link a, .view-container .more-page .pv .pv-link a, .search-container .more-page .pv .pv-link a {
         color: #146c88; }
-        .view-container .page .pv .pv-link a:hover, .search-container .page .pv .pv-link a:hover, .view-container .more-page .pv .pv-link a:hover, .search-container .more-page .pv .pv-link a:hover {
+        .view-container .page .pv .pv-link a:hover, .search-container .page .pv .pv-link a:hover, .view-container .page-top .pv .pv-link a:hover, .search-container .page-top .pv .pv-link a:hover, .view-container .more-page .pv .pv-link a:hover, .search-container .more-page .pv .pv-link a:hover {
           text-decoration: underline;
           color: #FF0000; }
-      .view-container .page .pv .pv-pic, .search-container .page .pv .pv-pic, .view-container .more-page .pv .pv-pic, .search-container .more-page .pv .pv-pic {
+      .view-container .page .pv .pv-pic, .search-container .page .pv .pv-pic, .view-container .page-top .pv .pv-pic, .search-container .page-top .pv .pv-pic, .view-container .more-page .pv .pv-pic, .search-container .more-page .pv .pv-pic {
         padding-top: 10px; }
   .view-container .more-page, .search-container .more-page {
     min-height: auto;

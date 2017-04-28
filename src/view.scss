@@ -58,6 +58,11 @@
 			}
 		}
 	}
+
+	.page-top{
+		@extend .page;
+	}
+	
 	.more-page{
 		@extend .page;
 		min-height:auto;
