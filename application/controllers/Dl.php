@@ -38,7 +38,7 @@ class Dl extends CI_Controller {
 		}
 
 		$data['dl']['title'] = $file['doc_title'];
-		$this->load->view('dl_view');
+		$this->load->view('dl_view', $data);
 
 		return;
 		$user_url = $file['user_url'];
