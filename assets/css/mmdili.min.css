@@ -504,7 +504,8 @@ a {
     margin-bottom: 15px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     background-position: center center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-image: url("../img/page-loading.gif"); }
     .view-container .page .pv, .search-container .page .pv, .view-container .page-top .pv, .search-container .page-top .pv, .view-container .more-page .pv, .search-container .more-page .pv {
       text-align: center;
       padding-top: 80px;
