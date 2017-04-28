@@ -61,8 +61,13 @@
 
 	.page-top{
 		@extend .page;
+
+		.page{
+			border: none;
+			box-shadow: none;
+		}
 	}
-	
+
 	.more-page{
 		@extend .page;
 		min-height:auto;
