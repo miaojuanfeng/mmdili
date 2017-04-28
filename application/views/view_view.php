@@ -32,8 +32,8 @@
 				<?php
 				}
 				?>
-				<div style="height:90px; position:relative;">
-					<div style="display: flex; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); position:absolute;z-index:9;">
+				<div style="height:90px; position:relative; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+					<!-- <div style="display: flex; position:absolute;z-index:9;"> -->
 						<!-- <img src="<?=base_url('assets/img/view_ad_1.jpg')?>" width="960" /> -->
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- view_page_1 -->
@@ -44,7 +44,7 @@
 						<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
-					</div>
+					<!-- </div> -->
 				</div>
 				<?php
 				for($i=1;$i<=$page['num'];$i++){
