@@ -37,7 +37,8 @@ class Dl extends CI_Controller {
 			redirect(base_url('error'.'.html'));
 		}
 
-		$data['dl']['title'] = $file['doc_title'];
+		$data['dl']['title'] 	= $file['doc_title'];
+		$data['dl']['ext_name'] = $file['doc_ext_name'];
 		$this->load->view('dl_view', $data);
 
 		return;

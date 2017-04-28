@@ -1,0 +1,101 @@
+.dl-container{
+	@extend .view-container;
+
+	.page-title{
+		padding: 10px;
+		border:1px solid #eee;
+		border-bottom:none;
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+
+		h1{
+			line-height: 25px;
+			color: #666;
+			padding: 0;
+			margin:0;
+			font: 16px/20px "微软雅黑";
+		}
+	}
+	.page-notice{
+		padding: 5px 10px;
+		color: #747474;
+		border:{
+			left: 1px solid #eee;
+			right: 1px solid #eee;
+		}
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+
+		p{
+			margin: 2px 0;
+		}
+	}
+	.page{
+		border: 1px solid #eee;
+		margin-bottom: 15px;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-image: url('../img/page-loading.gif');
+
+		.pv{
+			text-align:center;
+			padding-top:80px;
+			display:none;
+
+			p{
+				margin:0;
+				padding: 5px 0;
+				font: 16px/20px "微软雅黑";
+			}
+
+			.pv-link a{
+				color: #146c88;
+
+				&:hover{
+					text-decoration: underline;
+					color: #FF0000;
+				}
+			}
+
+			.pv-pic{
+				padding-top: 10px;
+			}
+		}
+	}
+}
+
+.recommend-container{
+	width: 220px;
+	float: right;
+	padding: 16px 0 0 0;
+
+	.relative-container{
+
+		.relative-title{
+			padding: 8px 0 9px 0;
+
+			h1{
+				line-height: 25px;
+				color: #666;
+				padding: 0;
+				margin:0;
+				font-size: 14px;
+			}
+		}
+
+		ul{
+			li{
+				padding: 11px 0 12px 0;
+				border-top: 1px solid #eee;
+
+				a{
+					color: #747474;
+
+					&:hover{
+						text-decoration: underline;
+						color: #FF0000;
+					}
+				}
+			}
+		}
+	}
+}

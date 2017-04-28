@@ -13,13 +13,13 @@
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
 		<div class="main-container">
-			<div class="view-container">
+			<div class="dl-container">
 				<div class="page-title">
-					<h1>下载文档：<?=$dl['title']?></h1>
+					<h1>下载文档：<?=$dl['title'].'.'.$dl['ext_name']?></h1>
 				</div>
 				<div class="page-notice">
-					<p>本站内容为网上收集整理与原创撰写，并以研究高中教师教学方法，帮助学生提高成绩为目的。</p>
-					<p>仅供广大师生参考学习，下载后请不要上传到其他媒体媒介，并在合理范围内合法使用。</p>
+					<p>本站内容为网上收集整理与原创撰写，并以研究高中教师教学方法，帮助学生提高成绩为目的。仅供广大师生参考学习，下载后请不要上传到其他媒体媒介，并在合理范围内合法使用。</p>
+					<p><a href="<?=base_url('view/'.$dl['title'].'.html')?>" target="_blank">查看文档 <?=$dl['title']?> 的在线预览 >></a></p>
 				</div>
 			</div>
 			<div class="recommend-container">
