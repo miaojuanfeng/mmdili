@@ -19,24 +19,10 @@
 				</div>
 				<div class="page-notice">
 					<p>本站内容为网上收集整理与原创撰写，并以研究教师教学方法，提高学生成绩为目的。仅供广大师生参考学习，下载后请不要上传到其他媒体媒介，并在合理范围内合法使用。</p>
-					<p><a href="<?=base_url('view/'.$dl['title'].'.html')?>" target="_blank">查看文档 <?=$dl['title']?> 的在线预览 >></a></p>
+					<p><a href="<?=base_url('view/'.$dl['url'].'.html')?>" target="_blank">查看文档 《<?=$dl['title']?>》 的在线预览 >></a></p>
 				</div>
 			</div>
 			<div class="recommend-container">
-				<div class="relative-container">
-					<div class="relative-title">
-						<h1>最新发布的</h1>
-					</div>
-					<ul>
-						<?php
-						foreach ($dl['new'] as $key => $value) {
-						?>
-						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
-						<?php
-						}
-						?>
-					</ul>
-				</div>
 				<div style="display: flex; border:1px solid #eee; padding: 9px;">
 					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -51,11 +37,11 @@
 				</div>
 				<div class="relative-container">
 					<div class="relative-title">
-						<h1>推荐的文档</h1>
+						<h1>最新发布的</h1>
 					</div>
 					<ul>
 						<?php
-						foreach ($dl['hot'] as $key => $value) {
+						foreach ($dl['new'] as $key => $value) {
 						?>
 						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
 						<?php
@@ -77,11 +63,11 @@
 				</div>
 				<div class="relative-container">
 					<div class="relative-title">
-						<h1>大家都在看</h1>
+						<h1>推荐的文档</h1>
 					</div>
 					<ul>
 						<?php
-						foreach ($page['rand'] as $key => $value) {
+						foreach ($dl['hot'] as $key => $value) {
 						?>
 						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
 						<?php

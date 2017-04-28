@@ -30,4 +30,24 @@ class dl_model extends CI_Model{
         }
     	return false;
     }
+
+    public function get_new(){
+        $query = $this->db->query("SELECT 
+            doc_url, 
+            doc_title 
+            FROM m_doc 
+            WHERE doc_deleted = 0 
+            ORDER BY doc_id DESC LIMIT 5");
+        return $query->result_array();
+    }
+
+    public function get_hot(){
+        $query = $this->db->query("SELECT 
+            doc_url, 
+            doc_title 
+            FROM m_doc 
+            WHERE doc_deleted = 0 
+            ORDER BY RAND() LIMIT 5");
+        return $query->result_array();
+    }
 }
