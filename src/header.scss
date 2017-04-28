@@ -95,7 +95,8 @@
             }
         }
 
-        _::-webkit-:not(:root:root), .safari_only {
+        @media only screen and (-webkit-min-device-pixel-ratio: 1) {
+            ::i-block-chrome,
             .search-form{
                 margin-top: 6px;
 
