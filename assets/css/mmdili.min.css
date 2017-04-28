@@ -104,28 +104,11 @@ a {
       text-decoration: underline;
       color: #FF0000; }
 
-.dl-container .page, .dl-container .page-top, .dl-container .more-page {
-  border: 1px solid #eee;
-  margin-bottom: 15px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url("../img/page-loading.gif"); }
-  .dl-container .page .pv, .dl-container .page-top .pv, .dl-container .more-page .pv {
-    text-align: center;
-    padding-top: 80px;
-    display: none; }
-    .dl-container .page .pv p, .dl-container .page-top .pv p, .dl-container .more-page .pv p {
-      margin: 0;
-      padding: 5px 0;
-      font: 16px/20px "微软雅黑"; }
-    .dl-container .page .pv .pv-link a, .dl-container .page-top .pv .pv-link a, .dl-container .more-page .pv .pv-link a {
-      color: #146c88; }
-      .dl-container .page .pv .pv-link a:hover, .dl-container .page-top .pv .pv-link a:hover, .dl-container .more-page .pv .pv-link a:hover {
-        text-decoration: underline;
-        color: #FF0000; }
-    .dl-container .page .pv .pv-pic, .dl-container .page-top .pv .pv-pic, .dl-container .more-page .pv .pv-pic {
-      padding-top: 10px; }
+.dl-container .page-top {
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+  box-shadow: none; }
 
 .recommend-container {
   width: 220px;
