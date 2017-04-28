@@ -106,9 +106,9 @@ a {
 
 .dl-container .page-top {
   margin-bottom: 10px;
-  background: none;
-  border: none;
-  box-shadow: none; }
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important; }
 
 .recommend-container {
   width: 220px;
