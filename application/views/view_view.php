@@ -34,7 +34,7 @@
 				for($i=1;$i<=$page['num'];$i++){
 					if( $i == 1 ){
 				?>
-					<div class="page-top" style="height: <?=($page['height']+300)?>px;">
+					<div class="page-top">
 						<div class="page-top-adsense">
 							<div class="left">
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
