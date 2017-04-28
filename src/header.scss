@@ -93,19 +93,19 @@
                     color: #ccc;
                 }
             }
+        }
 
-            @media all and (-webkit-min-device-pixel-ratio:0){
-                /* select{ [;这里单独设置Safari的样式] } */
-                .search-form{
-                    margin-top: 6px;
-                }
+        @media all and (-webkit-min-device-pixel-ratio:0){
+            /* select{ [;这里单独设置Safari的样式] } */
+            .search-form{
+                margin-top: 6px;
+
                 .search-button{
                     height: 33px;
                     top: 2px;
                     right: -2px;
                 }
             }
-
         }
     }
 

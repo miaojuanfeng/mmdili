@@ -194,11 +194,11 @@ a {
         /* Safari 7.1+ (9.0 is the latest version of Safari at this time) */ }
         .header .main-header .search-form .search-button .search-button-text {
           color: #ccc; }
-      @media all and (-webkit-min-device-pixel-ratio: 0) {
+    @media all and (-webkit-min-device-pixel-ratio: 0) {
+      .header .main-header {
+        /* select{ [;这里单独设置Safari的样式] } */ }
         .header .main-header .search-form {
-          /* select{ [;这里单独设置Safari的样式] } */ }
-          .header .main-header .search-form .search-form {
-            margin-top: 6px; }
+          margin-top: 6px; }
           .header .main-header .search-form .search-button {
             height: 33px;
             top: 2px;
