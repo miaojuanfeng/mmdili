@@ -36,6 +36,10 @@ class Dl extends CI_Controller {
 		if( !($file = $this->dl_model->get_url($doc_id)) ){
 			redirect(base_url('error'.'.html'));
 		}
+
+		$this->load->view('dl_view');
+
+		return;
 		$user_url = $file['user_url'];
 		$doc_url = $file['doc_url'];
         $doc_title = $file['doc_title'];
