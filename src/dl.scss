@@ -27,6 +27,15 @@
 		p{
 			margin: 2px 0;
 		}
+
+		a{
+			color: #747474;
+
+			&:hover{
+				text-decoration: underline;
+				color: #FF0000;
+			}
+		}
 	}
 	.page{
 		border: 1px solid #eee;

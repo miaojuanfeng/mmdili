@@ -98,6 +98,11 @@ a {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
   .dl-container .page-notice p {
     margin: 2px 0; }
+  .dl-container .page-notice a {
+    color: #747474; }
+    .dl-container .page-notice a:hover {
+      text-decoration: underline;
+      color: #FF0000; }
 
 .dl-container .page, .dl-container .page-top, .dl-container .more-page {
   border: 1px solid #eee;
