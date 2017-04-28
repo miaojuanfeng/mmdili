@@ -194,15 +194,6 @@ a {
         /* Safari 7.1+ (9.0 is the latest version of Safari at this time) */ }
         .header .main-header .search-form .search-button .search-button-text {
           color: #ccc; }
-    @media only screen and (-webkit-min-device-pixel-ratio: 1) {
-      .header .main-header ::i-block-chrome,
-      .header .main-header .search-form {
-        margin-top: 6px; }
-        .header .main-header ::i-block-chrome .search-button,
-        .header .main-header .search-form .search-button {
-          height: 33px;
-          top: 2px;
-          right: -2px; } }
   .header .login {
     float: right;
     display: none; }

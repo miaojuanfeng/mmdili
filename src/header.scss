@@ -94,19 +94,6 @@
                 }
             }
         }
-
-        @media only screen and (-webkit-min-device-pixel-ratio: 1) {
-            ::i-block-chrome,
-            .search-form{
-                margin-top: 6px;
-
-                .search-button{
-                    height: 33px;
-                    top: 2px;
-                    right: -2px;
-                }
-            }
-        }
     }
 
     .login{
