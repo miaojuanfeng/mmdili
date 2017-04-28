@@ -21,30 +21,35 @@
 					<p>本站内容为网上收集整理与原创撰写，并以研究教师教学方法，提高学生成绩为目的。仅供广大师生参考学习，下载后请不要上传到其他媒体媒介，并在合理范围内合法使用。</p>
 					<p><a href="<?=base_url('view/'.$dl['url'].'.html')?>" target="_blank">查看文档 《<?=$dl['title']?>》 的在线预览 >></a></p>
 				</div>
-				<div class="page-top-adsense">
-					<div class="left">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- view_page_top_left -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:336px;height:280px"
-						     data-ad-client="ca-pub-6393601311110091"
-						     data-ad-slot="2753013484"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
+				<div class="page-top">
+					<div class="page-top-adsense">
+						<div class="left">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_top_left -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:336px;height:280px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="2753013484"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<div class="right">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_top_right -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:336px;height:280px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="4229746685"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>	
+						</div>
+						<div class="clearfix"></div>
 					</div>
-					<div class="right">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- view_page_top_right -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:336px;height:280px"
-						     data-ad-client="ca-pub-6393601311110091"
-						     data-ad-slot="4229746685"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>	
+					<div>
+						
 					</div>
-					<div class="clearfix"></div>
 				</div>
 			</div>
 			<div class="recommend-container">
