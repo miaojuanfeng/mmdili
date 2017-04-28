@@ -37,16 +37,13 @@ class Dl extends CI_Controller {
 			redirect(base_url('error'.'.html'));
 		}
 
-		$data['dl']['title'] 	= $file['doc_title'];
-		$data['dl']['ext_name'] = $file['doc_ext_name'];
-		$data['dl']['url']		= $file['doc_url'];
-
-		$data['dl']['new'] = $this->dl_model->get_new();
-		// $data['dl']['hot'] = $this->dl_model->get_hot();
-
-		$this->load->view('dl_view', $data);
-
-		return;
+		// $data['dl']['title'] 	= $file['doc_title'];
+		// $data['dl']['ext_name'] = $file['doc_ext_name'];
+		// $data['dl']['url']		= $file['doc_url'];
+		// $data['dl']['new'] = $this->dl_model->get_new();
+		// $this->load->view('dl_view', $data);
+		// return;
+		
 		$user_url = $file['user_url'];
 		$doc_url = $file['doc_url'];
         $doc_title = $file['doc_title'];
