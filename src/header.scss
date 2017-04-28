@@ -95,8 +95,7 @@
             }
         }
 
-        _::-webkit-full-page-media, _:future, :root .safari_only {
-            /* select{ [;这里单独设置Safari的样式] } */
+        _::-webkit-:not(:root:root), .safari_only {
             .search-form{
                 margin-top: 6px;
 
