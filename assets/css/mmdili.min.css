@@ -524,7 +524,8 @@ a {
     border: none;
     box-shadow: none;
     margin-top: -70px;
-    position: absolute; }
+    position: absolute;
+    z-index: -1; }
   .view-container .more-page, .search-container .more-page {
     min-height: auto;
     text-align: center; }
