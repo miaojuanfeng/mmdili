@@ -520,7 +520,8 @@ a {
       float: right; }
   .view-container .page-top .page, .search-container .page-top .page, .view-container .page-top .page-top, .search-container .page-top .page-top, .view-container .page-top .more-page, .search-container .page-top .more-page {
     border: none;
-    box-shadow: none; }
+    box-shadow: none;
+    margin-top: -70px; }
   .view-container .more-page, .search-container .more-page {
     min-height: auto;
     text-align: center; }
