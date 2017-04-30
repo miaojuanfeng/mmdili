@@ -47,11 +47,20 @@
 						</div>
 						<div class="clearfix"></div>
 					</div>
-					<div style="border:1px solid #eee; padding:10px;">
-						<p>下载链接有效时间为10分钟，超过时间链接将失效，请尽快下载。</p>
-						<p>如提示下载链接已失效，请刷新本页获取最新下载链接。</p>
-						<p>支持浏览器下载与迅雷下载，有些文档如迅雷下载失败，请尝试使用浏览器下载。</p>
-						<p>如果您发现本文档已经失效不能下载，请联系缪缪修正。</p>
+					<div style="border:1px solid #eee; padding:10px; margin:18px 0 20px 0;">
+						<p style="margin: 2px 0;">下载链接有效时间为10分钟，超过时间链接将失效，请尽快下载。如提示下载链接已失效，请刷新本页获取最新下载链接。</p>
+						<p style="margin: 2px 0;">支持浏览器下载与迅雷下载，有些文档如迅雷下载失败，请尝试使用浏览器下载。如果您发现本文档已经失效不能下载，请联系缪缪修正。</p>
+					</div>
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- view_page_1 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:960px;height:90px"
+						     data-ad-client="ca-pub-6393601311110091"
+						     data-ad-slot="3701696288"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 					</div>
 				</div>
 			</div>
