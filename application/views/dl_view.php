@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?=$dl['title']?> - 缪缪<?=$dl['cate_name']?>文档</title>
+	<title>下载文档：<?=$dl['title'].'.'.$dl['ext_name']?> - 缪缪<?=$dl['cate_name']?>文档</title>
 	<meta name="robots" content="index,follow" />
 	<meta name="keywords" content="" />
 	<meta name="description" content="<?=$dl['title']?>。" />
