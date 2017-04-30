@@ -18,10 +18,12 @@ class dl_model extends CI_Model{
             user_url, 
             doc_url, 
             doc_title, 
-            doc_ext_name  
+            doc_ext_name,
+            doc_cate_name 
             FROM m_doc 
             LEFT JOIN m_user ON doc_user_id = user_id 
             LEFT JOIN m_doc_ext ON m_doc.doc_ext_id = m_doc_ext.doc_ext_id 
+            LEFT JOIN m_doc_cate ON m_doc.doc_cate_id = m_doc_cate.doc_cate_id 
             WHERE doc_deleted = 0 
             AND user_deleted = 0 
             AND doc_id = ".$doc_id." LIMIT 1");

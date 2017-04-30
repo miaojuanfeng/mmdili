@@ -40,6 +40,7 @@ class Dl extends CI_Controller {
 		$data['dl']['title'] 	= $file['doc_title'];
 		$data['dl']['ext_name'] = $file['doc_ext_name'];
 		$data['dl']['url']		= $file['doc_url'];
+		$data['dl']['cate_name']= $file['doc_cate_name'];
 		$data['dl']['new'] = $this->dl_model->get_new();
 		$this->load->view('dl_view', $data);
 		return;
