@@ -49,7 +49,7 @@
 					</div>
 					<div style="border:1px solid #eee; padding:10px; margin:18px 0 20px 0;">
 						<p style="margin: 2px 0;">当前文档下载链接有效时间为10分钟，超过时间下载链接将失效，请尽快下载。如提示下载链接已经失效，请<a href="javascript:;">刷新本页</a>获取最新下载链接。</p>
-						<p style="margin: 2px 0;">支持浏览器下载与迅雷下载，有些文档如迅雷下载失败，请尝试使用浏览器下载。如果您发现本文档已经失效不能下载，请联系缪缪修正。</p>
+						<p style="margin: 2px 0;">支持浏览器下载与迅雷下载，有些文档如迅雷下载失败，请尝试使用浏览器下载。如果您发现本文档已经失效不能下载，请联系缪缪修正。或有其他疑问，欢迎联系我们。</p>
 					</div>
 					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
