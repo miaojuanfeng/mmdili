@@ -62,7 +62,7 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<div style="border-left: 1px solid #fff;border-right: 1px solid #fff;margin:18px 0 20px 0;">
+					<div style="border-left: 1px solid #fff;border-right: 1px solid #fff;margin:18px 0 12px 0;">
 						<div style="float:left;width:468px;">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<!-- dl_button_left -->
