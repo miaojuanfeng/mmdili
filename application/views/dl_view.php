@@ -62,7 +62,7 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<div style="border:1px solid #eee; height:60px; margin:18px 0 20px 0;">
+					<div style="margin:18px 0 20px 0;">
 						<div style="float:left;width:468px;">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<!-- dl_button_left -->
@@ -85,8 +85,9 @@
 							(adsbygoogle = window.adsbygoogle || []).push({});
 							</script>
 						</div>
-						<div style="float:right;width:258px;">
-							<a href="#" target="_blank" style="color: white;
+						<div style="float:right;width:258px;height:60px;">
+							<a href="#" target="_blank" style="
+							color: white;
 						    text-shadow: #188062 0px 1px 0px;
 						    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
 						    background: #2fad85;
@@ -94,6 +95,8 @@
 						    font-size: 18px;
 						    display: block;
 						    height: 100%;
+						    line-height:60px;
+						    text-align: center;
 						    white-space: nowrap;">下载此文档</a>
 						</div>
 						<div class="clearfix"></div>
