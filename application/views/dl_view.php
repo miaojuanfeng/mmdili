@@ -62,7 +62,7 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<div style="margin:18px 0 20px 0;">
+					<div style="border-left: 1px solid #fff;border-right: 1px solid #fff;margin:18px 0 20px 0;">
 						<div style="float:left;width:468px;">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<!-- dl_button_left -->
@@ -97,7 +97,7 @@
 						    height: 100%;
 						    line-height:60px;
 						    text-align: center;
-						    white-space: nowrap;">下载此文档</a>
+						    white-space: nowrap;">立即下载这篇文档</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
