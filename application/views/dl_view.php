@@ -62,7 +62,7 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<div style="border-left: 1px solid #fff;border-right: 1px solid #fff;margin:18px 0 12px 0;">
+					<div style="border: 1px solid #eee;margin:18px 0 18px 0;height:60px;over-flow:hidden;">
 						<div style="float:left;width:468px;">
 							<p style="margin: 2px 0;">这篇文档由 MCMM 于 公元纪年2017年04月13日上传。</p>
 							<p style="margin: 2px 0;">被归类到了 地理 分类栏目下，并设置了可免费下载的权限。</p>
