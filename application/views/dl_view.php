@@ -64,15 +64,8 @@
 					</div>
 					<div style="border-left: 1px solid #fff;border-right: 1px solid #fff;margin:18px 0 12px 0;">
 						<div style="float:left;width:468px;">
-							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-							<!-- dl_button_left -->
-							<ins class="adsbygoogle"
-							     style="display:inline-block;width:468px;height:60px"
-							     data-ad-client="ca-pub-6393601311110091"
-							     data-ad-slot="6040897085"></ins>
-							<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-							</script>
+							<p style="margin: 2px 0;">这篇文档由 MCMM 于 公元纪年2017年04月13日上传。</p>
+							<p style="margin: 2px 0;">被归类到了 地理 分类栏目下，并设置了可免费下载的权限。</p>
 						</div>
 						<div style="float:left;width:234px;">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
