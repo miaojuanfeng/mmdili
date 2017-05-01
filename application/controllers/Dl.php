@@ -48,6 +48,7 @@ class Dl extends CI_Controller {
     		$data['dl']['title'] 	= $file['doc_title'];
 			$data['dl']['ext_name'] = $file['doc_ext_name'];
 			$data['dl']['url']		= $file['doc_url'];
+			$data['dl']['dl_forbidden']		= $file['doc_dl_forbidden'];
 			$data['dl']['cate_name']= $file['doc_cate_name'];
 			$data['dl']['new'] = $this->dl_model->get_new();
 			$data['dl']['link'] = 'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;

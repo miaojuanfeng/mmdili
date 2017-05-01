@@ -86,6 +86,9 @@
 							</script>
 						</div>
 						<div style="float:right;width:258px;height:60px;">
+							<?php
+							if( !$dl['dl_forbidden'] ){
+							?>
 							<a href="<?=$dl['link']?>" target="_blank" style="
 							color: white;
 						    text-shadow: #188062 0px 1px 0px;
@@ -98,6 +101,22 @@
 						    line-height:60px;
 						    text-align: center;
 						    white-space: nowrap;">立即下载这篇文档</a>
+						    <?php
+						    }else{
+						    ?>
+							<div style="
+							height: 47px;
+						    color: white;
+						    text-shadow: #188062 0px 1px 0px;
+						    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
+						    background: #bbb;
+						    padding: 0 30px;
+						    font-size: 18px;
+						    display: block;
+						    white-space: nowrap;">版权所有，暂不提供下载</div>
+						    <?php
+						    }
+						    ?>
 						</div>
 						<div class="clearfix"></div>
 					</div>

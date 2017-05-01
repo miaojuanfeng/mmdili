@@ -19,6 +19,7 @@ class dl_model extends CI_Model{
             doc_url, 
             doc_title, 
             doc_ext_name,
+            doc_dl_forbidden,
             doc_cate_name 
             FROM m_doc 
             LEFT JOIN m_user ON doc_user_id = user_id 
