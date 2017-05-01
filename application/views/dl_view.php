@@ -86,7 +86,7 @@
 							</script>
 						</div>
 						<div style="float:right;width:258px;height:60px;">
-							<a href="#" target="_blank" style="
+							<a href="<?=$dl['link']?>" target="_blank" style="
 							color: white;
 						    text-shadow: #188062 0px 1px 0px;
 						    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
@@ -100,6 +100,17 @@
 						    white-space: nowrap;">立即下载这篇文档</a>
 						</div>
 						<div class="clearfix"></div>
+					</div>
+					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- view_page_2 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:960px;height:90px"
+						     data-ad-client="ca-pub-6393601311110091"
+						     data-ad-slot="9189826685"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 					</div>
 				</div>
 			</div>

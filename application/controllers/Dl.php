@@ -36,14 +36,6 @@ class Dl extends CI_Controller {
 		if( !($file = $this->dl_model->get_url($doc_id)) ){
 			redirect(base_url('error'.'.html'));
 		}
-
-		$data['dl']['title'] 	= $file['doc_title'];
-		$data['dl']['ext_name'] = $file['doc_ext_name'];
-		$data['dl']['url']		= $file['doc_url'];
-		$data['dl']['cate_name']= $file['doc_cate_name'];
-		$data['dl']['new'] = $this->dl_model->get_new();
-		$this->load->view('dl_view', $data);
-		return;
 		
 		$user_url = $file['user_url'];
 		$doc_url = $file['doc_url'];
@@ -52,7 +44,14 @@ class Dl extends CI_Controller {
 		$object = $user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
 		$exist = $this->oss->checkDocExist($object);
     	if($exist){
-    		header('Location:'.'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
+    		// header('Location:'.'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
+    		$data['dl']['title'] 	= $file['doc_title'];
+			$data['dl']['ext_name'] = $file['doc_ext_name'];
+			$data['dl']['url']		= $file['doc_url'];
+			$data['dl']['cate_name']= $file['doc_cate_name'];
+			$data['dl']['new'] = $this->dl_model->get_new();
+			$data['dl']['link'] = 'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name;
+			$this->load->view('dl_view', $data);
     	}else{
     		log_message('error', 'File not found: '.$object);
     		redirect(base_url('error'.'.html'));
