@@ -105,7 +105,9 @@
 						    }else{
 						    ?>
 							<div style="
-							height: 47px;
+							height: 100%;
+							line-height:60px;
+							text-align: center;
 						    color: white;
 						    text-shadow: #188062 0px 1px 0px;
 						    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
