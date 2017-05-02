@@ -64,11 +64,11 @@
 					</div>
 					<div class="dl-box">
 						<div class="left">
-							<div style="width:50%; float:left;">
+							<div class="doc-info-left">
 								<p>文档类型: <span>doc 文档</span></p>
 								<p>文档归类: <span>地理 栏目</span></p>
 						    </div>
-						    <div style="width:50%; float:right;">
+						    <div class="doc-info-right">
 						    	<p>馆藏编号: <span>123123123123</span></p>
 								<p>发布用户：<span>MJF</span></p>
 						    </div>
