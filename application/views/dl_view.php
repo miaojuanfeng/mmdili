@@ -65,12 +65,12 @@
 					<div class="dl-box">
 						<div class="left">
 							<div class="doc-info-left">
-								<p>文档类型: <span>doc 文档</span></p>
-								<p>文档归类: <span>地理 栏目</span></p>
+								<p>文档类型：<span><?=$dl['ext_name']?> 文档</span></p>
+								<p>文档归类：<span><?=$dl['cate_name']?> 栏目</span></p>
 						    </div>
 						    <div class="doc-info-right">
-						    	<p>馆藏编号: <span>123123123123</span></p>
-								<p>发布用户：<span>MJF</span></p>
+						    	<p>馆藏编号：<span><?=$dl['url']?></span></p>
+								<p>发布用户：<span><?=$dl['user_name']?></span></p>
 						    </div>
 						    <div class="clearfix"></div>
 						</div>

@@ -16,6 +16,7 @@ class dl_model extends CI_Model{
     public function get_url($doc_id){
     	$query = $this->db->query("SELECT 
             user_url, 
+            user_name,
             doc_url, 
             doc_title, 
             doc_ext_name,
