@@ -65,8 +65,8 @@
 					<div class="dl-box">
 						<div class="left">
 							<div class="doc-info-left">
-								<p>文档类型：<span><?=$dl['ext_name']?> 文档</span></p>
-								<p>文档归类：<span><?=$dl['cate_name']?> 栏目</span></p>
+								<p>文档类型：<span><?=$dl['ext_name']?></span></p>
+								<p>文档归类：<span><?=$dl['cate_name']?></span></p>
 						    </div>
 						    <div class="doc-info-right">
 						    	<p>馆藏编号：<span><?=$dl['url']?></span></p>
