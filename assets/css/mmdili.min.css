@@ -150,9 +150,8 @@ a {
       .dl-container .page-top .dl-box .left p {
         margin: 2px 0; }
       .dl-container .page-top .dl-box .left span {
-        float: right;
         color: #444;
-        margin-right: 15px; }
+        margin-left: 15px; }
       .dl-container .page-top .dl-box .left .doc-info-left {
         width: 50%;
         float: left; }
