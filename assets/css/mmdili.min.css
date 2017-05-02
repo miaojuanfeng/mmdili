@@ -145,7 +145,7 @@ a {
     over-flow: hidden; }
     .dl-container .page-top .dl-box .left {
       float: left;
-      width: 448px;
+      width: 234px;
       padding: 10px; }
       .dl-container .page-top .dl-box .left p {
         margin: 2px 0; }
@@ -160,7 +160,7 @@ a {
         float: right; }
     .dl-container .page-top .dl-box .center {
       float: left;
-      width: 234px; }
+      width: 448px; }
     .dl-container .page-top .dl-box .right {
       float: right;
       width: 258px;
