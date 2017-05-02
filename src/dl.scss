@@ -44,6 +44,72 @@
 		background: none !important;
 		border: none !important;
 		box-shadow: none !important;
+
+		.dl-notice{
+			border:1px solid #eee; 
+			padding:10px; 
+			margin:18px 0 20px 0;
+
+			p{
+				margin: 2px 0;
+			}
+		}
+
+		.dl-box{
+			border: 1px solid #eee;
+			margin:18px 0 18px 0;
+			height:60px;
+			over-flow:hidden;
+
+			.left{
+				float:left;
+				width:448px;
+				padding: 10px;
+
+				p{
+					margin: 2px 0;
+				}
+			}
+
+			.center{
+				float:left;
+				width:234px;
+			}
+
+			.right{
+				float:right;
+				width:258px;
+				height:60px;
+
+				.dl-link{
+					color: white;
+				    text-shadow: #188062 0px 1px 0px;
+				    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
+				    background: #2fad85;
+				    padding: 0 30px;
+				    font-size: 18px;
+				    display: block;
+				    height: 100%;
+				    line-height:60px;
+				    text-align: center;
+				    white-space: nowrap;
+				}
+
+				.dl-forbidden{
+					height: 100%;
+					line-height:60px;
+					text-align: center;
+				    color: white;
+				    text-shadow: #188062 0px 1px 0px;
+				    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
+				    background: #bbb;
+				    padding: 0 30px;
+				    font-size: 18px;
+				    display: block;
+				    white-space: nowrap;
+				}
+			}
+		}
 	}
 }
 

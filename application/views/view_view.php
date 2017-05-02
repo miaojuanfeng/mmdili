@@ -83,7 +83,7 @@
 					// AddSense
 					if( $i == 1 ){
 				?>
-					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+					<div class="adsense">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- view_page_1 -->
 						<ins class="adsbygoogle"
@@ -97,7 +97,7 @@
 				<?php
 					}else if( $i == 2 ){
 				?>
-					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+					<div class="adsense">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- view_page_2 -->
 						<ins class="adsbygoogle"
@@ -111,7 +111,7 @@
 				<?php
 					}else if( $i == 3 ){
 				?>
-					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+					<div class="adsense">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- view_page_3 -->
 						<ins class="adsbygoogle"
@@ -125,7 +125,7 @@
 				<?php
 					}else if( $i == 4 ){
 				?>
-					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+					<div class="adsense">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- view_page_4 -->
 						<ins class="adsbygoogle"
@@ -159,7 +159,7 @@
 						?>
 					</ul>
 				</div>
-				<div style="display: flex; border:1px solid #eee; padding: 9px;">
+				<div class="recommend-adsense">
 					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_1 -->
@@ -185,7 +185,7 @@
 						?>
 					</ul>
 				</div>
-				<div style="display: flex; border:1px solid #eee; padding: 9px;">
+				<div class="recommend-adsense">
 					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_2 -->

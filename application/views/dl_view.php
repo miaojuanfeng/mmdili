@@ -47,11 +47,11 @@
 						</div>
 						<div class="clearfix"></div>
 					</div>
-					<div style="border:1px solid #eee; padding:10px; margin:18px 0 20px 0;">
-						<p style="margin: 2px 0;">当前文档下载链接有效时间为10分钟，超过时间下载链接将失效，请尽快下载。如提示下载链接已经失效，请<a href="javascript:;">刷新本页</a>获取最新下载链接。</p>
-						<p style="margin: 2px 0;">支持浏览器下载与迅雷下载，有些文档如迅雷下载失败，请尝试使用浏览器下载。如果您发现本文档已经失效不能下载，请联系缪缪修正。或有其他疑问，欢迎联系我们。</p>
+					<div class="dl-notice">
+						<p>当前文档下载链接有效时间为10分钟，超过时间下载链接将失效，请尽快下载。如提示下载链接已经失效，请<a href="javascript:;">刷新本页</a>获取最新下载链接。</p>
+						<p>支持浏览器下载与迅雷下载，有些文档如迅雷下载失败，请尝试使用浏览器下载。如果您发现本文档已经失效不能下载，请联系缪缪修正。或有其他疑问，欢迎联系我们。</p>
 					</div>
-					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+					<div class="adsense">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- view_page_1 -->
 						<ins class="adsbygoogle"
@@ -62,22 +62,22 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<div style="border: 1px solid #eee;margin:18px 0 18px 0;height:60px;over-flow:hidden;">
-						<div style="float:left;width:448px; padding: 10px;">
-							<p style="margin: 2px 0;">这篇文档是一份 doc 文档，由 MCMM 于公元纪年 2017年04月13日 上传。</p>
+					<div class="dl-box">
+						<div class="left">
+							<p>这篇文档是一份 doc 文档，由 MCMM 于公元纪年 2017年04月13日 上传。</p>
 							<?php
 							if( !$dl['dl_forbidden'] ){
 							?>
-							<p style="margin: 2px 0;">被归类到了 地理 分类栏目下，并设置了可免费下载的权限。</p>
+							<p>被归类到了 地理 分类栏目下，并设置了可免费下载的权限。</p>
 							<?php
 						    }else{
 						    ?>
-							<p style="margin: 2px 0;">被归类到了 地理 分类栏目下，并设置了不可下载的权限。</p>
+							<p>被归类到了 地理 分类栏目下，并设置了不可下载的权限。</p>
 						    <?php
 						    }
 						    ?>
 						</div>
-						<div style="float:left;width:234px;">
+						<div class="center">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<!-- dl_button_right -->
 							<ins class="adsbygoogle"
@@ -88,44 +88,22 @@
 							(adsbygoogle = window.adsbygoogle || []).push({});
 							</script>
 						</div>
-						<div style="float:right;width:258px;height:60px;">
+						<div class="right">
 							<?php
 							if( !$dl['dl_forbidden'] ){
 							?>
-							<a href="<?=$dl['link']?>" target="_blank" style="
-							color: white;
-						    text-shadow: #188062 0px 1px 0px;
-						    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
-						    background: #2fad85;
-						    padding: 0 30px;
-						    font-size: 18px;
-						    display: block;
-						    height: 100%;
-						    line-height:60px;
-						    text-align: center;
-						    white-space: nowrap;">立即下载这篇文档</a>
+							<a class="dl-link" href="<?=$dl['link']?>" target="_blank">立即下载这篇文档</a>
 						    <?php
 						    }else{
 						    ?>
-							<div style="
-							height: 100%;
-							line-height:60px;
-							text-align: center;
-						    color: white;
-						    text-shadow: #188062 0px 1px 0px;
-						    font-family: 微软雅黑, 冬青黑体, 宋体, arial;
-						    background: #bbb;
-						    padding: 0 30px;
-						    font-size: 18px;
-						    display: block;
-						    white-space: nowrap;">版权所有，暂不提供下载</div>
+							<div class="dl-forbidden">版权所有，暂不提供下载</div>
 						    <?php
 						    }
 						    ?>
 						</div>
 						<div class="clearfix"></div>
 					</div>
-					<div style="display: flex; border: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); margin-bottom: 10px;">
+					<div class="adsense">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- view_page_2 -->
 						<ins class="adsbygoogle"
@@ -139,7 +117,7 @@
 				</div>
 			</div>
 			<div class="recommend-container">
-				<div style="display: flex; border:1px solid #eee; padding: 9px;">
+				<div class="recommend-adsense">
 					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_1 -->
@@ -165,7 +143,7 @@
 						?>
 					</ul>
 				</div>
-				<div style="display: flex; border:1px solid #eee; padding: 9px;">
+				<div class="recommend-adsense">
 					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_2 -->

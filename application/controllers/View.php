@@ -30,6 +30,27 @@ class View extends CI_Controller {
 
 		// $this->output->cache(60);
     }
+
+    private function checkrobot($useragent=''){
+	    static $kw_spiders = array('bot', 'crawl', 'spider' ,'slurp', 'sohu-search', 'lycos', 'robozilla');
+	    static $kw_browsers = array('msie', 'netscape', 'opera', 'konqueror', 'mozilla');
+	 
+	    $useragent = strtolower(empty($useragent) ? $_SERVER['HTTP_USER_AGENT'] : $useragent);
+	    if(strpos($useragent, 'http://') === false && dstrpos($useragent, $kw_browsers)) return false;
+	    if(dstrpos($useragent, $kw_spiders)) return true;
+	    return false;
+	}
+	
+	private function dstrpos($string, $arr, $returnvalue = false) {
+	    if(empty($string)) return false;
+	    foreach((array)$arr as $v) {
+	        if(strpos($string, $v) !== false) {
+	            $return = $returnvalue ? $v : true;
+	            return $return;
+	        }
+	    }
+	    return false;
+	}
     
 	public function index($view_id)
 	{

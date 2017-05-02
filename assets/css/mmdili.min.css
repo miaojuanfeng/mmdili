@@ -1,4 +1,26 @@
 @charset "UTF-8";
+.adsense, .cate-adsense {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px; }
+
+.cate-adsense {
+  border: none;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee; }
+
+.recommend-adsense {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #eee;
+  padding: 9px; }
+
 .view-container, .dl-container, .search-container {
   width: 962px;
   float: left;
@@ -109,6 +131,54 @@ a {
   background: none !important;
   border: none !important;
   box-shadow: none !important; }
+  .dl-container .page-top .dl-notice {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin: 18px 0 20px 0; }
+    .dl-container .page-top .dl-notice p {
+      margin: 2px 0; }
+  .dl-container .page-top .dl-box {
+    border: 1px solid #eee;
+    margin: 18px 0 18px 0;
+    height: 60px;
+    over-flow: hidden; }
+    .dl-container .page-top .dl-box .left {
+      float: left;
+      width: 448px;
+      padding: 10px; }
+      .dl-container .page-top .dl-box .left p {
+        margin: 2px 0; }
+    .dl-container .page-top .dl-box .center {
+      float: left;
+      width: 234px; }
+    .dl-container .page-top .dl-box .right {
+      float: right;
+      width: 258px;
+      height: 60px; }
+      .dl-container .page-top .dl-box .right .dl-link {
+        color: white;
+        text-shadow: #188062 0px 1px 0px;
+        font-family: 微软雅黑, 冬青黑体, 宋体, arial;
+        background: #2fad85;
+        padding: 0 30px;
+        font-size: 18px;
+        display: block;
+        height: 100%;
+        line-height: 60px;
+        text-align: center;
+        white-space: nowrap; }
+      .dl-container .page-top .dl-box .right .dl-forbidden {
+        height: 100%;
+        line-height: 60px;
+        text-align: center;
+        color: white;
+        text-shadow: #188062 0px 1px 0px;
+        font-family: 微软雅黑, 冬青黑体, 宋体, arial;
+        background: #bbb;
+        padding: 0 30px;
+        font-size: 18px;
+        display: block;
+        white-space: nowrap; }
 
 .recommend-container {
   width: 220px;

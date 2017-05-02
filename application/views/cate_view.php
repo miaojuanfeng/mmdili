@@ -15,7 +15,7 @@
 				<div class="cate-title">
 					<h1><b><?=$cate['title']?></b> <span class="cate-title-note">分类下的所有文档</span></h1>
 				</div>
-				<div style="display: flex; border-left: 1px solid #eee; border-right: 1px solid #eee; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);">
+				<div class="cate-adsense">
 					<!-- <img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_page_1 -->
@@ -61,7 +61,7 @@
 						?>
 					</ul>
 				</div>
-				<div style="display: flex; border:1px solid #eee; padding: 9px;">
+				<div class="recommend-adsense">
 					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_1 -->
