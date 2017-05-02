@@ -64,18 +64,15 @@
 					</div>
 					<div class="dl-box">
 						<div class="left">
-							<p>这篇文档是一份 doc 文档，由 MCMM 于公元纪年 2017年04月13日 上传。</p>
-							<?php
-							if( !$dl['dl_forbidden'] ){
-							?>
-							<p>被归类到了 地理 分类栏目下，并设置了可免费下载的权限。</p>
-							<?php
-						    }else{
-						    ?>
-							<p>被归类到了 地理 分类栏目下，并设置了不可下载的权限。</p>
-						    <?php
-						    }
-						    ?>
+							<div style="width:50%; float:left;">
+								<p>文档类型: <span>doc 文档</span></p>
+								<p>文档归类: <span>地理 栏目</span></p>
+						    </div>
+						    <div style="width:50%; float:right;">
+						    	<p>馆藏编号: <span>123123123123</span></p>
+								<p>发布用户：<span>MJF</span></p>
+						    </div>
+						    <div class="clearfix"></div>
 						</div>
 						<div class="center">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -155,20 +152,6 @@
 					(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</div>
-				<!-- <div class="relative-container">
-					<div class="relative-title">
-						<h1>推荐的文档</h1>
-					</div>
-					<ul>
-						<?php
-						foreach ($dl['hot'] as $key => $value) {
-						?>
-						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
-						<?php
-						}
-						?>
-					</ul>
-				</div> -->
 			</div>
 			<div class="clearfix"></div>
 		</div>
