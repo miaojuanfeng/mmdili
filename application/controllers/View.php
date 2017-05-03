@@ -36,8 +36,8 @@ class View extends CI_Controller {
 	    static $kw_browsers = array('msie', 'netscape', 'opera', 'konqueror', 'mozilla');
 	 
 	    $useragent = strtolower(empty($useragent) ? $_SERVER['HTTP_USER_AGENT'] : $useragent);
-	    if(strpos($useragent, 'http://') === false && dstrpos($useragent, $kw_browsers)) return false;
-	    if(dstrpos($useragent, $kw_spiders)) return true;
+	    if(strpos($useragent, 'http://') === false && $this->dstrpos($useragent, $kw_browsers)) return false;
+	    if($this->dstrpos($useragent, $kw_spiders)) return true;
 	    return false;
 	}
 	
