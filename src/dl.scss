@@ -59,7 +59,7 @@
 			border: 1px solid #eee;
 			margin:18px 0 18px 0;
 			height:60px;
-			over-flow:hidden;
+			overflow:hidden;
 
 			.left{
 				float:left;
@@ -67,7 +67,8 @@
 				padding: 10px;
 
 				p{
-					margin: 2px 0;
+					padding: 2px 0 2px 5px;
+					border-left: 2px solid #0186E8;
 				}
 
 				span{

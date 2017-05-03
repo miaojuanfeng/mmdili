@@ -142,13 +142,14 @@ a {
     border: 1px solid #eee;
     margin: 18px 0 18px 0;
     height: 60px;
-    over-flow: hidden; }
+    overflow: hidden; }
     .dl-container .page-top .dl-box .left {
       float: left;
       width: 234px;
       padding: 10px; }
       .dl-container .page-top .dl-box .left p {
-        margin: 2px 0; }
+        padding: 2px 0 2px 5px;
+        border-left: 2px solid #0186E8; }
       .dl-container .page-top .dl-box .left span {
         color: #747474; }
       .dl-container .page-top .dl-box .left .doc-info-left {
