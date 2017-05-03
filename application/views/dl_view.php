@@ -93,7 +93,7 @@
 						    <?php
 						    }else{
 						    ?>
-							<div class="dl-forbidden">版权所有，暂不提供下载</div>
+							<div class="dl-forbidden">抱歉，暂不提供下载</div>
 						    <?php
 						    }
 						    ?>
