@@ -37,7 +37,10 @@ class View extends CI_Controller {
 	 
 	    $useragent = strtolower(empty($useragent) ? $_SERVER['HTTP_USER_AGENT'] : $useragent);
 	    if(strpos($useragent, 'http://') === false && $this->dstrpos($useragent, $kw_browsers)) return false;
-	    if($this->dstrpos($useragent, $kw_spiders)) return true;
+	    if($this->dstrpos($useragent, $kw_spiders)){
+	    	log_message('error', 'robot come home: '.$useragent);
+	    	return true;
+	    }
 	    return false;
 	}
 	
