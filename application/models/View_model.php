@@ -13,13 +13,16 @@ class view_model extends CI_Model{
         $this->load->database('default');
     }
 
-    public function get_detail($doc_url){
-    	$query = $this->db->query("SELECT 
+    public function get_detail($doc_url, $is_robot){
+        $sql = "SELECT 
             user_url, 
             doc_id,
             doc_url, 
-            doc_title, 
-            doc_width, 
+            doc_title, ";
+        if( $is_robot ){
+            $sql .= " doc_content, ";
+        }
+        $sql .= "doc_width, 
             doc_height, 
             doc_page_num, 
             doc_poly2bitmap, 
@@ -30,7 +33,8 @@ class view_model extends CI_Model{
             LEFT JOIN m_doc_cate ON m_doc.doc_cate_id = m_doc_cate.doc_cate_id 
             WHERE doc_deleted = 0 
             AND user_deleted = 0 
-            AND doc_url = ".$doc_url." LIMIT 1");
+            AND doc_url = ".$doc_url." LIMIT 1";
+    	$query = $this->db->query($sql);
     	return $query->row_array();
     }
 

@@ -31,114 +31,124 @@
 				</div>
 				<?php
 				}
-				for($i=1;$i<=$page['num'];$i++){
-					if( $i == 1 ){
 				?>
-					<div class="page-top">
-						<div class="page-top-adsense">
-							<div class="left">
-								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-								<!-- view_page_top_left -->
-								<ins class="adsbygoogle"
-								     style="display:inline-block;width:336px;height:280px"
-								     data-ad-client="ca-pub-6393601311110091"
-								     data-ad-slot="2753013484"></ins>
-								<script>
-								(adsbygoogle = window.adsbygoogle || []).push({});
-								</script>
+				<?php
+				if( $page['is_robot'] ){
+				?>
+					<div class="page-top" style="min-height:<?=($page['height']+300)?>px;"><?=$page['content']?></div>
+				<?php
+				}else{
+				?>
+					<?php
+					for($i=1;$i<=$page['num'];$i++){
+						if( $i == 1 ){
+					?>
+						<div class="page-top" style="min-height:<?=($page['height']+300)?>px;">
+							<div class="page-top-adsense">
+								<div class="left">
+									<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+									<!-- view_page_top_left -->
+									<ins class="adsbygoogle"
+									     style="display:inline-block;width:336px;height:280px"
+									     data-ad-client="ca-pub-6393601311110091"
+									     data-ad-slot="2753013484"></ins>
+									<script>
+									(adsbygoogle = window.adsbygoogle || []).push({});
+									</script>
+								</div>
+								<div class="right">
+									<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+									<!-- view_page_top_right -->
+									<ins class="adsbygoogle"
+									     style="display:inline-block;width:336px;height:280px"
+									     data-ad-client="ca-pub-6393601311110091"
+									     data-ad-slot="4229746685"></ins>
+									<script>
+									(adsbygoogle = window.adsbygoogle || []).push({});
+									</script>	
+								</div>
+								<div class="clearfix"></div>
 							</div>
-							<div class="right">
-								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-								<!-- view_page_top_right -->
-								<ins class="adsbygoogle"
-								     style="display:inline-block;width:336px;height:280px"
-								     data-ad-client="ca-pub-6393601311110091"
-								     data-ad-slot="4229746685"></ins>
-								<script>
-								(adsbygoogle = window.adsbygoogle || []).push({});
-								</script>	
+							<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; border-top:none; margin-bottom:10px;">
+								<div class="pv" id="pv_<?=$i?>" page="<?=$i?>">
+									<p class="pv-title"></p>
+									<p class="pv-link"><a href="http://get.adobe.com/cn/flashplayer" target="_blank">点击安装 http://get.adobe.com/cn/flashplayer</a></p>
+									<p class="pv-pic"><a href="http://get.adobe.com/cn/flashplayer" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+								</div>
 							</div>
-							<div class="clearfix"></div>
 						</div>
-						<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; border-top:none; margin-bottom:10px;">
+					<?php
+						}else{
+					?>
+						<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1 || $i == 2 || $i == 3 || $i == 4 ) echo 'margin-bottom:10px;'; ?>">
 							<div class="pv" id="pv_<?=$i?>" page="<?=$i?>">
 								<p class="pv-title"></p>
 								<p class="pv-link"><a href="http://get.adobe.com/cn/flashplayer" target="_blank">点击安装 http://get.adobe.com/cn/flashplayer</a></p>
 								<p class="pv-pic"><a href="http://get.adobe.com/cn/flashplayer" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
 							</div>
 						</div>
-					</div>
-				<?php
-					}else{
-				?>
-					<div class="page" id="page_<?=$i?>" page="<?=$i?>" style="width: <?=$page['width']?>px;height: <?=$page['height']?>px; <?php if( $i == 1 || $i == 2 || $i == 3 || $i == 4 ) echo 'margin-bottom:10px;'; ?>">
-						<div class="pv" id="pv_<?=$i?>" page="<?=$i?>">
-							<p class="pv-title"></p>
-							<p class="pv-link"><a href="http://get.adobe.com/cn/flashplayer" target="_blank">点击安装 http://get.adobe.com/cn/flashplayer</a></p>
-							<p class="pv-pic"><a href="http://get.adobe.com/cn/flashplayer" target="_blank"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+					<?php
+						}
+						// AddSense
+						if( $i == 1 ){
+					?>
+						<div class="adsense">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_1 -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:960px;height:90px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="3701696288"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
 						</div>
-					</div>
-				<?php
-					}
-					// AddSense
-					if( $i == 1 ){
-				?>
-					<div class="adsense">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- view_page_1 -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:960px;height:90px"
-						     data-ad-client="ca-pub-6393601311110091"
-						     data-ad-slot="3701696288"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				<?php
-					}else if( $i == 2 ){
-				?>
-					<div class="adsense">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- view_page_2 -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:960px;height:90px"
-						     data-ad-client="ca-pub-6393601311110091"
-						     data-ad-slot="9189826685"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				<?php
-					}else if( $i == 3 ){
-				?>
-					<div class="adsense">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- view_page_3 -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:960px;height:90px"
-						     data-ad-client="ca-pub-6393601311110091"
-						     data-ad-slot="1666559883"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				<?php
-					}else if( $i == 4 ){
-				?>
-					<div class="adsense">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- view_page_4 -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:960px;height:90px"
-						     data-ad-client="ca-pub-6393601311110091"
-						     data-ad-slot="3143293083"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				<?php
-					}
-				}
+					<?php
+						}else if( $i == 2 ){
+					?>
+						<div class="adsense">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_2 -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:960px;height:90px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="9189826685"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					<?php
+						}else if( $i == 3 ){
+					?>
+						<div class="adsense">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_3 -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:960px;height:90px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="1666559883"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					<?php
+						}else if( $i == 4 ){
+					?>
+						<div class="adsense">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_4 -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:960px;height:90px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="3143293083"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					<?php
+						}
+					}//for
+				}//is_robot
 				?>
 				<div class="more-page" style="display:none;">
 					<a href="javascript:;" page-swf="<?=$page['swf']?>" page-data="<?=$page['data']?>" page-width="<?=$page['width']?>" page-height="<?=$page['height']?>"><span>There are <span class="page-left">1</span> pages left unread, Click to continue reading</span></a>

@@ -67,7 +67,8 @@ class View extends CI_Controller {
 		 * 容错处理
 		 * 如果view_id不是数字或整数，转到404
 		 */
-		$detail = $this->view_model->get_detail($view_id);
+		$is_robot = $this->checkrobot();
+		$detail = $this->view_model->get_detail($view_id, $is_robot);
 		if( !$detail ){
 			redirect(base_url('error'.'.html'));
 		}
@@ -82,6 +83,10 @@ class View extends CI_Controller {
 		$data['page']['title'] = $detail['doc_title'];
 		$data['page']['cate_name'] = $detail['doc_cate_name'];
 		$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];
+		$data['page']['is_robot'] = $is_robot;
+		if( $is_robot ){
+			$data['page']['content'] = $detail['doc_content'];
+		}
 		//
 		$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
 		$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
