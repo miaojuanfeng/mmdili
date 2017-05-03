@@ -239,7 +239,10 @@ a {
   margin-bottom: 46px; }
 
 .header {
-  background-color: rgba(0, 0, 0, 0.7); }
+  background: #000;
+  background: rgba(0, 0, 0, 0.7);
+  filter: Alpha(opacity=80);
+  width: 100%; }
   .header .main-header {
     width: 960px;
     float: left; }
