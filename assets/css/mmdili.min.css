@@ -148,7 +148,8 @@ a {
       width: 234px;
       padding: 10px; }
       .dl-container .page-top .dl-box .left p {
-        padding: 2px 0 2px 5px;
+        padding: 2px 5px;
+        margin: 0;
         border-left: 2px solid #0186E8; }
       .dl-container .page-top .dl-box .left span {
         color: #747474; }
