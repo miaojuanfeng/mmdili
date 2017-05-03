@@ -211,7 +211,11 @@ a {
 
 .footer {
   margin-top: 15px;
-  background: rgba(0, 0, 0, 0.7); }
+  background: #000;
+  background: rgba(0, 0, 0, 0.7);
+  filter: Alpha(opacity=70);
+  width: 100%;
+  min-width: 1200px; }
   .footer .main-container {
     padding: 10px 0;
     line-height: 25px; }
