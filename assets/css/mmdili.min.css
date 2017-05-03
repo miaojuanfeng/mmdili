@@ -242,7 +242,8 @@ a {
   background: #000;
   background: rgba(0, 0, 0, 0.7);
   filter: Alpha(opacity=70);
-  width: 100%; }
+  width: 100%;
+  min-width: 1200px; }
   .header .main-header {
     width: 960px;
     float: left; }
