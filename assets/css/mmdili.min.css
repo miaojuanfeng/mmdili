@@ -142,7 +142,8 @@ a {
     border: 1px solid #eee;
     margin: 18px 0 18px 0;
     height: 60px;
-    overflow: hidden; }
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
     .dl-container .page-top .dl-box .left {
       float: left;
       width: 272px;
