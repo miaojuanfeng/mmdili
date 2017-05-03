@@ -151,7 +151,7 @@
 				}//is_robot
 				?>
 				<div class="more-page" style="display:none;">
-					<a href="javascript:;" page-swf="<?=$page['swf']?>" page-data="<?=$page['data']?>" page-width="<?=$page['width']?>" page-height="<?=$page['height']?>"><span>There are <span class="page-left">1</span> pages left unread, Click to continue reading</span></a>
+					<a href="javascript:;" page-swf="<?=$page['swf']?>" page-data="<?=$page['data']?>" page-width="<?=$page['width']?>" page-height="<?=$page['height']?>"></a>
 				</div>
 			</div>
 			<div class="recommend-container">
