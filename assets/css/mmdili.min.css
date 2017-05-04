@@ -4,12 +4,12 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 10px; }
 
 .cate-adsense {
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
   margin-bottom: 0; }
 
 .recommend-adsense {
