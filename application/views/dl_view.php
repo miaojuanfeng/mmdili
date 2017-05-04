@@ -12,7 +12,7 @@
 <body>
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
-		<div class="main-container">
+		<div class="main-container pb-60">
 			<div class="dl-container">
 				<div class="page-title">
 					<h1>下载文档：<?=$dl['title'].'.'.$dl['ext_name']?></h1>
