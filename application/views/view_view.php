@@ -243,11 +243,11 @@
 					<?php
 					if( $page['dl_forbidden'] ){
 					?>
-					<div class="download-forbidden">版权所有，暂不提供下载</div>
+					<div class="download-forbidden">暂不提供下载</div>
 					<?php
 					}else{
 					?>
-					<div class="download"><a href="<?=base_url('dl/'.$page['dl'])?>" target="_blank">下载此文档</a></div>
+					<div class="download"><a href="<?=base_url('dl/'.$page['dl'])?>" target="_blank">下载这篇文档</a></div>
 					<?php
 					}
 					?>
