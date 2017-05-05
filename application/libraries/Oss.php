@@ -53,4 +53,16 @@ class Oss{
 	    }
 	    return $exist;
 	}
+
+	function getSignedUrlForGettingObject($object, $timeout = 600)
+	{
+		// URL的有效期默认是600秒
+	    try{
+	        $signedUrl = $this->ossClient->signUrl($this->bucket_doc, $object, $timeout);
+	    } catch(OssException $e) {
+	        printf($e->getMessage() . "\n");
+	        return false;
+	    }
+	    return $signedUrl;
+	}
 }
