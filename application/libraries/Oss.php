@@ -6,7 +6,7 @@ use OSS\Core\OssException;
 class Oss{
 	private $accessKeyId = 'LTAIYx4frWDru6Yt';
 	private $accessKeySecret = 'SSoDb1RVVkHrR568b2054gsXnGk9dE';
-	private $endpoint = 'oss-cn-shanghai.aliyuncs.com';
+	private $endpoint = '.mmdili.com';
 	private $bucket_view = 'mmview';
 	private $bucket_doc = 'mmdoc';
 
@@ -14,8 +14,18 @@ class Oss{
 
 	function __construct()
 	{
+		// try {
+	 //    	$this->ossClient = new OssClient($this->accessKeyId, $this->accessKeySecret, $this->endpoint);
+		// } catch (OssException $e) {
+	 //    	printf($e->getMessage()."\n");
+		// 	die();
+		// }
+	}
+
+	function initOssClient($bucket)
+	{
 		try {
-	    	$this->ossClient = new OssClient($this->accessKeyId, $this->accessKeySecret, $this->endpoint);
+	    	$this->ossClient = new OssClient($this->accessKeyId, $this->accessKeySecret, $bucket.$this->endpoint, true);
 		} catch (OssException $e) {
 	    	printf($e->getMessage()."\n");
 			die();
@@ -57,6 +67,7 @@ class Oss{
 	function getSignedUrlForGettingObject($object, $timeout = 600)
 	{
 		// URL的有效期默认是600秒
+	    $this->initOssClient($this->bucket_doc);
 	    try{
 	        $signedUrl = $this->ossClient->signUrl($this->bucket_doc, $object, $timeout);
 	    } catch(OssException $e) {
