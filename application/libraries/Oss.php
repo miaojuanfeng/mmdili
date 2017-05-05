@@ -22,7 +22,7 @@ class Oss{
 		// }
 	}
 
-	function initOssClient($bucket)
+	public function initOssClient($bucket)
 	{
 		try {
 	    	$this->ossClient = new OssClient($this->accessKeyId, $this->accessKeySecret, $bucket.$this->endpoint, true);
@@ -34,6 +34,7 @@ class Oss{
 
 	public function uploadDir($prefix, $localDirectory)
 	{
+		$this->initOssClient($this->bucket_view);
     	try {
         	$this->ossClient->uploadDir($this->bucket_view, $prefix, $localDirectory);
     	}catch(OssException $e){
@@ -45,6 +46,7 @@ class Oss{
 
 	public function uploadFile($prefix, $localFile)
 	{
+		$this->initOssClient($this->bucket_doc);
     	try {
         	$this->ossClient->uploadFile($this->bucket_doc, $prefix, $localFile);
     	}catch(OssException $e){
@@ -54,7 +56,9 @@ class Oss{
 	    return true;
 	}
 
-	public function checkDocExist($object){
+	public function checkDocExist($object)
+	{
+		$this->initOssClient($this->bucket_doc);
 		try{
         	$exist = $this->ossClient->doesObjectExist($this->bucket_doc, $object);
 	    } catch(OssException $e) {
