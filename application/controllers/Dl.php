@@ -45,6 +45,7 @@ class Dl extends CI_Controller {
 		$exist = $this->oss->checkDocExist($object);
     	
 echo $this->oss->getSignedUrlForGettingObject($user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
+die();
     	if($exist){
     		// header('Location:'.'http://doc.mmdili.com/'.$user_url.'/'.strtotime(date('Y', $doc_url).'-01-01').'/'.$doc_title.'.'.$doc_ext_name);
     		$data['dl']['title'] 	= $file['doc_title'];
