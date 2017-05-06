@@ -89,11 +89,11 @@
 							<?php
 							if( !$dl['dl_forbidden'] ){
 							?>
-							<a class="dl-link" href="<?=$dl['link']?>" target="_blank">下载这篇文档</a>
+								<a class="dl-link" href="<?=$dl['link']?>" target="_blank">下载这篇文档</a>
 						    <?php
 						    }else{
 						    ?>
-							<div class="dl-forbidden">暂不提供下载</div>
+								<div class="dl-forbidden">暂不提供下载</div>
 						    <?php
 						    }
 						    ?>

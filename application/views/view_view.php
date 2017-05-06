@@ -35,7 +35,7 @@
 				<?php
 				if( $page['is_robot'] ){
 				?>
-					<div class="page-top" style="min-height:<?=($page['height']+300)?>px;"><?=$page['content']?></div>
+					<div class="page-top" style="padding:10px;"><?=$page['content']?></div>
 				<?php
 				}else{
 				?>
