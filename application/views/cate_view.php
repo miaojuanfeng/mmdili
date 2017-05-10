@@ -38,7 +38,7 @@
 								<?php
 								if( $v['doc_desc'] ){
 								?>
-								<p style="margin: 5px 0 0 0;color: #aaa;line-height: 20px;"><?=$v['doc_desc']?></p>
+								<p style="margin: 5px 0 0 0;color: #aaa;line-height: 20px;"><?=$v['doc_desc']?> ...</p>
 								<?php
 								}
 								?>

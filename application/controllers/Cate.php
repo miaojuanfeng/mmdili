@@ -50,7 +50,7 @@ class Cate extends CI_Controller {
 				redirect(base_url('error'.'.html'));
 		}
 		// 每页显示数量
-		$limit = 20;
+		$limit = 10;
 		// 总记录数量
 		$total = $this->cate_model->get_count($cate_id);
 		// 总页数
