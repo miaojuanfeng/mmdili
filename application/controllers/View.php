@@ -88,6 +88,7 @@ class View extends CI_Controller {
 		$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];
 		$data['page']['is_robot'] = $is_robot;
 		if( $is_robot ){
+			log_message('error', 'robot come page: '.$detail['doc_title']);
 			$data['page']['content'] = $detail['doc_content'];
 		}
 		//
