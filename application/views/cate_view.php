@@ -33,7 +33,16 @@
 						foreach($cate['doc'] as $k => $v){
 						?>
 						<li>
-							<a href="<?=base_url('view/'.$v['doc_url'].'.html')?>" target="_blank"><h3><?=$v['doc_title']?><span class="page_num">P<?=$v['doc_page_num']?></span></h3></a>
+							<a href="<?=base_url('view/'.$v['doc_url'].'.html')?>" target="_blank">
+								<h3 style="font-weight:bold;"><?=$v['doc_title']?><span class="page_num">P<?=$v['doc_page_num']?></span></h3>
+								<?php
+								if( $v['doc_desc'] ){
+								?>
+								<p style="margin: 5px 0 0 0;color: #aaa;line-height: 20px;"><?=$v['doc_desc']?></p>
+								<?php
+								}
+								?>
+							</a>
 						</li>
 						<?php
 						}
