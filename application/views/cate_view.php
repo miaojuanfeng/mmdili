@@ -96,6 +96,18 @@
 						?>
 					</ul>
 				</div>
+				<div class="recommend-adsense">
+					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- view_right_2 -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:200px;height:200px"
+					     data-ad-client="ca-pub-6393601311110091"
+					     data-ad-slot="1806160682"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
