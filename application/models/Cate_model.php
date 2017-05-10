@@ -19,7 +19,7 @@ class cate_model extends CI_Model{
     }
 
     public function get_list($cate_id, $limit, $offset){
-    	$query = $this->db->query("SELECT doc_url, doc_title, substring(doc_content, 1, 300) as doc_desc, doc_page_num FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = ".$cate_id." ORDER BY doc_id DESC LIMIT ".$limit." OFFSET ".$offset);
+    	$query = $this->db->query("SELECT doc_url, doc_title, substring(doc_content, 1, 250) as doc_desc, doc_page_num FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = ".$cate_id." ORDER BY doc_id DESC LIMIT ".$limit." OFFSET ".$offset);
     	return $query->result_array();
     }
 
