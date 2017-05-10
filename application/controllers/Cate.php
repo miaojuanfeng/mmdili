@@ -70,6 +70,7 @@ class Cate extends CI_Controller {
 		$offset = ($pn - 1) * $limit;
 		//
 		$data['cate']['title'] = $cate_title;
+		$data['cate']['pn'] = $pn;
 		$data['cate']['doc'] = $this->cate_model->get_list($cate_id, $limit, $offset);
 		//
 		$data['cate']['hot'] = $this->cate_model->get_hot($cate_id);

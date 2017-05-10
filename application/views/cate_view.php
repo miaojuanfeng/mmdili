@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?=$cate['title']?>_分类下的所有文档 - 缪缪<?=$cate['title']?>文档</title>
+	<title><?=$cate['title']?>_分类下的所有文档<?=($cate['pn']>1)?'_第'.$cate['pn'].'页':''?> - 缪缪<?=$cate['title']?>文档</title>
 	<meta name="robots" content="index,follow" />
 	<meta name="keywords" content="高中<?=$cate['title']?>,<?=$cate['title']?>文档,文档列表,文档搜索" />
 	<meta name="description" content="<?=$cate['title']?>_分类下的所有文档。" />
