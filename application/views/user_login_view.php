@@ -9,7 +9,7 @@
 	<div class="content">
 		<div class="main-container">
 			<div class="verify-container">
-				<h3 class="verify-title">注册</h3>
+				<h3 class="verify-title">登录</h3>
 				<p class="verify-title2">邮箱</p>
 				<p class="verify-title2"><input name="email" type="text" /></p>
 				<p class="verify-title2">密码</p>
