@@ -34,11 +34,11 @@
 						?>
 						<li>
 							<a href="<?=base_url('view/'.$v['doc_url'].'.html')?>" target="_blank">
-								<h3 style="font-weight:bold;"><?=$v['doc_title']?><span class="page_num">P<?=$v['doc_page_num']?></span></h3>
+								<h3><?=$v['doc_title']?><span>P<?=$v['doc_page_num']?></span></h3>
 								<?php
 								if( $v['doc_desc'] ){
 								?>
-								<p style="margin: 5px 0 0 0;color: #aaa;line-height: 20px;max-height:60px;overflow:hidden;"><?=$v['doc_desc']?> ...</p>
+								<p><?=$v['doc_desc']?> ...</p>
 								<?php
 								}
 								?>
