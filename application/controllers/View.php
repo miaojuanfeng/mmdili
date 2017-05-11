@@ -84,6 +84,7 @@ class View extends CI_Controller {
 		$data['page']['width'] = 960;
 		$data['page']['height'] = intval((960/$detail['doc_width'])*$detail['doc_height']);
 		$data['page']['title'] = $detail['doc_title'];
+		$data['page']['ext_name'] = $detail['doc_ext_name'];
 		$data['page']['cate_name'] = $detail['doc_cate_name'];
 		$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];
 		$data['page']['is_robot'] = $is_robot;

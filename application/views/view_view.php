@@ -14,29 +14,23 @@
 	<div class="content">
 		<div class="main-container">
 			<div class="view-container">
-				<div class="page-title">
-					<h1><?=$page['title']?></h1>
+				<div class="title-container" style="background-image:url('<?=base_url('assets/img/'.$page['ext_name'].'.png')?>')">
+					<div class="page-title">
+						<h1><?=$page['title']?></h1>
+					</div>
+					<div class="page-notice">
+						<?php
+							if( $page['poly2bitmap'] ){
+								echo '提示：当前文档包含较多图形，已对图形及部分文字进行压缩以加快载入，下载文档可浏览高清版本。';
+							}else{
+								echo '提示：已对文档中包含的图片进行压缩以加快载入，下载文档可浏览高清版本。';
+							}
+						?>
+					</div>
 				</div>
-				<?php
-				if( $page['poly2bitmap'] ){
-				?>
-				<div class="page-notice">
-					提示：当前文档包含较多图形，已对图形及部分文字进行压缩以加快载入，下载文档可浏览高清版本。
-				</div>
-				<?php
-				}else{
-				?>
-				<div class="page-notice">
-					提示：已对文档中包含的图片进行压缩以加快载入，下载文档可浏览高清版本。
-				</div>
-				<?php
-				}
-				?>
 				<?php
 				if( $page['is_robot'] ){
-				?>
-					<div class="page-top" style="padding:10px;"><?=$page['content']?></div>
-				<?php
+					echo '<div class="page-top" style="padding:10px;">'.$page['content'].'</div>';
 				}else{
 				?>
 					<?php

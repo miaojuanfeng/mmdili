@@ -45,6 +45,16 @@
 				    background-position-y: 10px;
 				    padding-left: 95px;
 
+				    .ext{
+				    	position: absolute;
+					    left: 10px;
+					    top: 75px;
+					    width: 70px;
+					    font-size: 14px;
+					    color: #aaa;
+					    text-align: center;
+				    }
+
 					h3{
 						margin: 0;
 						white-space: nowrap;
