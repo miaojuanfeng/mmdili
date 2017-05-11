@@ -712,23 +712,29 @@ a {
   width: 962px;
   float: left;
   padding: 15px 0 0 0; }
-  .view-container .title-container .page-title, .dl-container .title-container .page-title, .search-container .title-container .page-title {
-    padding: 10px;
-    border: 1px solid #eee;
-    border-bottom: none;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
-    .view-container .title-container .page-title h1, .dl-container .title-container .page-title h1, .search-container .title-container .page-title h1 {
-      line-height: 25px;
-      color: #666;
-      padding: 0;
-      margin: 0;
-      font: 16px/20px "微软雅黑"; }
-  .view-container .title-container .page-notice, .dl-container .title-container .page-notice, .search-container .title-container .page-notice {
-    padding: 5px 10px;
-    color: #747474;
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
+  .view-container .title-container, .dl-container .title-container, .search-container .title-container {
+    background-repeat: no-repeat;
+    background-size: 85px;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    padding-left: 95px; }
+    .view-container .title-container .page-title, .dl-container .title-container .page-title, .search-container .title-container .page-title {
+      padding: 10px;
+      border: 1px solid #eee;
+      border-bottom: none;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
+      .view-container .title-container .page-title h1, .dl-container .title-container .page-title h1, .search-container .title-container .page-title h1 {
+        line-height: 25px;
+        color: #666;
+        padding: 0;
+        margin: 0;
+        font: 16px/20px "微软雅黑"; }
+    .view-container .title-container .page-notice, .dl-container .title-container .page-notice, .search-container .title-container .page-notice {
+      padding: 5px 10px;
+      color: #747474;
+      border-left: 1px solid #eee;
+      border-right: 1px solid #eee;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
   .view-container .page, .dl-container .page, .search-container .page, .view-container .page-top, .dl-container .page-top, .search-container .page-top, .view-container .more-page, .dl-container .more-page, .search-container .more-page {
     border: 1px solid #eee;
     margin-bottom: 15px;
