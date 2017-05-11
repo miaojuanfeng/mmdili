@@ -321,7 +321,8 @@ a {
         font-size: 14px;
         padding: 0 10px; }
         .header .main-header .search-form .search-button .search-button-text {
-          color: #ccc; }
+          color: #ccc;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
     .header .main-header .safari-search-form {
       margin-top: 6px; }
       .header .main-header .safari-search-form .safari-search-button {
