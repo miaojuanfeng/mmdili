@@ -4,17 +4,19 @@
 	padding: 15px 0 0 0;
 
 	.title-container{
+		border:1px solid #eee;
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+
 		background-repeat: no-repeat;
 	    background-size: 85px;
 	    background-position-x: 10px;
 	    background-position-y: 10px;
 	    padding-left: 95px;
-				    
+
 		.page-title{
 			padding: 10px;
-			border:1px solid #eee;
 			border-bottom:none;
-			box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+			
 
 			h1{
 				line-height: 25px;
@@ -31,7 +33,7 @@
 				left: 1px solid #eee;
 				right: 1px solid #eee;
 			}
-			box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+			
 		}
 	}
 
