@@ -10,7 +10,7 @@
 <body>
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
-		<div class="main-container">
+		<div class="main-container pb-60">
 			<div class="verify-container">
 				<h3 class="verify-title">已向您的电子邮箱中发送了一封验证邮件，请登录邮箱激活账号。</h3>
 				<p class="verify-title2">未收到邮件？温馨提示：</p>

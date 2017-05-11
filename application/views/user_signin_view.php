@@ -10,7 +10,7 @@
 <body>
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
-		<div class="main-container">
+		<div class="main-container pb-60">
 			<div class="signin-container">
 				<h3 class="signin-title">登录</h3>
 				<p class="signin-title2">邮箱</p>
