@@ -32,8 +32,8 @@
 						<?php
 						foreach($cate['doc'] as $k => $v){
 						?>
-						<li style="background-image:url('<?=base_url('assets/img/'.$v['doc_ext_name'].'.png')?>')">
-							<a href="<?=base_url('view/'.$v['doc_url'].'.html')?>" target="_blank">
+						<li>
+							<a href="<?=base_url('view/'.$v['doc_url'].'.html')?>" style="background-image:url('<?=base_url('assets/img/'.$v['doc_ext_name'].'.png')?>')" target="_blank">
 								<h3><?=$v['doc_title']?><span>P<?=$v['doc_page_num']?></span></h3>
 								<?php
 								if( $v['doc_desc'] ){

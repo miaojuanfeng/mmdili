@@ -48,7 +48,12 @@
       .view-container .cate ul li a, .dl-container .cate ul li a, .search-container .cate ul li a {
         color: #747474;
         display: block;
-        padding: 10px 10px; }
+        padding: 10px 10px;
+        background-repeat: no-repeat;
+        background-size: 85px;
+        background-position-x: 10px;
+        background-position-y: 10px;
+        padding-left: 85px; }
         .view-container .cate ul li a h3, .dl-container .cate ul li a h3, .search-container .cate ul li a h3 {
           margin: 0;
           white-space: nowrap;
