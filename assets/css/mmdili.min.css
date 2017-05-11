@@ -715,10 +715,10 @@ a {
   .view-container .title-container, .dl-container .title-container, .search-container .title-container {
     border: 1px solid #eee;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-    background-repeat: no-repeat;
-    background-size: 65px;
-    background-position-x: 10px;
-    padding-left: 75px; }
+    background-size: 60px;
+    background-position-x: 8px;
+    background-position-y: 1px;
+    padding-left: 70px; }
     .view-container .title-container .page-title, .dl-container .title-container .page-title, .search-container .title-container .page-title {
       padding: 10px 10px 5px 0;
       border-bottom: 1px solid #eee; }
