@@ -59,7 +59,7 @@
             float: right;
             font-weight: normal;
             color: #ccc; }
-        .view-container .cate ul li a .p, .dl-container .cate ul li a .p, .search-container .cate ul li a .p {
+        .view-container .cate ul li a p, .dl-container .cate ul li a p, .search-container .cate ul li a p {
           margin: 5px 0 0 0;
           color: #aaa;
           line-height: 20px;
