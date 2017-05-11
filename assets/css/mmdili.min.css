@@ -582,19 +582,19 @@ a {
     color: #747474;
     font-size: 14px; }
 
-.login-container .login-title {
+.signin-container .signin-title {
   font-size: 22px;
   font-family: Microsoft Yahei;
   font-weight: normal;
   color: #333;
   margin: 35px 0 25px 0; }
 
-.login-container .login-title2 {
+.signin-container .signin-title2 {
   font-family: arial;
   font-size: 13px;
   color: #666; }
 
-.login-container input[type='text'], .login-container input[type='password'] {
+.signin-container input[type='text'], .signin-container input[type='password'] {
   padding: 7px 10px;
   width: 300px;
   color: #49525c;
@@ -608,11 +608,11 @@ a {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
 
-.login-container button {
+.signin-container button {
   display: block;
   padding: 0;
   margin-top: 30px;
-  width: 320px;
+  width: 322px;
   font-size: 15px;
   line-height: 33px;
   color: #fff;
@@ -625,7 +625,53 @@ a {
   outline: 0;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent; }
-  .login-container button:hover {
+  .signin-container button:hover {
+    background: #838383; }
+
+.signup-container .signup-title {
+  font-size: 22px;
+  font-family: Microsoft Yahei;
+  font-weight: normal;
+  color: #333;
+  margin: 35px 0 25px 0; }
+
+.signup-container .signup-title2 {
+  font-family: arial;
+  font-size: 13px;
+  color: #666; }
+
+.signup-container input[type='text'], .signup-container input[type='password'] {
+  padding: 7px 10px;
+  width: 300px;
+  color: #49525c;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.1);
+  outline: 0;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+
+.signup-container button {
+  display: block;
+  padding: 0;
+  margin-top: 30px;
+  width: 322px;
+  font-size: 15px;
+  line-height: 33px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: dimgray;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent; }
+  .signup-container button:hover {
     background: #838383; }
 
 .verify-container .verify-title {

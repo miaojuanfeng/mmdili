@@ -30,10 +30,16 @@ class User extends CI_Controller {
 		
 	}
 
-	public function login(){
+	public function signin(){
 		$data['class_footer'] = 'fixed-footer';
 		//
-		$this->load->view('user_login_view', $data);
+		$this->load->view('user_signin_view', $data);
+	}
+
+	public function signup(){
+		$data['class_footer'] = 'fixed-footer';
+		//
+		$this->load->view('user_signup_view', $data);
 	}
 
 	public function verify(){
