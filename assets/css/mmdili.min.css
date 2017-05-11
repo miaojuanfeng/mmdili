@@ -611,7 +611,8 @@ a {
 .login-container button {
   display: block;
   padding: 0;
-  width: 100%;
+  margin-top: 30px;
+  width: 320px;
   font-size: 15px;
   line-height: 33px;
   color: #fff;
@@ -624,6 +625,8 @@ a {
   outline: 0;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent; }
+  .login-container button:hover {
+    background: #9c9c9c; }
 
 .verify-container .verify-title {
   font-size: 22px;

@@ -33,7 +33,8 @@
     button{
     	display: block;
 	    padding: 0;
-	    width: 100%;
+	    margin-top:30px;
+	    width: 320px;
 	    font-size: 15px;
 	    line-height: 33px;
 	    color: #fff;
@@ -46,6 +47,10 @@
 	    outline: 0;
 	    cursor: pointer;
 	    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	    &:hover{
+	    	background: lighten(dimgray, 20%);
+	    }
     }
 
 }
