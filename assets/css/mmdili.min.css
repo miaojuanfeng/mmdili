@@ -720,7 +720,7 @@ a {
     background-position-x: 10px;
     padding-left: 75px; }
     .view-container .title-container .page-title, .dl-container .title-container .page-title, .search-container .title-container .page-title {
-      padding: 10px 10px 10px 0;
+      padding: 10px 10px 5px 0;
       border-bottom: 1px solid #eee; }
       .view-container .title-container .page-title h1, .dl-container .title-container .page-title h1, .search-container .title-container .page-title h1 {
         line-height: 25px;
