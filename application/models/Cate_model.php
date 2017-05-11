@@ -21,7 +21,7 @@ class cate_model extends CI_Model{
     public function get_list($cate_id, $limit, $offset){
     	$query = $this->db->query("SELECT doc_url, 
             doc_title, 
-            substring(doc_content, 1, 280) as doc_desc, 
+            substring(doc_content, 1, 250) as doc_desc, 
             doc_ext_name,
             doc_page_num 
             FROM m_doc 
