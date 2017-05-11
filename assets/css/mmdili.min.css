@@ -582,6 +582,18 @@ a {
     color: #747474;
     font-size: 14px; }
 
+.login-container .login-title {
+  font-size: 22px;
+  font-family: Microsoft Yahei;
+  font-weight: normal;
+  color: #333;
+  margin: 35px 0 25px 0; }
+
+.login-container .login-title2 {
+  font-family: arial;
+  font-size: 13px;
+  color: #666; }
+
 .login-container input[type='text'], .login-container input[type='password'] {
   padding: 7px 50px 7px 10px;
   width: 100%;
