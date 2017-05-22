@@ -59,17 +59,13 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 	<div class="content">
 		<div class="main-container">
 			<div class="view-container">
-				<div class="title-container" style="background-image:url('<?=base_url('assets/img/'.$page['ext_name'].'.png')?>')">
+				<div class="title-container">
 					<div class="page-title">
-						<h1><?=$page['title']?></h1>
+						<h1>test</h1>
 					</div>
 					<div class="page-notice">
 						<?php
-							if( $page['poly2bitmap'] ){
-								echo '提示：当前文档包含较多图形，已对图形及部分文字进行压缩以加快载入，下载文档可浏览高清版本。';
-							}else{
-								echo '提示：已对文档中包含的图片及部分文字进行压缩以加快载入，下载文档可浏览高清版本。';
-							}
+							echo '提示：已对文档中包含的图片及部分文字进行压缩以加快载入，下载文档可浏览高清版本。';
 						?>
 					</div>
 				</div>
