@@ -93,7 +93,8 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<div id="pf12" class="pf w0 h0" data-page-no="12" data-page-url="http://view.mmdili.com/test/14591239888-018.page"></div>
 				</div>
 				<div class="loading-indicator">
-				<img alt="" src="pdf2htmlEX-64x64.png"/>
+					<img alt="" src="pdf2htmlEX-64x64.png"/>
+				</div>
 			</div>
 		</div>
 	</div>
