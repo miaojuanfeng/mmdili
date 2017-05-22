@@ -61,6 +61,11 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 						<h1>test</h1>
 					</div>
 				</div>
+				<div id="sidebar">
+				<div id="outline">
+				</div>
+				</div>
+				<div id="page-container">
 				<div id="pf1" class="pf w0 h0" data-page-no="1" data-page-url="http://view.mmdili.com/test/14591239888-001.page"></div>
 				<div id="pf2" class="pf w0 h0" data-page-no="2" data-page-url="14591239888-002.page"></div>
 				<div id="pf3" class="pf w0 h0" data-page-no="3" data-page-url="14591239888-003.page"></div>

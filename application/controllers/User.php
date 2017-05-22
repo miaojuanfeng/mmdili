@@ -49,6 +49,7 @@ class User extends CI_Controller {
 	}
 
 	public function view(){
-		$this->load->view('view_view_html', $data);
+
+		$this->load->view('view_view_html');
 	}
 }
