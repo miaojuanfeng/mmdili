@@ -5,9 +5,9 @@
 <meta charset="utf-8"/>
 <meta name="generator" content="pdf2htmlEX"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-<link rel="stylesheet" href="base.min.css"/>
-<link rel="stylesheet" href="fancy.min.css"/>
-<link rel="stylesheet" href="14591239888.css"/>
+<link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
+<link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
+<link rel="stylesheet" href="http://view.mmdili.com/test/14591239888.css"/>
 <script>
 /*
  Copyright 2012 Mozilla Foundation 
