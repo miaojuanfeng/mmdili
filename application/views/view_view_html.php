@@ -2,6 +2,11 @@
 <!-- Created by pdf2htmlEX (https://github.com/coolwanglu/pdf2htmlex) -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<title> - 缪缪文档</title>
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<?php require_once 'meta_view.php' ?>
 <meta charset="utf-8"/>
 <meta name="generator" content="pdf2htmlEX"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
@@ -48,35 +53,38 @@ try{
 pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 }catch(e){}
 </script>
-<title></title>
 </head>
 <body>
-<div id="sidebar">
-<div id="outline">
-</div>
-</div>
-<div id="page-container">
-<div id="pf1" class="pf w0 h0" data-page-no="1" data-page-url="http://view.mmdili.com/test/14591239888-001.page"></div>
-<div id="pf2" class="pf w0 h0" data-page-no="2" data-page-url="http://view.mmdili.com/test/14591239888-002.page"></div>
-<div id="pf3" class="pf w0 h0" data-page-no="3" data-page-url="http://view.mmdili.com/test/14591239888-003.page"></div>
-<div id="pf4" class="pf w0 h0" data-page-no="4" data-page-url="http://view.mmdili.com/test/14591239888-004.page"></div>
-<div id="pf5" class="pf w0 h0" data-page-no="5" data-page-url="http://view.mmdili.com/test/14591239888-005.page"></div>
-<div id="pf6" class="pf w0 h0" data-page-no="6" data-page-url="http://view.mmdili.com/test/14591239888-006.page"></div>
-<div id="pf7" class="pf w0 h0" data-page-no="7" data-page-url="http://view.mmdili.com/test/14591239888-007.page"></div>
-<div id="pf8" class="pf w0 h0" data-page-no="8" data-page-url="http://view.mmdili.com/test/14591239888-008.page"></div>
-<div id="pf9" class="pf w0 h0" data-page-no="9" data-page-url="http://view.mmdili.com/test/14591239888-009.page"></div>
-<div id="pfa" class="pf w0 h0" data-page-no="a" data-page-url="http://view.mmdili.com/test/14591239888-010.page"></div>
-<div id="pfb" class="pf w0 h0" data-page-no="b" data-page-url="http://view.mmdili.com/test/14591239888-011.page"></div>
-<div id="pfc" class="pf w0 h0" data-page-no="c" data-page-url="http://view.mmdili.com/test/14591239888-012.page"></div>
-<div id="pfd" class="pf w0 h0" data-page-no="d" data-page-url="http://view.mmdili.com/test/14591239888-013.page"></div>
-<div id="pfe" class="pf w0 h0" data-page-no="e" data-page-url="http://view.mmdili.com/test/14591239888-014.page"></div>
-<div id="pff" class="pf w0 h0" data-page-no="f" data-page-url="http://view.mmdili.com/test/14591239888-015.page"></div>
-<div id="pf10" class="pf w0 h0" data-page-no="10" data-page-url="http://view.mmdili.com/test/14591239888-016.page"></div>
-<div id="pf11" class="pf w0 h0" data-page-no="11" data-page-url="http://view.mmdili.com/test/14591239888-017.page"></div>
-<div id="pf12" class="pf w0 h0" data-page-no="12" data-page-url="http://view.mmdili.com/test/14591239888-018.page"></div>
-</div>
-<div class="loading-indicator">
-<img alt="" src="pdf2htmlEX-64x64.png"/>
-</div>
+	<?php require_once 'header_view.php' ?>
+	<div class="content">
+		<div class="main-container">
+			<div id="sidebar">
+				<div id="outline"></div>
+			</div>
+			<div id="page-container">
+				<div id="pf1" class="pf w0 h0" data-page-no="1" data-page-url="http://view.mmdili.com/test/14591239888-001.page"></div>
+				<div id="pf2" class="pf w0 h0" data-page-no="2" data-page-url="http://view.mmdili.com/test/14591239888-002.page"></div>
+				<div id="pf3" class="pf w0 h0" data-page-no="3" data-page-url="http://view.mmdili.com/test/14591239888-003.page"></div>
+				<div id="pf4" class="pf w0 h0" data-page-no="4" data-page-url="http://view.mmdili.com/test/14591239888-004.page"></div>
+				<div id="pf5" class="pf w0 h0" data-page-no="5" data-page-url="http://view.mmdili.com/test/14591239888-005.page"></div>
+				<div id="pf6" class="pf w0 h0" data-page-no="6" data-page-url="http://view.mmdili.com/test/14591239888-006.page"></div>
+				<div id="pf7" class="pf w0 h0" data-page-no="7" data-page-url="http://view.mmdili.com/test/14591239888-007.page"></div>
+				<div id="pf8" class="pf w0 h0" data-page-no="8" data-page-url="http://view.mmdili.com/test/14591239888-008.page"></div>
+				<div id="pf9" class="pf w0 h0" data-page-no="9" data-page-url="http://view.mmdili.com/test/14591239888-009.page"></div>
+				<div id="pfa" class="pf w0 h0" data-page-no="a" data-page-url="http://view.mmdili.com/test/14591239888-010.page"></div>
+				<div id="pfb" class="pf w0 h0" data-page-no="b" data-page-url="http://view.mmdili.com/test/14591239888-011.page"></div>
+				<div id="pfc" class="pf w0 h0" data-page-no="c" data-page-url="http://view.mmdili.com/test/14591239888-012.page"></div>
+				<div id="pfd" class="pf w0 h0" data-page-no="d" data-page-url="http://view.mmdili.com/test/14591239888-013.page"></div>
+				<div id="pfe" class="pf w0 h0" data-page-no="e" data-page-url="http://view.mmdili.com/test/14591239888-014.page"></div>
+				<div id="pff" class="pf w0 h0" data-page-no="f" data-page-url="http://view.mmdili.com/test/14591239888-015.page"></div>
+				<div id="pf10" class="pf w0 h0" data-page-no="10" data-page-url="http://view.mmdili.com/test/14591239888-016.page"></div>
+				<div id="pf11" class="pf w0 h0" data-page-no="11" data-page-url="http://view.mmdili.com/test/14591239888-017.page"></div>
+				<div id="pf12" class="pf w0 h0" data-page-no="12" data-page-url="http://view.mmdili.com/test/14591239888-018.page"></div>
+			</div>
+			<div class="loading-indicator">
+			<img alt="" src="pdf2htmlEX-64x64.png"/>
+		</div>
+	</div>
+	<?php require_once 'footer_view.php' ?>
 </body>
 </html>
