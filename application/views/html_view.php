@@ -69,7 +69,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<div id="outline"></div>
 				</div>
 				<div id="page-container">
-					<div class="adsense">
+					<div id="adsense-top" class="adsense">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- view_page_1 -->
 						<ins class="adsbygoogle"

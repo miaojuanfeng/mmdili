@@ -20,6 +20,9 @@
   border: 1px solid #eee;
   padding: 9px; }
 
+#adsense-top {
+  margin-bottom: 0; }
+
 .view-container, .dl-container, .search-container {
   width: 962px;
   float: left;
