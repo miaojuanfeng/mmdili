@@ -78,6 +78,19 @@ class View extends CI_Controller {
 		//
 		$data['class_footer'] = 'view-footer';
 		//
+		$data['page']['title'] = $detail['doc_title'];
+		$data['page']['cate_name'] = $detail['doc_cate_name'];
+		$data['page']['num'] = $detail['doc_page_num'];
+		//
+		$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
+		$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
+		$data['page']['ext_name'] = $detail['doc_ext_name'];
+		//
+		$data['page']['is_robot'] = $is_robot;
+		if( $is_robot ){
+			log_message('error', 'robot come page: '.$detail['doc_title']);
+			$data['page']['content'] = $detail['doc_content'];
+		}
 		//
 		$data['page']['new'] = $this->view_model->get_new();
 		$data['page']['hot'] = $this->view_model->get_hot();
@@ -86,29 +99,12 @@ class View extends CI_Controller {
 		if( !$detail['doc_html_view'] ){
 			$data['page']['swf'] = 'http://view.mmdili.com/pv';
 			$data['page']['data'] = 'http://view.mmdili.com/'.$detail['user_url'].'/'.$view_id.'/';
-			$data['page']['num'] = $detail['doc_page_num'];
 			$data['page']['width'] = 960;
 			$data['page']['height'] = intval((960/$detail['doc_width'])*$detail['doc_height']);
-			$data['page']['title'] = $detail['doc_title'];
-			$data['page']['ext_name'] = $detail['doc_ext_name'];
-			$data['page']['cate_name'] = $detail['doc_cate_name'];
 			$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];
-			$data['page']['is_robot'] = $is_robot;
-			if( $is_robot ){
-				log_message('error', 'robot come page: '.$detail['doc_title']);
-				$data['page']['content'] = $detail['doc_content'];
-			}
-			//
-			$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
-			$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
 			//
 			$this->load->view('view_view', $data);
 		}else{
-			$data['page']['title'] = $detail['doc_title'];
-			$data['page']['cate_name'] = $detail['doc_cate_name'];
-			//
-			$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
-			$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
 			//
 			$this->load->view('html_view', $data);
 		}
