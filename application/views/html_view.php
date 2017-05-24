@@ -85,6 +85,52 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					?>
 					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=sprintf("%03d", $i)?>"></div>
 					<?php
+						// AddSense
+						if( $i == 2 ){
+					?>
+						<div class="adsense">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_2 -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:960px;height:90px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="9189826685"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					<?php
+						}else if( $i == 4 ){
+					?>
+						<div class="adsense">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_3 -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:960px;height:90px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="1666559883"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					<?php
+						}else if( $i == 6 ){
+					?>
+						<div class="adsense">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_4 -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:960px;height:90px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="3143293083"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					<?php
+						}// End AddSense
+					?>
+					<?php
 					}
 					?>
 				</div>
