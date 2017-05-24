@@ -96,7 +96,10 @@ class View extends CI_Controller {
 		$data['page']['hot'] = $this->view_model->get_hot();
 		$data['page']['rand'] = $this->view_model->get_rand();
 		//
-		if( !$detail['doc_html_view'] ){
+		if( $detail['doc_html_view'] ){
+			$this->load->view('html_view', $data);
+		}else{
+			//
 			$data['page']['swf'] = 'http://view.mmdili.com/pv';
 			$data['page']['data'] = 'http://view.mmdili.com/'.$detail['user_url'].'/'.$view_id.'/';
 			$data['page']['width'] = 960;
@@ -104,9 +107,6 @@ class View extends CI_Controller {
 			$data['page']['poly2bitmap'] = $detail['doc_poly2bitmap'];
 			//
 			$this->load->view('view_view', $data);
-		}else{
-			//
-			$this->load->view('html_view', $data);
 		}
 	}
 }
