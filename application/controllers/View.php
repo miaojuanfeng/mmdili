@@ -97,6 +97,9 @@ class View extends CI_Controller {
 		$data['page']['rand'] = $this->view_model->get_rand();
 		//
 		if( $detail['doc_html_view'] ){
+			$data['page']['doc_url'] = $detail['doc_url'];
+			$data['page']['user_url'] = $detail['user_url'];
+			//
 			$this->load->view('html_view', $data);
 		}else{
 			//
