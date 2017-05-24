@@ -71,23 +71,23 @@
 		margin-bottom: 10px;
 		background: none;
 
-		.page-top-adsense{
-			width: 690px;
-			margin: auto;
-			padding-top:20px;
-
-			.left{
-				float: left;
-			}
-
-			.right{
-				float: right;
-			}
-		}
-
 		.page{
 			border: none;
 			box-shadow: none;
+		}
+	}
+
+	.page-top-adsense{
+		width: 690px;
+		margin: auto;
+		padding-top:20px;
+
+		.left{
+			float: left;
+		}
+
+		.right{
+			float: right;
 		}
 	}
 
