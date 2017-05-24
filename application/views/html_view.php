@@ -72,7 +72,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<?php
 					for($i=1;$i<=$page['num'];$i++){
 					?>
-					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-<?=sprintf("%04d", $i)?>.page"></div>
+					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-<?=sprintf("%03d", $i)?>.page"></div>
 					<?php
 					}
 					?>
