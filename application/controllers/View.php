@@ -78,6 +78,11 @@ class View extends CI_Controller {
 		//
 		$data['class_footer'] = 'view-footer';
 		//
+		//
+		$data['page']['new'] = $this->view_model->get_new();
+		$data['page']['hot'] = $this->view_model->get_hot();
+		$data['page']['rand'] = $this->view_model->get_rand();
+		//
 		if( !$detail['doc_html_view'] ){
 			$data['page']['swf'] = 'http://view.mmdili.com/pv';
 			$data['page']['data'] = 'http://view.mmdili.com/'.$detail['user_url'].'/'.$view_id.'/';
@@ -97,14 +102,13 @@ class View extends CI_Controller {
 			$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
 			$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
 			//
-			$data['page']['new'] = $this->view_model->get_new();
-			$data['page']['hot'] = $this->view_model->get_hot();
-			$data['page']['rand'] = $this->view_model->get_rand();
-			//
 			$this->load->view('view_view', $data);
 		}else{
 			$data['page']['title'] = $detail['doc_title'];
 			$data['page']['cate_name'] = $detail['doc_cate_name'];
+			//
+			$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
+			$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
 			//
 			$this->load->view('html_view', $data);
 		}
