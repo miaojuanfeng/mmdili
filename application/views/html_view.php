@@ -12,7 +12,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
-<link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>.css"/>
+<link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>.css"/>
 <script>
 /*
  Copyright 2012 Mozilla Foundation 
@@ -69,24 +69,24 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<div id="outline"></div>
 				</div>
 				<div id="page-container">
-					<div id="pf1" class="pf w0 h0" data-page-no="1" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-001.page"></div>
-					<div id="pf2" class="pf w0 h0" data-page-no="2" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-002.page"></div>
-					<div id="pf3" class="pf w0 h0" data-page-no="3" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-003.page"></div>
-					<div id="pf4" class="pf w0 h0" data-page-no="4" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-004.page"></div>
-					<div id="pf5" class="pf w0 h0" data-page-no="5" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-005.page"></div>
-					<div id="pf6" class="pf w0 h0" data-page-no="6" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-006.page"></div>
-					<div id="pf7" class="pf w0 h0" data-page-no="7" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-007.page"></div>
-					<div id="pf8" class="pf w0 h0" data-page-no="8" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-008.page"></div>
-					<div id="pf9" class="pf w0 h0" data-page-no="9" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-009.page"></div>
-					<div id="pfa" class="pf w0 h0" data-page-no="a" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-010.page"></div>
-					<div id="pfb" class="pf w0 h0" data-page-no="b" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-011.page"></div>
-					<div id="pfc" class="pf w0 h0" data-page-no="c" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-012.page"></div>
-					<div id="pfd" class="pf w0 h0" data-page-no="d" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-013.page"></div>
-					<div id="pfe" class="pf w0 h0" data-page-no="e" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-014.page"></div>
-					<div id="pff" class="pf w0 h0" data-page-no="f" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-015.page"></div>
-					<div id="pf10" class="pf w0 h0" data-page-no="10" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-016.page"></div>
-					<div id="pf11" class="pf w0 h0" data-page-no="11" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-017.page"></div>
-					<div id="pf12" class="pf w0 h0" data-page-no="12" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>-018.page"></div>
+					<div id="pf1" class="pf w0 h0" data-page-no="1" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-001.page"></div>
+					<div id="pf2" class="pf w0 h0" data-page-no="2" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-002.page"></div>
+					<div id="pf3" class="pf w0 h0" data-page-no="3" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-003.page"></div>
+					<div id="pf4" class="pf w0 h0" data-page-no="4" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-004.page"></div>
+					<div id="pf5" class="pf w0 h0" data-page-no="5" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-005.page"></div>
+					<div id="pf6" class="pf w0 h0" data-page-no="6" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-006.page"></div>
+					<div id="pf7" class="pf w0 h0" data-page-no="7" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-007.page"></div>
+					<div id="pf8" class="pf w0 h0" data-page-no="8" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-008.page"></div>
+					<div id="pf9" class="pf w0 h0" data-page-no="9" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-009.page"></div>
+					<div id="pfa" class="pf w0 h0" data-page-no="a" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-010.page"></div>
+					<div id="pfb" class="pf w0 h0" data-page-no="b" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-011.page"></div>
+					<div id="pfc" class="pf w0 h0" data-page-no="c" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-012.page"></div>
+					<div id="pfd" class="pf w0 h0" data-page-no="d" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-013.page"></div>
+					<div id="pfe" class="pf w0 h0" data-page-no="e" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-014.page"></div>
+					<div id="pff" class="pf w0 h0" data-page-no="f" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-015.page"></div>
+					<div id="pf10" class="pf w0 h0" data-page-no="10" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-016.page"></div>
+					<div id="pf11" class="pf w0 h0" data-page-no="11" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-017.page"></div>
+					<div id="pf12" class="pf w0 h0" data-page-no="12" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-018.page"></div>
 				</div>
 				<div class="loading-indicator">
 					<img alt="" src="pdf2htmlEX-64x64.png"/>
