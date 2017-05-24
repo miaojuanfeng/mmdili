@@ -12,7 +12,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
-<link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>.css"/>
+<link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/page.min.css"/>
 <script>
 /*
  Copyright 2012 Mozilla Foundation 
@@ -72,7 +72,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<?php
 					for($i=1;$i<=$page['num'];$i++){
 					?>
-					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=$page['doc_url']?>-<?=sprintf("%03d", $i)?>.page"></div>
+					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=sprintf("%03d", $i)?>"></div>
 					<?php
 					}
 					?>
