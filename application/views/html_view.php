@@ -2,7 +2,7 @@
 <!-- Created by pdf2htmlEX (https://github.com/coolwanglu/pdf2htmlex) -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title> - 缪缪文档</title>
+<title><?=$page['title']?> - 缪缪<?=$page['cate_name']?>文档</title>
 <meta name="robots" content="index,follow" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
@@ -73,7 +73,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<div id="outline"></div>
 				</div>
 				<div id="page-container">
-					<div id="pf1" class="page pf w0 h0" data-page-no="1" data-page-url="http://view.mmdili.com/test/14591239888-001.page"></div>
+					<div id="pf1" class="pf w0 h0" data-page-no="1" data-page-url="http://view.mmdili.com/test/14591239888-001.page"></div>
 					<div id="pf2" class="pf w0 h0" data-page-no="2" data-page-url="http://view.mmdili.com/test/14591239888-002.page"></div>
 					<div id="pf3" class="pf w0 h0" data-page-no="3" data-page-url="http://view.mmdili.com/test/14591239888-003.page"></div>
 					<div id="pf4" class="pf w0 h0" data-page-no="4" data-page-url="http://view.mmdili.com/test/14591239888-004.page"></div>

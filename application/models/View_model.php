@@ -27,6 +27,7 @@ class view_model extends CI_Model{
             doc_page_num, 
             doc_poly2bitmap, 
             doc_dl_forbidden,
+            doc_html_view,
             doc_ext_name,
             doc_cate_name 
             FROM m_doc 
