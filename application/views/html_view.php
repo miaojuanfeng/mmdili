@@ -13,6 +13,11 @@
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
 <link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/page.min.css"/>
+<style type="text/css">
+	#pf1{
+		border-top: none;
+	}
+</style>
 <script>
 /*
  Copyright 2012 Mozilla Foundation 
@@ -58,7 +63,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
 		<div class="main-container">
-			<div class="html-container">
+			<div class="view-container">
 				<div class="title-container" style="background-image:url('<?=base_url('assets/img/'.$page['ext_name'].'.png')?>')">
 					<div class="page-title">
 						<h1><?=$page['title']?></h1>
@@ -97,7 +102,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<?php
 					for($i=1;$i<=$page['num'];$i++){
 					?>
-					<div id="pf<?=dechex($i)?>" class="<?=($i==1)?'page-top':''?> pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=sprintf("%03d", $i)?>"></div>
+					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=sprintf("%03d", $i)?>"></div>
 					<?php
 					}
 					?>
