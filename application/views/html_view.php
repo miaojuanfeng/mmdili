@@ -58,7 +58,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 	<?php require_once 'header_view.php' ?>
 	<div class="content">
 		<div class="main-container">
-			<div class="view-container">
+			<div class="html-container">
 				<div class="title-container" style="background-image:url('<?=base_url('assets/img/'.$page['ext_name'].'.png')?>')">
 					<div class="page-title">
 						<h1><?=$page['title']?></h1>
@@ -69,36 +69,35 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<div id="outline"></div>
 				</div>
 				<div id="page-container">
+					<div class="page-top-adsense">
+						<div class="left">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_top_left -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:336px;height:280px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="2753013484"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<div class="right">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_top_right -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:336px;height:280px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="4229746685"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>	
+						</div>
+						<div class="clearfix"></div>
+					</div>
 					<?php
 					for($i=1;$i<=$page['num'];$i++){
 					?>
-					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=sprintf("%03d", $i)?>">
-						<div class="page-top-adsense">
-							<div class="left">
-								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-								<!-- view_page_top_left -->
-								<ins class="adsbygoogle"
-								     style="display:inline-block;width:336px;height:280px"
-								     data-ad-client="ca-pub-6393601311110091"
-								     data-ad-slot="2753013484"></ins>
-								<script>
-								(adsbygoogle = window.adsbygoogle || []).push({});
-								</script>
-							</div>
-							<div class="right">
-								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-								<!-- view_page_top_right -->
-								<ins class="adsbygoogle"
-								     style="display:inline-block;width:336px;height:280px"
-								     data-ad-client="ca-pub-6393601311110091"
-								     data-ad-slot="4229746685"></ins>
-								<script>
-								(adsbygoogle = window.adsbygoogle || []).push({});
-								</script>	
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
+					<div id="pf<?=dechex($i)?>" class="<?=($i==1)?'page-top':''?> pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=sprintf("%03d", $i)?>"></div>
 					<?php
 					}
 					?>
