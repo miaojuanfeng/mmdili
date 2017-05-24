@@ -13,14 +13,6 @@
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
 <link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/page.min.css"/>
-<style type="text/css">
-	.page-top-adsense-wrap{
-		
-	}
-	#pf1{
-		border-top: none;
-	}
-</style>
 <script>
 /*
  Copyright 2012 Mozilla Foundation 
@@ -77,32 +69,16 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<div id="outline"></div>
 				</div>
 				<div id="page-container">
-					<div class="page-top-adsense-wrap">
-						<div class="page-top-adsense">
-							<div class="left">
-								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-								<!-- view_page_top_left -->
-								<ins class="adsbygoogle"
-								     style="display:inline-block;width:336px;height:280px"
-								     data-ad-client="ca-pub-6393601311110091"
-								     data-ad-slot="2753013484"></ins>
-								<script>
-								(adsbygoogle = window.adsbygoogle || []).push({});
-								</script>
-							</div>
-							<div class="right">
-								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-								<!-- view_page_top_right -->
-								<ins class="adsbygoogle"
-								     style="display:inline-block;width:336px;height:280px"
-								     data-ad-client="ca-pub-6393601311110091"
-								     data-ad-slot="4229746685"></ins>
-								<script>
-								(adsbygoogle = window.adsbygoogle || []).push({});
-								</script>	
-							</div>
-							<div class="clearfix"></div>
-						</div>
+					<div class="adsense">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- view_page_1 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:960px;height:90px"
+						     data-ad-client="ca-pub-6393601311110091"
+						     data-ad-slot="3701696288"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 					</div>
 					<?php
 					for($i=1;$i<=$page['num'];$i++){
