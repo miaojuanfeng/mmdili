@@ -56,6 +56,10 @@ class Search extends CI_Controller {
 		$cii_pagination['base_url'] = base_url('search?k='.$k.'&pn=');
 		$cii_pagination['per_page'] = $limit;
 		$cii_pagination['total_rows'] = $total;
+		$cii_pagination['first_link'] = '首页';
+		$cii_pagination['prev_link'] = '上一页';
+		$cii_pagination['next_link'] = '下一页';
+		$cii_pagination['last_link'] = '尾页';
 		$this->cii_pagination->initialize($cii_pagination);
 		//
 		$data['class_footer'] = 'fixed-footer';
