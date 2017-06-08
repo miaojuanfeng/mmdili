@@ -30,6 +30,7 @@ class search_model extends CI_Model{
             doc_ext_name,
             doc_page_num 
             FROM m_doc 
+            LEFT JOIN m_doc_ext ON m_doc.doc_ext_id = m_doc_ext.doc_ext_id 
             WHERE doc_deleted = 0 
             AND doc_title like '%".$this->db->escape_str($k, true)."%' 
             ORDER BY doc_id DESC LIMIT ".$limit." OFFSET ".$offset);
