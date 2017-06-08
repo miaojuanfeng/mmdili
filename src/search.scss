@@ -43,19 +43,36 @@
 				    background-position-y: 10px;
 				    padding-left: 95px;
 
+				    .ext{
+				    	position: absolute;
+					    left: 10px;
+					    top: 75px;
+					    width: 70px;
+					    font-size: 14px;
+					    color: #aaa;
+					    text-align: center;
+				    }
+
 					h3{
 						margin: 0;
 						white-space: nowrap;
 					    overflow: hidden;
 					    text-overflow: ellipsis;
-					    font-weight: normal;
 					    font-size: 14px;
+
+					    span{
+							float: right;
+							font-weight: normal;
+							color: #ccc;
+						}
 					}
 
-					.page_num{
-						float: right;
-						font-weight: normal;
-						color: #ccc;
+					p{
+						margin: 5px 0 0 0;
+						color: #aaa;
+						line-height: 20px;
+						max-height:60px;
+						overflow:hidden;
 					}
 
 					&:hover{
