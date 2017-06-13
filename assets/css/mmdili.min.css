@@ -842,6 +842,7 @@ a {
         width: 33.33%;
         height: 46px; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .center {
+        float: left;
         width: 33.33%;
         height: 46px;
         /*.page-prev{
