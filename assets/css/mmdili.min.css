@@ -839,9 +839,11 @@ a {
       width: 962px; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .left {
         float: left;
-        width: 33.33%; }
+        width: 33.33%;
+        height: 46px; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .center {
         width: 33.33%;
+        height: 46px;
         /*.page-prev{
 	    			float: left;
 	    		}*/
@@ -874,7 +876,8 @@ a {
       .reader-tools-bar-wrap .main-container .reader-tools-bar .right {
         float: right;
         position: relative;
-        width: 33.33%; }
+        width: 33.33%;
+        height: 46px; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .right .download {
           position: absolute;
           top: -1px;
