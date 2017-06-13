@@ -889,7 +889,13 @@ a {
               top: 13px;
               left: 5px; }
           .reader-tools-bar-wrap .main-container .reader-tools-bar .center .page-pos p {
-            width: 60px; }
+            width: 60px;
+            margin: 0 30px;
+            text-align: center;
+            position: relative;
+            line-height: 46px;
+            font-size: 14px;
+            color: #808080; }
             .reader-tools-bar-wrap .main-container .reader-tools-bar .center .page-pos p .page-cur {
               width: 29px;
               height: 30px;
