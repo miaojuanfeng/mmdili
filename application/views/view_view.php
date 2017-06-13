@@ -224,15 +224,17 @@
 		<div class="main-container">
 			<div class="reader-tools-bar">
 				<div class="left">
+					
+				</div>
+				<div class="center">
 					<!-- <a class="page-prev" href="javascript:;">< 上一页</a> -->
 					<div class="page-pos">
-						<input type="text" id="jump_page" value="1" />
-						/
+						<!-- <input type="text" id="jump_page" value="1" />
+						/ -->
 						<span class="page-num"><?=$page['num']?></span>
 					</div>
 					<!-- <a class="page-next" href="javascript:;">下一页 ></a> -->
 				</div>
-				<div class="center"></div>
 				<div class="right">
 					<?php
 					if( $page['dl_forbidden'] ){
