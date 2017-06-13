@@ -838,8 +838,10 @@ a {
     .reader-tools-bar-wrap .main-container .reader-tools-bar {
       width: 962px; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .left {
-        float: left; }
+        float: left;
+        width: 33.33%; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .center {
+        width: 33.33%;
         /*.page-prev{
 	    			float: left;
 	    		}*/
@@ -871,7 +873,8 @@ a {
             color: #747474; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .right {
         float: right;
-        position: relative; }
+        position: relative;
+        width: 33.33%; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .right .download {
           position: absolute;
           top: -1px;

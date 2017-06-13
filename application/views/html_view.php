@@ -224,6 +224,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 						<span class="page-num"><?=$page['num']?></span>
 					</div>
 					<!-- <a class="page-next" href="javascript:;">下一页 ></a> -->
+					<div class="clearfix"></div>
 				</div>
 				<div class="right">
 					<?php

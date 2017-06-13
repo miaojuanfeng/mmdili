@@ -167,8 +167,11 @@
 
 	    	.left{
 	    		float: left;
+	    		width: 33.33%;
 	    	}
 	    	.center{
+	    		width: 33.33%;
+
 	    		a{
 	    			padding: 0 10px;
 	    			color:#747474;
@@ -212,6 +215,7 @@
 	    	.right{
 	    		float:right;
 	    		position:relative;
+	    		width: 33.33%;
 
 		    	.download{
 		    		position: absolute;
