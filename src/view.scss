@@ -195,11 +195,9 @@
 				    padding: 0 12px 0 0;
 
 				    a {
-					    float: left;
 					    height: 46px;
 					    width: 30px;
 					    line-height: 46px;
-					    margin-right: 6px;
 					    font-size: 14px;
 					    position: relative;
 					    top: auto;
@@ -209,6 +207,22 @@
 					    text-indent: -99px;
 					    overflow: hidden;
 					    background-color: transparent;
+
+					    .pre{
+					    	float: left;
+
+					    	i{
+					    		background-position: -140px -80px;
+					    	}
+					    }
+
+					    .next{
+					    	float: right;
+
+					    	i{
+					    		background-position: -140px -100px;
+					    	}
+					    }
 
 					    i{
 						    background: url(../img/icons.png) no-repeat;
