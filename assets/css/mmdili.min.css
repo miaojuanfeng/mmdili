@@ -858,10 +858,8 @@ a {
           .reader-tools-bar-wrap .main-container .reader-tools-bar .center a:hover {
             background-color: #e1e1e1; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .center .page-pos {
-          float: left;
-          color: #747474;
-          letter-spacing: 2px;
-          font-size: 16px;
+          width: 60px;
+          height: 46px;
           margin: 0 30px;
           text-align: center;
           position: relative;
