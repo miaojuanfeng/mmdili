@@ -46,7 +46,20 @@
 							</a>
 						</li>
 						<?php
-							} 
+								if( $k == 4 ){
+						?>
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- view_page_4 -->
+								<ins class="adsbygoogle"
+								     style="display:inline-block;width:960px;height:90px"
+								     data-ad-client="ca-pub-6393601311110091"
+								     data-ad-slot="3143293083"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+						<?php
+								}
+							}
 						}else{
 						?>
 						<li class="no-result">抱歉，没有找到相关文档</li>
