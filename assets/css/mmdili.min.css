@@ -838,7 +838,8 @@ a {
     .reader-tools-bar-wrap .main-container .reader-tools-bar {
       width: 962px; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .left {
-        float: left;
+        float: left; }
+      .reader-tools-bar-wrap .main-container .reader-tools-bar .center {
         /*.page-prev{
 	    			float: left;
 	    		}*/
@@ -846,17 +847,17 @@ a {
 	    			float: left;
 	    			
 	    		}*/ }
-        .reader-tools-bar-wrap .main-container .reader-tools-bar .left a {
+        .reader-tools-bar-wrap .main-container .reader-tools-bar .center a {
           padding: 0 10px;
           color: #747474; }
-          .reader-tools-bar-wrap .main-container .reader-tools-bar .left a:hover {
+          .reader-tools-bar-wrap .main-container .reader-tools-bar .center a:hover {
             background-color: #e1e1e1; }
-        .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-pos {
+        .reader-tools-bar-wrap .main-container .reader-tools-bar .center .page-pos {
           float: left;
           color: #747474;
           letter-spacing: 2px;
           font-size: 16px; }
-          .reader-tools-bar-wrap .main-container .reader-tools-bar .left .page-pos input {
+          .reader-tools-bar-wrap .main-container .reader-tools-bar .center .page-pos input {
             width: 28px;
             height: 25px;
             line-height: 25px;
