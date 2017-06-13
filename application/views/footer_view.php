@@ -23,5 +23,7 @@
 		</div>
 		<div class="clearfix"></div>
 	</div>
-	<script src="https://s13.cnzz.com/z_stat.php?id=1262239175&web_id=1262239175" language="JavaScript" style="display:none;"></script>
+	<div style="display:none;">
+		<script src="https://s13.cnzz.com/z_stat.php?id=1262239175&web_id=1262239175" language="JavaScript"></script>
+	</div>
 </div>
