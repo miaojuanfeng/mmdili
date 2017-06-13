@@ -220,7 +220,6 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					<!-- <a class="page-prev" href="javascript:;">< 上一页</a> -->
 					<div class="page-pos">
 						<span class="page-cur">1</span>
-						/
 						<span class="page-num"><?=$page['num']?></span>
 					</div>
 					<!-- <a class="page-next" href="javascript:;">下一页 ></a> -->
