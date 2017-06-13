@@ -199,10 +199,20 @@
 				    position: relative;
 				    line-height: 46px;
 				    font-size: 14px;
-				    background: url(../img/backslash.png) no-repeat 9px center;
+				    background: url(../img/backslash.png) no-repeat center center;
 
 
-	    			input {
+				    .page-cur{
+				    	width: 29px;
+					    height: 30px;
+					    line-height: 30px;
+					    font-size: 16px;
+					    text-align: right;
+					    top: 6px;
+					    left: 0;
+					    color: #2c9344;
+				    }
+	    			/*input {
 					    width: 28px;
 					    height: 25px;
 					    line-height: 25px;
@@ -214,7 +224,7 @@
 					    overflow: hidden;
 					    font-size: 15px;
 					    color:#747474;
-					}
+					}*/
 	    		}
 
 	    		/*.page-next{

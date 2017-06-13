@@ -219,7 +219,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 				<div class="center">
 					<!-- <a class="page-prev" href="javascript:;">< 上一页</a> -->
 					<div class="page-pos">
-						1
+						<span class="page-cur">1</span>
 						/
 						<span class="page-num"><?=$page['num']?></span>
 					</div>
