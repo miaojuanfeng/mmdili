@@ -214,6 +214,15 @@
 					    text-indent: -99px;
 					    overflow: hidden;
 					    background-color: transparent;
+
+					    i{
+						    background: url(../img/icons.png) no-repeat;
+						    position: absolute;
+						    width: 20px;
+						    height: 20px;
+						    top: 13px;
+						    left: 5px;
+						}
 					}
 
 				    .page-cur{
