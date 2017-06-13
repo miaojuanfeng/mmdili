@@ -199,6 +199,22 @@
 				    font-size: 14px;
 				    background: url(../img/backslash.png) no-repeat center;
 
+				    a {
+					    float: left;
+					    height: 46px;
+					    width: 30px;
+					    line-height: 46px;
+					    margin-right: 6px;
+					    font-size: 14px;
+					    position: relative;
+					    top: auto;
+					    right: auto;
+					    padding: 0;
+					    color: #888;
+					    text-indent: -99px;
+					    overflow: hidden;
+					    background-color: transparent;
+					}
 
 				    .page-cur{
 				    	width: 29px;
