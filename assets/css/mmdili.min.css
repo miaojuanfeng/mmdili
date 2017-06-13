@@ -858,10 +858,6 @@ a {
           .reader-tools-bar-wrap .main-container .reader-tools-bar .center a:hover {
             background-color: #e1e1e1; }
         .reader-tools-bar-wrap .main-container .reader-tools-bar .center .page-pos {
-          float: left;
-          color: #747474;
-          letter-spacing: 2px;
-          font-size: 16px;
           margin: 0 30px;
           text-align: center;
           position: relative;
@@ -876,14 +872,16 @@ a {
             text-align: right;
             top: 6px;
             left: 0;
-            color: #2c9344; }
+            color: #2c9344;
+            position: absolute; }
           .reader-tools-bar-wrap .main-container .reader-tools-bar .center .page-pos .page-num {
             width: 29px;
             height: 25px;
             line-height: 25px;
             text-align: left;
             font-size: 12px;
-            color: #2c9344; }
+            color: #2c9344;
+            position: absolute; }
       .reader-tools-bar-wrap .main-container .reader-tools-bar .right {
         float: right;
         position: relative;
