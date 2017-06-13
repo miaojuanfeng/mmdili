@@ -31,7 +31,7 @@ class Search extends CI_Controller {
 		$k 	= $this->input->get('k', true)  ? str_replace(array('\'','"'), '', $this->input->get('k', true))  : '';
 		$pn = $this->input->get('pn', true) ? $this->input->get('pn', true) : 1;
 		// 每页显示数量
-		$limit = 20;
+		$limit = 10;
 		// 总记录数量
 		$total = $this->search_model->get_count($k);
 		// 总页数
