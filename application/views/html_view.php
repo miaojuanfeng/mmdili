@@ -135,7 +135,7 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 					?>
 				</div>
 				<div class="loading-indicator">
-					<img alt="" src="pdf2htmlEX-64x64.png"/>
+					<img alt="" src="img-64x64.png"/>
 				</div>
 			</div>
 			<div class="recommend-container">
