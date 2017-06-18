@@ -97,7 +97,7 @@
 					?>
 				</div>
 				<div class="loading-indicator">
-					<img alt="" src="http://view.mmdili.com/doc.png"/>
+					<img alt="" src="http://view.mmdili.com/loading.png"/>
 				</div>
 			</div>
 			<div class="recommend-container">
