@@ -15,11 +15,7 @@
 <link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/page.min.css"/>
 <script type="text/javascript" src="<?=base_url('assets/lib/js/htmlview.js')?>"></script>
 
-<script>
-try{
-pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
-}catch(e){}
-</script>
+
 </head>
 <body>
 	<?php require_once 'header_view.php' ?>
