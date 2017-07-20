@@ -30,25 +30,27 @@
 					<div id="outline"></div>
 				</div>
 				<div id="page-container">
-					<div id="adsense-top" class="adsense">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- view_page_1 -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:960px;height:90px"
-						     data-ad-client="ca-pub-6393601311110091"
-						     data-ad-slot="3701696288"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
 					<?php
 					$page_arr = explode('#[page]#', $page['content']);
 					foreach($page_arr as $key => $value){
 					?>
 						<div id="pf<?=dechex($key+1)?>" class="pf w0 h0" data-page-no="<?=dechex($key+1)?>"><?=$value?></div>
 						<?php
-						// AddSense
-						if( $key % 6 == 2 ){
+						if( $key % 8 == 0 ){
+						?>
+						<div id="adsense-top" class="adsense">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- view_page_1 -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:960px;height:90px"
+							     data-ad-client="ca-pub-6393601311110091"
+							     data-ad-slot="3701696288"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<?php
+						}else if( $key % 8 == 2 ){
 						?>
 							<div class="adsense">
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -62,7 +64,7 @@
 								</script>
 							</div>
 						<?php
-						}else if( $key % 6 == 4 ){
+						}else if( $key % 8 == 4 ){
 						?>
 							<div class="adsense">
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -76,7 +78,7 @@
 								</script>
 							</div>
 						<?php
-						}else if( $key % 6 == 0 ){
+						}else if( $key % 8 == 6 ){
 						?>
 							<div class="adsense">
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -90,10 +92,10 @@
 								</script>
 							</div>
 						<?php
-						}// End AddSense
+						}
 						?>
 					<?php
-					} // End foreach
+					}
 					?>
 				</div>
 			</div>
@@ -174,7 +176,6 @@
 					
 				</div>
 				<div class="center">
-					
 					<!-- <div class="page-pos">
 						<a class="prev" href="javascript:;"><i></i>上一页</a>
 						<a class="next" href="javascript:;"><i></i>下一页</a>
