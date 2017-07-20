@@ -48,7 +48,7 @@
 						<div id="pf<?=dechex($key+1)?>" class="pf w0 h0" data-page-no="<?=dechex($key+1)?>"><?=$value?></div>
 						<?php
 						// AddSense
-						if( $i % 6 == 2 ){
+						if( $key % 6 == 2 ){
 						?>
 							<div class="adsense">
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -62,7 +62,7 @@
 								</script>
 							</div>
 						<?php
-						}else if( $i % 6 == 4 ){
+						}else if( $key % 6 == 4 ){
 						?>
 							<div class="adsense">
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -76,7 +76,7 @@
 								</script>
 							</div>
 						<?php
-						}else if( $i % 6 == 0 ){
+						}else if( $key % 6 == 0 ){
 						?>
 							<div class="adsense">
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
