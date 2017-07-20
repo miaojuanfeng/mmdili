@@ -8,13 +8,22 @@
 						<a href="<?=base_url()?>">首页</a>
 					</li>
 					<li>
-						<a href="<?=base_url('cate/dili')?>">地理</a>
+						<a href="<?=base_url('cate/yuwen')?>">语文</a>
+					</li>
+					<li>
+						<a href="<?=base_url('cate/shuxue')?>">数学</a>
+					</li>
+					<li>
+						<a href="<?=base_url('cate/waiyu')?>">外语</a>
+					</li>
+					<li>
+						<a href="<?=base_url('cate/zhengzhi')?>">政治</a>
 					</li>
 					<li>
 						<a href="<?=base_url('cate/lishi')?>">历史</a>
 					</li>
 					<li>
-						<a href="<?=base_url('cate/zhengzhi')?>">政治</a>
+						<a href="<?=base_url('cate/dili')?>">地理</a>
 					</li>
 					<li>
 						<a href="<?=base_url('cate/wenzong')?>">文综</a>

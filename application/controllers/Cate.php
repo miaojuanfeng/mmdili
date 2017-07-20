@@ -30,6 +30,18 @@ class Cate extends CI_Controller {
 	public function index($cate_url = '', $pn = 1)
 	{
 		switch( $cate_url ){
+			case 'yuwen':
+				$cate_id = 5;
+				$cate_title = '语文';
+				break;
+			case 'shuxue':
+				$cate_id = 6;
+				$cate_title = '数学';
+				break;
+			case 'waiyu':
+				$cate_id = 7;
+				$cate_title = '外语';
+				break;
 			case 'dili':
 				$cate_id = 1;
 				$cate_title = '地理';
