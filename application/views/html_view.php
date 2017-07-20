@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!-- Created by pdf2htmlEX (https://github.com/coolwanglu/pdf2htmlex) -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -13,7 +13,6 @@
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
 <link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/page.min.css"/>
-<script type="text/javascript" src="<?=base_url('assets/lib/js/htmlview.js')?>"></script>
 <script type="text/javascript" src="<?=base_url('assets/js/htmlview.js')?>"></script>
 </head>
 <body>
@@ -43,71 +42,59 @@
 						</script>
 					</div>
 					<?php
-					//if( $page['doc_url'] == 1500048783 || $page['doc_url'] == 1500048767 || $page['doc_url'] == 1491409463){
-					if(1){
-						$page_arr = explode('#[page]#', $page['content']);
-						foreach($page_arr as $key => $value){
+					$page_arr = explode('#[page]#', $page['content']);
+					foreach($page_arr as $key => $value){
 					?>
 						<div id="pf<?=dechex($key+1)?>" class="pf w0 h0" data-page-no="<?=dechex($key+1)?>"><?=$value?></div>
-					<?php
-						}
-					}else{
-					for($i=1;$i<=$page['num'];$i++){
-					?>
-					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=sprintf("%03d", $i)?>"></div>
-					<?php
+						<?php
 						// AddSense
-						if( $i == 2 ){
-					?>
-						<div class="adsense">
-							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-							<!-- view_page_2 -->
-							<ins class="adsbygoogle"
-							     style="display:inline-block;width:960px;height:90px"
-							     data-ad-client="ca-pub-6393601311110091"
-							     data-ad-slot="9189826685"></ins>
-							<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-							</script>
-						</div>
-					<?php
-						}else if( $i == 4 ){
-					?>
-						<div class="adsense">
-							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-							<!-- view_page_3 -->
-							<ins class="adsbygoogle"
-							     style="display:inline-block;width:960px;height:90px"
-							     data-ad-client="ca-pub-6393601311110091"
-							     data-ad-slot="1666559883"></ins>
-							<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-							</script>
-						</div>
-					<?php
-						}else if( $i == 6 ){
-					?>
-						<div class="adsense">
-							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-							<!-- view_page_4 -->
-							<ins class="adsbygoogle"
-							     style="display:inline-block;width:960px;height:90px"
-							     data-ad-client="ca-pub-6393601311110091"
-							     data-ad-slot="3143293083"></ins>
-							<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-							</script>
-						</div>
-					<?php
+						if( $i % 6 == 2 ){
+						?>
+							<div class="adsense">
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- view_page_2 -->
+								<ins class="adsbygoogle"
+								     style="display:inline-block;width:960px;height:90px"
+								     data-ad-client="ca-pub-6393601311110091"
+								     data-ad-slot="9189826685"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>
+						<?php
+						}else if( $i % 6 == 4 ){
+						?>
+							<div class="adsense">
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- view_page_3 -->
+								<ins class="adsbygoogle"
+								     style="display:inline-block;width:960px;height:90px"
+								     data-ad-client="ca-pub-6393601311110091"
+								     data-ad-slot="1666559883"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>
+						<?php
+						}else if( $i % 6 == 0 ){
+						?>
+							<div class="adsense">
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- view_page_4 -->
+								<ins class="adsbygoogle"
+								     style="display:inline-block;width:960px;height:90px"
+								     data-ad-client="ca-pub-6393601311110091"
+								     data-ad-slot="3143293083"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>
+						<?php
 						}// End AddSense
-					?>
+						?>
 					<?php
-					}
-					}
+					} // End foreach
 					?>
-				</div>
-				<div class="loading-indicator">
-					<img alt="" src="http://view.mmdili.com/loading.png" width="64" />
 				</div>
 			</div>
 			<div class="recommend-container">
@@ -126,7 +113,6 @@
 					</ul>
 				</div>
 				<div class="recommend-adsense">
-					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_1 -->
 					<ins class="adsbygoogle"
@@ -152,7 +138,6 @@
 					</ul>
 				</div>
 				<div class="recommend-adsense">
-					<!-- <img src="<?=base_url('assets/img/right_ad_1.jpg')?>" width="220" /> -->
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- view_right_2 -->
 					<ins class="adsbygoogle"
