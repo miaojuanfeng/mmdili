@@ -283,7 +283,7 @@ a {
   width: 100%;
   min-width: 1200px; }
   .header .main-header {
-    width: 960px;
+    width: 100%;
     float: left; }
     .header .main-header .logo {
       color: #ccc;
