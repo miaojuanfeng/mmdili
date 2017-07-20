@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- Created by pdf2htmlEX (https://github.com/coolwanglu/pdf2htmlex) -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -43,6 +43,15 @@
 						</script>
 					</div>
 					<?php
+					//if( $page['doc_url'] == 1500048783 || $page['doc_url'] == 1500048767 || $page['doc_url'] == 1491409463){
+					if(1){
+						$page_arr = explode('#[page]#', $page['content']);
+						foreach($page_arr as $key => $value){
+					?>
+						<div id="pf<?=dechex($key+1)?>" class="pf w0 h0" data-page-no="<?=dechex($key+1)?>"><?=$value?></div>
+					<?php
+						}
+					}else{
 					for($i=1;$i<=$page['num'];$i++){
 					?>
 					<div id="pf<?=dechex($i)?>" class="pf w0 h0" data-page-no="<?=dechex($i)?>" data-page-url="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/<?=sprintf("%03d", $i)?>"></div>
@@ -93,6 +102,7 @@
 						}// End AddSense
 					?>
 					<?php
+					}
 					}
 					?>
 				</div>

@@ -26,7 +26,7 @@ class search_model extends CI_Model{
     	$query = $this->db->query("SELECT 
             doc_url, 
             doc_title, 
-            substring(doc_content, 1, 250) as doc_desc, 
+            doc_content as doc_desc, 
             doc_ext_name,
             doc_page_num 
             FROM m_doc 

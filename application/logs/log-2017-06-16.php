@@ -26,3 +26,20 @@ ERROR - 2017-06-16 13:29:07 --> robot come home: mozilla/5.0 (compatible; google
 ERROR - 2017-06-16 13:29:07 --> robot come page: 2010年全国高考文综试题及答案-福建
 ERROR - 2017-06-16 14:36:20 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
 ERROR - 2017-06-16 14:36:20 --> robot come page: 北京一零一中学10-11学年高二上学期期末考试（历史）
+ERROR - 2017-06-16 15:27:54 --> Severity: Warning --> Cannot modify header information - headers already sent C:\MJF\web\www\system\core\CodeIgniter.php 510
+ERROR - 2017-06-16 17:32:41 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-06-16 17:32:41 --> robot come page: 2009年全国高考文综试题及答案-北京卷
+ERROR - 2017-06-16 17:47:40 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-06-16 17:47:40 --> robot come page: 2006年高考文科综合试题及答案（全国卷1）
+ERROR - 2017-06-16 18:29:46 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-06-16 18:29:46 --> robot come page: 2010年全国高考文综试题及答案-新课标
+ERROR - 2017-06-16 19:40:03 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-06-16 19:40:03 --> robot come page: 2008年普通高等学校招生全国统一考试历史试题及答案-江苏卷
+ERROR - 2017-06-16 20:24:51 --> robot come home: mozilla/5.0 (compatible; baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ERROR - 2017-06-16 20:24:51 --> robot come page: 2016高考政治二轮复习 专题1 生活与消费配套作业
+ERROR - 2017-06-16 21:16:07 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-06-16 21:16:07 --> robot come page: 2010年全国高考地理试题及答案-海南
+ERROR - 2017-06-16 22:11:03 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-06-16 22:11:03 --> robot come page: 2009年全国高考历史试题及答案-江苏卷
+ERROR - 2017-06-16 23:26:51 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-06-16 23:26:51 --> robot come page: 2013年全国高考历史试题及答案-海南卷

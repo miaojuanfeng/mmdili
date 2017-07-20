@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Search extends CI_Controller {
@@ -51,6 +51,9 @@ class Search extends CI_Controller {
 		$offset = ($pn - 1) * $limit;
 		$data['search']['key'] = $k;
 		$data['search']['doc'] = $this->search_model->search_doc($k, $limit, $offset);
+		foreach($data['search']['doc'] as $key => $value){
+			$data['search']['doc'][$key]['doc_desc'] = mb_substr(strip_tags($value['doc_desc']), 0, 250);
+		}
 		$data['search']['pn'] = $pn;
 
 		$cii_pagination['base_url'] = base_url('search?k='.$k.'&pn=');

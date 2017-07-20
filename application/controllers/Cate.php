@@ -72,6 +72,9 @@ class Cate extends CI_Controller {
 		$data['cate']['title'] = $cate_title;
 		$data['cate']['pn'] = $pn;
 		$data['cate']['doc'] = $this->cate_model->get_list($cate_id, $limit, $offset);
+		foreach($data['cate']['doc'] as $key => $value){
+			$data['cate']['doc'][$key]['doc_desc'] = mb_substr(strip_tags($value['doc_desc']), 0, 250);
+		}
 		//
 		$data['cate']['hot'] = $this->cate_model->get_hot($cate_id);
 		$data['cate']['rand'] = $this->cate_model->get_rand($cate_id);

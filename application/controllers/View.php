@@ -87,10 +87,10 @@ class View extends CI_Controller {
 		$data['page']['ext_name'] = $detail['doc_ext_name'];
 		//
 		$data['page']['is_robot'] = $is_robot;
-		if( $is_robot ){
-			log_message('error', 'robot come page: '.$detail['doc_title']);
+		//if( $is_robot ){
+		//	log_message('error', 'robot come page: '.$detail['doc_title']);
 			$data['page']['content'] = $detail['doc_content'];
-		}
+		//}
 		//
 		$data['page']['new'] = $this->view_model->get_new();
 		$data['page']['hot'] = $this->view_model->get_hot();

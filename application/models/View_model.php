@@ -19,9 +19,9 @@ class view_model extends CI_Model{
             doc_id,
             doc_url, 
             doc_title, ";
-        if( $is_robot ){
+        //if( $is_robot ){
             $sql .= " doc_content, ";
-        }
+        //}
         $sql .= "doc_width, 
             doc_height, 
             doc_page_num, 

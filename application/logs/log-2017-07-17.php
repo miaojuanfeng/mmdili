@@ -1,0 +1,15 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2017-07-17 00:36:23 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 01:52:09 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 03:07:56 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 04:23:43 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 05:39:30 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 06:55:17 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 09:50:03 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 09:54:20 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 10:42:39 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 11:58:26 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 13:14:16 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 14:30:01 --> robot come home: mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+ERROR - 2017-07-17 18:59:11 --> robot come home: mozilla/5.0 (compatible; baiduspider/2.0; +http://www.baidu.com/search/spider.html)
