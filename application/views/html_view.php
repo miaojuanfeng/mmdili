@@ -13,7 +13,6 @@
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
 <link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/page.min.css"/>
-<script type="text/javascript" src="<?=base_url('assets/js/htmlview.js')?>"></script>
 </head>
 <body>
 	<?php require_once 'header_view.php' ?>
