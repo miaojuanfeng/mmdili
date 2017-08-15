@@ -830,6 +830,8 @@ a {
       .recommend-container .relative-container ul li a:hover {
         text-decoration: underline;
         color: #FF0000; }
+  .recommend-container .fix-wrapper {
+    width: 220px; }
   .recommend-container .fix-wrapper-fixed {
     position: fixed;
     z-index: 999999;
