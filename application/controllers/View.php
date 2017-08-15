@@ -94,7 +94,7 @@ class View extends CI_Controller {
 		*  如果是机器人来访，记录下来
 		*/
 		if( $this->checkrobot() ){
-			log_message('error', 'robot come page: '.$detail['doc_title']);
+			log_message('error', 'robot come page: '.$detail['doc_title']."\r\n");
 		}
 		/*
 		*  获取右侧边栏列表
