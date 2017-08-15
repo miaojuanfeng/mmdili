@@ -147,6 +147,11 @@
 			}
 		}
 	}
+
+	.fix-wrapper{}
+	.fix-wrapper-fixed{
+		position:fixed; z-index:999999; top:0px;
+	}
 }
 .reader-tools-bar-wrap{
 	width: 100%;

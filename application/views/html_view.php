@@ -3,13 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title><?=$page['title']?> - 缪缪<?=$page['cate_name']?>文档</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 <meta name="robots" content="index,follow" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <?php require_once 'meta_view.php' ?>
-<meta charset="utf-8"/>
-<meta name="generator" content="pdf2htmlEX"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<script type="text/javascript" src="<?=base_url('assets/js/htmlview.js')?>"></script>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
 <link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/page.min.css"/>
@@ -138,30 +137,32 @@
 						?>
 					</ul>
 				</div>
-				<div class="recommend-adsense">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- view_right_2 -->
-					<ins class="adsbygoogle"
-					     style="display:inline-block;width:200px;height:200px"
-					     data-ad-client="ca-pub-6393601311110091"
-					     data-ad-slot="1806160682"></ins>
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
-				<div class="relative-container">
-					<div class="relative-title">
-						<h1>大家都在看</h1>
+				<div class="fix-wrapper">
+					<div class="recommend-adsense">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- view_right_2 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:200px;height:200px"
+						     data-ad-client="ca-pub-6393601311110091"
+						     data-ad-slot="1806160682"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 					</div>
-					<ul>
-						<?php
-						foreach ($page['rand'] as $key => $value) {
-						?>
-						<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
-						<?php
-						}
-						?>
-					</ul>
+					<div class="relative-container">
+						<div class="relative-title">
+							<h1>大家都在看</h1>
+						</div>
+						<ul>
+							<?php
+							foreach ($page['rand'] as $key => $value) {
+							?>
+							<li><a href="<?=base_url('view/'.$value['doc_url'].'.html');?>"><?=$value['doc_title']?></a></li>
+							<?php
+							}
+							?>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="clearfix"></div>
