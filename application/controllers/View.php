@@ -38,8 +38,8 @@ class View extends CI_Controller {
 	    $useragent = strtolower(empty($useragent) ? $_SERVER['HTTP_USER_AGENT'] : $useragent);
 	    if(strpos($useragent, 'http://') === false && $this->dstrpos($useragent, $kw_browsers)) return false;
 	    if($this->dstrpos($useragent, $kw_spiders)){
-	    	log_message('error', 'robot come home: '.$useragent);
-	    	return true;
+	    	// log_message('error', 'robot come home: '.$useragent);
+	    	return $useragent;
 	    }
 	    return false;
 	}
@@ -93,8 +93,9 @@ class View extends CI_Controller {
 		/*
 		*  如果是机器人来访，记录下来
 		*/
-		if( $this->checkrobot() ){
-			log_message('error', 'robot come page: '.$detail['doc_title']."\r\n");
+		$robot = $this->checkrobot();
+		if( $robot ){
+			log_message('error', 'Robot: '.$robot.' - '.$detail['doc_title']."\r\n");
 		}
 		/*
 		*  获取右侧边栏列表
