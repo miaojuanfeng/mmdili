@@ -1,4 +1,4 @@
-﻿<div class="footer <?=isset($class_footer)?$class_footer:''?>">
+<div class="footer <?=isset($class_footer)?$class_footer:''?>">
 	<div class="main-container">
 		<ul class="left">
 			<li>
