@@ -278,8 +278,6 @@ a {
 
 .header {
   background: #000;
-  background: rgba(0, 0, 0, 0.7);
-  filter: Alpha(opacity=70);
   background-image: url(../img/noise-bg.png);
   background-repeat: repeat;
   width: 100%;
@@ -355,6 +353,9 @@ a {
         height: 33px;
         top: 2px;
         right: -2px; }
+  .header .header-bottom-bg {
+    background-image: url(../img/header-shadow.png) repeat-x;
+    height: 16px; }
   .header .login {
     float: right;
     display: none; }

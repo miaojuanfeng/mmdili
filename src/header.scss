@@ -1,7 +1,5 @@
 .header{
     background: #000;
-    background: rgba(0,0,0,0.7);
-    filter: Alpha(opacity=70);
     background-image: url(../img/noise-bg.png);
     background-repeat: repeat;
     width: 100%;
@@ -106,6 +104,11 @@
                 right: -2px;
             }
         }
+    }
+
+    .header-bottom-bg{
+        background-image: url(../img/header-shadow.png) repeat-x;
+        height: 16px;
     }
 
     .login{

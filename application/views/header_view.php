@@ -72,4 +72,5 @@
 		</div>
 		<div class="clearfix"></div>
 	</div>
+	<div class="header-bottom-bg"></div>
 </div>
