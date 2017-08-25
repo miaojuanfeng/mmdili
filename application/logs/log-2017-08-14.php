@@ -52,3 +52,5 @@ ERROR - 2017-08-14 19:20:57 --> robot come home: mozilla/5.0 (compatible; baidus
 ERROR - 2017-08-14 19:20:57 --> robot come page: 2012届高考一轮复习 第16讲 陆地环境的组成岩石与地貌
 ERROR - 2017-08-14 19:45:14 --> robot come home: mozilla/5.0 (compatible; grapeshotcrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)
 ERROR - 2017-08-14 19:45:14 --> robot come page: 大庆中学2016-2017学年高三上学期语文期中试题及答案
+ERROR - 2017-08-14 20:29:59 --> robot come home: mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+ERROR - 2017-08-14 20:29:59 --> robot come page: 07-11年高考历史真题汇编：选修4、中外历史人物评说
