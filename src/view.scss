@@ -4,14 +4,9 @@
 	padding: 15px 0 0 0;
 
 	.title-container{
-		border:1px solid #eee;
-		box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
-
-		background-repeat: no-repeat;
-		background-size: 60px;
-	    background-position-x: 6px;
-	    background-position-y: 1px;
-	    padding-left: 70px;
+		border: 1px solid #eee;
+		box-shadow: 0 0 15px 0 #ccc;
+		position:relative;
 
 		.page-title{
 			padding: 10px 10px 5px 0;
@@ -26,9 +21,19 @@
 			}
 		}
 
-		.page-notice{
+		.page-title-notice{
 			padding: 5px 10px 5px 0;
 			color: #747474;
+		}
+
+		.page-title-bottom{
+			position: absolute;
+		    width: 960px;
+		    height: 10px;
+		    left: 0px;
+		    background-color: #fff;
+		    bottom: -3px;
+		    z-index: 9;
 		}
 	}
 

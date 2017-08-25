@@ -18,14 +18,12 @@
 	<div class="content">
 		<div class="main-container">
 			<div class="view-container">
-				<div class="title-container" style="background-image:url('<?=base_url('assets/img/'.$page['ext_name'].'.png')?>')">
+				<div class="title-container">
 					<div class="page-title">
 						<h1><?=$page['title']?></h1>
 					</div>
-					<div class="page-notice">提示：已对文档中包含的图片及部分文字进行压缩以加快载入，下载文档可浏览高清版本。</div>
-				</div>
-				<div id="sidebar">
-					<div id="outline"></div>
+					<div class="page-title-notice">提示：已对文档中包含的图片及部分文字进行压缩以加快载入，下载文档可浏览高清版本。</div>
+					<div class="page-title-bottom"></div>
 				</div>
 				<div id="page-container">
 					<?php
