@@ -1,4 +1,5 @@
 <div class="footer <?=isset($class_footer)?$class_footer:''?>">
+	<div class="footer-top-bg"></div>
 	<div class="main-container">
 		<ul class="left">
 			<li>
