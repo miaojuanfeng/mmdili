@@ -4,6 +4,7 @@
     background-repeat: repeat;
     width: 100%;
     min-width: 1200px;
+    position: relative;
 
     .main-header{
         width: 100%;
@@ -109,6 +110,9 @@
     .header-bottom-bg{
         background-image: url(../img/header-shadow.png) repeat-x;
         height: 16px;
+        position: absolute;
+        bottom: -16px;
+        left: 0;
     }
 
     .login{

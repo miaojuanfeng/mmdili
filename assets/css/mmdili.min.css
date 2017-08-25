@@ -281,7 +281,8 @@ a {
   background-image: url(../img/noise-bg.png);
   background-repeat: repeat;
   width: 100%;
-  min-width: 1200px; }
+  min-width: 1200px;
+  position: relative; }
   .header .main-header {
     width: 100%;
     float: left; }
@@ -355,7 +356,10 @@ a {
         right: -2px; }
   .header .header-bottom-bg {
     background-image: url(../img/header-shadow.png) repeat-x;
-    height: 16px; }
+    height: 16px;
+    position: absolute;
+    bottom: -16px;
+    left: 0; }
   .header .login {
     float: right;
     display: none; }
