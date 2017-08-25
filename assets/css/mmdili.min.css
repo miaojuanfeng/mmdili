@@ -764,7 +764,7 @@ a {
   .view-container .page, .dl-container .page, .search-container .page, .view-container .page-top, .dl-container .page-top, .search-container .page-top, .view-container .more-page, .dl-container .more-page, .search-container .more-page {
     border: 1px solid #eee;
     margin-bottom: 15px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 15px 0 #ccc;
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url("../img/page-loading.gif"); }
