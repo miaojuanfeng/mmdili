@@ -302,7 +302,9 @@ a {
           display: block;
           color: #ccc;
           font-size: 16px;
-          padding: 0 15px; }
+          padding: 0 15px;
+          height: 48px;
+          border-bottom: 2px solid transparent; }
           .header .main-header .menu ul li a.menu-icon {
             background-image: url("../../assets/images/menu-arr-down.png");
             background-repeat: no-repeat;
@@ -310,7 +312,8 @@ a {
             padding: 0 25px 0 15px; }
           .header .main-header .menu ul li a:hover {
             background-color: black;
-            color: #eee; }
+            color: #eee;
+            border-color: #2e97de; }
     .header .main-header .search-form {
       position: relative;
       width: 367px;
