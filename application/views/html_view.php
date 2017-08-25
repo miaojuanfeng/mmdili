@@ -23,11 +23,9 @@
 						<h1><?=$page['title']?></h1>
 					</div>
 					<div class="page-title-notice">
-						<div class="page-info">
-							分类：
-							<a href="#"><?=$page['cate_name']?></a>
-						</div>
+						<div class="page-info">分类：<a href="#"><?=$page['cate_name']?></a></div>
 						<span>提示：已对文档中包含的图片及部分文字进行压缩以加快载入，下载文档可浏览清晰版本。</span>
+						<div class="clearfix"></div>
 					</div>
 					<div class="page-title-bottom"></div>
 				</div>
