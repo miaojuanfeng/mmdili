@@ -750,8 +750,8 @@ a {
       height: 32px;
       background-image: url(../img/post-icon.png);
       position: absolute;
-      right: 0;
-      top: -10px; }
+      right: 30px;
+      top: -9px; }
     .view-container .title-container .page-title, .dl-container .title-container .page-title, .search-container .title-container .page-title {
       padding: 10px 10px 5px 0;
       border-bottom: 1px solid #eee; }
