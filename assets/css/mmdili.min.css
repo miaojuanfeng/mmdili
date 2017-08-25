@@ -303,8 +303,8 @@ a {
           color: #ccc;
           font-size: 16px;
           padding: 0 15px;
-          height: 48px;
-          border-bottom: 2px solid transparent; }
+          height: 47px;
+          border-bottom: 3px solid transparent; }
           .header .main-header .menu ul li a.menu-icon {
             background-image: url("../../assets/images/menu-arr-down.png");
             background-repeat: no-repeat;
