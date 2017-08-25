@@ -246,8 +246,8 @@ a {
 .footer {
   margin-top: 15px;
   background: #000;
-  background: rgba(0, 0, 0, 0.7);
-  filter: Alpha(opacity=70);
+  background-image: url(../img/noise-bg.png);
+  background-repeat: repeat;
   width: 100%;
   min-width: 1200px; }
   .footer .main-container {
