@@ -93,23 +93,24 @@ class View extends CI_Controller {
 			case '数学':
 				$data['page']['cate_url'] = base_url('cate/shuxue');
 				break;
-			case 'waiyu':
-				$data['page']['cate_url'] = base_url('cate/shuxue');
+			case '外语':
+				$data['page']['cate_url'] = base_url('cate/waiyu');
 				break;
-			case 'dili':
-				$data['page']['cate_url'] = base_url('cate/shuxue');
+			case '地理':
+				$data['page']['cate_url'] = base_url('cate/dili');
 				break;
-			case 'lishi':
-				$data['page']['cate_url'] = base_url('cate/shuxue');
+			case '历史':
+				$data['page']['cate_url'] = base_url('cate/lishi');
 				break;
-			case 'zhengzhi':
-				$data['page']['cate_url'] = base_url('cate/shuxue');
+			case '政治':
+				$data['page']['cate_url'] = base_url('cate/zhengzhi');
 				break;
-			case 'wenzong':
-				$data['page']['cate_url'] = base_url('cate/shuxue');
+			case '文综':
+				$data['page']['cate_url'] = base_url('cate/wenzong');
 				break;
 			default:
-				//redirect(base_url('error'.'.html'));
+				redirect(base_url('error'.'.html'));
+				break;
 		}
 		$data['page']['num'] = $detail['doc_page_num'];
 		$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
