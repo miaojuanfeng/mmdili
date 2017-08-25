@@ -109,7 +109,7 @@ class View extends CI_Controller {
 				$data['page']['cate_url'] = base_url('cate/shuxue');
 				break;
 			default:
-				redirect(base_url('error'.'.html'));
+				//redirect(base_url('error'.'.html'));
 		}
 		$data['page']['num'] = $detail['doc_page_num'];
 		$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
