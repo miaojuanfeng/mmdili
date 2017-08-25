@@ -758,7 +758,7 @@ a {
       padding: 5px 10px;
       color: #747474; }
       .view-container .title-container .page-title-notice .page-info, .dl-container .title-container .page-title-notice .page-info, .search-container .title-container .page-title-notice .page-info {
-        margin-right: 10px;
+        margin-right: 30px;
         float: left; }
         .view-container .title-container .page-title-notice .page-info a, .dl-container .title-container .page-title-notice .page-info a, .search-container .title-container .page-title-notice .page-info a {
           color: #747474; }
