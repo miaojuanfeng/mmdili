@@ -23,11 +23,11 @@
 						<h1><?=$page['title']?></h1>
 					</div>
 					<div class="page-title-notice">
-						<div class="page-info">馆藏编号：<a href="#"><?=$page['doc_url']?></a></div>
-						<div class="page-info">文档归类：<a href="#"><?=$page['cate_name']?></a></div>
+						<div class="page-info">馆藏编号：<a href="<?=base_url('view/'.$page['doc_url'].'.html')?>"><?=$page['doc_url']?></a></div>
+						<div class="page-info">文档归类：<a href="<?=$page['cate_url']?>" target="_blank"><?=$page['cate_name']?></a></div>
 						<div class="page-info">文档类型：<?=$page['ext_name']?></div>
-						<!-- <div class="page-info">发布用户：<a href="#"><?=$page['cate_name']?></a></div> -->
-						<span>提示：已对文档中包含的图片及部分文字进行压缩以加快载入，下载文档可浏览清晰版本。</span>
+						<div class="page-info">文档页数：<?=$page['num']?>页</div>
+						<span>提示：已对文档中包含的图片及部分文字进行压缩以加快载入，下载文档可浏览清晰版本</span>
 						<div class="clearfix"></div>
 					</div>
 					<div class="page-title-bottom"></div>

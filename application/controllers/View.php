@@ -86,6 +86,31 @@ class View extends CI_Controller {
 		$data['page']['title'] = $detail['doc_title'];
 		$data['page']['content'] = $detail['doc_content'];
 		$data['page']['cate_name'] = $detail['doc_cate_name'];
+		switch( $data['page']['cate_name'] ){
+			case '语文':
+				$data['page']['cate_url'] = base_url('cate/yuwen');
+				break;
+			case '数学':
+				$data['page']['cate_url'] = base_url('cate/shuxue');
+				break;
+			case 'waiyu':
+				$data['page']['cate_url'] = base_url('cate/shuxue');
+				break;
+			case 'dili':
+				$data['page']['cate_url'] = base_url('cate/shuxue');
+				break;
+			case 'lishi':
+				$data['page']['cate_url'] = base_url('cate/shuxue');
+				break;
+			case 'zhengzhi':
+				$data['page']['cate_url'] = base_url('cate/shuxue');
+				break;
+			case 'wenzong':
+				$data['page']['cate_url'] = base_url('cate/shuxue');
+				break;
+			default:
+				redirect(base_url('error'.'.html'));
+		}
 		$data['page']['num'] = $detail['doc_page_num'];
 		$data['page']['dl_forbidden'] = $detail['doc_dl_forbidden'];
 		$data['page']['dl'] = $this->mcrypt->encode($detail['doc_id']);
