@@ -310,7 +310,7 @@ a {
             background-repeat: no-repeat;
             background-position: right center;
             padding: 0 25px 0 15px; }
-          .header .main-header .menu ul li a:hover {
+          .header .main-header .menu ul li a:hover, .header .main-header .menu ul li a.active {
             background-color: black;
             color: #eee;
             border-color: #2e97de; }
