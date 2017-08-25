@@ -5,6 +5,8 @@
     background-repeat: repeat;
     width: 100%;
     min-width: 1200px;
+    border-top: 10px solid #000;
+    position: relative;
 
     .main-container{
 	    padding: 10px 0;
@@ -44,6 +46,16 @@
 	    		}
 	    	}
 	    }
+    }
+
+    .footer-bottom-bg{
+        background-image: url(../img/footer-shadow.png);
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 16px;
+        position: absolute;
+        top: -16px;
+        left: 0;
     }
 }
 .view-footer{
