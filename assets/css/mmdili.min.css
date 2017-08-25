@@ -745,6 +745,13 @@ a {
     border: 1px solid #eee;
     box-shadow: 0 0 15px 0 #ccc;
     position: relative; }
+    .view-container .title-container .page-title-top, .dl-container .title-container .page-title-top, .search-container .title-container .page-title-top {
+      width: 22px;
+      height: 32px;
+      background-image: url(../img/post-icon.png);
+      position: absolute;
+      right: 0;
+      top: -10px; }
     .view-container .title-container .page-title, .dl-container .title-container .page-title, .search-container .title-container .page-title {
       padding: 10px 10px 5px 0;
       border-bottom: 1px solid #eee; }

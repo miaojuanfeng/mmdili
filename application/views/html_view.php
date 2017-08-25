@@ -19,6 +19,7 @@
 		<div class="main-container">
 			<div class="view-container">
 				<div class="title-container">
+					<div class="page-title-top"></div>
 					<div class="page-title">
 						<h1><?=$page['title']?></h1>
 					</div>
