@@ -24,6 +24,21 @@
 		.page-title-notice{
 			padding: 5px 10px;
 			color: #747474;
+
+			.page-info{
+				margin-right: 10px;
+
+				a{
+					color: #747474;
+					&:hover{
+						color: #ff0000;
+					}
+				}
+			}
+
+			span{
+				float:right;
+			}
 		}
 
 		.page-title-bottom{

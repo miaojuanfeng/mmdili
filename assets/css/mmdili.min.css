@@ -757,6 +757,14 @@ a {
     .view-container .title-container .page-title-notice, .dl-container .title-container .page-title-notice, .search-container .title-container .page-title-notice {
       padding: 5px 10px;
       color: #747474; }
+      .view-container .title-container .page-title-notice .page-info, .dl-container .title-container .page-title-notice .page-info, .search-container .title-container .page-title-notice .page-info {
+        margin-right: 10px; }
+        .view-container .title-container .page-title-notice .page-info a, .dl-container .title-container .page-title-notice .page-info a, .search-container .title-container .page-title-notice .page-info a {
+          color: #747474; }
+          .view-container .title-container .page-title-notice .page-info a:hover, .dl-container .title-container .page-title-notice .page-info a:hover, .search-container .title-container .page-title-notice .page-info a:hover {
+            color: #ff0000; }
+      .view-container .title-container .page-title-notice span, .dl-container .title-container .page-title-notice span, .search-container .title-container .page-title-notice span {
+        float: right; }
     .view-container .title-container .page-title-bottom, .dl-container .title-container .page-title-bottom, .search-container .title-container .page-title-bottom {
       position: absolute;
       width: 960px;
