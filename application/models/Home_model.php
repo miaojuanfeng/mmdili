@@ -24,8 +24,8 @@ class home_model extends CI_Model{
         $retval[3] = $query->result_array();
         $query = $this->db->query("SELECT doc_url, doc_title FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = 4 ORDER BY doc_id DESC LIMIT ".$limit);
         $retval[4] = $query->result_array();
-        $query = $this->db->query("SELECT doc_url, doc_title FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = 6 ORDER BY doc_id DESC LIMIT ".$limit);
-        $retval[6] = $query->result_array();
+        $query = $this->db->query("SELECT doc_url, doc_title FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = 5 ORDER BY doc_id DESC LIMIT ".$limit);
+        $retval[5] = $query->result_array();
         $query = $this->db->query("SELECT doc_url, doc_title FROM m_doc WHERE doc_deleted = 0 AND doc_cate_id = 7 ORDER BY doc_id DESC LIMIT ".$limit);
         $retval[7] = $query->result_array();
         return $retval;

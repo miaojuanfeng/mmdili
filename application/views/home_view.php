@@ -203,7 +203,7 @@
 					<div class="category">
 						<ul>
 							<?php
-							foreach($doc['cate'][6] as $key => $value){
+							foreach($doc['cate'][5] as $key => $value){
 								if( !($key % 2) ){
 							?>
 							<li>
@@ -216,7 +216,7 @@
 						</ul>
 						<ul>
 							<?php
-							foreach($doc['cate'][6] as $key => $value){
+							foreach($doc['cate'][5] as $key => $value){
 								if( ($key % 2) ){
 							?>
 							<li>
