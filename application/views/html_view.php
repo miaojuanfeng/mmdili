@@ -38,7 +38,7 @@
 					$page_arr = explode('#[page]#', $page['content']);
 					foreach($page_arr as $key => $value){
 					?>
-						<div id="pf<?=dechex($key+1)?>" class="pf w0 h0" data-page-no="<?=dechex($key+1)?>"><?=$value?></div>
+						<?=$value?>
 						<?php
 						if( $key % 8 == 0 ){
 						?>
