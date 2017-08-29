@@ -45,8 +45,7 @@ $(window).ready(function(){
 	var wrapper_offset_top = $(".fix-wrapper").offset().top;
 	var body_height = $(document.body).height();
 	var fix_wrapper_height = $(".fix-wrapper").height();
-	var content = $(".content").height();
-	alert(content);
+	var main_container = $(".main-container").height();
 	window.onscroll=function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
 			if( ($(document).scrollTop() + fix_wrapper_height) < body_height ){
@@ -54,7 +53,7 @@ $(window).ready(function(){
 				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
-				$(".recommend-container").css({'height': content+'px'});
+				$(".recommend-container").css({'height': main_container+'px'});
 				$(".fix-wrapper").removeClass('fix-wrapper-fixed');
 				$(".fix-wrapper").addClass('fix-wrapper-bottom');
 			}
