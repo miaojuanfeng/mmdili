@@ -883,7 +883,7 @@ a {
   .recommend-container .fix-wrapper-bottom {
     position: absolute;
     z-index: 999999;
-    bottom: 15px; }
+    bottom: 0; }
 
 .reader-tools-bar-wrap {
   width: 100%;

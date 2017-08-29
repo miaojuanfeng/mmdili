@@ -56,7 +56,7 @@ $(window).ready(function(){
 				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
-				$(".recommend-container").css({'height': (content-12)+'px'});
+				$(".recommend-container").css({'height': (content-14)+'px'});
 				$(".fix-wrapper").removeClass('fix-wrapper-fixed');
 				$(".fix-wrapper").addClass('fix-wrapper-bottom');
 			}
