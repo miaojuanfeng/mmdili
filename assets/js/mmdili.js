@@ -51,12 +51,12 @@ $(window).ready(function(){
 	});
 	window.onscroll = function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
-			if( ($(document).scrollTop() + fix_wrapper_height) < body_height ){
+			if( ($(document).scrollTop() + fix_wrapper_height + 82) < body_height ){
 				$(".recommend-container").css({'height': 'auto'});
 				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
-				$(".recommend-container").css({'height': (content-14)+'px'});
+				$(".recommend-container").css({'height': (content-12)+'px'});
 				$(".fix-wrapper").removeClass('fix-wrapper-fixed');
 				$(".fix-wrapper").addClass('fix-wrapper-bottom');
 			}
