@@ -51,6 +51,7 @@ $(document).ready(function(){
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
 				var main_container_height = $(".main-container").height();
+				alert(main_container_height);
 				$(".recommend-container").css({'height': main_container_height+'px'});
 				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 			}
