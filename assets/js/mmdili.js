@@ -46,7 +46,10 @@ $(window).ready(function(){
 	var body_height = $(document.body).height();
 	var fix_wrapper_height = $(".fix-wrapper").height();
 	var content = $(".content").height();
-	window.onscroll=function(){
+	$(window).resize(function() {
+		body_height = $(document.body).height();
+	});
+	window.onscroll = function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
 			if( ($(document).scrollTop() + fix_wrapper_height) < body_height ){
 				$(".recommend-container").css({'height': 'auto'});
