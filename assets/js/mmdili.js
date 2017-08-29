@@ -51,7 +51,7 @@ $(document).ready(function(){
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
 				var content = $(".content").height();
-				alert(content);
+				console.log(content);
 				$(".recommend-container").css({'height': content+'px'});
 				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 			}
