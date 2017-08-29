@@ -50,9 +50,9 @@ $(document).ready(function(){
 				$(".recommend-container").css({'height': 'auto'});
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
-				var main_container_height = $(".main-container").height();
+				var content = $(".content").height();
 				alert(main_container_height);
-				$(".recommend-container").css({'height': main_container_height+'px'});
+				$(".recommend-container").css({'height': content+'px'});
 				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 			}
 		}else{
