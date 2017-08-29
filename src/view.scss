@@ -184,6 +184,9 @@
 	.fix-wrapper-fixed{
 		position:fixed; z-index:999999; top:0px;
 	}
+	.fix-wrapper-bottom{
+		position:absolute; z-index:999999; bottom:15px;
+	}
 }
 .reader-tools-bar-wrap{
 	width: 100%;

@@ -43,15 +43,16 @@ $(document).ready(function(){
 
 	var wrapper_offset_top = $(".fix-wrapper").offset().top;
 	var body_height = $(document.body).height();
+	var main_container_height = $(".main-container").height();
 	var fix_wrapper_height = $(".fix-wrapper").height();
-	alert(body_height);
-	alert(fix_wrapper_height);
 	window.onscroll=function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
 			if( ($(document).scrollTop() + fix_wrapper_height) < body_height ){
+				$(".recommend-container").css({'height': 'auto'});
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
-				$(".fix-wrapper").removeClass('fix-wrapper-fixed');
+				$(".recommend-container").css({'height': main_container_height+'px'});
+				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 			}
 		}else{
 			$(".fix-wrapper").removeClass('fix-wrapper-fixed');
