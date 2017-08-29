@@ -43,7 +43,6 @@ $(document).ready(function(){
 
 	var wrapper_offset_top = $(".fix-wrapper").offset().top;
 	var body_height = $(document.body).height();
-	var main_container_height = $(".main-container").height();
 	var fix_wrapper_height = $(".fix-wrapper").height();
 	window.onscroll=function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
@@ -51,6 +50,7 @@ $(document).ready(function(){
 				$(".recommend-container").css({'height': 'auto'});
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
+				var main_container_height = $(".main-container").height();
 				$(".recommend-container").css({'height': main_container_height+'px'});
 				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 			}
