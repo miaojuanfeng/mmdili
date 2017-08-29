@@ -48,12 +48,14 @@ $(document).ready(function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
 			if( ($(document).scrollTop() + fix_wrapper_height) < body_height ){
 				$(".recommend-container").css({'height': 'auto'});
+				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
 				$(".fix-wrapper").addClass('fix-wrapper-fixed');
 			}else{
 				var content = $(".content").height();
 				console.log(content);
 				$(".recommend-container").css({'height': content+'px'});
-				$(".fix-wrapper").removeClass('fix-wrapper-bottom');
+				$(".fix-wrapper").removeClass('fix-wrapper-fixed');
+				$(".fix-wrapper").addClass('fix-wrapper-bottom');
 			}
 		}else{
 			$(".fix-wrapper").removeClass('fix-wrapper-fixed');
