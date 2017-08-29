@@ -48,7 +48,11 @@ $(document).ready(function(){
 	alert(fix_wrapper_height);
 	window.onscroll=function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
-			$(".fix-wrapper").addClass('fix-wrapper-fixed');
+			if( ($(document).scrollTop() + fix_wrapper_height) < body_height ){
+				$(".fix-wrapper").addClass('fix-wrapper-fixed');
+			}else{
+				$(".fix-wrapper").removeClass('fix-wrapper-fixed');
+			}
 		}else{
 			$(".fix-wrapper").removeClass('fix-wrapper-fixed');
 		}
