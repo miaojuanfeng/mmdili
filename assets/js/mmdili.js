@@ -42,6 +42,8 @@ $(document).ready(function(){
 	});
 
 	var wrapper_offset_top = $(".fix-wrapper").offset().top;
+	var body_height = $(document.body).height();
+	alert(body_height);
 	window.onscroll=function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
 			$(".fix-wrapper").addClass('fix-wrapper-fixed');
