@@ -28,6 +28,9 @@
 					<li>
 						<a <?php if( $this->router->method == 'wenzong' || ( isset($page['cate_url']) && $page['cate_url'] == 'wenzong' ) ) echo "class='active'"; ?> href="<?=base_url('cate/wenzong')?>">文综</a>
 					</li>
+					<li>
+						<a <?php if( $this->router->method == 'jisuanji' || ( isset($page['cate_url']) && $page['cate_url'] == 'jisuanji' ) ) echo "class='active'"; ?> href="<?=base_url('cate/jisuanji')?>">计算机</a>
+					</li>
 					<div class="clearfix"></div>
 				</ul>
 			</div>

@@ -244,6 +244,52 @@
 				</div>
 				<div class="category-container">
 					<div class="category-title">
+						<h1><b>数学</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/shuxue')?>">查看所有</a></span></h1>
+					</div>
+					<div class="category">
+						<ul>
+							<?php
+							foreach($doc['cate'][6] as $key => $value){
+								if( !($key % 2) ){
+							?>
+							<li>
+								<a href="<?=base_url('view/'.$value['doc_url'].'.html')?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
+							</li>
+							<?php
+								}
+							}
+							?>
+						</ul>
+						<ul>
+							<?php
+							foreach($doc['cate'][6] as $key => $value){
+								if( ($key % 2) ){
+							?>
+							<li>
+								<a href="<?=base_url('view/'.$value['doc_url'].'.html')?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
+							</li>
+							<?php
+								}
+							}
+							?>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="adsense">
+					<!-- <img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" /> -->
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- view_page_1 -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:960px;height:90px"
+					     data-ad-client="ca-pub-6393601311110091"
+					     data-ad-slot="3701696288"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+				<div class="category-container">
+					<div class="category-title">
 						<h1><b>外语</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/waiyu')?>">查看所有</a></span></h1>
 					</div>
 					<div class="category">
@@ -263,6 +309,52 @@
 						<ul>
 							<?php
 							foreach($doc['cate'][7] as $key => $value){
+								if( ($key % 2) ){
+							?>
+							<li>
+								<a href="<?=base_url('view/'.$value['doc_url'].'.html')?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
+							</li>
+							<?php
+								}
+							}
+							?>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="adsense">
+					<!-- <img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" /> -->
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- view_page_1 -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:960px;height:90px"
+					     data-ad-client="ca-pub-6393601311110091"
+					     data-ad-slot="3701696288"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+				<div class="category-container">
+					<div class="category-title">
+						<h1><b>计算机</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/jisuanji')?>">查看所有</a></span></h1>
+					</div>
+					<div class="category">
+						<ul>
+							<?php
+							foreach($doc['cate'][8] as $key => $value){
+								if( !($key % 2) ){
+							?>
+							<li>
+								<a href="<?=base_url('view/'.$value['doc_url'].'.html')?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
+							</li>
+							<?php
+								}
+							}
+							?>
+						</ul>
+						<ul>
+							<?php
+							foreach($doc['cate'][8] as $key => $value){
 								if( ($key % 2) ){
 							?>
 							<li>

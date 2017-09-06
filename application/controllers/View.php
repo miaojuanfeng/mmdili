@@ -96,6 +96,9 @@ class View extends CI_Controller {
 			case '外语':
 				$data['page']['cate_url'] = 'waiyu';
 				break;
+			case '计算机':
+				$data['page']['cate_url'] = 'jisuanji';
+				break;
 			case '地理':
 				$data['page']['cate_url'] = 'dili';
 				break;

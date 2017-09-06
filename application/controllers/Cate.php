@@ -42,6 +42,10 @@ class Cate extends CI_Controller {
 				$cate_id = 7;
 				$cate_title = '外语';
 				break;
+			case 'jisuanji':
+				$cate_id = 8;
+				$cate_title = '计算机';
+				break;
 			case 'dili':
 				$cate_id = 1;
 				$cate_title = '地理';
