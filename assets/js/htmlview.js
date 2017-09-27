@@ -7,9 +7,9 @@ $(document).ready(function(){
 			var scrollTop = $(window).scrollTop();
 			var currPage = parseInt((scrollTop - pageTop)/(pageHeight+100))+1;
 			$('.pf').children('.pc').hide();
-			$('#pf'+(currPage - 1)).children('.pc').show();
-			$('#pf'+(currPage)).children('.pc').show();
-			$('#pf'+(currPage + 1)).children('.pc').show();
+			$('#pf'+(currPage - 1).toString(16)).children('.pc').show();
+			$('#pf'+(currPage).toString(16)).children('.pc').show();
+			$('#pf'+(currPage + 1).toString(16)).children('.pc').show();
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - pageHeight: ' + pageHeight + ' - currPage: ' + currPage);
 			// if( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
 			// 	// $('#jump_page').val($(this).attr('page'));
