@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$(window).scroll(_.throttle(function(){
 		// $('.pf').each(function(){
 			var scrollTop = $(window).scrollTop();
-			var currPage = parseInt((scrollTop - pageTop)/pageHeight)+1;
+			var currPage = parseInt((scrollTop - pageTop)/(pageHeight+100))+1;
 			$('.pf').children('.pc').hide();
 			$('#pf'+(currPage - 1)).children('.pc').show();
 			$('#pf'+(currPage)).children('.pc').show();
