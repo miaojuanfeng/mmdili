@@ -8,8 +8,8 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <?php require_once 'meta_view.php' ?>
-<script type="text/javascript" src="<?=base_url('assets/js/underscore.min.js')?>"></script>
-<script type="text/javascript" src="<?=base_url('assets/lib/js/htmlview.js')?>"></script>
+<script type="text/javascript" src="<?=base_url('assets/lib/js/underscore.min.js')?>"></script>
+<script type="text/javascript" src="<?=base_url('assets/js/htmlview.js')?>"></script>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
 <link rel="stylesheet" href="http://view.mmdili.com/<?=$page['user_url']?>/<?=$page['doc_url']?>/page.min.css"/>
