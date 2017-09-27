@@ -8,7 +8,6 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <?php require_once 'meta_view.php' ?>
-<script type="text/javascript" src="<?=base_url('assets/lib/js/underscore.min.js')?>"></script>
 <script type="text/javascript" src="<?=base_url('assets/js/htmlview.js')?>"></script>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/base.min.css')?>"/>
 <link rel="stylesheet" href="<?=base_url('assets/lib/css/fancy.min.css')?>"/>
