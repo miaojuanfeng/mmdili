@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	$(window).scroll(_.throttle(function(){
 		// $('.pf').each(function(){
-			var pageTop = $(this).offset().top;
-			var pageHeight = $(this).height();
+			var pageTop = $("#page-container").offset().top;
+			var pageHeight = $("#pf1").height();
 			var scrollTop = $(window).scrollTop();
 			var winHeight = $(window).height();
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - winHeight: ' + winHeight);
