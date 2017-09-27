@@ -5,7 +5,11 @@ $(document).ready(function(){
 	$(window).scroll(_.throttle(function(){
 		// $('.pf').each(function(){
 			var scrollTop = $(window).scrollTop();
-			var currPage = parseInt((scrollTop - pageTop)/pageHeight);
+			var currPage = parseInt((scrollTop - pageTop)/pageHeight)+1;
+			$('.pf').hide();
+			$('#pf'+(currPage - 1)).children('.pc').show();
+			$('#pf'+(currPage)).children('.pc').show();
+			$('#pf'+(currPage + 1)).children('.pc').show();
 			console.log('pageTop: ' + pageTop + ' - scrollTop: ' + scrollTop + ' - pageHeight: ' + pageHeight + ' - currPage: ' + currPage);
 			// if( ( pageTop <= winHeight || ( pageTop - scrollTop ) < winHeight ) && ( scrollTop <= pageTop || scrollTop < (pageTop + pageHeight + 2) ) ){
 			// 	// $('#jump_page').val($(this).attr('page'));
