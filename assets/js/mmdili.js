@@ -49,7 +49,7 @@ $(window).ready(function(){
 	$(window).resize(function() {
 		body_height = $(document.body).height();
 	});
-	window.onscroll = function(){
+	$(window).scroll(_.throttle(function(){
 		if( $(document).scrollTop() >= wrapper_offset_top ){
 			if( ($(document).scrollTop() + fix_wrapper_height + 82) < body_height ){
 				$(".recommend-container").css({'height': 'auto'});
@@ -63,5 +63,5 @@ $(window).ready(function(){
 		}else{
 			$(".fix-wrapper").removeClass('fix-wrapper-fixed');
 		}
-	}
+	}, 300));
 });
