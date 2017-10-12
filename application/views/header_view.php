@@ -1,4 +1,4 @@
-<div class="header">
+﻿<div class="header">
 	<div class="main-container">
 		<div class="main-header">
 			<div class="logo">缪缪地理</div>
@@ -30,6 +30,9 @@
 					</li>
 					<li>
 						<a <?php if( $this->router->method == 'jisuanji' || ( isset($page['cate_url']) && $page['cate_url'] == 'jisuanji' ) ) echo "class='active'"; ?> href="<?=base_url('cate/jisuanji')?>">计算机</a>
+					</li>
+					<li>
+						<a <?php if( $this->router->method == 'shenlun' || ( isset($page['cate_url']) && $page['cate_url'] == 'shenlun' ) ) echo "class='active'"; ?> href="<?=base_url('cate/shenlun')?>">申论精品文章</a>
 					</li>
 					<div class="clearfix"></div>
 				</ul>

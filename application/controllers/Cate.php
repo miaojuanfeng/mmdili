@@ -62,6 +62,10 @@ class Cate extends CI_Controller {
 				$cate_id = 4;
 				$cate_title = '文综';
 				break;
+			case 'shenlun':
+				$cate_id = 9;
+				$cate_title = '申论精品文章';
+				break;
 			default:
 				redirect(base_url('error'.'.html'));
 		}

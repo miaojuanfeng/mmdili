@@ -111,6 +111,9 @@ class View extends CI_Controller {
 			case '文综':
 				$data['page']['cate_url'] = 'wenzong';
 				break;
+			case '申论精品文章':
+				$data['page']['cate_url'] = 'shenlun';
+				break;
 			default:
 				redirect(base_url('error'.'.html'));
 				break;
