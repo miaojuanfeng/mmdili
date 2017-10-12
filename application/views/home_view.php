@@ -14,6 +14,40 @@
 			<div class="home-container">
 				<div class="category-container">
 					<div class="category-title">
+						<h1><b>申论精品文章</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/shenlun')?>">查看所有</a></span></h1>
+					</div>
+					<div class="category">
+						<ul>
+							<?php
+							foreach($doc['cate'][9] as $key => $value){
+								if( !($key % 2) ){
+							?>
+							<li>
+								<a href="<?=base_url('view/'.$value['doc_url'].'.html')?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
+							</li>
+							<?php
+								}
+							}
+							?>
+						</ul>
+						<ul>
+							<?php
+							foreach($doc['cate'][9] as $key => $value){
+								if( ($key % 2) ){
+							?>
+							<li>
+								<a href="<?=base_url('view/'.$value['doc_url'].'.html')?>" target="_blank"><h3><?=$value['doc_title']?></h3></a>
+							</li>
+							<?php
+								}
+							}
+							?>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="category-container">
+					<div class="category-title">
 						<h1><b>地理</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/dili')?>">查看所有</a></span></h1>
 					</div>
 					<div class="category">
