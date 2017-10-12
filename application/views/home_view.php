@@ -46,6 +46,18 @@
 						<div class="clearfix"></div>
 					</div>
 				</div>
+				<div class="adsense">
+					<!-- <img src="<?=base_url('assets/img/view_ad_2.jpg')?>" width="960" /> -->
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- view_page_1 -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:960px;height:90px"
+					     data-ad-client="ca-pub-6393601311110091"
+					     data-ad-slot="3701696288"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
 				<div class="category-container">
 					<div class="category-title">
 						<h1><b>地理</b> <span class="category-title-note">分类下的最新文档</span><span class="cate_all"><a href="<?=base_url('cate/dili')?>">查看所有</a></span></h1>
